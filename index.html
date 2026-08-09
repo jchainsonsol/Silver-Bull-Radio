@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07090c" />
+  <title>Silver Bull Radio — Live Show Control Board</title>
+  <style>
+    :root {
+      --bg:#07090c;
+      --panel:#10141a;
+      --panel2:#151b23;
+      --line:#28313d;
+      --text:#f5f7fa;
+      --muted:#97a3b2;
+      --cyan:#34d7ff;
+      --cyan2:#0ea5c6;
+      --green:#65ff9a;
+      --yellow:#ffd166;
+      --red:#ff5c6c;
+      --white:#ffffff;
+      --shadow:0 18px 50px rgba(0,0,0,.32);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(52,215,255,.09), transparent 28%),
+        radial-gradient(circle at 95% 10%, rgba(101,255,154,.055), transparent 24%),
+        var(--bg);
+      color:var(--text);
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    }
+    button,input,textarea,select{font:inherit}
+    button{cursor:pointer}
+    .shell{max-width:1500px;margin:0 auto;padding:18px}
+    .topbar{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:14px 16px;border:1px solid var(--line);border-radius:var(--radius);
+      background:rgba(16,20,26,.88);backdrop-filter:blur(12px);box-shadow:var(--shadow);
+      position:sticky;top:10px;z-index:20;
+    }
+    .brand{display:flex;align-items:center;gap:12px;min-width:0}
+    .mark{
+      width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+      border:1px solid rgba(52,215,255,.45);background:#0b1117;color:var(--cyan);font-weight:900;
+      letter-spacing:-1px;flex:0 0 auto;
+    }
+    .brand h1{font-size:18px;line-height:1.1;margin:0;font-weight:800;letter-spacing:.02em}
+    .brand p{font-size:12px;color:var(--muted);margin:4px 0 0}
+    .top-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    .pill{border:1px solid var(--line);background:#0d1218;color:var(--text);padding:8px 10px;border-radius:999px;font-size:12px}
+    .pill.live{border-color:rgba(255,92,108,.55);color:#ff9aa5;background:rgba(255,92,108,.09)}
+    .btn{
+      border:1px solid var(--line);background:#111821;color:var(--text);padding:10px 13px;border-radius:12px;
+      font-weight:700;transition:.18s ease;min-height:42px;
+    }
+    .btn:hover{transform:translateY(-1px);border-color:#3d4a5b;background:#17202a}
+    .btn.primary{background:var(--cyan);color:#041116;border-color:var(--cyan)}
+    .btn.green{background:var(--green);color:#07140c;border-color:var(--green)}
+    .btn.warn{border-color:rgba(255,209,102,.45);color:var(--yellow)}
+    .btn.danger{border-color:rgba(255,92,108,.5);color:#ff9aa5}
+    .btn.ghost{background:transparent}
+    .btn.small{padding:7px 9px;min-height:auto;font-size:12px;border-radius:9px}
+
+    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;margin-top:14px}
+    .panel{border:1px solid var(--line);border-radius:var(--radius);background:rgba(16,20,26,.9);box-shadow:var(--shadow)}
+    .panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
+    .panel-head h2{font-size:14px;margin:0;letter-spacing:.05em;text-transform:uppercase}
+    .panel-head .sub{font-size:12px;color:var(--muted)}
+    .onair{padding:18px}
+    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--cyan);font-weight:800;margin-bottom:8px}
+    .current-title{font-size:clamp(28px,4vw,52px);line-height:1;margin:0 0 10px;font-weight:900;letter-spacing:-.035em}
+    .current-meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+    .current-meta strong{color:var(--text)}
+    .progress-wrap{margin-top:18px}
+    .progress-track{height:10px;border-radius:999px;background:#222a34;overflow:hidden}
+    .progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--cyan2),var(--cyan));transition:width .4s ease}
+    .progress-row{display:flex;justify-content:space-between;gap:10px;margin-top:7px;color:var(--muted);font-size:12px}
+    .next-card{margin-top:15px;padding:13px 14px;border:1px solid #2b3642;border-radius:14px;background:#0c1117;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .next-card b{display:block;margin-top:3px}
+    .next-card span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+
+    .timerbox{padding:18px;display:grid;place-items:center;min-height:100%}
+    .clock{font-variant-numeric:tabular-nums;font-size:15px;color:var(--muted);margin-bottom:5px}
+    .timer{font-variant-numeric:tabular-nums;font-size:clamp(52px,8vw,92px);line-height:1;font-weight:900;letter-spacing:-.05em}
+    .timer-label{margin-top:6px;color:var(--muted);font-size:13px}
+    .timer-controls{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:18px}
+    .quick-presets{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;margin-top:14px}
+    .rundown{overflow:hidden}
+    .rundown-tools{display:flex;gap:8px;flex-wrap:wrap}
+    .rundown-scroll{max-height:690px;overflow:auto}
+    .segment{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:11px 14px;border-bottom:1px solid #202833;transition:.15s}
+    .segment:hover{background:#121923}
+    .segment.current{background:rgba(52,215,255,.085);box-shadow:inset 3px 0 0 var(--cyan)}
+    .segment.done{opacity:.55}
+    .segment-time{font-variant-numeric:tabular-nums;font-weight:800;font-size:13px}
+    .segment-main{min-width:0}
+    .segment-title{font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .segment-type{font-size:11px;color:var(--muted);margin-top:3px}
+    .segment-actions{display:flex;gap:6px}
+    .icon-btn{width:34px;height:34px;border:1px solid var(--line);border-radius:9px;background:#0e141b;color:var(--text)}
+    .icon-btn:hover{border-color:#435164}
+    .status-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px;background:#485564}
+    .segment.current .status-dot{background:var(--cyan);box-shadow:0 0 0 4px rgba(52,215,255,.08)}
+    .segment.done .status-dot{background:var(--green)}
+
+    .stack{display:grid;gap:14px}
+    .notes{padding:14px 16px}
+    textarea,input[type="text"],input[type="date"],select{
+      width:100%;border:1px solid var(--line);background:#0b1016;color:var(--text);border-radius:12px;padding:11px 12px;outline:none
+    }
+    textarea:focus,input:focus,select:focus{border-color:var(--cyan)}
+    textarea{min-height:128px;resize:vertical}
+    .field{display:grid;gap:6px}
+    .field label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .checks{padding:12px 16px 16px;display:grid;gap:8px}
+    .check-row{display:flex;align-items:center;gap:10px;border:1px solid #222c37;background:#0c1117;padding:10px 11px;border-radius:11px}
+    .check-row input{width:18px;height:18px;accent-color:var(--cyan)}
+    .check-row label{font-size:13px}
+    .check-row input:checked + label{text-decoration:line-through;color:var(--muted)}
+
+    .soundboard{padding:12px 16px 16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+    .sound-btn{text-align:left;min-height:66px;padding:11px 12px;border:1px solid #2a3440;border-radius:13px;background:#0d131a;color:var(--text)}
+    .sound-btn:hover{border-color:var(--cyan)}
+    .sound-btn strong{display:block;font-size:13px}
+    .sound-btn span{display:block;font-size:11px;color:var(--muted);margin-top:4px}
+    .sound-btn.active{background:rgba(52,215,255,.08);border-color:var(--cyan)}
+
+    .footer{padding:18px 2px 8px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}
+    .modal-backdrop.show{display:flex}
+    .modal{width:min(620px,100%);border:1px solid var(--line);background:#0e131a;border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+    .modal-body{padding:16px;display:grid;gap:12px}
+    .modal-actions{display:flex;justify-content:flex-end;gap:8px;padding:0 16px 16px}
+    .toast{position:fixed;right:18px;bottom:18px;background:#121a22;color:var(--text);border:1px solid #334153;border-radius:12px;padding:11px 13px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transform:translateY(10px);transition:.2s;z-index:100;font-size:13px}
+    .toast.show{opacity:1;transform:translateY(0)}
+
+    @media (max-width:980px){
+      .hero,.grid{grid-template-columns:1fr}
+      .rundown-scroll{max-height:none}
+    }
+    @media (max-width:640px){
+      .shell{padding:10px}
+      .topbar{top:6px;padding:10px;align-items:flex-start}
+      .brand p{display:none}
+      .top-actions .pill{display:none}
+      .hero,.grid{gap:10px;margin-top:10px}
+      .segment{grid-template-columns:58px 1fr auto;padding:10px}
+      .segment-actions .edit-label{display:none}
+      .two-col{grid-template-columns:1fr}
+      .soundboard{grid-template-columns:1fr 1fr}
+      .current-title{font-size:34px}
+      .timer{font-size:64px}
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="mark">SB</div>
+        <div>
+          <h1>SILVER BULL RADIO <span style="color:var(--cyan)">W3BC</span></h1>
+          <p>Live Show Control Board · Welcome to the Bullpen</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <span id="livePill" class="pill live">● READY</span>
+        <span id="datePill" class="pill">MON · AUG 10</span>
+        <button id="goLiveBtn" class="btn green">GO LIVE</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <article class="panel onair">
+        <div class="eyebrow">Now on air</div>
+        <h2 id="currentTitle" class="current-title">Welcome to the Bullpen</h2>
+        <div class="current-meta">
+          <span><strong id="currentTimeRange">9:00–9:05 AM</strong></span>
+          <span>•</span>
+          <span id="currentType">SHOW OPEN</span>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-track"><div id="segmentProgress" class="progress-fill"></div></div>
+          <div class="progress-row"><span id="elapsedLabel">0:00 elapsed</span><span id="remainingLabel">5:00 remaining</span></div>
+        </div>
+        <div class="next-card">
+          <div><span>Up next</span><b id="nextTitle">Station ID + Room Reset</b></div>
+          <button id="jumpNextBtn" class="btn small primary">NEXT →</button>
+        </div>
+      </article>
+
+      <article class="panel timerbox">
+        <div>
+          <div id="etClock" class="clock">Eastern Time — --:--:--</div>
+          <div id="timerDisplay" class="timer">05:00</div>
+          <div id="timerLabel" class="timer-label">Segment timer</div>
+          <div class="timer-controls">
+            <button id="timerStartBtn" class="btn primary">START</button>
+            <button id="timerPauseBtn" class="btn">PAUSE</button>
+            <button id="timerResetBtn" class="btn">RESET</button>
+          </div>
+          <div class="quick-presets">
+            <button class="btn small ghost preset" data-seconds="30">:30</button>
+            <button class="btn small ghost preset" data-seconds="60">1:00</button>
+            <button class="btn small ghost preset" data-seconds="180">3:00</button>
+            <button class="btn small ghost preset" data-seconds="300">5:00</button>
+            <button class="btn small ghost preset" data-seconds="900">15:00</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="panel rundown">
+        <div class="panel-head">
+          <div>
+            <h2>Show Rundown</h2>
+            <div class="sub">9:00 AM–1:00 PM ET · 5-minute operating grid</div>
+          </div>
+          <div class="rundown-tools">
+            <button id="syncNowBtn" class="btn small">SYNC TO CLOCK</button>
+            <button id="resetShowBtn" class="btn small danger">RESET DAY</button>
+          </div>
+        </div>
+        <div id="rundownList" class="rundown-scroll"></div>
+      </article>
+
+      <aside class="stack">
+        <article class="panel">
+          <div class="panel-head"><h2>Producer Notes</h2><span class="sub">Auto-saves</span></div>
+          <div class="notes">
+            <textarea id="producerNotes" placeholder="Talking points, links, reminders, guest notes..."></textarea>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head"><h2>Quick Board</h2><span class="sub">Visual cues for tomorrow</span></div>
+          <div class="soundboard">
+            <button class="sound-btn" data-cue="Open Song"><strong>OPEN SONG</strong><span>Welcome to the Bullpen</span></button>
+            <button class="sound-btn" data-cue="Station ID 1"><strong>STATION ID 1</strong><span>Silver Bull Radio · W3BC</span></button>
+            <button class="sound-btn" data-cue="Station ID 2"><strong>STATION ID 2</strong><span>Purple pill · tag · repost</span></button>
+            <button class="sound-btn" data-cue="Hourly Rundown"><strong>HOURLY READ</strong><span>Mission + growth CTA</span></button>
+            <button class="sound-btn" data-cue="Music Bed"><strong>MUSIC BED</strong><span>Talk-over / reset</span></button>
+            <button class="sound-btn" data-cue="Emergency Fill"><strong>FILL</strong><span>Use when room needs time</span></button>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head"><h2>Pre-Flight</h2><span class="sub">Before 9:00</span></div>
+          <div class="checks">
+            <div class="check-row"><input id="c1" type="checkbox"><label for="c1">X Space opened and title updated</label></div>
+            <div class="check-row"><input id="c2" type="checkbox"><label for="c2">RØDECaster / mic levels checked</label></div>
+            <div class="check-row"><input id="c3" type="checkbox"><label for="c3">Station IDs and open song queued</label></div>
+            <div class="check-row"><input id="c4" type="checkbox"><label for="c4">Guest schedule / Calendly checked</label></div>
+            <div class="check-row"><input id="c5" type="checkbox"><label for="c5">News / market tabs ready</label></div>
+          </div>
+        </article>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <span>Silver Bull Radio · W3BC · 1% Better Every Day</span>
+      <span id="saveStatus">Saved locally in this browser</span>
+    </footer>
+  </main>
+
+  <div id="editModal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="panel-head"><h2 id="modalTitle">Edit Segment</h2><button id="closeModalBtn" class="btn small">CLOSE</button></div>
+      <div class="modal-body">
+        <div class="two-col">
+          <div class="field"><label for="editTime">Start time</label><input id="editTime" type="text" readonly></div>
+          <div class="field"><label for="editType">Type</label>
+            <select id="editType">
+              <option>SHOW OPEN</option><option>TALK</option><option>NEWS</option><option>MARKETS</option><option>MUSIC</option><option>GUEST</option><option>STATION ID</option><option>RUNDOWN</option><option>BREAK</option><option>COMMUNITY</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="editTitle">Segment title</label><input id="editTitle" type="text"></div>
+        <div class="field"><label for="editNotes">Segment notes</label><textarea id="editNotes" placeholder="Talking points, guest name, CTA, links..."></textarea></div>
+      </div>
+      <div class="modal-actions">
+        <button id="clearSegmentBtn" class="btn danger">CLEAR</button>
+        <button id="saveSegmentBtn" class="btn primary">SAVE SEGMENT</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const STORAGE_KEY = 'silverBullRadioControlBoard_v1';
+    const SHOW_START_MIN = 9 * 60;
+    const SHOW_END_MIN = 13 * 60;
+    const SLOT_MIN = 5;
+
+    const defaultHighlights = {
+      '09:00': ['Welcome to the Bullpen', 'SHOW OPEN', 'Open song, welcome listeners, explain the room and set the tone.'],
+      '09:05': ['Station ID + Room Reset', 'STATION ID', 'Quick station ID, purple pill, tag friends, repost the Space.'],
+      '09:10': ['GM Get Money — Morning Setup', 'MARKETS', 'Macro setup, overnight action, what matters today.'],
+      '09:20': ['Crypto / Market Headlines', 'NEWS', 'Top headlines, keep each item tight.'],
+      '09:30': ['Music Reset', 'MUSIC', 'Short music window / room reset.'],
+      '09:40': ['Community + Bullpen Check-In', 'COMMUNITY', 'Pull listeners up, answer comments, tag guests.'],
+      '09:55': ['Hour 1 Wrap + Station ID', 'STATION ID', 'Close first hour and set up 10 AM.'],
+      '10:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Full station mission, programming, growth CTA, 1% Better message.'],
+      '10:10': ['Market / Crypto Deep Dive', 'MARKETS', 'Primary discussion block.'],
+      '10:30': ['Guest / Interview Window', 'GUEST', 'Use for booked guest or community spotlight.'],
+      '10:45': ['Music + Station Reset', 'MUSIC', 'Music break and prep next segment.'],
+      '10:55': ['Station ID', 'STATION ID', 'Short ID into the top of the hour.'],
+      '11:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Full station rundown.'],
+      '11:10': ['News Desk', 'NEWS', 'Fresh headlines and reactions.'],
+      '11:25': ['Builder / Project Spotlight', 'TALK', 'Founder, project, ecosystem, or W3BC feature.'],
+      '11:40': ['Community Open Mic', 'COMMUNITY', 'Listener takes and questions.'],
+      '11:55': ['Station ID + Reset', 'STATION ID', 'Short ID into noon.'],
+      '12:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Final-hour station mission and CTA.'],
+      '12:10': ['Midday Market Check', 'MARKETS', 'BTC, ETH, SOL, alts, key levels / sentiment.'],
+      '12:25': ['Guest / Feature Window', 'GUEST', 'Second flexible interview window.'],
+      '12:40': ['Music / Community Reset', 'MUSIC', 'Music and room refresh.'],
+      '12:50': ['What We Learned Today', 'TALK', 'Recap strongest points and next actions.'],
+      '12:55': ['Close — 1% Better', 'SHOW OPEN', 'Thank listeners, CTA, tease tomorrow, close clean.']
+    };
+
+    const state = loadState();
+    let timerSeconds = 300;
+    let timerInitialSeconds = 300;
+    let timerRunning = false;
+    let timerHandle = null;
+    let currentIndex = 0;
+    let editIndex = null;
+    let isLive = false;
+
+    const el = id => document.getElementById(id);
+    const rundownList = el('rundownList');
+
+    function pad(n){ return String(n).padStart(2,'0'); }
+    function minToHHMM(total){ return `${pad(Math.floor(total/60))}:${pad(total%60)}`; }
+    function parseHHMM(value){ const [h,m] = value.split(':').map(Number); return h*60+m; }
+    function displayTime(hhmm){
+      const [h,m] = hhmm.split(':').map(Number);
+      const suffix = h >= 12 ? 'PM' : 'AM';
+      const hour = h % 12 || 12;
+      return `${hour}:${pad(m)} ${suffix}`;
+    }
+    function slotRange(hhmm){
+      const start = parseHHMM(hhmm);
+      return `${displayTime(hhmm).replace(' AM','').replace(' PM','')}–${displayTime(minToHHMM(start+SLOT_MIN))}`;
+    }
+
+    function buildDefaultSchedule(){
+      const list = [];
+      for(let m=SHOW_START_MIN; m<SHOW_END_MIN; m+=SLOT_MIN){
+        const time = minToHHMM(m);
+        const preset = defaultHighlights[time] || ['Open Programming', 'TALK', 'Flexible 5-minute block — edit as needed.'];
+        list.push({time,title:preset[0],type:preset[1],notes:preset[2],done:false});
+      }
+      return list;
+    }
+
+    function loadState(){
+      try{
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+        if(saved && Array.isArray(saved.schedule) && saved.schedule.length === 48) return saved;
+      }catch(e){}
+      return {schedule:buildDefaultSchedule(), notes:'', checks:{}, showDate:'2026-08-10'};
+    }
+
+    function saveState(){
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      el('saveStatus').textContent = 'Saved ' + new Date().toLocaleTimeString([], {hour:'numeric', minute:'2-digit'});
+    }
+
+    function renderRundown(){
+      rundownList.innerHTML = '';
+      state.schedule.forEach((seg, i) => {
+        const row = document.createElement('div');
+        row.className = 'segment' + (i===currentIndex?' current':'') + (seg.done?' done':'');
+        row.dataset.index = i;
+        row.innerHTML = `
+          <div class="segment-time"><span class="status-dot"></span>${displayTime(seg.time).replace(' AM','').replace(' PM','')}</div>
+          <div class="segment-main">
+            <div class="segment-title">${escapeHtml(seg.title)}</div>
+            <div class="segment-type">${escapeHtml(seg.type)}${seg.notes ? ' · ' + escapeHtml(seg.notes) : ''}</div>
+          </div>
+          <div class="segment-actions">
+            <button class="icon-btn done-btn" title="Mark complete">✓</button>
+            <button class="icon-btn edit-btn" title="Edit segment">✎</button>
+          </div>`;
+        row.querySelector('.done-btn').addEventListener('click', e => { e.stopPropagation(); toggleDone(i); });
+        row.querySelector('.edit-btn').addEventListener('click', e => { e.stopPropagation(); openEditor(i); });
+        row.addEventListener('click', () => setCurrent(i, true));
+        rundownList.appendChild(row);
+      });
+      requestAnimationFrame(scrollCurrentIntoView);
+    }
+
+    function escapeHtml(str=''){
+      return str.replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    }
+
+    function setCurrent(index, resetTimer=false){
+      currentIndex = Math.max(0, Math.min(state.schedule.length-1,index));
+      const seg = state.schedule[currentIndex];
+      el('currentTitle').textContent = seg.title;
+      el('currentType').textContent = seg.type;
+      el('currentTimeRange').textContent = slotRange(seg.time);
+      const next = state.schedule[currentIndex+1];
+      el('nextTitle').textContent = next ? `${displayTime(next.time).replace(' AM','').replace(' PM','')} · ${next.title}` : 'Show complete';
+      if(resetTimer) setTimer(300);
+      updateSegmentProgress();
+      renderRundown();
+    }
+
+    function toggleDone(i){
+      state.schedule[i].done = !state.schedule[i].done;
+      saveState(); renderRundown();
+    }
+
+    function openEditor(i){
+      editIndex = i;
+      const seg = state.schedule[i];
+      el('editTime').value = displayTime(seg.time);
+      el('editTitle').value = seg.title;
+      el('editType').value = seg.type;
+      el('editNotes').value = seg.notes || '';
+      el('editModal').classList.add('show');
+      el('editModal').setAttribute('aria-hidden','false');
+      setTimeout(()=>el('editTitle').focus(),50);
+    }
+
+    function closeEditor(){
+      el('editModal').classList.remove('show');
+      el('editModal').setAttribute('aria-hidden','true');
+      editIndex = null;
+    }
+
+    function saveEditor(){
+      if(editIndex === null) return;
+      const seg = state.schedule[editIndex];
+      seg.title = el('editTitle').value.trim() || 'Open Programming';
+      seg.type = el('editType').value;
+      seg.notes = el('editNotes').value.trim();
+      saveState(); closeEditor(); renderRundown(); setCurrent(currentIndex,false); toast('Segment updated');
+    }
+
+    function clearEditor(){
+      if(editIndex === null) return;
+      el('editTitle').value = 'Open Programming';
+      el('editType').value = 'TALK';
+      el('editNotes').value = 'Flexible 5-minute block — edit as needed.';
+    }
+
+    function setTimer(seconds){
+      timerInitialSeconds = seconds;
+      timerSeconds = seconds;
+      timerRunning = false;
+      if(timerHandle) clearInterval(timerHandle);
+      timerHandle = null;
+      updateTimerDisplay();
+    }
+
+    function updateTimerDisplay(){
+      const min = Math.floor(Math.max(0,timerSeconds)/60);
+      const sec = Math.max(0,timerSeconds)%60;
+      el('timerDisplay').textContent = `${pad(min)}:${pad(sec)}`;
+      if(timerSeconds <= 30 && timerSeconds > 0) el('timerDisplay').style.color = 'var(--yellow)';
+      else if(timerSeconds <= 0) el('timerDisplay').style.color = 'var(--red)';
+      else el('timerDisplay').style.color = 'var(--text)';
+      updateSegmentProgress();
+    }
+
+    function startTimer(){
+      if(timerRunning) return;
+      timerRunning = true;
+      el('timerLabel').textContent = 'Timer running';
+      timerHandle = setInterval(()=>{
+        timerSeconds--;
+        if(timerSeconds <= 0){
+          timerSeconds = 0;
+          pauseTimer();
+          beep();
+          toast('TIME — move to the next segment');
+        }
+        updateTimerDisplay();
+      },1000);
+    }
+
+    function pauseTimer(){
+      timerRunning = false;
+      el('timerLabel').textContent = timerSeconds === 0 ? 'TIME' : 'Timer paused';
+      if(timerHandle) clearInterval(timerHandle);
+      timerHandle = null;
+    }
+
+    function updateSegmentProgress(){
+      const elapsed = Math.max(0, timerInitialSeconds - timerSeconds);
+      const pct = timerInitialSeconds ? Math.min(100,(elapsed/timerInitialSeconds)*100) : 0;
+      el('segmentProgress').style.width = pct + '%';
+      el('elapsedLabel').textContent = `${Math.floor(elapsed/60)}:${pad(elapsed%60)} elapsed`;
+      el('remainingLabel').textContent = `${Math.floor(Math.max(timerSeconds,0)/60)}:${pad(Math.max(timerSeconds,0)%60)} remaining`;
+    }
+
+    function beep(){
+      try{
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.frequency.value = 740;
+        gain.gain.setValueAtTime(.08, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(.001, ctx.currentTime + .45);
+        osc.connect(gain); gain.connect(ctx.destination); osc.start(); osc.stop(ctx.currentTime + .45);
+      }catch(e){}
+    }
+
+    function syncToClock(){
+      const now = new Date();
+      const parts = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(now);
+      const h = Number(parts.find(p=>p.type==='hour').value);
+      const m = Number(parts.find(p=>p.type==='minute').value);
+      const total = h*60+m;
+      let idx = Math.floor((total - SHOW_START_MIN)/SLOT_MIN);
+      if(total < SHOW_START_MIN) idx = 0;
+      if(total >= SHOW_END_MIN) idx = state.schedule.length-1;
+      setCurrent(idx,true);
+      toast('Rundown synced to Eastern Time');
+    }
+
+    function scrollCurrentIntoView(){
+      const row = rundownList.querySelector('.segment.current');
+      if(row) row.scrollIntoView({block:'nearest',behavior:'smooth'});
+    }
+
+    function updateClock(){
+      const now = new Date();
+      const time = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit',second:'2-digit'}).format(now);
+      el('etClock').textContent = `Eastern Time — ${time}`;
+    }
+
+    function toast(msg){
+      const t = el('toast'); t.textContent = msg; t.classList.add('show');
+      clearTimeout(window.__toastTimer); window.__toastTimer = setTimeout(()=>t.classList.remove('show'),1800);
+    }
+
+    function resetDay(){
+      if(!confirm('Reset the full rundown, notes, and checklist to the default Silver Bull Radio template?')) return;
+      state.schedule = buildDefaultSchedule();
+      state.notes = '';
+      state.checks = {};
+      localStorage.removeItem(STORAGE_KEY);
+      document.querySelectorAll('.check-row input').forEach(x=>x.checked=false);
+      el('producerNotes').value='';
+      currentIndex=0; setCurrent(0,true); saveState(); toast('Show day reset');
+    }
+
+    function init(){
+      el('producerNotes').value = state.notes || '';
+      el('producerNotes').addEventListener('input',()=>{ state.notes=el('producerNotes').value; saveState(); });
+
+      document.querySelectorAll('.check-row input').forEach(cb=>{
+        cb.checked = !!state.checks[cb.id];
+        cb.addEventListener('change',()=>{ state.checks[cb.id]=cb.checked; saveState(); });
+      });
+
+      el('timerStartBtn').addEventListener('click',startTimer);
+      el('timerPauseBtn').addEventListener('click',pauseTimer);
+      el('timerResetBtn').addEventListener('click',()=>setTimer(timerInitialSeconds));
+      document.querySelectorAll('.preset').forEach(btn=>btn.addEventListener('click',()=>setTimer(Number(btn.dataset.seconds))));
+      el('jumpNextBtn').addEventListener('click',()=>{
+        state.schedule[currentIndex].done = true;
+        saveState();
+        setCurrent(Math.min(currentIndex+1,state.schedule.length-1),true);
+        startTimer();
+      });
+      el('syncNowBtn').addEventListener('click',syncToClock);
+      el('resetShowBtn').addEventListener('click',resetDay);
+      el('goLiveBtn').addEventListener('click',()=>{
+        isLive=!isLive;
+        el('goLiveBtn').textContent=isLive?'END LIVE':'GO LIVE';
+        el('goLiveBtn').className=isLive?'btn danger':'btn green';
+        el('livePill').textContent=isLive?'● ON AIR':'● READY';
+        if(isLive){ syncToClock(); startTimer(); beep(); toast('Silver Bull Radio is LIVE'); }
+        else { pauseTimer(); toast('Live mode ended'); }
+      });
+
+      document.querySelectorAll('.sound-btn').forEach(btn=>btn.addEventListener('click',()=>{
+        document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+        toast(`${btn.dataset.cue} queued`);
+        setTimeout(()=>btn.classList.remove('active'),900);
+      }));
+
+      el('closeModalBtn').addEventListener('click',closeEditor);
+      el('saveSegmentBtn').addEventListener('click',saveEditor);
+      el('clearSegmentBtn').addEventListener('click',clearEditor);
+      el('editModal').addEventListener('click',e=>{if(e.target===el('editModal')) closeEditor();});
+      document.addEventListener('keydown',e=>{if(e.key==='Escape') closeEditor();});
+
+      const showDate = new Date((state.showDate || '2026-08-10') + 'T12:00:00');
+      el('datePill').textContent = showDate.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}).toUpperCase();
+
+      renderRundown(); setCurrent(0,true); updateClock(); setInterval(updateClock,1000);
+    }
+
+    init();
+  </script>
+</body>
+</html>
