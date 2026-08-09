@@ -254,11 +254,11 @@
         </article>
 
         <article class="panel">
-          <div class="panel-head"><h2>Quick Board</h2><span class="sub">Audio control · opener loaded</span></div>
+          <div class="panel-head"><h2>Quick Board</h2><span class="sub">Audio control · 3 clips loaded</span></div>
           <div class="soundboard">
             <button class="sound-btn" data-cue="Open Song" data-audio="audio/welcome-to-the-bullpen.mp3" data-label="Welcome to the Bullpen"><strong>▶ OPEN SONG</strong><span>Welcome to the Bullpen · 3:30</span></button>
-            <button class="sound-btn" data-cue="Station ID 1"><strong>STATION ID 1</strong><span>Audio not loaded yet</span></button>
-            <button class="sound-btn" data-cue="Station ID 2"><strong>STATION ID 2</strong><span>Audio not loaded yet</span></button>
+            <button class="sound-btn" data-cue="Station ID 1" data-audio="audio/station-id-1.mp3" data-label="Silver Bull Radio — Station ID 1"><strong>▶ STATION ID 1</strong><span>Silver Bull Radio · W3BC · 0:23</span></button>
+            <button class="sound-btn" data-cue="Station ID 2" data-audio="audio/station-id-2.mp3" data-label="Welcome to W3BC Radio — Station ID 2"><strong>▶ STATION ID 2</strong><span>Welcome to W3BC Radio · 1:00</span></button>
             <button class="sound-btn" data-cue="Hourly Rundown"><strong>HOURLY READ</strong><span>Audio not loaded yet</span></button>
             <button class="sound-btn" data-cue="Music Bed"><strong>MUSIC BED</strong><span>Audio not loaded yet</span></button>
             <button class="sound-btn" data-cue="Emergency Fill"><strong>FILL</strong><span>Audio not loaded yet</span></button>
@@ -593,7 +593,7 @@
         toast(`${btn.dataset.cue} playing`);
       }catch(e){
         el('audioState').textContent = 'READY';
-        toast('Click OPEN SONG again to start audio');
+        toast(`Click ${btn.dataset.cue} again to start audio`);
       }
     }
 
@@ -723,8 +723,16 @@
         const typing = ['input','textarea','select'].includes(tag);
         if(typing) return;
         if(e.key==='1'){
-          const opener = document.querySelector('.sound-btn[data-audio]');
+          const opener = document.querySelector('.sound-btn[data-cue="Open Song"]');
           if(opener) playCue(opener);
+        }
+        if(e.key==='2'){
+          const stationId1 = document.querySelector('.sound-btn[data-cue="Station ID 1"]');
+          if(stationId1) playCue(stationId1);
+        }
+        if(e.key==='3') {
+          const stationId2 = document.querySelector('.sound-btn[data-cue="Station ID 2"]');
+          if(stationId2) playCue(stationId2);
         }
         if(e.key===' '){
           e.preventDefault();
