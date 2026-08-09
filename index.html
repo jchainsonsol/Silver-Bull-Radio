@@ -132,6 +132,16 @@
     .sound-btn strong{display:block;font-size:13px}
     .sound-btn span{display:block;font-size:11px;color:var(--muted);margin-top:4px}
     .sound-btn.active{background:rgba(52,215,255,.08);border-color:var(--cyan)}
+    .audio-player{margin:0 16px 16px;padding:13px;border:1px solid #2a3440;border-radius:13px;background:#0a0f15}
+    .audio-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+    .audio-kicker{font-size:10px;color:var(--cyan);font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+    .audio-title{font-weight:800;margin-top:3px}
+    .audio-time{font-variant-numeric:tabular-nums;font-size:12px;color:var(--muted);white-space:nowrap}
+    .audio-progress{width:100%;accent-color:var(--cyan)}
+    .audio-controls{display:grid;grid-template-columns:auto auto 1fr;gap:8px;align-items:center;margin-top:8px}
+    .volume-wrap{display:flex;align-items:center;gap:8px;min-width:0}
+    .volume-wrap label{font-size:11px;color:var(--muted);white-space:nowrap}
+    .volume-wrap input{width:100%;accent-color:var(--cyan)}
 
     .footer{padding:18px 2px 8px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}
@@ -156,6 +166,8 @@
       .segment-actions .edit-label{display:none}
       .two-col{grid-template-columns:1fr}
       .soundboard{grid-template-columns:1fr 1fr}
+      .audio-controls{grid-template-columns:1fr 1fr}
+      .volume-wrap{grid-column:1 / -1}
       .current-title{font-size:34px}
       .timer{font-size:64px}
     }
@@ -242,14 +254,33 @@
         </article>
 
         <article class="panel">
-          <div class="panel-head"><h2>Quick Board</h2><span class="sub">Visual cues for tomorrow</span></div>
+          <div class="panel-head"><h2>Quick Board</h2><span class="sub">Audio control · opener loaded</span></div>
           <div class="soundboard">
-            <button class="sound-btn" data-cue="Open Song"><strong>OPEN SONG</strong><span>Welcome to the Bullpen</span></button>
-            <button class="sound-btn" data-cue="Station ID 1"><strong>STATION ID 1</strong><span>Silver Bull Radio · W3BC</span></button>
-            <button class="sound-btn" data-cue="Station ID 2"><strong>STATION ID 2</strong><span>Purple pill · tag · repost</span></button>
-            <button class="sound-btn" data-cue="Hourly Rundown"><strong>HOURLY READ</strong><span>Mission + growth CTA</span></button>
-            <button class="sound-btn" data-cue="Music Bed"><strong>MUSIC BED</strong><span>Talk-over / reset</span></button>
-            <button class="sound-btn" data-cue="Emergency Fill"><strong>FILL</strong><span>Use when room needs time</span></button>
+            <button class="sound-btn" data-cue="Open Song" data-audio="audio/welcome-to-the-bullpen.mp3" data-label="Welcome to the Bullpen"><strong>▶ OPEN SONG</strong><span>Welcome to the Bullpen · 3:30</span></button>
+            <button class="sound-btn" data-cue="Station ID 1"><strong>STATION ID 1</strong><span>Audio not loaded yet</span></button>
+            <button class="sound-btn" data-cue="Station ID 2"><strong>STATION ID 2</strong><span>Audio not loaded yet</span></button>
+            <button class="sound-btn" data-cue="Hourly Rundown"><strong>HOURLY READ</strong><span>Audio not loaded yet</span></button>
+            <button class="sound-btn" data-cue="Music Bed"><strong>MUSIC BED</strong><span>Audio not loaded yet</span></button>
+            <button class="sound-btn" data-cue="Emergency Fill"><strong>FILL</strong><span>Audio not loaded yet</span></button>
+          </div>
+          <div class="audio-player">
+            <audio id="showAudio" preload="metadata"></audio>
+            <div class="audio-top">
+              <div>
+                <div class="audio-kicker" id="audioState">AUDIO READY</div>
+                <div class="audio-title" id="audioTitle">No clip playing</div>
+              </div>
+              <div class="audio-time" id="audioTime">0:00 / 0:00</div>
+            </div>
+            <input id="audioProgress" class="audio-progress" type="range" min="0" max="1000" value="0" aria-label="Audio playback position">
+            <div class="audio-controls">
+              <button id="audioPlayPauseBtn" class="btn small primary">PLAY / PAUSE</button>
+              <button id="audioStopBtn" class="btn small danger">STOP AUDIO</button>
+              <div class="volume-wrap">
+                <label for="audioVolume">VOLUME</label>
+                <input id="audioVolume" type="range" min="0" max="1" step="0.01" value="0.85">
+              </div>
+            </div>
           </div>
         </article>
 
@@ -336,6 +367,7 @@
     let currentIndex = 0;
     let editIndex = null;
     let isLive = false;
+    let currentSoundButton = null;
 
     const el = id => document.getElementById(id);
     const rundownList = el('rundownList');
@@ -519,6 +551,75 @@
       }catch(e){}
     }
 
+    function formatAudioTime(value){
+      if(!Number.isFinite(value) || value < 0) return '0:00';
+      const mins = Math.floor(value / 60);
+      const secs = Math.floor(value % 60);
+      return `${mins}:${pad(secs)}`;
+    }
+
+    function updateAudioUi(){
+      const audio = el('showAudio');
+      const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
+      const current = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
+      el('audioTime').textContent = `${formatAudioTime(current)} / ${formatAudioTime(duration)}`;
+      el('audioProgress').value = duration ? Math.round((current / duration) * 1000) : 0;
+      if(audio.paused && current > 0 && current < duration){
+        el('audioState').textContent = 'PAUSED';
+      }else if(!audio.paused){
+        el('audioState').textContent = 'PLAYING';
+      }
+    }
+
+    async function playCue(btn){
+      const source = btn.dataset.audio;
+      if(!source){
+        toast(`${btn.dataset.cue} audio not loaded yet`);
+        return;
+      }
+      const audio = el('showAudio');
+      if(audio.getAttribute('src') !== source){
+        audio.src = source;
+        audio.load();
+      }
+      document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      currentSoundButton = btn;
+      el('audioTitle').textContent = btn.dataset.label || btn.dataset.cue;
+      el('audioState').textContent = 'LOADING';
+      try{
+        await audio.play();
+        el('audioState').textContent = 'PLAYING';
+        toast(`${btn.dataset.cue} playing`);
+      }catch(e){
+        el('audioState').textContent = 'READY';
+        toast('Click OPEN SONG again to start audio');
+      }
+    }
+
+    function stopAudio(){
+      const audio = el('showAudio');
+      audio.pause();
+      audio.currentTime = 0;
+      el('audioState').textContent = 'STOPPED';
+      document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
+      updateAudioUi();
+    }
+
+    function toggleAudioPlayback(){
+      const audio = el('showAudio');
+      if(!audio.getAttribute('src')){
+        const opener = document.querySelector('.sound-btn[data-audio]');
+        if(opener) playCue(opener);
+        return;
+      }
+      if(audio.paused){
+        audio.play().catch(()=>toast('Audio could not start'));
+      }else{
+        audio.pause();
+      }
+    }
+
     function syncToClock(){
       const now = new Date();
       const parts = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(now);
@@ -589,18 +690,47 @@
         else { pauseTimer(); toast('Live mode ended'); }
       });
 
-      document.querySelectorAll('.sound-btn').forEach(btn=>btn.addEventListener('click',()=>{
+      document.querySelectorAll('.sound-btn').forEach(btn=>btn.addEventListener('click',()=>playCue(btn)));
+
+      const showAudio = el('showAudio');
+      showAudio.volume = Number(el('audioVolume').value);
+      showAudio.addEventListener('loadedmetadata', updateAudioUi);
+      showAudio.addEventListener('timeupdate', updateAudioUi);
+      showAudio.addEventListener('play', ()=>{ el('audioState').textContent='PLAYING'; updateAudioUi(); });
+      showAudio.addEventListener('pause', updateAudioUi);
+      showAudio.addEventListener('ended', ()=>{
+        el('audioState').textContent='FINISHED';
         document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
-        btn.classList.add('active');
-        toast(`${btn.dataset.cue} queued`);
-        setTimeout(()=>btn.classList.remove('active'),900);
-      }));
+        updateAudioUi();
+        toast('Audio clip finished');
+      });
+      el('audioPlayPauseBtn').addEventListener('click', toggleAudioPlayback);
+      el('audioStopBtn').addEventListener('click', stopAudio);
+      el('audioVolume').addEventListener('input', e=>{ showAudio.volume=Number(e.target.value); });
+      el('audioProgress').addEventListener('input', e=>{
+        if(Number.isFinite(showAudio.duration) && showAudio.duration > 0){
+          showAudio.currentTime = (Number(e.target.value)/1000) * showAudio.duration;
+        }
+      });
 
       el('closeModalBtn').addEventListener('click',closeEditor);
       el('saveSegmentBtn').addEventListener('click',saveEditor);
       el('clearSegmentBtn').addEventListener('click',clearEditor);
       el('editModal').addEventListener('click',e=>{if(e.target===el('editModal')) closeEditor();});
-      document.addEventListener('keydown',e=>{if(e.key==='Escape') closeEditor();});
+      document.addEventListener('keydown',e=>{
+        if(e.key==='Escape') closeEditor();
+        const tag = (e.target && e.target.tagName || '').toLowerCase();
+        const typing = ['input','textarea','select'].includes(tag);
+        if(typing) return;
+        if(e.key==='1'){
+          const opener = document.querySelector('.sound-btn[data-audio]');
+          if(opener) playCue(opener);
+        }
+        if(e.key===' '){
+          e.preventDefault();
+          toggleAudioPlayback();
+        }
+      });
 
       const showDate = new Date((state.showDate || '2026-08-10') + 'T12:00:00');
       el('datePill').textContent = showDate.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}).toUpperCase();
