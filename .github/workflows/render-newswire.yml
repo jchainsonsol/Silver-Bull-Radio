@@ -8,17 +8,6 @@ on:
         required: true
         default: '21m00Tcm4TlvDq8ikWAM'
         type: string
-      speed:
-        description: Delivery speed
-        required: true
-        default: '1.00'
-        type: choice
-        options:
-          - '0.92'
-          - '0.96'
-          - '1.00'
-          - '1.04'
-          - '1.08'
   push:
     branches: [main]
     paths:
@@ -33,7 +22,6 @@ jobs:
     env:
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       VOICE_ID: ${{ github.event.inputs.voice_id || '21m00Tcm4TlvDq8ikWAM' }}
-      SPEED: ${{ github.event.inputs.speed || '1.00' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,9 +29,10 @@ jobs:
       - name: Verify ElevenLabs API key
         run: |
           if [ -z "$ELEVENLABS_API_KEY" ]; then
-            echo "Missing GitHub repository secret ELEVENLABS_API_KEY"
+            echo "::error::Missing GitHub repository secret ELEVENLABS_API_KEY"
             exit 1
           fi
+          echo "ElevenLabs API key secret is present."
 
       - name: Render Newswire MP3 with ElevenLabs
         shell: bash
@@ -57,16 +46,11 @@ jobs:
           if not text:
               raise SystemExit('Newswire script is empty.')
 
+          # Keep the first integration test intentionally minimal and aligned
+          # with ElevenLabs' documented Text-to-Speech request shape.
           payload = {
               'text': text,
-              'model_id': 'eleven_multilingual_v2',
-              'voice_settings': {
-                  'stability': 0.52,
-                  'similarity_boost': 0.78,
-                  'style': 0.0,
-                  'use_speaker_boost': True,
-                  'speed': float(os.environ.get('SPEED', '1.00')),
-              },
+              'model_id': 'eleven_multilingual_v2'
           }
 
           voice_id = os.environ['VOICE_ID']
@@ -86,11 +70,17 @@ jobs:
               with urllib.request.urlopen(req, timeout=180) as r:
                   audio = r.read()
           except urllib.error.HTTPError as e:
-              print(e.read().decode('utf-8', errors='replace'))
-              raise
+              body = e.read().decode('utf-8', errors='replace')
+              print(f'::error::ElevenLabs HTTP {e.code}: {body}')
+              raise SystemExit(1)
+          except Exception as e:
+              print(f'::error::ElevenLabs request failed: {e}')
+              raise SystemExit(1)
 
           if len(audio) < 1000:
-              raise SystemExit(f'ElevenLabs returned an unexpectedly small audio file: {len(audio)} bytes')
+              print(f'::error::ElevenLabs returned an unexpectedly small audio file: {len(audio)} bytes')
+              raise SystemExit(1)
+
           Path('audio/news/today.mp3').write_bytes(audio)
           print(f'Rendered {len(audio):,} bytes with ElevenLabs voice {voice_id}.')
           PY
