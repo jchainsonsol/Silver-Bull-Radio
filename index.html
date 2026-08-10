@@ -126,6 +126,32 @@
     .check-row label{font-size:13px}
     .check-row input:checked + label{text-decoration:line-through;color:var(--muted)}
 
+    .live-read{padding:14px 16px 16px}
+    .sequence-bar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:12px}
+    .sequence-step{border:1px solid #2a3440;border-radius:11px;padding:9px 10px;background:#0c1117}
+    .sequence-step b{display:block;font-size:12px}
+    .sequence-step span{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+    .sequence-step.active{border-color:var(--cyan);background:rgba(52,215,255,.08)}
+    .script-box{min-height:205px;line-height:1.5}
+    .read-tools{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:9px}
+    .queued-headlines{margin-top:12px;border-top:1px solid #202833;padding-top:10px}
+    .queued-headlines h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 7px;color:var(--muted)}
+    .queued-headlines ul{margin:0;padding-left:18px;display:grid;gap:5px;font-size:12px}
+
+    .news-toolbar{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:10px 16px;border-bottom:1px solid #202833}
+    .news-list{display:grid;gap:8px;padding:12px 16px 16px}
+    .news-item{border:1px solid #27313d;border-radius:12px;background:#0c1117;padding:11px}
+    .news-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+    .news-badges{display:flex;gap:5px;flex-wrap:wrap}
+    .news-badge{font-size:9px;font-weight:900;letter-spacing:.08em;border:1px solid #344150;border-radius:999px;padding:4px 6px;color:var(--muted)}
+    .news-badge.priority{color:var(--cyan);border-color:rgba(52,215,255,.35)}
+    .news-title{font-weight:800;font-size:13px;line-height:1.3;margin-top:8px}
+    .news-summary{font-size:11px;color:var(--muted);line-height:1.4;margin-top:5px}
+    .news-source{font-size:10px;color:var(--muted);margin-top:7px}
+    .news-actions{display:flex;gap:6px;margin-top:9px}
+    .news-item.queued{border-color:var(--cyan);background:rgba(52,215,255,.055)}
+    .news-item.used{opacity:.5}
+
     .soundboard{padding:12px 16px 16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
     .sound-btn{text-align:left;min-height:66px;padding:11px 12px;border:1px solid #2a3440;border-radius:13px;background:#0d131a;color:var(--text)}
     .sound-btn:hover{border-color:var(--cyan)}
@@ -166,6 +192,7 @@
       .segment-actions .edit-label{display:none}
       .two-col{grid-template-columns:1fr}
       .soundboard{grid-template-columns:1fr 1fr}
+      .sequence-bar{grid-template-columns:1fr}
       .audio-controls{grid-template-columns:1fr 1fr}
       .volume-wrap{grid-column:1 / -1}
       .current-title{font-size:34px}
@@ -254,6 +281,26 @@
         </article>
 
         <article class="panel">
+          <div class="panel-head"><h2>Live Read</h2><span id="readStatus" class="sub">Auto-cues after opener</span></div>
+          <div class="live-read">
+            <div class="sequence-bar">
+              <div id="seqOpen" class="sequence-step active"><b>1 · OPEN</b><span>3:30 opener audio</span></div>
+              <div id="seqRead" class="sequence-step"><b>2 · LIVE RUNDOWN</b><span>1:30 mic read</span></div>
+              <div id="seqMarkets" class="sequence-step"><b>3 · GM GET MONEY</b><span>Starts at 9:05</span></div>
+            </div>
+            <textarea id="morningRead" class="script-box" aria-label="Morning rundown script"></textarea>
+            <div class="read-tools">
+              <span class="sub">Edit tonight or before air · auto-saves</span>
+              <button id="resetReadBtn" class="btn small">RESET SCRIPT</button>
+            </div>
+            <div class="queued-headlines">
+              <h3>Queued for the news block</h3>
+              <ul id="queuedHeadlines"><li>No stories queued yet.</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel">
           <div class="panel-head"><h2>Quick Board</h2><span class="sub">Audio control · 3 clips loaded</span></div>
           <div class="soundboard">
             <button class="sound-btn" data-cue="Open Song" data-audio="audio/welcome-to-the-bullpen.mp3" data-label="Welcome to the Bullpen"><strong>▶ OPEN SONG</strong><span>Welcome to the Bullpen · 3:30</span></button>
@@ -282,6 +329,15 @@
               </div>
             </div>
           </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head"><h2>News Desk</h2><span id="newsStatus" class="sub">Loading data/news.json…</span></div>
+          <div class="news-toolbar">
+            <span class="sub">A = lead candidate · B = backup</span>
+            <button id="reloadNewsBtn" class="btn small">RELOAD NEWS</button>
+          </div>
+          <div id="newsList" class="news-list"></div>
         </article>
 
         <article class="panel">
@@ -328,18 +384,19 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <script>
-    const STORAGE_KEY = 'silverBullRadioControlBoard_v1';
+    const STORAGE_KEY = 'silverBullRadioControlBoard_v2';
     const SHOW_START_MIN = 9 * 60;
     const SHOW_END_MIN = 13 * 60;
     const SLOT_MIN = 5;
 
     const defaultHighlights = {
-      '09:00': ['Welcome to the Bullpen', 'SHOW OPEN', 'Open song, welcome listeners, explain the room and set the tone.'],
-      '09:05': ['Station ID + Room Reset', 'STATION ID', 'Quick station ID, purple pill, tag friends, repost the Space.'],
-      '09:10': ['GM Get Money — Morning Setup', 'MARKETS', 'Macro setup, overnight action, what matters today.'],
-      '09:20': ['Crypto / Market Headlines', 'NEWS', 'Top headlines, keep each item tight.'],
-      '09:30': ['Music Reset', 'MUSIC', 'Short music window / room reset.'],
-      '09:40': ['Community + Bullpen Check-In', 'COMMUNITY', 'Pull listeners up, answer comments, tag guests.'],
+      '09:00': ['Welcome to the Bullpen + Morning Rundown', 'SHOW OPEN', 'GO LIVE starts the 3:30 opener automatically, then cues a 1:30 live rundown.'],
+      '09:05': ['GM Get Money — Morning Setup', 'MARKETS', 'Bitcoin, Ethereum, Solana, overnight action and the levels that matter.'],
+      '09:10': ['GM Get Money — Market Board', 'MARKETS', 'Continue market setup and strongest chart / macro points.'],
+      '09:15': ['Crypto / Market Headlines', 'NEWS', 'Lead stories from the News Desk queue.'],
+      '09:25': ['Institutional Adoption + RWA', 'NEWS', 'Institutions, tokenization, RWAs, stablecoins and capital moving on-chain.'],
+      '09:35': ['Community + Bullpen Check-In', 'COMMUNITY', 'Pull listeners up, answer comments, tag guests.'],
+      '09:45': ['Music Reset', 'MUSIC', 'Short music window / room reset.'],
       '09:55': ['Hour 1 Wrap + Station ID', 'STATION ID', 'Close first hour and set up 10 AM.'],
       '10:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Full station mission, programming, growth CTA, 1% Better message.'],
       '10:10': ['Market / Crypto Deep Dive', 'MARKETS', 'Primary discussion block.'],
@@ -359,7 +416,27 @@
       '12:55': ['Close — 1% Better', 'SHOW OPEN', 'Thank listeners, CTA, tease tomorrow, close clean.']
     };
 
+    const DEFAULT_MORNING_READ = `GM and welcome to Silver Bull Radio W3BC — we are live from the Bullpen.
+
+Here is what we are doing over the next stretch. First up is GM Get Money: Bitcoin, Ethereum, Solana, the overnight action, and the levels that actually matter going into the morning.
+
+Then we hit the news wire. We are watching regulation, ETF flows, institutional adoption, tokenization, real-world assets, stablecoins, and anything that shows capital moving on-chain. The News Desk is loaded, and we are going to pull the strongest stories instead of reading every headline that hits the feed.
+
+After that, we open the Bullpen for your takes, questions, projects, and anything the room needs to get into. If you are listening, hit the purple pill, repost the Space, tag somebody who should be in here, and settle in.
+
+This is Silver Bull Radio W3BC. Welcome to the Bullpen. Let’s get money.`;
+
+    const fallbackNews = [
+      {id:'clarity-act',priority:'A',category:'REGULATION',headline:'US Senate advances landmark crypto bill before heading on August recess',source:'Reuters',summary:'Senate leadership moved to advance a major digital-asset market structure bill before the August recess.'},
+      {id:'xrpl-institutional',priority:'A',category:'INSTITUTIONS',headline:'New XRP Ledger amendments target $530 million in tokenized Wall Street assets',source:'CoinDesk',summary:'The digest highlights proposed XRP Ledger privacy and institutional features aimed at tokenized financial assets.'},
+      {id:'wells-tokenized-deposits',priority:'A',category:'TOKENIZATION',headline:'Wells Fargo launches tokenized deposits on a dual track',source:'Yahoo Finance',summary:'The digest says Wells Fargo announced a proprietary tokenized deposit platform for select corporate and institutional users.'},
+      {id:'btc-eth-etf',priority:'A',category:'ETF FLOWS',headline:'Bitcoin and ether ETFs draw $1.1 billion in best inflow week since April',source:'The Block',summary:'The digest reports a strong week of spot crypto ETF inflows.'},
+      {id:'rwa-7-4b',priority:'A',category:'RWA',headline:'Tokenized real-world asset deposits rise to $7.4 billion',source:'CryptoRank / KuCoin',summary:'The digest says RWA deposits tripled, led by tokenized Treasuries, funds and private credit.'}
+    ];
+
     const state = loadState();
+    let newsItems = [];
+    let showStage = 'ready';
     let timerSeconds = 300;
     let timerInitialSeconds = 300;
     let timerRunning = false;
@@ -401,7 +478,7 @@
         const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
         if(saved && Array.isArray(saved.schedule) && saved.schedule.length === 48) return saved;
       }catch(e){}
-      return {schedule:buildDefaultSchedule(), notes:'', checks:{}, showDate:'2026-08-10'};
+      return {schedule:buildDefaultSchedule(), notes:'', checks:{}, showDate:'2026-08-10', morningRead:DEFAULT_MORNING_READ, newsQueue:[], newsUsed:[]};
     }
 
     function saveState(){
@@ -518,7 +595,8 @@
           timerSeconds = 0;
           pauseTimer();
           beep();
-          toast('TIME — move to the next segment');
+          if(isLive && showStage==='rundown') beginMarkets();
+          else toast('TIME — move to the next segment');
         }
         updateTimerDisplay();
       },1000);
@@ -620,6 +698,131 @@
       }
     }
 
+    function setSequenceStep(stage){
+      ['seqOpen','seqRead','seqMarkets'].forEach(id=>el(id).classList.remove('active'));
+      if(stage==='opener') el('seqOpen').classList.add('active');
+      if(stage==='rundown') el('seqRead').classList.add('active');
+      if(stage==='markets') el('seqMarkets').classList.add('active');
+    }
+
+    function startLiveShow(){
+      isLive = true;
+      showStage = 'opener';
+      el('goLiveBtn').textContent='END LIVE';
+      el('goLiveBtn').className='btn danger';
+      el('livePill').textContent='● ON AIR';
+      currentIndex = 0;
+      setCurrent(0,false);
+      setSequenceStep('opener');
+      el('readStatus').textContent='Opener playing · rundown next';
+      setTimer(300);
+      startTimer();
+      const opener = document.querySelector('.sound-btn[data-cue="Open Song"]');
+      if(opener) playCue(opener);
+      toast('ON AIR — opener started automatically');
+    }
+
+    function endLiveShow(){
+      isLive = false;
+      showStage = 'ready';
+      el('goLiveBtn').textContent='GO LIVE';
+      el('goLiveBtn').className='btn green';
+      el('livePill').textContent='● READY';
+      pauseTimer();
+      stopAudio();
+      setSequenceStep('opener');
+      el('readStatus').textContent='Auto-cues after opener';
+      toast('Live mode ended');
+    }
+
+    function cueMorningRundown(){
+      showStage = 'rundown';
+      setSequenceStep('rundown');
+      el('currentTitle').textContent = 'Morning Rundown — LIVE MIC';
+      el('currentType').textContent = 'LIVE READ';
+      el('currentTimeRange').textContent = '9:03:30–9:05 AM';
+      timerInitialSeconds = 300;
+      timerSeconds = 90;
+      updateTimerDisplay();
+      el('timerLabel').textContent = 'LIVE MIC · morning rundown';
+      el('readStatus').textContent='READ NOW · 1:30 window';
+      el('morningRead').scrollIntoView({behavior:'smooth',block:'center'});
+      beep();
+      toast('MIC LIVE — read the Morning Rundown');
+    }
+
+    function beginMarkets(){
+      if(!isLive) return;
+      showStage = 'markets';
+      setSequenceStep('markets');
+      state.schedule[0].done = true;
+      saveState();
+      setCurrent(1,false);
+      setTimer(300);
+      startTimer();
+      el('timerLabel').textContent='GM Get Money · live';
+      el('readStatus').textContent='Opening sequence complete';
+      toast('9:05 — GM GET MONEY');
+    }
+
+    function renderQueuedHeadlines(){
+      const list = el('queuedHeadlines');
+      const queued = newsItems.filter(item => (state.newsQueue || []).includes(item.id));
+      list.innerHTML = queued.length ? queued.map(item=>`<li>${escapeHtml(item.headline)} <span style="color:var(--muted)">— ${escapeHtml(item.source)}</span></li>`).join('') : '<li>No stories queued yet.</li>';
+    }
+
+    function renderNews(){
+      const list = el('newsList');
+      if(!newsItems.length){ list.innerHTML='<div class="sub">No headlines loaded.</div>'; return; }
+      list.innerHTML='';
+      newsItems.forEach(item=>{
+        const queued=(state.newsQueue || []).includes(item.id);
+        const used=(state.newsUsed || []).includes(item.id);
+        const row=document.createElement('div');
+        row.className='news-item'+(queued?' queued':'')+(used?' used':'');
+        row.innerHTML=`
+          <div class="news-top">
+            <div class="news-badges"><span class="news-badge priority">${escapeHtml(item.priority || 'B')}</span><span class="news-badge">${escapeHtml(item.category || 'NEWS')}</span></div>
+          </div>
+          <div class="news-title">${escapeHtml(item.headline || '')}</div>
+          <div class="news-summary">${escapeHtml(item.summary || '')}</div>
+          <div class="news-source">SOURCE · ${escapeHtml(item.source || 'Unknown')}</div>
+          <div class="news-actions">
+            <button class="btn small ${queued?'primary':''} queue-news">${queued?'QUEUED':'QUEUE'}</button>
+            <button class="btn small ${used?'green':''} use-news">${used?'USED':'MARK USED'}</button>
+          </div>`;
+        row.querySelector('.queue-news').addEventListener('click',()=>{
+          state.newsQueue = state.newsQueue || [];
+          if(state.newsQueue.includes(item.id)) state.newsQueue=state.newsQueue.filter(id=>id!==item.id);
+          else state.newsQueue.push(item.id);
+          saveState(); renderNews(); renderQueuedHeadlines();
+        });
+        row.querySelector('.use-news').addEventListener('click',()=>{
+          state.newsUsed = state.newsUsed || [];
+          if(state.newsUsed.includes(item.id)) state.newsUsed=state.newsUsed.filter(id=>id!==item.id);
+          else state.newsUsed.push(item.id);
+          saveState(); renderNews();
+        });
+        list.appendChild(row);
+      });
+      renderQueuedHeadlines();
+    }
+
+    async function loadNews(){
+      el('newsStatus').textContent='Loading data/news.json…';
+      try{
+        const response = await fetch(`data/news.json?ts=${Date.now()}`, {cache:'no-store'});
+        if(!response.ok) throw new Error('news feed unavailable');
+        const data = await response.json();
+        newsItems = Array.isArray(data.items) ? data.items : [];
+        el('newsStatus').textContent=`${newsItems.length} stories · ${data.source || 'news feed'}`;
+      }catch(e){
+        newsItems = fallbackNews;
+        el('newsStatus').textContent=`${newsItems.length} sample stories · fallback`;
+      }
+      renderNews();
+    }
+
     function syncToClock(){
       const now = new Date();
       const parts = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(now);
@@ -654,15 +857,28 @@
       state.schedule = buildDefaultSchedule();
       state.notes = '';
       state.checks = {};
+      state.morningRead = DEFAULT_MORNING_READ;
+      state.newsQueue = [];
+      state.newsUsed = [];
       localStorage.removeItem(STORAGE_KEY);
       document.querySelectorAll('.check-row input').forEach(x=>x.checked=false);
       el('producerNotes').value='';
+      el('morningRead').value=DEFAULT_MORNING_READ;
+      renderQueuedHeadlines();
       currentIndex=0; setCurrent(0,true); saveState(); toast('Show day reset');
     }
 
     function init(){
       el('producerNotes').value = state.notes || '';
       el('producerNotes').addEventListener('input',()=>{ state.notes=el('producerNotes').value; saveState(); });
+
+      if(!state.morningRead) state.morningRead = DEFAULT_MORNING_READ;
+      if(!Array.isArray(state.newsQueue)) state.newsQueue = [];
+      if(!Array.isArray(state.newsUsed)) state.newsUsed = [];
+      el('morningRead').value = state.morningRead;
+      el('morningRead').addEventListener('input',()=>{ state.morningRead=el('morningRead').value; saveState(); });
+      el('resetReadBtn').addEventListener('click',()=>{ state.morningRead=DEFAULT_MORNING_READ; el('morningRead').value=DEFAULT_MORNING_READ; saveState(); toast('Morning rundown reset'); });
+      el('reloadNewsBtn').addEventListener('click',loadNews);
 
       document.querySelectorAll('.check-row input').forEach(cb=>{
         cb.checked = !!state.checks[cb.id];
@@ -682,12 +898,8 @@
       el('syncNowBtn').addEventListener('click',syncToClock);
       el('resetShowBtn').addEventListener('click',resetDay);
       el('goLiveBtn').addEventListener('click',()=>{
-        isLive=!isLive;
-        el('goLiveBtn').textContent=isLive?'END LIVE':'GO LIVE';
-        el('goLiveBtn').className=isLive?'btn danger':'btn green';
-        el('livePill').textContent=isLive?'● ON AIR':'● READY';
-        if(isLive){ syncToClock(); startTimer(); beep(); toast('Silver Bull Radio is LIVE'); }
-        else { pauseTimer(); toast('Live mode ended'); }
+        if(isLive) endLiveShow();
+        else startLiveShow();
       });
 
       document.querySelectorAll('.sound-btn').forEach(btn=>btn.addEventListener('click',()=>playCue(btn)));
@@ -702,7 +914,8 @@
         el('audioState').textContent='FINISHED';
         document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
         updateAudioUi();
-        toast('Audio clip finished');
+        if(isLive && currentSoundButton && currentSoundButton.dataset.cue==='Open Song' && showStage==='opener') cueMorningRundown();
+        else toast('Audio clip finished');
       });
       el('audioPlayPauseBtn').addEventListener('click', toggleAudioPlayback);
       el('audioStopBtn').addEventListener('click', stopAudio);
@@ -743,7 +956,7 @@
       const showDate = new Date((state.showDate || '2026-08-10') + 'T12:00:00');
       el('datePill').textContent = showDate.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}).toUpperCase();
 
-      renderRundown(); setCurrent(0,true); updateClock(); setInterval(updateClock,1000);
+      renderRundown(); setCurrent(0,true); updateClock(); setInterval(updateClock,1000); loadNews();
     }
 
     init();

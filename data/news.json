@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-09T05:14:00-04:00",
+  "source": "Sample Google Alerts Daily Digest",
+  "items": [
+    {
+      "id": "clarity-act",
+      "priority": "A",
+      "category": "REGULATION",
+      "headline": "US Senate advances landmark crypto bill before heading on August recess",
+      "source": "Reuters",
+      "summary": "The digest says Senate leadership moved to advance a major digital-asset market structure bill before the August recess."
+    },
+    {
+      "id": "xrpl-institutional",
+      "priority": "A",
+      "category": "INSTITUTIONS",
+      "headline": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "source": "CoinDesk",
+      "summary": "The digest highlights proposed XRP Ledger privacy and institutional features aimed at tokenized financial assets."
+    },
+    {
+      "id": "wells-tokenized-deposits",
+      "priority": "A",
+      "category": "TOKENIZATION",
+      "headline": "Wells Fargo launches tokenized deposits on a dual track",
+      "source": "Yahoo Finance",
+      "summary": "The digest says Wells Fargo announced a proprietary tokenized deposit platform targeted for select corporate and institutional users."
+    },
+    {
+      "id": "btc-eth-etf",
+      "priority": "A",
+      "category": "ETF FLOWS",
+      "headline": "Bitcoin and ether ETFs draw $1.1 billion in best inflow week since April",
+      "source": "The Block",
+      "summary": "The digest reports a strong week of spot crypto ETF inflows, with Bitcoin products recording inflows across all five sessions."
+    },
+    {
+      "id": "rwa-7-4b",
+      "priority": "A",
+      "category": "RWA",
+      "headline": "Tokenized real-world asset deposits rise to $7.4 billion",
+      "source": "CryptoRank / KuCoin",
+      "summary": "The digest says RWA deposits tripled to about $7.4 billion, led by tokenized Treasuries, funds and private credit."
+    },
+    {
+      "id": "circle-arc",
+      "priority": "B",
+      "category": "STABLECOINS",
+      "headline": "Circle CEO says Arc is a major opportunity for institutional settlement",
+      "source": "Yahoo Finance",
+      "summary": "The digest highlights Circle's focus on Arc and its potential role in institutional settlement and USDC infrastructure."
+    },
+    {
+      "id": "tron-stablecoins",
+      "priority": "B",
+      "category": "STABLECOINS",
+      "headline": "Tron adds about $2.2 billion in stablecoins over 30 days",
+      "source": "Yahoo Finance",
+      "summary": "The digest points to a large increase in stablecoin balances on Tron during the period ending August 4."
+    },
+    {
+      "id": "fed-jobs",
+      "priority": "B",
+      "category": "MACRO",
+      "headline": "Weak July jobs data shifts expectations around the Federal Reserve",
+      "source": "Investor's Business Daily / ColoradoBiz",
+      "summary": "The digest includes coverage suggesting the July jobs report changed expectations for the next Federal Reserve policy move."
+    }
+  ]
+}

@@ -1,24 +1,32 @@
-# Silver Bull Radio — Live Show Control Board
+# Silver Bull Radio Control Board v5
 
-Static GitHub Pages control board for the 9:00 AM–1:00 PM ET Silver Bull Radio show.
+Static GitHub Pages control board for the 9 AM–1 PM ET Silver Bull Radio show.
 
-## Audio loaded
+## v5 additions
+- GO LIVE now starts `audio/welcome-to-the-bullpen.mp3` automatically.
+- When the 3:30 opener ends, the board automatically cues a 1:30 live Morning Rundown.
+- At the end of the 5-minute opening block, the board advances to GM Get Money.
+- Editable Morning Rundown teleprompter script.
+- News Desk fed by `data/news.json`.
+- Queue / unqueue stories for the live news block and mark stories used.
+- Sample `data/news.json` is seeded from the supplied Google Alerts Daily Digest.
 
-- `audio/welcome-to-the-bullpen.mp3` — Welcome to the Bullpen opener (3:30)
-- Click **OPEN SONG** to play it.
-- The audio player supports play/pause, stop, scrubbing, and volume.
-- Keyboard: `1` = opener, `Space` = play/pause when you are not typing in a field.
-
-## GitHub Pages update
-
-Upload/replace these items in the repository root:
+## GitHub upload
+Upload the complete contents of this folder to the repository root, preserving these folders:
 
 - `index.html`
-- `audio/` folder
-- `README.md` (optional)
+- `audio/`
+- `data/news.json`
 
-Commit the changes. GitHub Pages will rebuild automatically from the `main` branch if Pages is already enabled.
+GitHub Pages should continue publishing from `main` / root.
 
-## Important
+## Tomorrow workflow
+1. Before 9 AM, review the Morning Rundown script.
+2. Review the News Desk and queue the strongest stories.
+3. At 9 AM, click GO LIVE once.
+4. Opener starts automatically.
+5. At 3:30 the board cues the Morning Rundown and switches the live read panel.
+6. At 5:00 the board advances into GM Get Money.
 
-The schedule, notes, checklist and completion state are stored locally in the browser using localStorage. Audio files are served from the GitHub repository.
+## Future news automation
+Keep the public website static. Use a scheduled GitHub Action or another server-side job to refresh `data/news.json` before the show. Do not put Gmail or API credentials in `index.html`.
