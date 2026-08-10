@@ -1,70 +1,114 @@
 {
   "generated_at": "2026-08-09T05:14:00-04:00",
-  "source": "Sample Google Alerts Daily Digest",
+  "source": "Google Alert - Daily Digest uploaded for Silver Bull Radio test",
   "items": [
     {
       "id": "clarity-act",
       "priority": "A",
+      "hour": "9",
       "category": "REGULATION",
       "headline": "US Senate advances landmark crypto bill before heading on August recess",
       "source": "Reuters",
-      "summary": "The digest says Senate leadership moved to advance a major digital-asset market structure bill before the August recess."
+      "summary": "The alert says Senate leadership moved to advance a major digital-asset market-structure bill, opening the next procedural stage before the August recess."
     },
     {
       "id": "xrpl-institutional",
       "priority": "A",
+      "hour": "9",
       "category": "INSTITUTIONS",
-      "headline": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-      "source": "CoinDesk",
-      "summary": "The digest highlights proposed XRP Ledger privacy and institutional features aimed at tokenized financial assets."
+      "headline": "XRP Ledger amendments target institutional adoption and tokenized assets",
+      "source": "CoinDesk / CryptoPotato",
+      "summary": "The digest highlights privacy and institution-focused XRP Ledger changes aimed at tokenized financial assets, including a market with more than $530 million in tokenized Wall Street assets on the network."
     },
     {
       "id": "wells-tokenized-deposits",
       "priority": "A",
+      "hour": "9",
       "category": "TOKENIZATION",
-      "headline": "Wells Fargo launches tokenized deposits on a dual track",
+      "headline": "Wells Fargo announces tokenized deposit platform for select corporate and institutional users",
       "source": "Yahoo Finance",
-      "summary": "The digest says Wells Fargo announced a proprietary tokenized deposit platform targeted for select corporate and institutional users."
+      "summary": "The alert says Wells Fargo announced a proprietary tokenized deposit platform scheduled for a fall 2026 launch for select corporate and institutional users."
     },
     {
       "id": "btc-eth-etf",
       "priority": "A",
+      "hour": "10",
       "category": "ETF FLOWS",
-      "headline": "Bitcoin and ether ETFs draw $1.1 billion in best inflow week since April",
+      "headline": "Bitcoin and ether ETFs draw $1.1 billion in their best inflow week since April",
       "source": "The Block",
-      "summary": "The digest reports a strong week of spot crypto ETF inflows, with Bitcoin products recording inflows across all five sessions."
+      "summary": "The digest reports about $1.1 billion of combined bitcoin and ether ETF inflows, with bitcoin products recording inflows in all five sessions of the week."
+    },
+    {
+      "id": "blackrock-ibit",
+      "priority": "B",
+      "hour": "10",
+      "category": "ETF FLOWS",
+      "headline": "BlackRock's IBIT remains a major driver of the Bitcoin ETF inflow streak",
+      "source": "Bitcoin News / Crypto Briefing",
+      "summary": "Several alerts point to BlackRock's IBIT as a major contributor to the latest five-day U.S. spot Bitcoin ETF inflow streak."
+    },
+    {
+      "id": "fed-jobs",
+      "priority": "A",
+      "hour": "10",
+      "category": "MACRO",
+      "headline": "Weak July jobs data shifts expectations around the Federal Reserve",
+      "source": "Investor's Business Daily / ColoradoBiz",
+      "summary": "The digest includes coverage saying the weak July jobs report reduced expectations for a September Federal Reserve rate hike."
     },
     {
       "id": "rwa-7-4b",
       "priority": "A",
+      "hour": "11",
       "category": "RWA",
       "headline": "Tokenized real-world asset deposits rise to $7.4 billion",
-      "source": "CryptoRank / KuCoin",
-      "summary": "The digest says RWA deposits tripled to about $7.4 billion, led by tokenized Treasuries, funds and private credit."
+      "source": "CryptoRank / KuCoin / Blockster",
+      "summary": "The digest says tokenized RWA deposits more than tripled to roughly $7.4 billion, led by tokenized Treasuries, funds, private credit, gold and equities."
+    },
+    {
+      "id": "take-two-solana",
+      "priority": "B",
+      "hour": "11",
+      "category": "TOKENIZED STOCKS",
+      "headline": "Tokenized Take-Two shares launch on Solana through Backpack's Sunrise platform",
+      "source": "TradingView",
+      "summary": "The alert says Backpack Securities launched tokenized Take-Two shares on Solana through its Sunrise tokenization platform."
+    },
+    {
+      "id": "bnb-rwa-holders",
+      "priority": "B",
+      "hour": "11",
+      "category": "RWA",
+      "headline": "BNB Chain RWA holders cross 300,000",
+      "source": "AltcoinBuzz",
+      "summary": "The digest reports that more than 300,000 wallets on BNB Chain now hold tokenized real-world assets."
     },
     {
       "id": "circle-arc",
-      "priority": "B",
+      "priority": "A",
+      "hour": "12",
       "category": "STABLECOINS",
-      "headline": "Circle CEO says Arc is a major opportunity for institutional settlement",
-      "source": "Yahoo Finance",
-      "summary": "The digest highlights Circle's focus on Arc and its potential role in institutional settlement and USDC infrastructure."
+      "headline": "Circle focuses on Arc as a blockchain for institutional settlement",
+      "source": "Yahoo Finance / Bitcoin Foundation",
+      "summary": "The alerts describe Circle's Arc network as an institutional-settlement blockchain and highlight its potential role in USDC infrastructure."
     },
     {
       "id": "tron-stablecoins",
       "priority": "B",
+      "hour": "12",
       "category": "STABLECOINS",
-      "headline": "Tron adds about $2.2 billion in stablecoins over 30 days",
+      "headline": "Tron adds about $2.2 billion in stablecoins over a 30-day period",
       "source": "Yahoo Finance",
-      "summary": "The digest points to a large increase in stablecoin balances on Tron during the period ending August 4."
+      "summary": "The digest says roughly $2.2 billion in stablecoins were added to Tron during the 30-day period ending August 4."
     },
     {
-      "id": "fed-jobs",
+      "id": "banks-stablecoins",
       "priority": "B",
-      "category": "MACRO",
-      "headline": "Weak July jobs data shifts expectations around the Federal Reserve",
-      "source": "Investor's Business Daily / ColoradoBiz",
-      "summary": "The digest includes coverage suggesting the July jobs report changed expectations for the next Federal Reserve policy move."
+      "hour": "12",
+      "category": "CAPITAL MARKETS",
+      "headline": "Banks and stablecoins compete for a growing role in digital-dollar settlement",
+      "source": "Forbes / Bitcoin Foundation",
+      "summary": "The digest highlights stablecoins' growing use in trading, remittances, payments, DeFi and tokenized financial platforms, with one alert putting the broader stablecoin market above $300 billion."
     }
   ]
 }
