@@ -6,7 +6,7 @@ on:
       voice_id:
         description: ElevenLabs voice ID
         required: true
-        default: '21m00Tcm4TlvDq8ikWAM'
+        default: 'kPzsL2i3teMYv0FxEYQ6'
         type: string
   push:
     branches: [main]
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-      VOICE_ID: ${{ github.event.inputs.voice_id || '21m00Tcm4TlvDq8ikWAM' }}
+      VOICE_ID: ${{ github.event.inputs.voice_id || 'kPzsL2i3teMYv0FxEYQ6' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -46,8 +46,6 @@ jobs:
           if not text:
               raise SystemExit('Newswire script is empty.')
 
-          # Keep the first integration test intentionally minimal and aligned
-          # with ElevenLabs' documented Text-to-Speech request shape.
           payload = {
               'text': text,
               'model_id': 'eleven_multilingual_v2'
