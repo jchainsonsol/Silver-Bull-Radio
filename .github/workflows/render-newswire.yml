@@ -1,0 +1,113 @@
+name: Render Silver Bull Newswire
+
+on:
+  workflow_dispatch:
+    inputs:
+      voice:
+        description: Newswire anchor voice
+        required: true
+        default: marin
+        type: choice
+        options:
+          - marin
+          - coral
+          - shimmer
+          - nova
+      speed:
+        description: Delivery speed
+        required: true
+        default: '1.02'
+        type: choice
+        options:
+          - '0.95'
+          - '1.00'
+          - '1.02'
+          - '1.05'
+          - '1.08'
+  push:
+    branches: [main]
+    paths:
+      - 'data/newswire-today.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      VOICE: ${{ github.event.inputs.voice || 'marin' }}
+      SPEED: ${{ github.event.inputs.speed || '1.02' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify API key
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "Missing GitHub repository secret OPENAI_API_KEY"
+            exit 1
+          fi
+
+      - name: Render Newswire MP3
+        shell: bash
+        run: |
+          mkdir -p audio/news
+          python - <<'PY'
+          import json, os, urllib.request
+          from pathlib import Path
+
+          text = Path('data/newswire-today.txt').read_text(encoding='utf-8').strip()
+          if len(text) > 4096:
+              raise SystemExit(f'Newswire script is {len(text)} characters; OpenAI speech input max is 4096. Shorten it before rendering.')
+
+          payload = {
+              'model': 'gpt-4o-mini-tts',
+              'voice': os.environ.get('VOICE', 'marin'),
+              'input': text,
+              'instructions': (
+                  'Deliver this as a natural, polished female financial-news radio anchor. '
+                  'Warm but authoritative, confident and conversational, never robotic. '
+                  'Use clean broadcast pacing, subtle emphasis on key numbers and names, '
+                  'short natural pauses between stories, and a smooth professional station-read cadence. '
+                  'Do not sound theatrical, overly excited, synthetic, or like an advertisement.'
+              ),
+              'response_format': 'mp3',
+              'speed': float(os.environ.get('SPEED', '1.02')),
+          }
+
+          req = urllib.request.Request(
+              'https://api.openai.com/v1/audio/speech',
+              data=json.dumps(payload).encode('utf-8'),
+              headers={
+                  'Authorization': f"Bearer {os.environ['OPENAI_API_KEY']}",
+                  'Content-Type': 'application/json',
+              },
+              method='POST',
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=120) as r:
+                  Path('audio/news/today.mp3').write_bytes(r.read())
+          except urllib.error.HTTPError as e:
+              print(e.read().decode('utf-8', errors='replace'))
+              raise
+          PY
+
+      - name: Verify output
+        run: |
+          test -s audio/news/today.mp3
+          ls -lh audio/news/today.mp3
+
+      - name: Commit rendered audio
+        shell: bash
+        run: |
+          git config user.name "Silver Bull Radio Newswire"
+          git config user.email "actions@users.noreply.github.com"
+          git add audio/news/today.mp3
+          if git diff --cached --quiet; then
+            echo "Newswire audio unchanged."
+            exit 0
+          fi
+          git commit -m "Render Silver Bull Newswire audio"
+          git push
