@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#07090c" />
+  <title>Silver Bull Radio — V8 Preview</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#07090c;color:#f5f7fa;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.loader{width:min(560px,90vw);padding:28px;border:1px solid #2d263c;border-radius:18px;background:#10141a;text-align:center}.brand{font-weight:900;letter-spacing:.08em}.brand span{color:#b69cff}.bar{height:8px;border-radius:999px;background:#222a34;overflow:hidden;margin:18px 0}.fill{height:100%;width:15%;background:#9b6cff;animation:load 1.2s ease-in-out infinite alternate}.sub{color:#97a3b2;font-size:13px}@keyframes load{to{width:88%}}.err{color:#ff8b98;white-space:pre-wrap;text-align:left;font-family:ui-monospace,monospace;font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="brand">SILVER BULL RADIO <span>W3BC</span></div>
+    <div class="bar"><div class="fill"></div></div>
+    <div class="sub" id="status">Loading V8 control board preview…</div>
+  </div>
+  <script>
+    (async()=>{
+      try{
+        if(!('DecompressionStream' in window)) throw new Error('This browser does not support the V8 preview loader. Use current Chrome, Edge, or Safari.');
+        const files=Array.from({length:10},(_,i)=>`data/app/v8-p${String(i+1).padStart(2,'0')}.txt`);
+        const parts=[];
+        for(let i=0;i<files.length;i++){
+          document.getElementById('status').textContent=`Loading control board ${i+1}/10…`;
+          const r=await fetch(files[i],{cache:'no-store'});
+          if(!r.ok) throw new Error(`${files[i]} returned HTTP ${r.status}`);
+          parts.push((await r.text()).trim());
+        }
+        const b64=parts.join('');
+        const bytes=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
+        const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+        const html=await new Response(stream).text();
+        if(!html.includes('START AUTOMATED BLOCK') || !html.includes('OPEN X SPACE')) throw new Error('V8 payload integrity check failed. Live site was not changed.');
+        document.open();
+        document.write(html);
+        document.close();
+      }catch(err){
+        const box=document.getElementById('loader');
+        box.innerHTML=`<div class="brand">V8 PREVIEW <span>LOAD ERROR</span></div><p class="sub">The live control board is still safe.</p><div class="err">${String(err&&err.message?err.message:err)}</div>`;
+      }
+    })();
+  </script>
+</body>
+</html>
