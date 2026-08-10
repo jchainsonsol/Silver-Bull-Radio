@@ -1,63 +1,53 @@
 Good morning and welcome to Silver Bull Radio, W3BC. Welcome to the Bullpen.
 
-We are live on Monday morning, August tenth, and we’ve got a full board today. Before we get into the first automated block, I want to give you the complete setup for the day — markets, the major headlines, what we’re focusing on hour by hour, and a little housekeeping so everybody knows how the room is going to work.
+It is Monday morning, August tenth, and this is day one of what we’re building here.
 
-First, markets.
+The goal is pretty simple. I don’t want this to be four hours of people yelling about what coin is pumping. I want us looking at the signal underneath all the noise — where money is moving, what institutions are building, what the charts are actually telling us, and what the financial system may look like a few years from now.
 
-Bitcoin is back under the sixty-five-thousand-dollar level in the latest reporting, but the bigger story is that ETF demand has stayed strong. CoinDesk is reporting eight hundred fifty-three million dollars in weekly net inflows for U.S. spot Bitcoin ETFs, the largest weekly total since April, with BlackRock’s IBIT leading the move. So the question this morning is whether that institutional bid is enough to stabilize Bitcoin here or whether price still has another leg lower before buyers step back in.
+So before we get rolling, let me set the table for the morning.
 
-I’ll be watching Bitcoin, Ethereum and Solana live on the charts throughout the morning. The levels matter, but so does the flow behind them. If Bitcoin is struggling under sixty-five thousand while ETF money continues coming in, that divergence is worth paying attention to.
+The first thing I’m watching is Bitcoin around that sixty-five-thousand-dollar area. Price has been soft, but the interesting part is that institutional demand has not disappeared. Bitcoin ETFs just put together their strongest week of inflows since April.
 
-Macro stays part of the setup too. One of today’s alerts points back to the Federal Reserve’s inflation problem, with PCE inflation still above the Fed’s two-percent target. That keeps the policy path important for risk assets. Crypto does not trade in a vacuum, so we’re keeping rates, liquidity and the broader risk environment on the board with price.
+That’s the kind of disconnect I want to watch live on the charts today. If money keeps coming into regulated Bitcoin products while spot price struggles, eventually one side of that equation has to move.
 
-Now let’s get into the news map for the day.
+We’ll keep Bitcoin, Ethereum and Solana up throughout the show. I want to watch support, resistance, volume and momentum instead of pretending we know exactly what comes next.
 
-At nine o’clock, we’re starting with regulation.
+But the bigger theme for me today is still tokenization.
 
-The biggest correction from the weekend is that the Senate left Washington for summer break without voting on the CLARITY Act. That means the market-structure bill did not get over the line before recess, and its timing is now more uncertain heading toward the midterms. At the same time, there is still active debate around how the bill handles stablecoins and DeFi, including the tension between banks and crypto companies over yield-bearing stablecoins.
+Every day it feels less like a future idea and more like something that is actively being built. Wall Street is testing onchain settlement. The real-world asset market keeps growing. Institutional credit and yield products are moving onchain. And major financial institutions are starting to talk about tokenization in the trillions of dollars.
 
-We also have an ETF-regulation angle this morning. Grayscale pulled filings tied to ADA, HBAR and DOT after changes to the SEC approval process. So the nine o’clock conversation is not just whether regulation is moving forward. It’s whether the rules are becoming clearer, more complicated, or simply shifting the path companies use to get products approved.
+That’s where I think the real story is.
 
-At ten o’clock, we go straight into markets and money flow.
+Not just which token moves five percent today. What infrastructure has to exist if trillions of dollars of assets actually move onchain? Who provides the data? Who handles settlement? Where does liquidity live? What happens to Treasury products, credit markets and securities trading when those rails change?
 
-Bitcoin is under sixty-five thousand in the latest reporting, but spot ETF flows remain strong. The eight hundred fifty-three million dollars in weekly net inflows is the biggest total since April, and BlackRock’s IBIT continues to dominate the category. That gives us a clean market question: if institutions are still buying while spot price is soft, what does that tell us about where demand is building and how long it takes for that demand to show up in price?
+That’s the conversation I want Silver Bull Radio built around.
 
-We’ll pair that with the Fed and macro backdrop and spend the hour on what the charts are actually telling us — support, resistance, volume, trend structure and whether the market is setting up for a recovery or another flush.
+Here’s how we’re breaking up the morning.
 
-At eleven o’clock, we move into the biggest theme on the board for me: tokenization and real-world assets.
+At nine, we’re talking regulation and the changing path for crypto in Washington.
 
-The NYSE is pushing tokenized securities toward actual Wall Street infrastructure with DTC onchain settlement tests involving delivery-versus-payment, Treasury and repo use cases. That matters because this is no longer just a crypto-native experiment. This is the plumbing of traditional markets being tested onchain.
+At ten, we go into GM Get Money — Bitcoin, Ethereum, Solana, ETF flows, macro and the charts in front of us.
 
-The RWA market itself has now reached about thirty-eight-point-one-seven billion dollars according to RWA.xyz data cited in today’s alert, putting the sector within striking distance of forty billion. Treasury debt remains a major driver, but stocks, credit and commodities are all part of the expansion.
+At eleven, we go deep into tokenization and real-world assets. That’s probably the hour I’m most excited about today.
 
-And Standard Chartered is taking that thesis much further. Geoff Kendrick is projecting that tokenized assets onchain could grow to four trillion dollars by the end of 2028, up from roughly three hundred forty billion today. That same thesis ties the growth of tokenized assets to Chainlink’s role in connecting onchain markets to real-world data and infrastructure.
+Then at noon, we’ll get into institutional onchain finance — credit, yield, tokenized Treasuries and where capital is actually being deployed.
 
-That is exactly the long-term conversation we want to be having here. Not just what token is pumping today, but what financial infrastructure is actually moving onchain and what has to exist for that market to scale.
+And if something breaks while we’re live, the schedule moves. This is radio. The board is here to help us, not trap us.
 
-Then at noon, we stay in onchain finance but get more specific about products and yield.
+A couple pieces of housekeeping.
 
-Midas and Wellington Management are bringing institutional credit strategies onchain through mWIN. Galaxy and Sharplink have launched a one-hundred-twenty-five-million-dollar onchain yield fund deploying capital across DeFi and onchain strategies. And Ondo’s USDY has crossed a two-point-one-billion-dollar market cap as tokenized Treasuries continue to grow.
+If you’re listening in the Space, hit the purple pill, repost the room and tag somebody who should be hanging out in the Bullpen with us.
 
-So the final hour is about what happens after tokenization becomes real. Where does the capital go? What products get built? How do institutions use onchain credit, yield and Treasury products? And which protocols and infrastructure providers become essential as those markets grow?
+When we open the panel, if you’ve got a question or a take, raise your hand. If we have a scheduled guest, we’ll turn that block into a focused interview. Otherwise we’ll follow the strongest conversation in the room.
 
-A couple pieces of housekeeping before we get moving.
+You’re also going to hear a lot of music today. We built an entire Silver Bull catalog for this station, and when we need to reset or prep the next block, we’re going to let the radio actually be radio.
 
-If you’re listening in the Space, hit the purple pill, repost the room and tag somebody who should be in the Bullpen. If you’ve got a question, a take, or you want to join the conversation, raise your hand when we open the panel. If we have a scheduled guest, I’ll flip that block into a focused interview. If not, we keep the panel open and follow the strongest conversation.
+Most importantly, today is the first real run. We’re going to learn what works, what doesn’t, what needs to be tighter, and then make it one percent better tomorrow.
 
-We’re also using music as part of the station today. If we need a reset, I can send Silver Bull Radio into a ten, twenty or thirty-minute music run and let the Auto DJ work through the catalog while I prep the next block. That gives us room to breathe without forcing dead-air conversation.
+That is the whole idea.
 
-So that’s the board for Monday.
+Silver Bull Radio. W3BC.
 
-Nine o’clock: regulation, the CLARITY Act and the changing SEC path.
+Welcome to the Bullpen.
 
-Ten o’clock: Bitcoin under sixty-five thousand, ETF flows and macro.
-
-Eleven o’clock: NYSE tokenized settlement, the thirty-eight-billion-dollar RWA market and the four-trillion-dollar tokenization thesis.
-
-Noon: institutional credit, onchain yield and tokenized Treasuries.
-
-We’ll react to anything breaking as it happens.
-
-This is Silver Bull Radio, W3BC. Welcome to the Bullpen. We’re here to stay ahead of the signal, build smarter every day, and get one percent better every time we turn the mic on.
-
-All right. Let’s get into it.
+Let’s get after it.
