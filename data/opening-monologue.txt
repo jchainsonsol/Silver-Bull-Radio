@@ -1,0 +1,25 @@
+Good morning and welcome to Silver Bull Radio, W3BC. Welcome to the Bullpen.
+
+We’re live this morning and we’ve got a full board. Before we get into the first automated block, I want to give you the complete setup for the day — markets, the stories we’re watching, where we’re going hour by hour, and a little housekeeping so everybody knows how to use the room.
+
+First, markets. Before we go live each morning, update these three levels from the charts: Bitcoin [BTC LEVEL], Ethereum [ETH LEVEL], and Solana [SOL LEVEL]. The bigger picture we’re watching today is whether risk appetite keeps improving after the latest macro data and whether ETF flows keep reinforcing that bid. Bitcoin has been holding in the mid-sixty-thousand area in the latest reporting, while Ethereum has been around the nineteen-hundred area and Solana in the low-seventies. I’ll be watching the live charts for support, resistance, volume and whether those levels hold once the U.S. session gets moving.
+
+Now the news board.
+
+At nine o’clock, the conversation is regulation and institutional adoption. The U.S. Senate has moved a major crypto market-structure bill forward before the August recess. At the same time, the XRP Ledger is pushing new privacy and institutional features aimed at tokenized financial assets, and Wells Fargo has announced a proprietary tokenized-deposit platform for select corporate and institutional users. The common thread is simple: the rulebook is getting built while traditional financial infrastructure keeps moving on-chain.
+
+At ten, we shift to markets, macro and money flow. Bitcoin and ether ETFs reportedly pulled in about one-point-one billion dollars in their best week since April, with Bitcoin products seeing inflows across all five sessions. BlackRock’s IBIT was a major driver of that streak. On the macro side, weak July jobs data changed expectations around the Federal Reserve. That gives us a clean question for the hour: is the money starting to move back toward risk because the macro picture is softening, or are we still dealing with a fragile bounce?
+
+At eleven, we go deep into tokenization and real-world assets. The morning digest says tokenized RWA deposits have climbed to roughly seven-point-four billion dollars, more than tripling from earlier levels, led by tokenized Treasuries, funds, private credit, gold and equities. We also have tokenized Take-Two shares launching on Solana through Backpack’s Sunrise platform, and BNB Chain reportedly crossing three hundred thousand RWA holders. That is exactly the kind of infrastructure story we care about here — not just price, but what is actually moving on-chain.
+
+At noon, the focus moves to stablecoins and settlement rails. Circle is putting major emphasis on Arc as a blockchain for institutional settlement and USDC infrastructure. Tron reportedly added about two-point-two billion dollars in stablecoins over a thirty-day period. And the larger fight between banks and stablecoins over digital-dollar settlement keeps getting more interesting. We’ll use that final hour to connect the dots between payments, settlement, tokenized assets and where capital markets may actually be heading.
+
+A couple pieces of housekeeping. If you’re listening in the Space, hit the purple pill, repost the room and tag somebody who should be in the Bullpen. We’re building this station around participation, not just broadcasting at you. If you have a question, a take, or you want to get on the panel, raise your hand when we open the room up. If we have a scheduled guest, we’ll flip that block into a focused interview. Otherwise, the panel stays open and we follow the strongest conversation.
+
+We’re also going to use music throughout the show. If we need a reset, I can throw the station into a ten, twenty or thirty-minute music run and let the Auto DJ work through the Silver Bull catalog without repeating tracks. That gives us room to reset, prep the next segment and keep the station moving instead of forcing conversation just to fill time.
+
+So that’s the board. Regulation and institutions at nine. Markets and macro at ten. Tokenization and RWAs at eleven. Stablecoins and settlement at noon. We’ll react to anything breaking as it happens.
+
+This is Silver Bull Radio, W3BC. We’re here to get one percent better every day, stay ahead of the signal, and build the Bullpen together.
+
+All right. Let’s get into it.
