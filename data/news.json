@@ -1,114 +1,114 @@
 {
-  "generated_at": "2026-08-09T05:14:00-04:00",
-  "source": "Google Alert - Daily Digest uploaded for Silver Bull Radio test",
+  "generated_at": "2026-08-10T07:00:00-04:00",
+  "source": "Google Alert - Daily Digest received Monday, August 10, 2026 at 7:00 AM ET",
   "items": [
     {
-      "id": "clarity-act",
+      "id": "clarity-senate-break",
       "priority": "A",
       "hour": "9",
       "category": "REGULATION",
-      "headline": "US Senate advances landmark crypto bill before heading on August recess",
-      "source": "Reuters",
-      "summary": "The alert says Senate leadership moved to advance a major digital-asset market-structure bill, opening the next procedural stage before the August recess."
+      "headline": "Senate leaves for summer break without voting on the CLARITY Act",
+      "source": "The Hill",
+      "summary": "The digest says the Senate adjourned for summer break without voting on the CLARITY Act, leaving the timing and prospects for U.S. crypto market-structure legislation uncertain before the midterms."
     },
     {
-      "id": "xrpl-institutional",
+      "id": "clarity-stablecoin-defi",
       "priority": "A",
       "hour": "9",
-      "category": "INSTITUTIONS",
-      "headline": "XRP Ledger amendments target institutional adoption and tokenized assets",
-      "source": "CoinDesk / CryptoPotato",
-      "summary": "The digest highlights privacy and institution-focused XRP Ledger changes aimed at tokenized financial assets, including a market with more than $530 million in tokenized Wall Street assets on the network."
+      "category": "REGULATION",
+      "headline": "Senate CLARITY Act draft seeks compromise on stablecoins and DeFi",
+      "source": "PYMNTS",
+      "summary": "The alert describes a Senate draft trying to balance bank concerns over yield-bearing stablecoins with crypto-industry priorities around stablecoins and decentralized finance."
     },
     {
-      "id": "wells-tokenized-deposits",
-      "priority": "A",
-      "hour": "9",
-      "category": "TOKENIZATION",
-      "headline": "Wells Fargo announces tokenized deposit platform for select corporate and institutional users",
-      "source": "Yahoo Finance",
-      "summary": "The alert says Wells Fargo announced a proprietary tokenized deposit platform scheduled for a fall 2026 launch for select corporate and institutional users."
-    },
-    {
-      "id": "btc-eth-etf",
-      "priority": "A",
-      "hour": "10",
-      "category": "ETF FLOWS",
-      "headline": "Bitcoin and ether ETFs draw $1.1 billion in their best inflow week since April",
-      "source": "The Block",
-      "summary": "The digest reports about $1.1 billion of combined bitcoin and ether ETF inflows, with bitcoin products recording inflows in all five sessions of the week."
-    },
-    {
-      "id": "blackrock-ibit",
+      "id": "grayscale-altcoin-etfs",
       "priority": "B",
-      "hour": "10",
-      "category": "ETF FLOWS",
-      "headline": "BlackRock's IBIT remains a major driver of the Bitcoin ETF inflow streak",
-      "source": "Bitcoin News / Crypto Briefing",
-      "summary": "Several alerts point to BlackRock's IBIT as a major contributor to the latest five-day U.S. spot Bitcoin ETF inflow streak."
+      "hour": "9",
+      "category": "ETF / SEC",
+      "headline": "Grayscale pulls ADA, HBAR and DOT ETF filings after SEC rule changes",
+      "source": "TradingView / Crypto News / CryptoSlate",
+      "summary": "Multiple alerts report that Grayscale withdrew three altcoin ETF filings after changes to the SEC approval route and regulatory backdrop."
     },
     {
-      "id": "fed-jobs",
+      "id": "bitcoin-below-65k",
       "priority": "A",
+      "hour": "10",
+      "category": "MARKETS",
+      "headline": "Bitcoin slips below $65,000 while ETF inflows remain strong",
+      "source": "Yahoo Finance / Investing.com",
+      "summary": "The digest says Bitcoin traded below $65,000 on Sunday while strong U.S. spot ETF inflows helped offset other market concerns."
+    },
+    {
+      "id": "bitcoin-etf-853m",
+      "priority": "A",
+      "hour": "10",
+      "category": "ETF FLOWS",
+      "headline": "Bitcoin ETFs post $853 million in weekly net inflows, largest since April",
+      "source": "CoinDesk",
+      "summary": "The alert reports $853 million in weekly net inflows for U.S. spot Bitcoin ETFs, the largest weekly total since April, with BlackRock's IBIT leading the move."
+    },
+    {
+      "id": "fed-inflation",
+      "priority": "B",
       "hour": "10",
       "category": "MACRO",
-      "headline": "Weak July jobs data shifts expectations around the Federal Reserve",
-      "source": "Investor's Business Daily / ColoradoBiz",
-      "summary": "The digest includes coverage saying the weak July jobs report reduced expectations for a September Federal Reserve rate hike."
+      "headline": "Federal Reserve inflation concerns stay on the market radar",
+      "source": "The Globe and Mail",
+      "summary": "The digest highlights PCE inflation remaining above the Federal Reserve's 2% target, keeping price stability and the Fed policy path relevant for risk assets."
     },
     {
-      "id": "rwa-7-4b",
+      "id": "nyse-dtc-tokenized-settlement",
+      "priority": "A",
+      "hour": "11",
+      "category": "TOKENIZATION",
+      "headline": "NYSE pushes tokenized securities forward with DTC onchain settlement tests",
+      "source": "Bitcoin Foundation",
+      "summary": "The alert says NYSE is advancing tokenized-securities plans through DTC tests involving tokenized delivery-versus-payment, Treasury and repo use cases, alongside plans for onchain settlement and 24/7 trading."
+    },
+    {
+      "id": "rwa-38b",
       "priority": "A",
       "hour": "11",
       "category": "RWA",
-      "headline": "Tokenized real-world asset deposits rise to $7.4 billion",
-      "source": "CryptoRank / KuCoin / Blockster",
-      "summary": "The digest says tokenized RWA deposits more than tripled to roughly $7.4 billion, led by tokenized Treasuries, funds, private credit, gold and equities."
+      "headline": "Tokenized RWA sector reaches $38.17 billion as Treasuries dominate",
+      "source": "Bitcoin News",
+      "summary": "The digest cites RWA.xyz data putting tokenized real-world assets at $38.17 billion on August 9, with Treasury debt, stocks, credit and commodities helping push the market toward $40 billion."
     },
     {
-      "id": "take-two-solana",
-      "priority": "B",
-      "hour": "11",
-      "category": "TOKENIZED STOCKS",
-      "headline": "Tokenized Take-Two shares launch on Solana through Backpack's Sunrise platform",
-      "source": "TradingView",
-      "summary": "The alert says Backpack Securities launched tokenized Take-Two shares on Solana through its Sunrise tokenization platform."
-    },
-    {
-      "id": "bnb-rwa-holders",
-      "priority": "B",
-      "hour": "11",
-      "category": "RWA",
-      "headline": "BNB Chain RWA holders cross 300,000",
-      "source": "AltcoinBuzz",
-      "summary": "The digest reports that more than 300,000 wallets on BNB Chain now hold tokenized real-world assets."
-    },
-    {
-      "id": "circle-arc",
+      "id": "standard-chartered-link",
       "priority": "A",
-      "hour": "12",
-      "category": "STABLECOINS",
-      "headline": "Circle focuses on Arc as a blockchain for institutional settlement",
-      "source": "Yahoo Finance / Bitcoin Foundation",
-      "summary": "The alerts describe Circle's Arc network as an institutional-settlement blockchain and highlight its potential role in USDC infrastructure."
-    },
-    {
-      "id": "tron-stablecoins",
-      "priority": "B",
-      "hour": "12",
-      "category": "STABLECOINS",
-      "headline": "Tron adds about $2.2 billion in stablecoins over a 30-day period",
+      "hour": "11",
+      "category": "TOKENIZATION / CHAINLINK",
+      "headline": "Standard Chartered projects a $4 trillion tokenized-asset market by 2028",
       "source": "Yahoo Finance",
-      "summary": "The digest says roughly $2.2 billion in stablecoins were added to Tron during the 30-day period ending August 4."
+      "summary": "The alert says Standard Chartered's Geoff Kendrick expects tokenized assets onchain to climb roughly twelvefold to $4 trillion by the end of 2028 from about $340 billion, and ties that growth thesis to a long-term Chainlink price target."
     },
     {
-      "id": "banks-stablecoins",
+      "id": "mwin-wellington",
+      "priority": "A",
+      "hour": "12",
+      "category": "ONCHAIN FINANCE",
+      "headline": "Midas and Wellington Management bring institutional credit strategies onchain with mWIN",
+      "source": "Markets Insider / Business Insider",
+      "summary": "The digest describes mWIN as an institutional fixed-income strategy designed to operate within onchain financial markets rather than simply being represented by a token."
+    },
+    {
+      "id": "galaxy-sharplink-yield",
+      "priority": "A",
+      "hour": "12",
+      "category": "ONCHAIN YIELD",
+      "headline": "Galaxy and Sharplink launch a $125 million onchain yield fund",
+      "source": "Galaxy Digital",
+      "summary": "The alert says the institutional fund has begun deploying capital across decentralized-finance and onchain-yield strategies."
+    },
+    {
+      "id": "ondo-usdy-2b",
       "priority": "B",
       "hour": "12",
-      "category": "CAPITAL MARKETS",
-      "headline": "Banks and stablecoins compete for a growing role in digital-dollar settlement",
-      "source": "Forbes / Bitcoin Foundation",
-      "summary": "The digest highlights stablecoins' growing use in trading, remittances, payments, DeFi and tokenized financial platforms, with one alert putting the broader stablecoin market above $300 billion."
+      "category": "TOKENIZED TREASURIES",
+      "headline": "Ondo's USDY crosses a $2.1 billion market cap as tokenized Treasuries grow",
+      "source": "TheStreet",
+      "summary": "The digest says Ondo's tokenized Treasury note USDY reached a $2.1 billion market cap as the product turned three years old."
     }
   ]
 }
