@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T07:00:00-04:00",
-  "source": "Google Alert - Daily Digest received Monday, August 10, 2026 at 7:00 AM ET",
+  "generated_at": "2026-08-10T07:14:00-04:00",
+  "source": "Google Alert - Daily Digest received Monday, August 10, 2026 at 7:00 AM and 7:14 AM ET",
   "items": [
     {
       "id": "clarity-senate-break",
@@ -21,12 +21,21 @@
       "summary": "The alert describes a Senate draft trying to balance bank concerns over yield-bearing stablecoins with crypto-industry priorities around stablecoins and decentralized finance."
     },
     {
+      "id": "us-uk-digital-assets-ai",
+      "priority": "B",
+      "hour": "9",
+      "category": "GLOBAL POLICY",
+      "headline": "U.S. and U.K. strike a unified stance on digital assets and AI",
+      "source": "CoinGeek",
+      "summary": "The 7:14 AM follow-up alert highlights a coordinated U.S.-U.K. policy stance touching digital assets and artificial intelligence, adding an international-regulation angle to the morning board."
+    },
+    {
       "id": "grayscale-altcoin-etfs",
       "priority": "B",
       "hour": "9",
       "category": "ETF / SEC",
       "headline": "Grayscale pulls ADA, HBAR and DOT ETF filings after SEC rule changes",
-      "source": "TradingView / Crypto News / CryptoSlate",
+      "source": "TradingView / Crypto News / CryptoSlate / ForkLog",
       "summary": "Multiple alerts report that Grayscale withdrew three altcoin ETF filings after changes to the SEC approval route and regulatory backdrop."
     },
     {
@@ -55,6 +64,15 @@
       "headline": "Federal Reserve inflation concerns stay on the market radar",
       "source": "The Globe and Mail",
       "summary": "The digest highlights PCE inflation remaining above the Federal Reserve's 2% target, keeping price stability and the Fed policy path relevant for risk assets."
+    },
+    {
+      "id": "fed-ai-risk",
+      "priority": "B",
+      "hour": "10",
+      "category": "MACRO / AI",
+      "headline": "Federal Reserve looks at whether aggressive AI investment is creating economic risk",
+      "source": "Cyber Daily",
+      "summary": "The 7:14 AM follow-up says Federal Reserve officials are examining whether aggressive artificial-intelligence investment could be creating broader economic risk."
     },
     {
       "id": "nyse-dtc-tokenized-settlement",
@@ -109,6 +127,15 @@
       "headline": "Ondo's USDY crosses a $2.1 billion market cap as tokenized Treasuries grow",
       "source": "TheStreet",
       "summary": "The digest says Ondo's tokenized Treasury note USDY reached a $2.1 billion market cap as the product turned three years old."
+    },
+    {
+      "id": "krw1-stablecoin-pilot",
+      "priority": "C",
+      "hour": "12",
+      "category": "STABLECOINS / CBDC",
+      "headline": "BDACS to pilot KRW1 stablecoin payments while Bank of Korea studies CBDC interplay",
+      "source": "Cryptonews.net",
+      "summary": "The follow-up alert adds a South Korea payments pilot using KRW1 and notes the Bank of Korea's ongoing research into the relationship between CBDCs and private stablecoins."
     }
   ]
 }
