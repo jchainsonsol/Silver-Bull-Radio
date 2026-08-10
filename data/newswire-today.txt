@@ -1,21 +1,21 @@
-SILVER BULL NEWSWIRE — TEST BULLETIN
+SILVER BULL NEWSWIRE — MONDAY, AUGUST 10
 
 This is the Silver Bull Newswire on W3BC, produced with AI. Here are the stories setting the table for today’s show.
 
-We begin in Washington, where the U.S. Senate has moved a major crypto market-structure bill into its next procedural stage before the August recess. The measure is aimed at creating a clearer federal framework for digital assets, and it gives the industry another signal that the regulatory conversation is moving from broad debate toward actual legislative structure.
+We begin in Washington, where the Senate has left for summer break without voting on the CLARITY Act. That leaves the timing of U.S. crypto market-structure legislation uncertain heading toward the midterms. The debate is still active, including how the bill could balance stablecoins, DeFi and concerns from traditional banks over yield-bearing digital dollars.
 
-At the same time, institutional adoption continues to show up on-chain. The XRP Ledger is considering amendments focused on privacy and institutional use cases, with particular attention on tokenized financial assets. The morning digest also points to more than five hundred thirty million dollars in tokenized Wall Street assets already connected to the network.
+Grayscale is also adjusting to a changing regulatory path. Multiple reports in this morning’s digest say the firm withdrew filings tied to ADA, HBAR and DOT after changes to the SEC approval process for crypto ETFs.
 
-And one of the biggest traditional-finance headlines comes from Wells Fargo. The bank has announced a proprietary tokenized deposit platform targeted at select corporate and institutional users, with a launch expected later in 2026. That puts another major U.S. bank directly into the conversation around blockchain-based settlement and programmable money.
+Turning to markets, Bitcoin traded below sixty-five thousand dollars in the latest reporting, even as institutional demand through ETFs stayed strong. CoinDesk reports eight hundred fifty-three million dollars in weekly net inflows for U.S. spot Bitcoin ETFs, the largest weekly total since April, with BlackRock’s IBIT leading the move.
 
-Turning to markets, spot crypto ETFs are back in focus. Bitcoin and ether products reportedly pulled in about one point one billion dollars during their best combined inflow week since April. Bitcoin funds posted inflows in all five sessions, while BlackRock’s IBIT continued to account for a large share of that demand.
+Macro remains part of the picture. Today’s alert highlights that PCE inflation has remained above the Federal Reserve’s two-percent target, keeping the policy path, rates and liquidity conditions relevant for risk assets.
 
-Macro is also back on the board. A weak July jobs report has shifted expectations around the Federal Reserve, with some coverage pointing to reduced odds of a September rate hike. For crypto traders, that matters because rate expectations, liquidity conditions and risk appetite remain tightly connected.
+In tokenization, the story is getting much bigger.
 
-In tokenization, real-world asset growth continues to accelerate. Several reports in the digest put tokenized RWA deposits at roughly seven point four billion dollars, more than triple earlier levels. Tokenized Treasuries, funds, private credit, gold and equities are all part of that expansion.
+The NYSE is advancing tokenized-securities plans through DTC onchain settlement tests involving delivery-versus-payment, Treasury and repo use cases. The broader tokenized real-world asset market has reached about thirty-eight-point-one-seven billion dollars according to RWA.xyz data cited in the morning digest, putting the sector close to forty billion.
 
-Tokenized equities are also getting more attention. Backpack Securities reportedly launched tokenized Take-Two shares on Solana through its Sunrise platform. Meanwhile, BNB Chain has crossed three hundred thousand wallets holding tokenized real-world assets, another sign that RWA participation is spreading across multiple chains.
+Standard Chartered is projecting an even larger future. Geoff Kendrick expects tokenized assets onchain to reach roughly four trillion dollars by the end of 2028, up from about three hundred forty billion today. That thesis also highlights Chainlink’s role as infrastructure connecting onchain markets with real-world data and financial systems.
 
-Finally, stablecoins remain one of the clearest areas of real adoption. Circle is positioning its Arc blockchain around institutional settlement and USDC infrastructure. Tron reportedly added about two point two billion dollars in stablecoins over a thirty-day period ending August fourth. And broader coverage continues to frame stablecoins as a growing competitor and partner to traditional banking rails across trading, remittances, cross-border payments and tokenized finance.
+Onchain finance is expanding beyond simple token representation. Midas and Wellington Management are bringing institutional credit strategies onchain through mWIN. Galaxy and Sharplink have launched a one-hundred-twenty-five-million-dollar onchain yield fund. And Ondo’s USDY has crossed a two-point-one-billion-dollar market cap as tokenized Treasuries continue to grow.
 
-That’s the Silver Bull Newswire on W3BC. Now back to JChains in the Bullpen for the breakdown, the charts, and what actually matters today.
+That’s the Silver Bull Newswire on W3BC. Now back to JChains in the Bullpen for the charts, the conversation, and what actually matters today.
