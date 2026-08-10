@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-08-10T07:14:00-04:00",
+  "source": "Google Alert Daily Digest received August 10, 2026",
+  "items": [
+    {
+      "id": "bitwise-institutional-shift",
+      "topic": "INSTITUTIONAL ADOPTION",
+      "headline": "Bitwise sees regulated investment vehicles driving a broader institutional shift in Bitcoin",
+      "source": "Cointribune / BigGo Finance",
+      "summary": "The morning alert highlights commentary around Bitcoin ETFs and other regulated investment vehicles helping push institutional adoption beyond a purely speculative crypto trade.",
+      "question": "Are ETFs changing who owns Bitcoin, or just changing how the same demand gets exposure?"
+    },
+    {
+      "id": "tokenized-funds-defi-gap",
+      "topic": "TOKENIZED FUNDS",
+      "headline": "Wall Street has roughly $7 billion in tokenized funds, but less than 1% is being used in DeFi",
+      "source": "CryptoSlate",
+      "summary": "The alert highlights a gap between the amount of traditional financial value represented onchain and how little of that value is currently being used inside decentralized-finance markets.",
+      "question": "What has to improve before institutional tokenized assets become truly composable inside DeFi?"
+    },
+    {
+      "id": "hyperliquid-rwa-perps",
+      "topic": "RWA TRADING",
+      "headline": "Hyperliquid's RWA perpetual futures activity is becoming a meaningful part of derivatives volume",
+      "source": "CoinDesk",
+      "summary": "The digest says Hyperliquid perpetual-futures volume over the prior 30 days was nearly $178 billion and notes growing activity around real-world-asset perpetual markets.",
+      "question": "Do RWA perpetuals become a bridge between traditional markets and crypto-native traders?"
+    },
+    {
+      "id": "ethereum-solana-rwa",
+      "topic": "RWA CHAINS",
+      "headline": "Ethereum remains the leading RWA network while Solana strengthens its position",
+      "source": "CryptoPotato",
+      "summary": "The alert describes Ethereum as maintaining the dominant position in real-world assets while Solana continues gaining ground as tokenized assets expand.",
+      "question": "What actually determines where institutions issue assets: liquidity, compliance, cost, infrastructure, or distribution?"
+    },
+    {
+      "id": "first-spot-etf-shutdown",
+      "topic": "BITCOIN ETF",
+      "headline": "A U.S. spot Bitcoin ETF is shutting down while BlackRock's IBIT continues to dominate the category",
+      "source": "Memeburn",
+      "summary": "The alert contrasts the planned closure of one U.S. spot Bitcoin ETF with the scale BlackRock's IBIT has accumulated, illustrating how quickly market share has concentrated among the largest products.",
+      "question": "Does ETF consolidation ultimately help Bitcoin by concentrating liquidity, or reduce competition too quickly?"
+    },
+    {
+      "id": "federal-bitcoin-reserve",
+      "topic": "U.S. BITCOIN RESERVE",
+      "headline": "Questions remain around how much Bitcoin the U.S. government actually controls",
+      "source": "CryptoSlate",
+      "summary": "The digest flags uncertainty around the federal government's digital-asset inventory even after agencies were directed to account for holdings and custodial arrangements.",
+      "question": "How important is transparent reserve accounting if governments begin treating Bitcoin as a strategic asset?"
+    },
+    {
+      "id": "stablecoin-yield-explainer",
+      "topic": "STABLECOIN YIELD",
+      "headline": "The debate over stablecoin yield increasingly comes down to where the return actually comes from",
+      "source": "Startup Fortune",
+      "summary": "One alert focuses on whether stablecoin yield is generated from Treasury bills, lending, market activity or other sources, a distinction that matters as regulators compare these products with deposits and money-market products.",
+      "question": "Should every stablecoin yield product be treated the same if the underlying source of yield is completely different?"
+    },
+    {
+      "id": "blackrock-tokenized-money-markets",
+      "topic": "TOKENIZED MONEY MARKETS",
+      "headline": "Tokenized money-market funds remain an important bridge between traditional cash management and blockchain rails",
+      "source": "BlackRock",
+      "summary": "BlackRock educational material surfaced in the alert around tokenized money-market funds, reinforcing how traditional short-duration financial products are becoming a core early use case for tokenization.",
+      "question": "Are tokenized money-market funds the product that quietly onboards institutions before they ever touch DeFi?"
+    },
+    {
+      "id": "yuan-stablecoin-policy",
+      "topic": "GLOBAL STABLECOINS",
+      "headline": "Reporting argues that a yuan stablecoin is not imminent despite broader global stablecoin competition",
+      "source": "Forbes",
+      "summary": "The morning alert points to China's restrictions around offshore yuan stablecoins while Hong Kong's framework has focused on Hong Kong-dollar products.",
+      "question": "Does stablecoin competition become another layer of global currency competition over the next decade?"
+    },
+    {
+      "id": "xrpl-institutional-updates",
+      "topic": "BLOCKCHAIN INFRASTRUCTURE",
+      "headline": "XRPL updates continue pushing the network toward institutional tokenization, trading and credit use cases",
+      "source": "Bitcoin Foundation",
+      "summary": "The digest highlights a set of XRPL changes framed around making the network more suitable for tokenization, trading and institutional credit applications.",
+      "question": "When institutions choose a chain, how much does purpose-built financial infrastructure matter versus raw user activity?"
+    }
+  ]
+}
