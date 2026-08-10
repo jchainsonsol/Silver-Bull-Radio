@@ -1,965 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#07090c" />
-  <title>Silver Bull Radio — Live Show Control Board</title>
-  <style>
-    :root {
-      --bg:#07090c;
-      --panel:#10141a;
-      --panel2:#151b23;
-      --line:#28313d;
-      --text:#f5f7fa;
-      --muted:#97a3b2;
-      --cyan:#34d7ff;
-      --cyan2:#0ea5c6;
-      --green:#65ff9a;
-      --yellow:#ffd166;
-      --red:#ff5c6c;
-      --white:#ffffff;
-      --shadow:0 18px 50px rgba(0,0,0,.32);
-      --radius:18px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      min-height:100vh;
-      background:
-        radial-gradient(circle at 10% 0%, rgba(52,215,255,.09), transparent 28%),
-        radial-gradient(circle at 95% 10%, rgba(101,255,154,.055), transparent 24%),
-        var(--bg);
-      color:var(--text);
-      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    }
-    button,input,textarea,select{font:inherit}
-    button{cursor:pointer}
-    .shell{max-width:1500px;margin:0 auto;padding:18px}
-    .topbar{
-      display:flex;align-items:center;justify-content:space-between;gap:16px;
-      padding:14px 16px;border:1px solid var(--line);border-radius:var(--radius);
-      background:rgba(16,20,26,.88);backdrop-filter:blur(12px);box-shadow:var(--shadow);
-      position:sticky;top:10px;z-index:20;
-    }
-    .brand{display:flex;align-items:center;gap:12px;min-width:0}
-    .mark{
-      width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
-      border:1px solid rgba(52,215,255,.45);background:#0b1117;color:var(--cyan);font-weight:900;
-      letter-spacing:-1px;flex:0 0 auto;
-    }
-    .brand h1{font-size:18px;line-height:1.1;margin:0;font-weight:800;letter-spacing:.02em}
-    .brand p{font-size:12px;color:var(--muted);margin:4px 0 0}
-    .top-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-    .pill{border:1px solid var(--line);background:#0d1218;color:var(--text);padding:8px 10px;border-radius:999px;font-size:12px}
-    .pill.live{border-color:rgba(255,92,108,.55);color:#ff9aa5;background:rgba(255,92,108,.09)}
-    .btn{
-      border:1px solid var(--line);background:#111821;color:var(--text);padding:10px 13px;border-radius:12px;
-      font-weight:700;transition:.18s ease;min-height:42px;
-    }
-    .btn:hover{transform:translateY(-1px);border-color:#3d4a5b;background:#17202a}
-    .btn.primary{background:var(--cyan);color:#041116;border-color:var(--cyan)}
-    .btn.green{background:var(--green);color:#07140c;border-color:var(--green)}
-    .btn.warn{border-color:rgba(255,209,102,.45);color:var(--yellow)}
-    .btn.danger{border-color:rgba(255,92,108,.5);color:#ff9aa5}
-    .btn.ghost{background:transparent}
-    .btn.small{padding:7px 9px;min-height:auto;font-size:12px;border-radius:9px}
-
-    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;margin-top:14px}
-    .panel{border:1px solid var(--line);border-radius:var(--radius);background:rgba(16,20,26,.9);box-shadow:var(--shadow)}
-    .panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
-    .panel-head h2{font-size:14px;margin:0;letter-spacing:.05em;text-transform:uppercase}
-    .panel-head .sub{font-size:12px;color:var(--muted)}
-    .onair{padding:18px}
-    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--cyan);font-weight:800;margin-bottom:8px}
-    .current-title{font-size:clamp(28px,4vw,52px);line-height:1;margin:0 0 10px;font-weight:900;letter-spacing:-.035em}
-    .current-meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:13px}
-    .current-meta strong{color:var(--text)}
-    .progress-wrap{margin-top:18px}
-    .progress-track{height:10px;border-radius:999px;background:#222a34;overflow:hidden}
-    .progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--cyan2),var(--cyan));transition:width .4s ease}
-    .progress-row{display:flex;justify-content:space-between;gap:10px;margin-top:7px;color:var(--muted);font-size:12px}
-    .next-card{margin-top:15px;padding:13px 14px;border:1px solid #2b3642;border-radius:14px;background:#0c1117;display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .next-card b{display:block;margin-top:3px}
-    .next-card span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-
-    .timerbox{padding:18px;display:grid;place-items:center;min-height:100%}
-    .clock{font-variant-numeric:tabular-nums;font-size:15px;color:var(--muted);margin-bottom:5px}
-    .timer{font-variant-numeric:tabular-nums;font-size:clamp(52px,8vw,92px);line-height:1;font-weight:900;letter-spacing:-.05em}
-    .timer-label{margin-top:6px;color:var(--muted);font-size:13px}
-    .timer-controls{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:18px}
-    .quick-presets{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:10px}
-
-    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;margin-top:14px}
-    .rundown{overflow:hidden}
-    .rundown-tools{display:flex;gap:8px;flex-wrap:wrap}
-    .rundown-scroll{max-height:690px;overflow:auto}
-    .segment{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:11px 14px;border-bottom:1px solid #202833;transition:.15s}
-    .segment:hover{background:#121923}
-    .segment.current{background:rgba(52,215,255,.085);box-shadow:inset 3px 0 0 var(--cyan)}
-    .segment.done{opacity:.55}
-    .segment-time{font-variant-numeric:tabular-nums;font-weight:800;font-size:13px}
-    .segment-main{min-width:0}
-    .segment-title{font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .segment-type{font-size:11px;color:var(--muted);margin-top:3px}
-    .segment-actions{display:flex;gap:6px}
-    .icon-btn{width:34px;height:34px;border:1px solid var(--line);border-radius:9px;background:#0e141b;color:var(--text)}
-    .icon-btn:hover{border-color:#435164}
-    .status-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px;background:#485564}
-    .segment.current .status-dot{background:var(--cyan);box-shadow:0 0 0 4px rgba(52,215,255,.08)}
-    .segment.done .status-dot{background:var(--green)}
-
-    .stack{display:grid;gap:14px}
-    .notes{padding:14px 16px}
-    textarea,input[type="text"],input[type="date"],select{
-      width:100%;border:1px solid var(--line);background:#0b1016;color:var(--text);border-radius:12px;padding:11px 12px;outline:none
-    }
-    textarea:focus,input:focus,select:focus{border-color:var(--cyan)}
-    textarea{min-height:128px;resize:vertical}
-    .field{display:grid;gap:6px}
-    .field label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:800}
-    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    .checks{padding:12px 16px 16px;display:grid;gap:8px}
-    .check-row{display:flex;align-items:center;gap:10px;border:1px solid #222c37;background:#0c1117;padding:10px 11px;border-radius:11px}
-    .check-row input{width:18px;height:18px;accent-color:var(--cyan)}
-    .check-row label{font-size:13px}
-    .check-row input:checked + label{text-decoration:line-through;color:var(--muted)}
-
-    .live-read{padding:14px 16px 16px}
-    .sequence-bar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:12px}
-    .sequence-step{border:1px solid #2a3440;border-radius:11px;padding:9px 10px;background:#0c1117}
-    .sequence-step b{display:block;font-size:12px}
-    .sequence-step span{display:block;font-size:10px;color:var(--muted);margin-top:3px}
-    .sequence-step.active{border-color:var(--cyan);background:rgba(52,215,255,.08)}
-    .script-box{min-height:205px;line-height:1.5}
-    .read-tools{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:9px}
-    .queued-headlines{margin-top:12px;border-top:1px solid #202833;padding-top:10px}
-    .queued-headlines h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 7px;color:var(--muted)}
-    .queued-headlines ul{margin:0;padding-left:18px;display:grid;gap:5px;font-size:12px}
-
-    .news-toolbar{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:10px 16px;border-bottom:1px solid #202833}
-    .news-list{display:grid;gap:8px;padding:12px 16px 16px}
-    .news-item{border:1px solid #27313d;border-radius:12px;background:#0c1117;padding:11px}
-    .news-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
-    .news-badges{display:flex;gap:5px;flex-wrap:wrap}
-    .news-badge{font-size:9px;font-weight:900;letter-spacing:.08em;border:1px solid #344150;border-radius:999px;padding:4px 6px;color:var(--muted)}
-    .news-badge.priority{color:var(--cyan);border-color:rgba(52,215,255,.35)}
-    .news-title{font-weight:800;font-size:13px;line-height:1.3;margin-top:8px}
-    .news-summary{font-size:11px;color:var(--muted);line-height:1.4;margin-top:5px}
-    .news-source{font-size:10px;color:var(--muted);margin-top:7px}
-    .news-actions{display:flex;gap:6px;margin-top:9px}
-    .news-item.queued{border-color:var(--cyan);background:rgba(52,215,255,.055)}
-    .news-item.used{opacity:.5}
-
-    .soundboard{padding:12px 16px 16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
-    .sound-btn{text-align:left;min-height:66px;padding:11px 12px;border:1px solid #2a3440;border-radius:13px;background:#0d131a;color:var(--text)}
-    .sound-btn:hover{border-color:var(--cyan)}
-    .sound-btn strong{display:block;font-size:13px}
-    .sound-btn span{display:block;font-size:11px;color:var(--muted);margin-top:4px}
-    .sound-btn.active{background:rgba(52,215,255,.08);border-color:var(--cyan)}
-    .audio-player{margin:0 16px 16px;padding:13px;border:1px solid #2a3440;border-radius:13px;background:#0a0f15}
-    .audio-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
-    .audio-kicker{font-size:10px;color:var(--cyan);font-weight:900;letter-spacing:.12em;text-transform:uppercase}
-    .audio-title{font-weight:800;margin-top:3px}
-    .audio-time{font-variant-numeric:tabular-nums;font-size:12px;color:var(--muted);white-space:nowrap}
-    .audio-progress{width:100%;accent-color:var(--cyan)}
-    .audio-controls{display:grid;grid-template-columns:auto auto 1fr;gap:8px;align-items:center;margin-top:8px}
-    .volume-wrap{display:flex;align-items:center;gap:8px;min-width:0}
-    .volume-wrap label{font-size:11px;color:var(--muted);white-space:nowrap}
-    .volume-wrap input{width:100%;accent-color:var(--cyan)}
-
-    .footer{padding:18px 2px 8px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}
-    .modal-backdrop.show{display:flex}
-    .modal{width:min(620px,100%);border:1px solid var(--line);background:#0e131a;border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
-    .modal-body{padding:16px;display:grid;gap:12px}
-    .modal-actions{display:flex;justify-content:flex-end;gap:8px;padding:0 16px 16px}
-    .toast{position:fixed;right:18px;bottom:18px;background:#121a22;color:var(--text);border:1px solid #334153;border-radius:12px;padding:11px 13px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transform:translateY(10px);transition:.2s;z-index:100;font-size:13px}
-    .toast.show{opacity:1;transform:translateY(0)}
-
-    @media (max-width:980px){
-      .hero,.grid{grid-template-columns:1fr}
-      .rundown-scroll{max-height:none}
-    }
-    @media (max-width:640px){
-      .shell{padding:10px}
-      .topbar{top:6px;padding:10px;align-items:flex-start}
-      .brand p{display:none}
-      .top-actions .pill{display:none}
-      .hero,.grid{gap:10px;margin-top:10px}
-      .segment{grid-template-columns:58px 1fr auto;padding:10px}
-      .segment-actions .edit-label{display:none}
-      .two-col{grid-template-columns:1fr}
-      .soundboard{grid-template-columns:1fr 1fr}
-      .sequence-bar{grid-template-columns:1fr}
-      .audio-controls{grid-template-columns:1fr 1fr}
-      .volume-wrap{grid-column:1 / -1}
-      .current-title{font-size:34px}
-      .timer{font-size:64px}
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07090c">
+<title>Silver Bull Radio W3BC — Live Control Board</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}#board{border:0;width:100%;height:100%;display:block;background:#07090c}.boot{position:fixed;inset:0;display:grid;place-items:center;background:#07090c;color:#c9b8ff;font:800 15px system-ui;z-index:5}.boot.hide{display:none}
+</style>
 </head>
 <body>
-  <main class="shell">
-    <header class="topbar">
-      <div class="brand">
-        <div class="mark">SB</div>
-        <div>
-          <h1>SILVER BULL RADIO <span style="color:var(--cyan)">W3BC</span></h1>
-          <p>Live Show Control Board · Welcome to the Bullpen</p>
-        </div>
-      </div>
-      <div class="top-actions">
-        <span id="livePill" class="pill live">● READY</span>
-        <span id="datePill" class="pill">MON · AUG 10</span>
-        <button id="goLiveBtn" class="btn green">GO LIVE</button>
-      </div>
-    </header>
-
-    <section class="hero">
-      <article class="panel onair">
-        <div class="eyebrow">Now on air</div>
-        <h2 id="currentTitle" class="current-title">Welcome to the Bullpen</h2>
-        <div class="current-meta">
-          <span><strong id="currentTimeRange">9:00–9:05 AM</strong></span>
-          <span>•</span>
-          <span id="currentType">SHOW OPEN</span>
-        </div>
-        <div class="progress-wrap">
-          <div class="progress-track"><div id="segmentProgress" class="progress-fill"></div></div>
-          <div class="progress-row"><span id="elapsedLabel">0:00 elapsed</span><span id="remainingLabel">5:00 remaining</span></div>
-        </div>
-        <div class="next-card">
-          <div><span>Up next</span><b id="nextTitle">Station ID + Room Reset</b></div>
-          <button id="jumpNextBtn" class="btn small primary">NEXT →</button>
-        </div>
-      </article>
-
-      <article class="panel timerbox">
-        <div>
-          <div id="etClock" class="clock">Eastern Time — --:--:--</div>
-          <div id="timerDisplay" class="timer">05:00</div>
-          <div id="timerLabel" class="timer-label">Segment timer</div>
-          <div class="timer-controls">
-            <button id="timerStartBtn" class="btn primary">START</button>
-            <button id="timerPauseBtn" class="btn">PAUSE</button>
-            <button id="timerResetBtn" class="btn">RESET</button>
-          </div>
-          <div class="quick-presets">
-            <button class="btn small ghost preset" data-seconds="30">:30</button>
-            <button class="btn small ghost preset" data-seconds="60">1:00</button>
-            <button class="btn small ghost preset" data-seconds="180">3:00</button>
-            <button class="btn small ghost preset" data-seconds="300">5:00</button>
-            <button class="btn small ghost preset" data-seconds="900">15:00</button>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section class="grid">
-      <article class="panel rundown">
-        <div class="panel-head">
-          <div>
-            <h2>Show Rundown</h2>
-            <div class="sub">9:00 AM–1:00 PM ET · 5-minute operating grid</div>
-          </div>
-          <div class="rundown-tools">
-            <button id="syncNowBtn" class="btn small">SYNC TO CLOCK</button>
-            <button id="resetShowBtn" class="btn small danger">RESET DAY</button>
-          </div>
-        </div>
-        <div id="rundownList" class="rundown-scroll"></div>
-      </article>
-
-      <aside class="stack">
-        <article class="panel">
-          <div class="panel-head"><h2>Producer Notes</h2><span class="sub">Auto-saves</span></div>
-          <div class="notes">
-            <textarea id="producerNotes" placeholder="Talking points, links, reminders, guest notes..."></textarea>
-          </div>
-        </article>
-
-        <article class="panel">
-          <div class="panel-head"><h2>Live Read</h2><span id="readStatus" class="sub">Auto-cues after opener</span></div>
-          <div class="live-read">
-            <div class="sequence-bar">
-              <div id="seqOpen" class="sequence-step active"><b>1 · OPEN</b><span>3:30 opener audio</span></div>
-              <div id="seqRead" class="sequence-step"><b>2 · LIVE RUNDOWN</b><span>1:30 mic read</span></div>
-              <div id="seqMarkets" class="sequence-step"><b>3 · GM GET MONEY</b><span>Starts at 9:05</span></div>
-            </div>
-            <textarea id="morningRead" class="script-box" aria-label="Morning rundown script"></textarea>
-            <div class="read-tools">
-              <span class="sub">Edit tonight or before air · auto-saves</span>
-              <button id="resetReadBtn" class="btn small">RESET SCRIPT</button>
-            </div>
-            <div class="queued-headlines">
-              <h3>Queued for the news block</h3>
-              <ul id="queuedHeadlines"><li>No stories queued yet.</li></ul>
-            </div>
-          </div>
-        </article>
-
-        <article class="panel">
-          <div class="panel-head"><h2>Quick Board</h2><span class="sub">Audio control · 3 clips loaded</span></div>
-          <div class="soundboard">
-            <button class="sound-btn" data-cue="Open Song" data-audio="audio/welcome-to-the-bullpen.mp3" data-label="Welcome to the Bullpen"><strong>▶ OPEN SONG</strong><span>Welcome to the Bullpen · 3:30</span></button>
-            <button class="sound-btn" data-cue="Station ID 1" data-audio="audio/station-id-1.mp3" data-label="Silver Bull Radio — Station ID 1"><strong>▶ STATION ID 1</strong><span>Silver Bull Radio · W3BC · 0:23</span></button>
-            <button class="sound-btn" data-cue="Station ID 2" data-audio="audio/station-id-2.mp3" data-label="Welcome to W3BC Radio — Station ID 2"><strong>▶ STATION ID 2</strong><span>Welcome to W3BC Radio · 1:00</span></button>
-            <button class="sound-btn" data-cue="Hourly Rundown"><strong>HOURLY READ</strong><span>Audio not loaded yet</span></button>
-            <button class="sound-btn" data-cue="Music Bed"><strong>MUSIC BED</strong><span>Audio not loaded yet</span></button>
-            <button class="sound-btn" data-cue="Emergency Fill"><strong>FILL</strong><span>Audio not loaded yet</span></button>
-          </div>
-          <div class="audio-player">
-            <audio id="showAudio" preload="metadata"></audio>
-            <div class="audio-top">
-              <div>
-                <div class="audio-kicker" id="audioState">AUDIO READY</div>
-                <div class="audio-title" id="audioTitle">No clip playing</div>
-              </div>
-              <div class="audio-time" id="audioTime">0:00 / 0:00</div>
-            </div>
-            <input id="audioProgress" class="audio-progress" type="range" min="0" max="1000" value="0" aria-label="Audio playback position">
-            <div class="audio-controls">
-              <button id="audioPlayPauseBtn" class="btn small primary">PLAY / PAUSE</button>
-              <button id="audioStopBtn" class="btn small danger">STOP AUDIO</button>
-              <div class="volume-wrap">
-                <label for="audioVolume">VOLUME</label>
-                <input id="audioVolume" type="range" min="0" max="1" step="0.01" value="0.85">
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="panel">
-          <div class="panel-head"><h2>News Desk</h2><span id="newsStatus" class="sub">Loading data/news.json…</span></div>
-          <div class="news-toolbar">
-            <span class="sub">A = lead candidate · B = backup</span>
-            <button id="reloadNewsBtn" class="btn small">RELOAD NEWS</button>
-          </div>
-          <div id="newsList" class="news-list"></div>
-        </article>
-
-        <article class="panel">
-          <div class="panel-head"><h2>Pre-Flight</h2><span class="sub">Before 9:00</span></div>
-          <div class="checks">
-            <div class="check-row"><input id="c1" type="checkbox"><label for="c1">X Space opened and title updated</label></div>
-            <div class="check-row"><input id="c2" type="checkbox"><label for="c2">RØDECaster / mic levels checked</label></div>
-            <div class="check-row"><input id="c3" type="checkbox"><label for="c3">Station IDs and open song queued</label></div>
-            <div class="check-row"><input id="c4" type="checkbox"><label for="c4">Guest schedule / Calendly checked</label></div>
-            <div class="check-row"><input id="c5" type="checkbox"><label for="c5">News / market tabs ready</label></div>
-          </div>
-        </article>
-      </aside>
-    </section>
-
-    <footer class="footer">
-      <span>Silver Bull Radio · W3BC · 1% Better Every Day</span>
-      <span id="saveStatus">Saved locally in this browser</span>
-    </footer>
-  </main>
-
-  <div id="editModal" class="modal-backdrop" aria-hidden="true">
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <div class="panel-head"><h2 id="modalTitle">Edit Segment</h2><button id="closeModalBtn" class="btn small">CLOSE</button></div>
-      <div class="modal-body">
-        <div class="two-col">
-          <div class="field"><label for="editTime">Start time</label><input id="editTime" type="text" readonly></div>
-          <div class="field"><label for="editType">Type</label>
-            <select id="editType">
-              <option>SHOW OPEN</option><option>TALK</option><option>NEWS</option><option>MARKETS</option><option>MUSIC</option><option>GUEST</option><option>STATION ID</option><option>RUNDOWN</option><option>BREAK</option><option>COMMUNITY</option>
-            </select>
-          </div>
-        </div>
-        <div class="field"><label for="editTitle">Segment title</label><input id="editTitle" type="text"></div>
-        <div class="field"><label for="editNotes">Segment notes</label><textarea id="editNotes" placeholder="Talking points, guest name, CTA, links..."></textarea></div>
-      </div>
-      <div class="modal-actions">
-        <button id="clearSegmentBtn" class="btn danger">CLEAR</button>
-        <button id="saveSegmentBtn" class="btn primary">SAVE SEGMENT</button>
-      </div>
-    </div>
-  </div>
-
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-  <script>
-    const STORAGE_KEY = 'silverBullRadioControlBoard_v2';
-    const SHOW_START_MIN = 9 * 60;
-    const SHOW_END_MIN = 13 * 60;
-    const SLOT_MIN = 5;
-
-    const defaultHighlights = {
-      '09:00': ['Welcome to the Bullpen + Morning Rundown', 'SHOW OPEN', 'GO LIVE starts the 3:30 opener automatically, then cues a 1:30 live rundown.'],
-      '09:05': ['GM Get Money — Morning Setup', 'MARKETS', 'Bitcoin, Ethereum, Solana, overnight action and the levels that matter.'],
-      '09:10': ['GM Get Money — Market Board', 'MARKETS', 'Continue market setup and strongest chart / macro points.'],
-      '09:15': ['Crypto / Market Headlines', 'NEWS', 'Lead stories from the News Desk queue.'],
-      '09:25': ['Institutional Adoption + RWA', 'NEWS', 'Institutions, tokenization, RWAs, stablecoins and capital moving on-chain.'],
-      '09:35': ['Community + Bullpen Check-In', 'COMMUNITY', 'Pull listeners up, answer comments, tag guests.'],
-      '09:45': ['Music Reset', 'MUSIC', 'Short music window / room reset.'],
-      '09:55': ['Hour 1 Wrap + Station ID', 'STATION ID', 'Close first hour and set up 10 AM.'],
-      '10:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Full station mission, programming, growth CTA, 1% Better message.'],
-      '10:10': ['Market / Crypto Deep Dive', 'MARKETS', 'Primary discussion block.'],
-      '10:30': ['Guest / Interview Window', 'GUEST', 'Use for booked guest or community spotlight.'],
-      '10:45': ['Music + Station Reset', 'MUSIC', 'Music break and prep next segment.'],
-      '10:55': ['Station ID', 'STATION ID', 'Short ID into the top of the hour.'],
-      '11:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Full station rundown.'],
-      '11:10': ['News Desk', 'NEWS', 'Fresh headlines and reactions.'],
-      '11:25': ['Builder / Project Spotlight', 'TALK', 'Founder, project, ecosystem, or W3BC feature.'],
-      '11:40': ['Community Open Mic', 'COMMUNITY', 'Listener takes and questions.'],
-      '11:55': ['Station ID + Reset', 'STATION ID', 'Short ID into noon.'],
-      '12:00': ['Silver Bull Hourly Rundown', 'RUNDOWN', 'Final-hour station mission and CTA.'],
-      '12:10': ['Midday Market Check', 'MARKETS', 'BTC, ETH, SOL, alts, key levels / sentiment.'],
-      '12:25': ['Guest / Feature Window', 'GUEST', 'Second flexible interview window.'],
-      '12:40': ['Music / Community Reset', 'MUSIC', 'Music and room refresh.'],
-      '12:50': ['What We Learned Today', 'TALK', 'Recap strongest points and next actions.'],
-      '12:55': ['Close — 1% Better', 'SHOW OPEN', 'Thank listeners, CTA, tease tomorrow, close clean.']
-    };
-
-    const DEFAULT_MORNING_READ = `GM and welcome to Silver Bull Radio W3BC — we are live from the Bullpen.
-
-Here is what we are doing over the next stretch. First up is GM Get Money: Bitcoin, Ethereum, Solana, the overnight action, and the levels that actually matter going into the morning.
-
-Then we hit the news wire. We are watching regulation, ETF flows, institutional adoption, tokenization, real-world assets, stablecoins, and anything that shows capital moving on-chain. The News Desk is loaded, and we are going to pull the strongest stories instead of reading every headline that hits the feed.
-
-After that, we open the Bullpen for your takes, questions, projects, and anything the room needs to get into. If you are listening, hit the purple pill, repost the Space, tag somebody who should be in here, and settle in.
-
-This is Silver Bull Radio W3BC. Welcome to the Bullpen. Let’s get money.`;
-
-    const fallbackNews = [
-      {id:'clarity-act',priority:'A',category:'REGULATION',headline:'US Senate advances landmark crypto bill before heading on August recess',source:'Reuters',summary:'Senate leadership moved to advance a major digital-asset market structure bill before the August recess.'},
-      {id:'xrpl-institutional',priority:'A',category:'INSTITUTIONS',headline:'New XRP Ledger amendments target $530 million in tokenized Wall Street assets',source:'CoinDesk',summary:'The digest highlights proposed XRP Ledger privacy and institutional features aimed at tokenized financial assets.'},
-      {id:'wells-tokenized-deposits',priority:'A',category:'TOKENIZATION',headline:'Wells Fargo launches tokenized deposits on a dual track',source:'Yahoo Finance',summary:'The digest says Wells Fargo announced a proprietary tokenized deposit platform for select corporate and institutional users.'},
-      {id:'btc-eth-etf',priority:'A',category:'ETF FLOWS',headline:'Bitcoin and ether ETFs draw $1.1 billion in best inflow week since April',source:'The Block',summary:'The digest reports a strong week of spot crypto ETF inflows.'},
-      {id:'rwa-7-4b',priority:'A',category:'RWA',headline:'Tokenized real-world asset deposits rise to $7.4 billion',source:'CryptoRank / KuCoin',summary:'The digest says RWA deposits tripled, led by tokenized Treasuries, funds and private credit.'}
-    ];
-
-    const state = loadState();
-    let newsItems = [];
-    let showStage = 'ready';
-    let timerSeconds = 300;
-    let timerInitialSeconds = 300;
-    let timerRunning = false;
-    let timerHandle = null;
-    let currentIndex = 0;
-    let editIndex = null;
-    let isLive = false;
-    let currentSoundButton = null;
-
-    const el = id => document.getElementById(id);
-    const rundownList = el('rundownList');
-
-    function pad(n){ return String(n).padStart(2,'0'); }
-    function minToHHMM(total){ return `${pad(Math.floor(total/60))}:${pad(total%60)}`; }
-    function parseHHMM(value){ const [h,m] = value.split(':').map(Number); return h*60+m; }
-    function displayTime(hhmm){
-      const [h,m] = hhmm.split(':').map(Number);
-      const suffix = h >= 12 ? 'PM' : 'AM';
-      const hour = h % 12 || 12;
-      return `${hour}:${pad(m)} ${suffix}`;
+<div id="boot" class="boot">Loading Silver Bull Radio W3BC…</div>
+<iframe id="board" src="preview-v11.html?live=20260810-0728" title="Silver Bull Radio Live Control Board"></iframe>
+<script>
+const frame=document.getElementById('board');
+const boot=document.getElementById('boot');
+const SPACE='https://x.com/i/spaces/1nGnRBYnkjNGO';
+async function getText(path){const r=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(path+' '+r.status);return r.text()}
+frame.addEventListener('load',async()=>{
+  const w=frame.contentWindow,d=frame.contentDocument;
+  try{
+    // Real Silver Bull Radio branding.
+    const logo64=(await getText('assets/silver-bull-radio-logo.b64')).trim();
+    const bull=d.querySelector('.bull');
+    if(bull){
+      const img=d.createElement('img');
+      img.src='data:image/webp;base64,'+logo64;
+      img.alt='Silver Bull Radio W3BC';
+      img.style.cssText='width:58px;height:58px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,184,255,.65);box-shadow:0 0 24px rgba(156,108,255,.22);display:block';
+      bull.replaceWith(img);
     }
-    function slotRange(hhmm){
-      const start = parseHHMM(hhmm);
-      return `${displayTime(hhmm).replace(' AM','').replace(' PM','')}–${displayTime(minToHHMM(start+SLOT_MIN))}`;
+    const brandSmall=d.querySelector('.brand small');
+    if(brandSmall)brandSmall.textContent='Welcome to the Bullpen · LAUNCH DAY LIVE CONTROL BOARD';
+
+    // Add the host's full post-opener Morning Briefing directly beside live controls.
+    const rightStack=d.querySelector('.main')?.children?.[1];
+    const liveAutomation=rightStack?.children?.[0];
+    if(rightStack&&liveAutomation){
+      const briefing=d.createElement('section');
+      briefing.className='panel newswire';
+      briefing.id='morningBriefingPanel';
+      briefing.innerHTML=`<div class="head"><h2>Morning Briefing — Your Read</h2><span class="sub">Opening song → Sunset Gate → this script</span></div><div class="body"><textarea id="morningBriefing" style="min-height:240px" placeholder="Loading today's briefing…"></textarea><div class="row" style="margin-top:7px"><button id="briefBedOn" class="btn purple">START SUNSET GATE BED</button><button id="briefBedOff" class="btn sm">BED OFF</button><button id="briefDone" class="btn primary">BRIEFING DONE → AUTOMATED OPEN</button></div><div class="newsStatus">GO LIVE plays the opener. When it ends, the bed starts and this becomes your live script.</div></div>`;
+      rightStack.insertBefore(briefing,liveAutomation.nextSibling);
+      d.getElementById('morningBriefing').value=await getText('data/opening-monologue.txt');
+      d.getElementById('briefBedOn').onclick=()=>d.getElementById('bedOn')?.click();
+      d.getElementById('briefBedOff').onclick=()=>d.getElementById('bedOff')?.click();
+      d.getElementById('briefDone').onclick=()=>{d.getElementById('bedOff')?.click();d.getElementById('startAuto')?.scrollIntoView({behavior:'smooth',block:'center'});};
     }
 
-    function buildDefaultSchedule(){
-      const list = [];
-      for(let m=SHOW_START_MIN; m<SHOW_END_MIN; m+=SLOT_MIN){
-        const time = minToHHMM(m);
-        const preset = defaultHighlights[time] || ['Open Programming', 'TALK', 'Flexible 5-minute block — edit as needed.'];
-        list.push({time,title:preset[0],type:preset[1],notes:preset[2],done:false});
+    // Newswire is manual for launch day. Load the full read automatically.
+    const newsScript=d.getElementById('newsScript');
+    if(newsScript)newsScript.value=await getText('data/newswire-today.txt');
+    const newsHead=d.querySelector('.newswire .head .sub');
+    if(newsHead)newsHead.textContent='LIVE SCRIPT · you read it';
+    const playNews=d.getElementById('playNews');
+    if(playNews){
+      playNews.textContent='READ NEWSWIRE SCRIPT';
+      playNews.onclick=()=>{newsScript?.scrollIntoView({behavior:'smooth',block:'center'});newsScript?.focus();};
+    }
+    const newsStatus=d.getElementById('newsStatus');
+    if(newsStatus)newsStatus.textContent='Manual launch-day mode. Read the script, then hit NEWSWIRE DONE → PLAY ID 2.';
+
+    // Replace the old Newswire audio pad with a script jump.
+    [...d.querySelectorAll('.sound')].forEach(btn=>{
+      if((btn.textContent||'').toUpperCase().includes('NEWSWIRE')){
+        btn.removeAttribute('data-path');
+        btn.innerHTML='<b>NEWSWIRE SCRIPT</b><span>Jump to your live read</span>';
+        btn.onclick=()=>{newsScript?.scrollIntoView({behavior:'smooth',block:'center'});newsScript?.focus();};
       }
-      return list;
-    }
+    });
 
-    function loadState(){
-      try{
-        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-        if(saved && Array.isArray(saved.schedule) && saved.schedule.length === 48) return saved;
-      }catch(e){}
-      return {schedule:buildDefaultSchedule(), notes:'', checks:{}, showDate:'2026-08-10', morningRead:DEFAULT_MORNING_READ, newsQueue:[], newsUsed:[]};
-    }
-
-    function saveState(){
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-      el('saveStatus').textContent = 'Saved ' + new Date().toLocaleTimeString([], {hour:'numeric', minute:'2-digit'});
-    }
-
-    function renderRundown(){
-      rundownList.innerHTML = '';
-      state.schedule.forEach((seg, i) => {
-        const row = document.createElement('div');
-        row.className = 'segment' + (i===currentIndex?' current':'') + (seg.done?' done':'');
-        row.dataset.index = i;
-        row.innerHTML = `
-          <div class="segment-time"><span class="status-dot"></span>${displayTime(seg.time).replace(' AM','').replace(' PM','')}</div>
-          <div class="segment-main">
-            <div class="segment-title">${escapeHtml(seg.title)}</div>
-            <div class="segment-type">${escapeHtml(seg.type)}${seg.notes ? ' · ' + escapeHtml(seg.notes) : ''}</div>
-          </div>
-          <div class="segment-actions">
-            <button class="icon-btn done-btn" title="Mark complete">✓</button>
-            <button class="icon-btn edit-btn" title="Edit segment">✎</button>
-          </div>`;
-        row.querySelector('.done-btn').addEventListener('click', e => { e.stopPropagation(); toggleDone(i); });
-        row.querySelector('.edit-btn').addEventListener('click', e => { e.stopPropagation(); openEditor(i); });
-        row.addEventListener('click', () => setCurrent(i, true));
-        rundownList.appendChild(row);
-      });
-      requestAnimationFrame(scrollCurrentIntoView);
-    }
-
-    function escapeHtml(str=''){
-      return str.replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-    }
-
-    function setCurrent(index, resetTimer=false){
-      currentIndex = Math.max(0, Math.min(state.schedule.length-1,index));
-      const seg = state.schedule[currentIndex];
-      el('currentTitle').textContent = seg.title;
-      el('currentType').textContent = seg.type;
-      el('currentTimeRange').textContent = slotRange(seg.time);
-      const next = state.schedule[currentIndex+1];
-      el('nextTitle').textContent = next ? `${displayTime(next.time).replace(' AM','').replace(' PM','')} · ${next.title}` : 'Show complete';
-      if(resetTimer) setTimer(300);
-      updateSegmentProgress();
-      renderRundown();
-    }
-
-    function toggleDone(i){
-      state.schedule[i].done = !state.schedule[i].done;
-      saveState(); renderRundown();
-    }
-
-    function openEditor(i){
-      editIndex = i;
-      const seg = state.schedule[i];
-      el('editTime').value = displayTime(seg.time);
-      el('editTitle').value = seg.title;
-      el('editType').value = seg.type;
-      el('editNotes').value = seg.notes || '';
-      el('editModal').classList.add('show');
-      el('editModal').setAttribute('aria-hidden','false');
-      setTimeout(()=>el('editTitle').focus(),50);
-    }
-
-    function closeEditor(){
-      el('editModal').classList.remove('show');
-      el('editModal').setAttribute('aria-hidden','true');
-      editIndex = null;
-    }
-
-    function saveEditor(){
-      if(editIndex === null) return;
-      const seg = state.schedule[editIndex];
-      seg.title = el('editTitle').value.trim() || 'Open Programming';
-      seg.type = el('editType').value;
-      seg.notes = el('editNotes').value.trim();
-      saveState(); closeEditor(); renderRundown(); setCurrent(currentIndex,false); toast('Segment updated');
-    }
-
-    function clearEditor(){
-      if(editIndex === null) return;
-      el('editTitle').value = 'Open Programming';
-      el('editType').value = 'TALK';
-      el('editNotes').value = 'Flexible 5-minute block — edit as needed.';
-    }
-
-    function setTimer(seconds){
-      timerInitialSeconds = seconds;
-      timerSeconds = seconds;
-      timerRunning = false;
-      if(timerHandle) clearInterval(timerHandle);
-      timerHandle = null;
-      updateTimerDisplay();
-    }
-
-    function updateTimerDisplay(){
-      const min = Math.floor(Math.max(0,timerSeconds)/60);
-      const sec = Math.max(0,timerSeconds)%60;
-      el('timerDisplay').textContent = `${pad(min)}:${pad(sec)}`;
-      if(timerSeconds <= 30 && timerSeconds > 0) el('timerDisplay').style.color = 'var(--yellow)';
-      else if(timerSeconds <= 0) el('timerDisplay').style.color = 'var(--red)';
-      else el('timerDisplay').style.color = 'var(--text)';
-      updateSegmentProgress();
-    }
-
-    function startTimer(){
-      if(timerRunning) return;
-      timerRunning = true;
-      el('timerLabel').textContent = 'Timer running';
-      timerHandle = setInterval(()=>{
-        timerSeconds--;
-        if(timerSeconds <= 0){
-          timerSeconds = 0;
-          pauseTimer();
-          beep();
-          if(isLive && showStage==='rundown') beginMarkets();
-          else toast('TIME — move to the next segment');
-        }
-        updateTimerDisplay();
-      },1000);
-    }
-
-    function pauseTimer(){
-      timerRunning = false;
-      el('timerLabel').textContent = timerSeconds === 0 ? 'TIME' : 'Timer paused';
-      if(timerHandle) clearInterval(timerHandle);
-      timerHandle = null;
-    }
-
-    function updateSegmentProgress(){
-      const elapsed = Math.max(0, timerInitialSeconds - timerSeconds);
-      const pct = timerInitialSeconds ? Math.min(100,(elapsed/timerInitialSeconds)*100) : 0;
-      el('segmentProgress').style.width = pct + '%';
-      el('elapsedLabel').textContent = `${Math.floor(elapsed/60)}:${pad(elapsed%60)} elapsed`;
-      el('remainingLabel').textContent = `${Math.floor(Math.max(timerSeconds,0)/60)}:${pad(Math.max(timerSeconds,0)%60)} remaining`;
-    }
-
-    function beep(){
-      try{
-        const ctx = new (window.AudioContext || window.webkitAudioContext)();
-        const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-        osc.frequency.value = 740;
-        gain.gain.setValueAtTime(.08, ctx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(.001, ctx.currentTime + .45);
-        osc.connect(gain); gain.connect(ctx.destination); osc.start(); osc.stop(ctx.currentTime + .45);
-      }catch(e){}
-    }
-
-    function formatAudioTime(value){
-      if(!Number.isFinite(value) || value < 0) return '0:00';
-      const mins = Math.floor(value / 60);
-      const secs = Math.floor(value % 60);
-      return `${mins}:${pad(secs)}`;
-    }
-
-    function updateAudioUi(){
-      const audio = el('showAudio');
-      const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
-      const current = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
-      el('audioTime').textContent = `${formatAudioTime(current)} / ${formatAudioTime(duration)}`;
-      el('audioProgress').value = duration ? Math.round((current / duration) * 1000) : 0;
-      if(audio.paused && current > 0 && current < duration){
-        el('audioState').textContent = 'PAUSED';
-      }else if(!audio.paused){
-        el('audioState').textContent = 'PLAYING';
-      }
-    }
-
-    async function playCue(btn){
-      const source = btn.dataset.audio;
-      if(!source){
-        toast(`${btn.dataset.cue} audio not loaded yet`);
-        return;
-      }
-      const audio = el('showAudio');
-      if(audio.getAttribute('src') !== source){
-        audio.src = source;
-        audio.load();
-      }
-      document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      currentSoundButton = btn;
-      el('audioTitle').textContent = btn.dataset.label || btn.dataset.cue;
-      el('audioState').textContent = 'LOADING';
-      try{
-        await audio.play();
-        el('audioState').textContent = 'PLAYING';
-        toast(`${btn.dataset.cue} playing`);
-      }catch(e){
-        el('audioState').textContent = 'READY';
-        toast(`Click ${btn.dataset.cue} again to start audio`);
-      }
-    }
-
-    function stopAudio(){
-      const audio = el('showAudio');
-      audio.pause();
-      audio.currentTime = 0;
-      el('audioState').textContent = 'STOPPED';
-      document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
-      updateAudioUi();
-    }
-
-    function toggleAudioPlayback(){
-      const audio = el('showAudio');
-      if(!audio.getAttribute('src')){
-        const opener = document.querySelector('.sound-btn[data-audio]');
-        if(opener) playCue(opener);
-        return;
-      }
-      if(audio.paused){
-        audio.play().catch(()=>toast('Audio could not start'));
-      }else{
-        audio.pause();
-      }
-    }
-
-    function setSequenceStep(stage){
-      ['seqOpen','seqRead','seqMarkets'].forEach(id=>el(id).classList.remove('active'));
-      if(stage==='opener') el('seqOpen').classList.add('active');
-      if(stage==='rundown') el('seqRead').classList.add('active');
-      if(stage==='markets') el('seqMarkets').classList.add('active');
-    }
-
-    function startLiveShow(){
-      isLive = true;
-      showStage = 'opener';
-      el('goLiveBtn').textContent='END LIVE';
-      el('goLiveBtn').className='btn danger';
-      el('livePill').textContent='● ON AIR';
-      currentIndex = 0;
-      setCurrent(0,false);
-      setSequenceStep('opener');
-      el('readStatus').textContent='Opener playing · rundown next';
-      setTimer(300);
-      startTimer();
-      const opener = document.querySelector('.sound-btn[data-cue="Open Song"]');
-      if(opener) playCue(opener);
-      toast('ON AIR — opener started automatically');
-    }
-
-    function endLiveShow(){
-      isLive = false;
-      showStage = 'ready';
-      el('goLiveBtn').textContent='GO LIVE';
-      el('goLiveBtn').className='btn green';
-      el('livePill').textContent='● READY';
-      pauseTimer();
-      stopAudio();
-      setSequenceStep('opener');
-      el('readStatus').textContent='Auto-cues after opener';
-      toast('Live mode ended');
-    }
-
-    function cueMorningRundown(){
-      showStage = 'rundown';
-      setSequenceStep('rundown');
-      el('currentTitle').textContent = 'Morning Rundown — LIVE MIC';
-      el('currentType').textContent = 'LIVE READ';
-      el('currentTimeRange').textContent = '9:03:30–9:05 AM';
-      timerInitialSeconds = 300;
-      timerSeconds = 90;
-      updateTimerDisplay();
-      el('timerLabel').textContent = 'LIVE MIC · morning rundown';
-      el('readStatus').textContent='READ NOW · 1:30 window';
-      el('morningRead').scrollIntoView({behavior:'smooth',block:'center'});
-      beep();
-      toast('MIC LIVE — read the Morning Rundown');
-    }
-
-    function beginMarkets(){
-      if(!isLive) return;
-      showStage = 'markets';
-      setSequenceStep('markets');
-      state.schedule[0].done = true;
-      saveState();
-      setCurrent(1,false);
-      setTimer(300);
-      startTimer();
-      el('timerLabel').textContent='GM Get Money · live';
-      el('readStatus').textContent='Opening sequence complete';
-      toast('9:05 — GM GET MONEY');
-    }
-
-    function renderQueuedHeadlines(){
-      const list = el('queuedHeadlines');
-      const queued = newsItems.filter(item => (state.newsQueue || []).includes(item.id));
-      list.innerHTML = queued.length ? queued.map(item=>`<li>${escapeHtml(item.headline)} <span style="color:var(--muted)">— ${escapeHtml(item.source)}</span></li>`).join('') : '<li>No stories queued yet.</li>';
-    }
-
-    function renderNews(){
-      const list = el('newsList');
-      if(!newsItems.length){ list.innerHTML='<div class="sub">No headlines loaded.</div>'; return; }
-      list.innerHTML='';
-      newsItems.forEach(item=>{
-        const queued=(state.newsQueue || []).includes(item.id);
-        const used=(state.newsUsed || []).includes(item.id);
-        const row=document.createElement('div');
-        row.className='news-item'+(queued?' queued':'')+(used?' used':'');
-        row.innerHTML=`
-          <div class="news-top">
-            <div class="news-badges"><span class="news-badge priority">${escapeHtml(item.priority || 'B')}</span><span class="news-badge">${escapeHtml(item.category || 'NEWS')}</span></div>
-          </div>
-          <div class="news-title">${escapeHtml(item.headline || '')}</div>
-          <div class="news-summary">${escapeHtml(item.summary || '')}</div>
-          <div class="news-source">SOURCE · ${escapeHtml(item.source || 'Unknown')}</div>
-          <div class="news-actions">
-            <button class="btn small ${queued?'primary':''} queue-news">${queued?'QUEUED':'QUEUE'}</button>
-            <button class="btn small ${used?'green':''} use-news">${used?'USED':'MARK USED'}</button>
-          </div>`;
-        row.querySelector('.queue-news').addEventListener('click',()=>{
-          state.newsQueue = state.newsQueue || [];
-          if(state.newsQueue.includes(item.id)) state.newsQueue=state.newsQueue.filter(id=>id!==item.id);
-          else state.newsQueue.push(item.id);
-          saveState(); renderNews(); renderQueuedHeadlines();
+    // Manual handoff button after the Newswire read.
+    if(newsScript&&!d.getElementById('newswireDone')){
+      const row=playNews?.parentElement;
+      const done=d.createElement('button');
+      done.id='newswireDone';done.className='btn green';done.textContent='NEWSWIRE DONE → PLAY ID 2';
+      done.onclick=()=>{
+        if(typeof w.play==='function')w.play('audio/station-id-2.mp3','Station ID 2',()=>{
+          const lt=d.getElementById('liveType'),ttl=d.getElementById('liveTitle'),meta=d.getElementById('liveMeta');
+          if(lt)lt.textContent='YOUR MIC';if(ttl)ttl.textContent='Open Panel / Focus Interview';if(meta)meta.textContent='Station ID 2 complete — take the room live.';
         });
-        row.querySelector('.use-news').addEventListener('click',()=>{
-          state.newsUsed = state.newsUsed || [];
-          if(state.newsUsed.includes(item.id)) state.newsUsed=state.newsUsed.filter(id=>id!==item.id);
-          else state.newsUsed.push(item.id);
-          saveState(); renderNews();
+      };
+      row?.appendChild(done);
+    }
+
+    // GO LIVE = opener, then automatically bring Sunset Gate up and put the Morning Briefing in front of the host.
+    const goLive=d.getElementById('goLive');
+    if(goLive){
+      goLive.onclick=()=>{
+        const pill=d.getElementById('livePill');if(pill){pill.classList.add('live');pill.textContent='● LIVE';}
+        if(typeof w.setX==='function'&&typeof w.livePost==='function')w.setX(w.livePost());
+        if(typeof w.play==='function')w.play('audio/welcome-to-the-bullpen.mp3','Welcome to the Bullpen',()=>{
+          d.getElementById('bedOn')?.click();
+          const lt=d.getElementById('liveType'),ttl=d.getElementById('liveTitle'),meta=d.getElementById('liveMeta');
+          if(lt)lt.textContent='YOUR MIC';if(ttl)ttl.textContent='Monday Morning Briefing';if(meta)meta.textContent='Sunset Gate is up — deliver the full morning briefing.';
+          d.getElementById('morningBriefingPanel')?.scrollIntoView({behavior:'smooth',block:'start'});
         });
-        list.appendChild(row);
-      });
-      renderQueuedHeadlines();
+      };
     }
 
-    async function loadNews(){
-      el('newsStatus').textContent='Loading data/news.json…';
-      try{
-        const response = await fetch(`data/news.json?ts=${Date.now()}`, {cache:'no-store'});
-        if(!response.ok) throw new Error('news feed unavailable');
-        const data = await response.json();
-        newsItems = Array.isArray(data.items) ? data.items : [];
-        el('newsStatus').textContent=`${newsItems.length} stories · ${data.source || 'news feed'}`;
-      }catch(e){
-        newsItems = fallbackNews;
-        el('newsStatus').textContent=`${newsItems.length} sample stories · fallback`;
-      }
-      renderNews();
+    // Launch-day automated open: one song -> ID 1 -> STOP for manual Newswire read.
+    const startAuto=d.getElementById('startAuto'),autoStatus=d.getElementById('autoStatus');
+    if(startAuto){
+      startAuto.textContent='START SONG → ID 1 → NEWSWIRE';
+      startAuto.onclick=async()=>{
+        d.getElementById('bedOff')?.click();
+        if(autoStatus)autoStatus.textContent='Starting song… then Station ID 1…';
+        try{
+          const catalog=JSON.parse(await getText('data/music.json'));
+          const items=catalog.items||[];
+          const track=items[Math.floor(Math.random()*items.length)];
+          if(!track||typeof w.play!=='function')throw new Error('Music catalog unavailable');
+          w.play(track.file,track.title,()=>{
+            if(autoStatus)autoStatus.textContent='Song complete. Playing Station ID 1…';
+            w.play('audio/station-id-1.mp3','Station ID 1',()=>{
+              if(autoStatus)autoStatus.textContent='STATION ID 1 COMPLETE — READ NEWSWIRE NOW.';
+              newsScript?.scrollIntoView({behavior:'smooth',block:'center'});newsScript?.focus();
+              const spans=d.querySelectorAll('#autoFlow span');spans.forEach(x=>x.classList.remove('active'));if(spans[2])spans[2].classList.add('active');
+            });
+          });
+        }catch(e){if(autoStatus)autoStatus.textContent='Could not start automated open: '+e.message;}
+      };
     }
 
-    function syncToClock(){
-      const now = new Date();
-      const parts = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(now);
-      const h = Number(parts.find(p=>p.type==='hour').value);
-      const m = Number(parts.find(p=>p.type==='minute').value);
-      const total = h*60+m;
-      let idx = Math.floor((total - SHOW_START_MIN)/SLOT_MIN);
-      if(total < SHOW_START_MIN) idx = 0;
-      if(total >= SHOW_END_MIN) idx = state.schedule.length-1;
-      setCurrent(idx,true);
-      toast('Rundown synced to Eastern Time');
-    }
-
-    function scrollCurrentIntoView(){
-      const row = rundownList.querySelector('.segment.current');
-      if(row) row.scrollIntoView({block:'nearest',behavior:'smooth'});
-    }
-
-    function updateClock(){
-      const now = new Date();
-      const time = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit',second:'2-digit'}).format(now);
-      el('etClock').textContent = `Eastern Time — ${time}`;
-    }
-
-    function toast(msg){
-      const t = el('toast'); t.textContent = msg; t.classList.add('show');
-      clearTimeout(window.__toastTimer); window.__toastTimer = setTimeout(()=>t.classList.remove('show'),1800);
-    }
-
-    function resetDay(){
-      if(!confirm('Reset the full rundown, notes, and checklist to the default Silver Bull Radio template?')) return;
-      state.schedule = buildDefaultSchedule();
-      state.notes = '';
-      state.checks = {};
-      state.morningRead = DEFAULT_MORNING_READ;
-      state.newsQueue = [];
-      state.newsUsed = [];
-      localStorage.removeItem(STORAGE_KEY);
-      document.querySelectorAll('.check-row input').forEach(x=>x.checked=false);
-      el('producerNotes').value='';
-      el('morningRead').value=DEFAULT_MORNING_READ;
-      renderQueuedHeadlines();
-      currentIndex=0; setCurrent(0,true); saveState(); toast('Show day reset');
-    }
-
-    function init(){
-      el('producerNotes').value = state.notes || '';
-      el('producerNotes').addEventListener('input',()=>{ state.notes=el('producerNotes').value; saveState(); });
-
-      if(!state.morningRead) state.morningRead = DEFAULT_MORNING_READ;
-      if(!Array.isArray(state.newsQueue)) state.newsQueue = [];
-      if(!Array.isArray(state.newsUsed)) state.newsUsed = [];
-      el('morningRead').value = state.morningRead;
-      el('morningRead').addEventListener('input',()=>{ state.morningRead=el('morningRead').value; saveState(); });
-      el('resetReadBtn').addEventListener('click',()=>{ state.morningRead=DEFAULT_MORNING_READ; el('morningRead').value=DEFAULT_MORNING_READ; saveState(); toast('Morning rundown reset'); });
-      el('reloadNewsBtn').addEventListener('click',loadNews);
-
-      document.querySelectorAll('.check-row input').forEach(cb=>{
-        cb.checked = !!state.checks[cb.id];
-        cb.addEventListener('change',()=>{ state.checks[cb.id]=cb.checked; saveState(); });
-      });
-
-      el('timerStartBtn').addEventListener('click',startTimer);
-      el('timerPauseBtn').addEventListener('click',pauseTimer);
-      el('timerResetBtn').addEventListener('click',()=>setTimer(timerInitialSeconds));
-      document.querySelectorAll('.preset').forEach(btn=>btn.addEventListener('click',()=>setTimer(Number(btn.dataset.seconds))));
-      el('jumpNextBtn').addEventListener('click',()=>{
-        state.schedule[currentIndex].done = true;
-        saveState();
-        setCurrent(Math.min(currentIndex+1,state.schedule.length-1),true);
-        startTimer();
-      });
-      el('syncNowBtn').addEventListener('click',syncToClock);
-      el('resetShowBtn').addEventListener('click',resetDay);
-      el('goLiveBtn').addEventListener('click',()=>{
-        if(isLive) endLiveShow();
-        else startLiveShow();
-      });
-
-      document.querySelectorAll('.sound-btn').forEach(btn=>btn.addEventListener('click',()=>playCue(btn)));
-
-      const showAudio = el('showAudio');
-      showAudio.volume = Number(el('audioVolume').value);
-      showAudio.addEventListener('loadedmetadata', updateAudioUi);
-      showAudio.addEventListener('timeupdate', updateAudioUi);
-      showAudio.addEventListener('play', ()=>{ el('audioState').textContent='PLAYING'; updateAudioUi(); });
-      showAudio.addEventListener('pause', updateAudioUi);
-      showAudio.addEventListener('ended', ()=>{
-        el('audioState').textContent='FINISHED';
-        document.querySelectorAll('.sound-btn').forEach(b=>b.classList.remove('active'));
-        updateAudioUi();
-        if(isLive && currentSoundButton && currentSoundButton.dataset.cue==='Open Song' && showStage==='opener') cueMorningRundown();
-        else toast('Audio clip finished');
-      });
-      el('audioPlayPauseBtn').addEventListener('click', toggleAudioPlayback);
-      el('audioStopBtn').addEventListener('click', stopAudio);
-      el('audioVolume').addEventListener('input', e=>{ showAudio.volume=Number(e.target.value); });
-      el('audioProgress').addEventListener('input', e=>{
-        if(Number.isFinite(showAudio.duration) && showAudio.duration > 0){
-          showAudio.currentTime = (Number(e.target.value)/1000) * showAudio.duration;
-        }
-      });
-
-      el('closeModalBtn').addEventListener('click',closeEditor);
-      el('saveSegmentBtn').addEventListener('click',saveEditor);
-      el('clearSegmentBtn').addEventListener('click',clearEditor);
-      el('editModal').addEventListener('click',e=>{if(e.target===el('editModal')) closeEditor();});
-      document.addEventListener('keydown',e=>{
-        if(e.key==='Escape') closeEditor();
-        const tag = (e.target && e.target.tagName || '').toLowerCase();
-        const typing = ['input','textarea','select'].includes(tag);
-        if(typing) return;
-        if(e.key==='1'){
-          const opener = document.querySelector('.sound-btn[data-cue="Open Song"]');
-          if(opener) playCue(opener);
-        }
-        if(e.key==='2'){
-          const stationId1 = document.querySelector('.sound-btn[data-cue="Station ID 1"]');
-          if(stationId1) playCue(stationId1);
-        }
-        if(e.key==='3') {
-          const stationId2 = document.querySelector('.sound-btn[data-cue="Station ID 2"]');
-          if(stationId2) playCue(stationId2);
-        }
-        if(e.key===' '){
-          e.preventDefault();
-          toggleAudioPlayback();
-        }
-      });
-
-      const showDate = new Date((state.showDate || '2026-08-10') + 'T12:00:00');
-      el('datePill').textContent = showDate.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}).toUpperCase();
-
-      renderRundown(); setCurrent(0,true); updateClock(); setInterval(updateClock,1000); loadNews();
-    }
-
-    init();
-  </script>
+    // Production label cleanup.
+    const autoFlow=[...d.querySelectorAll('#autoFlow span')];
+    if(autoFlow[2])autoFlow[2].textContent='YOU READ NEWSWIRE';
+    if(autoStatus)autoStatus.textContent='Launch flow: song → ID 1 → you read Newswire → NEWSWIRE DONE plays ID 2 → your mic.';
+    const footer=d.querySelector('.footer span:last-child');if(footer)footer.textContent='LAUNCH DAY · Manual-first production mode';
+  }catch(err){console.error('Launch patch error',err);}
+  boot.classList.add('hide');
+});
+</script>
 </body>
 </html>
