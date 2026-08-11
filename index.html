@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#07090c">
 <title>Silver Bull Radio W3BC — Bullpen Control Room</title>
+<link id="favicon" rel="icon" type="image/webp">
 <style>
 html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}
 #board{border:0;width:100%;height:100%;display:block;background:#07090c}
@@ -14,10 +15,19 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}
 </head>
 <body>
 <div id="boot">Loading Silver Bull Radio W3BC…</div>
-<iframe id="board" src="preview-v19.html?production=20260811" title="Silver Bull Radio W3BC — Bullpen Control Room"></iframe>
+<iframe id="board" src="preview-v19.html?production=20260811-0050" title="Silver Bull Radio W3BC — Bullpen Control Room"></iframe>
 <script>
 const board=document.getElementById('board');
 const boot=document.getElementById('boot');
+
+async function loadFavicon(){
+  try{
+    const r=await fetch('assets/silver-bull-radio-logo.b64?v='+Date.now(),{cache:'no-store'});
+    if(!r.ok)return;
+    const b64=(await r.text()).trim();
+    document.getElementById('favicon').href='data:image/webp;base64,'+b64;
+  }catch(e){}
+}
 
 function findControlDoc(){
   try{
@@ -29,22 +39,54 @@ function findControlDoc(){
   }catch(e){return null}
 }
 
-function applyProductionBrand(){
+function applyProductionUI(){
   const d=findControlDoc();
   if(!d)return false;
   const brandSub=d.querySelector('.brand .mut');
   if(brandSub)brandSub.textContent='Bullpen Control Room';
   const h1=d.querySelector('.brand h1');
   if(h1)h1.textContent='SILVER BULL RADIO W3BC';
+
+  const ai=d.getElementById('v19AiEnhance');
+  if(ai)ai.remove();
+
+  const top=d.querySelector('.top');
+  if(top && !d.getElementById('prodHeaderToggle')){
+    const btn=d.createElement('button');
+    btn.id='prodHeaderToggle';
+    btn.className='mini';
+    btn.textContent='⌃ HEADER';
+    btn.style.whiteSpace='nowrap';
+    const actionRow=top.lastElementChild;
+    if(actionRow)actionRow.prepend(btn);
+    btn.onclick=()=>{
+      const compact=top.classList.toggle('prodCompact');
+      btn.textContent=compact?'⌄ HEADER':'⌃ HEADER';
+    };
+    const st=d.createElement('style');
+    st.id='prodHeaderStyle';
+    st.textContent=`
+      .top.prodCompact{grid-template-columns:auto 1fr auto!important;padding:6px 9px!important}
+      .top.prodCompact .nowbar{display:none!important}
+      .top.prodCompact .brand img{width:36px!important;height:36px!important}
+      .top.prodCompact .brand h1{font-size:13px!important}
+      .top.prodCompact .brand .mut{font-size:9px!important}
+      @media(max-width:1050px){.top.prodCompact{grid-template-columns:1fr auto!important}.top.prodCompact .brand{min-width:0}.top.prodCompact .row{justify-content:flex-end}}
+      @media(max-width:620px){.top.prodCompact{grid-template-columns:1fr!important}.top.prodCompact .row{justify-content:flex-start}.top.prodCompact .brand img{width:34px!important;height:34px!important}.top.prodCompact .brand h1{font-size:12px!important}}
+    `;
+    d.head.appendChild(st);
+  }
+
   document.title='Silver Bull Radio W3BC — Bullpen Control Room';
   return true;
 }
 
+loadFavicon();
 board.addEventListener('load',()=>{
   let tries=0;
   const timer=setInterval(()=>{
     tries++;
-    if(applyProductionBrand()||tries>100){
+    if(applyProductionUI()||tries>100){
       clearInterval(timer);
       boot.classList.add('hide');
     }
