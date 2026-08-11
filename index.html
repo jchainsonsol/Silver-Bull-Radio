@@ -1,14 +1,55 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07090c"><title>Silver Bull Radio W3BC — Live Control Board</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}#board{border:0;width:100%;height:100%;display:block;background:#07090c}.boot{position:fixed;inset:0;display:grid;place-items:center;background:#07090c;color:#c9b8ff;font:800 15px system-ui;z-index:5}.boot.hide{display:none}</style></head><body><div id="boot" class="boot">Loading Silver Bull Radio W3BC…</div><iframe id="board" src="preview-v11.html?live=20260810-0830" title="Silver Bull Radio Live Control Board"></iframe><script>
-const frame=document.getElementById('board'),boot=document.getElementById('boot');
-async function getText(path){const r=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(path+' '+r.status);return r.text()}
-frame.addEventListener('load',async()=>{const w=frame.contentWindow,d=frame.contentDocument;try{
-const logo64=(await getText('assets/silver-bull-radio-logo.b64')).trim(),bull=d.querySelector('.bull');if(bull){const img=d.createElement('img');img.src='data:image/webp;base64,'+logo64;img.alt='Silver Bull Radio W3BC';img.style.cssText='width:58px;height:58px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,184,255,.65);box-shadow:0 0 24px rgba(156,108,255,.22);display:block';bull.replaceWith(img)}const bs=d.querySelector('.brand small');if(bs)bs.textContent='Welcome to the Bullpen · LAUNCH DAY LIVE CONTROL BOARD';
-const right=d.querySelector('.main')?.children?.[1],auto=right?.children?.[0];if(right&&auto){const p=d.createElement('section');p.className='panel newswire';p.id='morningBriefingPanel';p.innerHTML='<div class="head"><h2>Morning Monologue — Your Read</h2><span class="sub">Opening song → Sunset Gate → you</span></div><div class="body"><textarea id="morningBriefing" style="min-height:240px" placeholder="Loading today’s monologue…"></textarea><div class="row" style="margin-top:7px"><button id="briefBedOn" class="btn purple">START SUNSET GATE BED</button><button id="briefBedOff" class="btn sm">BED OFF</button><button id="briefDone" class="btn primary">MONOLOGUE DONE → AUTOMATED OPEN</button></div><div class="newsStatus">This is your host setup and roadmap. Newswire later is the clean news read.</div></div>';right.insertBefore(p,auto.nextSibling);d.getElementById('morningBriefing').value=await getText('data/opening-monologue.txt');d.getElementById('briefBedOn').onclick=()=>d.getElementById('bedOn')?.click();d.getElementById('briefBedOff').onclick=()=>d.getElementById('bedOff')?.click();d.getElementById('briefDone').onclick=()=>{d.getElementById('bedOff')?.click();d.getElementById('startAuto')?.scrollIntoView({behavior:'smooth',block:'center'})}}
-const ns=d.getElementById('newsScript');if(ns)ns.value=await getText('data/newswire-today.txt');const pn=d.getElementById('playNews');if(pn){pn.textContent='READ NEWSWIRE SCRIPT';pn.onclick=()=>{ns?.scrollIntoView({behavior:'smooth',block:'center'});ns?.focus()}}const nst=d.getElementById('newsStatus');if(nst)nst.textContent='Manual launch-day mode. Read the script, then hit NEWSWIRE DONE → PLAY ID 2.';
-[...d.querySelectorAll('.sound')].forEach(b=>{if((b.textContent||'').toUpperCase().includes('NEWSWIRE')){b.removeAttribute('data-path');b.innerHTML='<b>NEWSWIRE SCRIPT</b><span>Jump to your live read</span>';b.onclick=()=>{ns?.scrollIntoView({behavior:'smooth',block:'center'});ns?.focus()}}});
-if(ns&&!d.getElementById('newswireDone')){const done=d.createElement('button');done.id='newswireDone';done.className='btn green';done.textContent='NEWSWIRE DONE → PLAY ID 2';done.onclick=()=>{if(typeof w.play==='function')w.play('audio/station-id-2.mp3','Station ID 2',()=>{const lt=d.getElementById('liveType'),tt=d.getElementById('liveTitle'),m=d.getElementById('liveMeta');if(lt)lt.textContent='YOUR MIC';if(tt)tt.textContent='Open Panel / Focus Interview';if(m)m.textContent='Station ID 2 complete — take the room live.'})};pn?.parentElement?.appendChild(done)}
-const gl=d.getElementById('goLive');if(gl)gl.onclick=()=>{const pill=d.getElementById('livePill');if(pill){pill.classList.add('live');pill.textContent='● LIVE'}if(typeof w.play==='function')w.play('audio/welcome-to-the-bullpen.mp3','Welcome to the Bullpen',()=>{d.getElementById('bedOn')?.click();const lt=d.getElementById('liveType'),tt=d.getElementById('liveTitle'),m=d.getElementById('liveMeta');if(lt)lt.textContent='YOUR MIC';if(tt)tt.textContent='Monday Morning Monologue';if(m)m.textContent='Sunset Gate is up — set the table for the show.';d.getElementById('morningBriefingPanel')?.scrollIntoView({behavior:'smooth',block:'start'})})};
-const sa=d.getElementById('startAuto'),as=d.getElementById('autoStatus');if(sa){sa.textContent='START SONG → ID 1 → NEWSWIRE';sa.onclick=()=>{d.getElementById('bedOff')?.click();if(as)as.textContent='PLAYING: Bullish Vibes → then Station ID 1';if(typeof w.play!=='function'){if(as)as.textContent='Audio engine not ready — refresh once.';return}w.play('audio/music/Bullish Vibes.mp3','Bullish Vibes',()=>{if(as)as.textContent='Bullish Vibes complete. Playing Station ID 1…';w.play('audio/station-id-1.mp3','Station ID 1',()=>{if(as)as.textContent='ID 1 COMPLETE — READ NEWSWIRE NOW.';ns?.scrollIntoView({behavior:'smooth',block:'center'});ns?.focus();const sp=d.querySelectorAll('#autoFlow span');sp.forEach(x=>x.classList.remove('active'));if(sp[2])sp[2].classList.add('active')})})}}const flow=[...d.querySelectorAll('#autoFlow span')];if(flow[2])flow[2].textContent='YOU READ NEWSWIRE';if(as)as.textContent='Launch flow: Bullish Vibes → ID 1 → you read Newswire → ID 2 → your mic.';
-}catch(e){console.error(e)}boot.classList.add('hide')});
-</script></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07090c">
+<title>Silver Bull Radio W3BC — Bullpen Control Room</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}
+#board{border:0;width:100%;height:100%;display:block;background:#07090c}
+#boot{position:fixed;inset:0;display:grid;place-items:center;background:#07090c;color:#c9b8ff;font:800 15px system-ui;z-index:10}
+#boot.hide{display:none}
+</style>
+</head>
+<body>
+<div id="boot">Loading Silver Bull Radio W3BC…</div>
+<iframe id="board" src="preview-v19.html?production=20260811" title="Silver Bull Radio W3BC — Bullpen Control Room"></iframe>
+<script>
+const board=document.getElementById('board');
+const boot=document.getElementById('boot');
+
+function findControlDoc(){
+  try{
+    const v19=board.contentDocument;
+    const v18=v19?.getElementById('shell')?.contentDocument;
+    const v17=v18?.getElementById('shell')?.contentDocument;
+    const base=v17?.getElementById('board')?.contentDocument;
+    return base||null;
+  }catch(e){return null}
+}
+
+function applyProductionBrand(){
+  const d=findControlDoc();
+  if(!d)return false;
+  const brandSub=d.querySelector('.brand .mut');
+  if(brandSub)brandSub.textContent='Bullpen Control Room';
+  const h1=d.querySelector('.brand h1');
+  if(h1)h1.textContent='SILVER BULL RADIO W3BC';
+  document.title='Silver Bull Radio W3BC — Bullpen Control Room';
+  return true;
+}
+
+board.addEventListener('load',()=>{
+  let tries=0;
+  const timer=setInterval(()=>{
+    tries++;
+    if(applyProductionBrand()||tries>100){
+      clearInterval(timer);
+      boot.classList.add('hide');
+    }
+  },100);
+});
+</script>
+</body>
+</html>
