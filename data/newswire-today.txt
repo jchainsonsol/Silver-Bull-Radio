@@ -1,21 +1,39 @@
-SILVER BULL NEWSWIRE — MONDAY, AUGUST 10
+SILVER BULL NEWSWIRE — TUESDAY, AUGUST 11
 
 This is the Silver Bull Newswire on W3BC. Here are the stories setting the table for today’s show.
 
-We begin in Washington, where the Senate has left for summer break without voting on the CLARITY Act. That leaves the timing of U.S. crypto market-structure legislation uncertain heading toward the midterms. The debate is still active, including how the bill could balance stablecoins, DeFi and concerns from traditional banks over yield-bearing digital dollars.
+We begin in Washington, where the Senate has pushed a key crypto market-structure vote into September. The delay keeps the CLARITY Act unresolved and shortens the runway for passage this year.
 
-Grayscale is also adjusting to a changing regulatory path. Multiple reports in this morning’s digest say the firm withdrew filings tied to ADA, HBAR and DOT after changes to the SEC approval process for crypto ETFs.
+The SEC is also preparing for a major digital-asset discussion. On August 14, the Commission is expected to consider a proposed “Regulation Crypto” framework designed to create a more defined path for certain digital-asset offerings and investment contracts in the United States.
 
-Turning to markets, Bitcoin traded below sixty-five thousand dollars in the latest reporting, even as institutional demand through ETFs stayed strong. CoinDesk reports eight hundred fifty-three million dollars in weekly net inflows for U.S. spot Bitcoin ETFs, the largest weekly total since April, with BlackRock’s IBIT leading the move.
+At the same time, existing securities law still matters. SEC staff guidance continues to make clear that tokenized securities remain subject to federal securities laws, even when those assets move onto blockchain rails.
 
-Macro remains part of the picture. Today’s alert highlights that PCE inflation has remained above the Federal Reserve’s two-percent target, keeping the policy path, rates and liquidity conditions relevant for risk assets.
+Now to Bitcoin and institutional demand.
 
-In tokenization, the story is getting much bigger.
+United States spot Bitcoin ETFs pulled in approximately eight hundred fifty-three-point-five million dollars across five consecutive sessions last week, one of the strongest stretches in months. BlackRock captured a dominant share of those inflows, and its IBIT product has also reduced the minimum size for in-kind transfers from twenty-five million dollars to one million dollars, making the creation-and-redemption process more accessible to authorized participants.
 
-The NYSE is advancing tokenized-securities plans through DTC onchain settlement tests involving delivery-versus-payment, Treasury and repo use cases. The broader tokenized real-world asset market has reached about thirty-eight-point-one-seven billion dollars according to RWA.xyz data cited in the morning digest, putting the sector close to forty billion.
+BlackRock’s digital-assets leadership is also pointing to periods where Bitcoin has begun decoupling from equities, a potential shift in how institutions may eventually view the asset inside diversified portfolios.
 
-Standard Chartered is projecting an even larger future. Geoff Kendrick expects tokenized assets onchain to reach roughly four trillion dollars by the end of 2028, up from about three hundred forty billion today. That thesis also highlights Chainlink’s role as infrastructure connecting onchain markets with real-world data and financial systems.
+Meanwhile, Strategy has continued selling Bitcoin to build cash. Michael Saylor says the company wanted to prove it could sell without destabilizing the market or undermining its treasury model. That creates an interesting contrast between strong ETF demand and a major corporate holder actively using Bitcoin as a liquid treasury asset.
 
-Onchain finance is expanding beyond simple token representation. Midas and Wellington Management are bringing institutional credit strategies onchain through mWIN. Galaxy and Sharplink have launched a one-hundred-twenty-five-million-dollar onchain yield fund. And Ondo’s USDY has crossed a two-point-one-billion-dollar market cap as tokenized Treasuries continue to grow.
+Now to tokenization.
+
+Wall Street’s tokenization thesis continues to grow. BlackRock leadership has described tokenization as the next generation of markets, while Standard Chartered projects tokenized assets could reach roughly four trillion dollars by the end of twenty twenty-eight. Citi has estimated tokenized securities could approach five-point-five trillion dollars by twenty thirty.
+
+NYSE is also moving tokenized securities closer to mainstream market infrastructure through DTC onchain settlement testing. The work includes tokenized delivery-versus-payment, Treasury and repo use cases, along with longer-term plans involving onchain settlement and twenty-four-seven trading.
+
+JPMorgan has secured an approved tokenized money-market fund mandate using its blockchain platform, another sign that tokenized cash-management products are moving deeper into institutional workflows.
+
+And tokenization is not limited to stocks and Treasuries. ADI Chain and Shipfinex are working to tokenize commercial ships, targeting wider access to a ship-finance market measured in the hundreds of billions of dollars.
+
+Turning to real-world assets, tokenized RWAs are again approaching the forty-billion-dollar mark. Nearly four billion dollars of RWA value is already active inside DeFi protocols, showing that some tokenized assets are beginning to move beyond simple representation and into lending, liquidity and other onchain use cases.
+
+Tokenized Treasuries remain one of the strongest early categories, but the bigger story is the infrastructure around them: stablecoins, settlement systems, data networks, custody and the ability to move capital between traditional and blockchain-based markets.
+
+Stablecoins are also moving further into everyday finance. Banks and financial institutions are increasingly examining their role in payments, settlement and Treasury demand, while some research challenges the simple assumption that every dollar of stablecoin growth automatically creates one dollar of new Treasury demand.
+
+The larger picture this morning is clear.
+
+Regulation is still being written. Institutional Bitcoin demand remains strong. Major issuers are improving ETF infrastructure. Wall Street is putting tokenized products and settlement systems into production. Real-world assets are approaching forty billion dollars. And stablecoins, Treasuries and tokenized securities are becoming part of a broader onchain financial system.
 
 That’s the Silver Bull Newswire on W3BC. Now back to JChains in the Bullpen for the charts, the conversation, and what actually matters today.
