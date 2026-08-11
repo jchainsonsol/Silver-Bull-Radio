@@ -1,0 +1,24 @@
+name: Silver Bull Live News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: silver-bull-live-news
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect recent crypto and market headlines
+        run: |
+          python - <<'PY'
+          import json, re
