@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Silver Bull Radio W3BC — V14 Newswire Automation</title>
+<style>
+:root{--bg:#07090c;--panel:#0e141c;--line:#2b3948;--txt:#f7f8fb;--mut:#95a0af;--cyan:#39d8ff;--pur:#9c6cff;--green:#65ff9a;--red:#ff6676;--yellow:#ffd166}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);font-family:Inter,system-ui,sans-serif;color:var(--txt)}
+#board{position:absolute;inset:0;border:0;width:100%;height:100%;background:#07090c}
+#dock{position:fixed;left:14px;right:14px;bottom:14px;z-index:999;background:rgba(8,12,18,.97);border:1px solid rgba(156,108,255,.58);box-shadow:0 18px 50px rgba(0,0,0,.55);border-radius:16px;padding:10px 12px;backdrop-filter:blur(12px)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}.title{font-size:12px;font-weight:950;letter-spacing:.08em}.sub{font-size:10px;color:var(--mut)}
+.grid{display:grid;grid-template-columns:minmax(220px,1.5fr) minmax(180px,.8fr) minmax(320px,1.5fr);gap:10px;align-items:center}.card{background:#0a0f15;border:1px solid var(--line);border-radius:11px;padding:9px}.label{font-size:9px;color:var(--mut);font-weight:900;letter-spacing:.1em}.name{font-size:16px;font-weight:950;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}.time{font-size:30px;font-weight:950;line-height:1}.row{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.btn{appearance:none;border:1px solid var(--line);background:#121b26;color:var(--txt);border-radius:10px;padding:9px 12px;font-size:11px;font-weight:900;cursor:pointer}.btn:hover{border-color:#52657a}.btn.cyan{border-color:var(--cyan);color:var(--cyan)}.btn.green{border-color:var(--green);color:var(--green)}.btn.red{border-color:var(--red);color:#ff9da7}.btn.pur{border-color:var(--pur);color:#cfbfff}.file{display:none}.meter{height:6px;background:#222b35;border-radius:999px;overflow:hidden;margin-top:7px}.meter>div{height:100%;width:0;background:linear-gradient(90deg,var(--pur),var(--cyan))}.status{font-size:10px;color:var(--mut);margin-top:5px}.control{display:grid;grid-template-columns:1fr 1fr;gap:8px}.control label{font-size:9px;color:var(--mut)}input[type=range]{width:100%}.toggle{display:flex;gap:5px;align-items:center;font-size:10px;color:var(--mut)}
+#mini{display:none}.minbtn{background:none;border:0;color:var(--mut);cursor:pointer;font-size:18px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.time{font-size:24px}#dock{left:8px;right:8px;bottom:8px}.control{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<iframe id="board" src="preview-v13.html?v=20260810-v14" title="Silver Bull Radio V13"></iframe>
+<div id="dock">
+  <div class="top">
+    <div><div class="title">SILVER BULL NEWSWIRE — AUTOMATED PACKAGE</div><div class="sub">CapCut voice + Sunset Gate bed + automatic Station ID 2 handoff</div></div>
+    <button id="minBtn" class="minbtn" title="Minimize">⌄</button>
+  </div>
+  <div id="dockBody" class="grid">
+    <div class="card">
+      <div class="label">NEWSWIRE AUDIO</div>
+      <div id="fileName" class="name">No CapCut MP3 loaded</div>
+      <div class="meter"><div id="progress"></div></div>
+      <div id="status" class="status">Load today’s CapCut export once. It will be saved in this browser.</div>
+    </div>
+    <div class="card">
+      <div class="label">TIME REMAINING</div>
+      <div id="remaining" class="time">--:--</div>
+      <div class="sub"><span id="elapsed">00:00</span> elapsed</div>
+    </div>
+    <div class="card">
+      <div class="row" style="margin-bottom:8px">
+        <label for="fileInput" class="btn pur">LOAD CAPCUT MP3</label><input id="fileInput" class="file" type="file" accept="audio/*">
+        <button id="playBtn" class="btn green">PLAY NEWSWIRE + BED</button>
+        <button id="pauseBtn" class="btn">PAUSE</button>
+        <button id="stopBtn" class="btn red">STOP</button>
+      </div>
+      <div class="control">
+        <div><label>BED LEVEL <b id="bedVal">11%</b></label><input id="bedLevel" type="range" min="2" max="25" value="11"></div>
+        <div><label>VOICE LEVEL <b id="voiceVal">100%</b></label><input id="voiceLevel" type="range" min="70" max="100" value="100"></div>
+      </div>
+      <div class="row" style="margin-top:5px"><label class="toggle"><input id="autoId" type="checkbox" checked> AUTO PLAY STATION ID 2 WHEN NEWSWIRE ENDS</label></div>
+    </div>
+  </div>
+</div>
+<audio id="voice" preload="metadata"></audio>
+<audio id="bed" preload="auto" loop src="audio/beds/sunset-gate.mp3"></audio>
+<audio id="id2" preload="auto" src="audio/station-id-2.mp3"></audio>
+<script>
+const $=s=>document.querySelector(s);const voice=$('#voice'),bed=$('#bed'),id2=$('#id2');let currentUrl=null,pausedPackage=false,finishing=false;
+function fmt(sec){if(!Number.isFinite(sec)||sec<0)return'--:--';sec=Math.max(0,Math.round(sec));return String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0')}
+function fade(audio,to,ms,done){const from=audio.volume,start=performance.now();function step(now){const p=Math.min(1,(now-start)/ms);audio.volume=from+(to-from)*p;if(p<1)requestAnimationFrame(step);else done&&done()}requestAnimationFrame(step)}
+function setStatus(t){$('#status').textContent=t}
+function updateTime(){const d=voice.duration||0,c=voice.currentTime||0;$('#elapsed').textContent=fmt(c);$('#remaining').textContent=fmt(d-c);$('#progress').style.width=(d?Math.min(100,c/d*100):0)+'%'}
+function openDB(){return new Promise((resolve,reject)=>{const req=indexedDB.open('SilverBullRadioAudio',1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains('files'))req.result.createObjectStore('files')};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
+async function saveFile(file){const db=await openDB();await new Promise((resolve,reject)=>{const tx=db.transaction('files','readwrite');tx.objectStore('files').put({blob:file,name:file.name,type:file.type,updated:Date.now()},'newswire');tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error)});db.close()}
+async function restoreFile(){try{const db=await openDB();const rec=await new Promise((resolve,reject)=>{const tx=db.transaction('files','readonly');const req=tx.objectStore('files').get('newswire');req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)});db.close();if(rec?.blob)loadBlob(rec.blob,rec.name,true)}catch(e){console.warn(e)}}
+function loadBlob(blob,name,restored=false){if(currentUrl)URL.revokeObjectURL(currentUrl);currentUrl=URL.createObjectURL(blob);voice.src=currentUrl;voice.load();$('#fileName').textContent=name||'CapCut Newswire';setStatus(restored?'Saved Newswire restored — ready to play.':'Newswire loaded and saved — ready to play.');}
+$('#fileInput').onchange=async e=>{const f=e.target.files?.[0];if(!f)return;loadBlob(f,f.name);try{await saveFile(f)}catch(err){setStatus('Loaded, but browser could not save it permanently.')}};
+$('#bedLevel').oninput=e=>{$('#bedVal').textContent=e.target.value+'%';if(!bed.paused)bed.volume=+e.target.value/100};$('#voiceLevel').oninput=e=>{$('#voiceVal').textContent=e.target.value+'%';voice.volume=+e.target.value/100};
+$('#playBtn').onclick=async()=>{if(!voice.src){setStatus('Load today’s CapCut MP3 first.');return}finishing=false;pausedPackage=false;voice.currentTime=0;bed.currentTime=0;bed.volume=0;voice.volume=+$('#voiceLevel').value/100;try{await Promise.all([bed.play(),voice.play()]);fade(bed,+$('#bedLevel').value/100,900);setStatus('ON AIR — Newswire voice with Sunset Gate underneath.');}catch(e){setStatus('Audio could not start: '+e.message)}};
+$('#pauseBtn').onclick=()=>{if(voice.paused&&pausedPackage){voice.play();bed.play();pausedPackage=false;$('#pauseBtn').textContent='PAUSE';setStatus('ON AIR — Newswire resumed.')}else{voice.pause();bed.pause();pausedPackage=true;$('#pauseBtn').textContent='RESUME';setStatus('Newswire package paused.')}};
+function hardStop(){finishing=true;voice.pause();bed.pause();id2.pause();voice.currentTime=0;bed.currentTime=0;id2.currentTime=0;$('#progress').style.width='0';$('#elapsed').textContent='00:00';$('#remaining').textContent=fmt(voice.duration);$('#pauseBtn').textContent='PAUSE';setStatus('Newswire package stopped.');setTimeout(()=>finishing=false,50)}
+$('#stopBtn').onclick=hardStop;
+voice.ontimeupdate=updateTime;voice.onloadedmetadata=()=>{$('#remaining').textContent=fmt(voice.duration);updateTime()};
+voice.onended=async()=>{if(finishing)return;finishing=true;setStatus('Newswire complete — handing off to Station ID 2.');if($('#autoId').checked){try{bed.volume=Math.min(+$('#bedLevel').value/100,.07);id2.currentTime=0;await id2.play()}catch(e){fade(bed,0,1200,()=>{bed.pause();bed.currentTime=0});finishing=false}}else{fade(bed,0,1600,()=>{bed.pause();bed.currentTime=0;setStatus('Newswire complete.');finishing=false})}};
+id2.onended=()=>fade(bed,0,1800,()=>{bed.pause();bed.currentTime=0;setStatus('Newswire + Station ID 2 complete — back to your mic.');finishing=false});
+$('#minBtn').onclick=()=>{const body=$('#dockBody');const hidden=body.style.display==='none';body.style.display=hidden?'grid':'none';$('#minBtn').textContent=hidden?'⌄':'⌃'};
+restoreFile();
+</script>
+</body>
+</html>
