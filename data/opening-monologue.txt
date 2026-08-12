@@ -1,52 +1,102 @@
-Good morning and welcome to Silver Bull Radio, W3BC. Welcome to the Bullpen.
+Good morning and welcome to Silver Bull Radio, W3BC.
 
-It is Monday morning, August tenth, and this is day one of what we’re building here.
+Welcome to the Bullpen.
 
-The goal is pretty simple. I don’t want this to be four hours of people yelling about what coin is pumping. I want us looking at the signal underneath all the noise — where money is moving, what institutions are building, what the charts are actually telling us, and what the financial system may look like a few years from now.
+It is Wednesday morning, August twelfth, and today’s board has a really good mix of regulation, markets, tokenization and actual on-chain usage.
 
-So before we get rolling, let me set the table for the morning.
+The first thing I’m watching is the split between Washington and the regulators.
 
-The first thing I’m watching is Bitcoin around that sixty-five-thousand-dollar area. Price has been soft, but the interesting part is that institutional demand has not disappeared. Bitcoin ETFs just put together their strongest week of inflows since April.
+Congress is still dragging its feet on crypto market structure, but the SEC and CFTC appear ready to keep moving anyway. The SEC is expected to consider a more tailored offering regime for certain crypto investment contracts later this week.
 
-That’s the kind of disconnect I want to watch live on the charts today. If money keeps coming into regulated Bitcoin products while spot price struggles, eventually one side of that equation has to move.
+That matters because the industry may not get one giant piece of clarity all at once. We may get pieces of it from different agencies, different rules and different product categories.
 
-We’ll keep Bitcoin, Ethereum and Solana up throughout the show. I want to watch support, resistance, volume and momentum instead of pretending we know exactly what comes next.
+Meanwhile, outside the United States, BRICS countries are discussing ways to connect payment systems and central bank digital currencies.
 
-But the bigger theme for me today is still tokenization.
+So you’ve got two very different paths developing at the same time: state-backed digital payment infrastructure in some parts of the world, and private stablecoin and crypto-market infrastructure becoming more important in the United States.
 
-Every day it feels less like a future idea and more like something that is actively being built. Wall Street is testing onchain settlement. The real-world asset market keeps growing. Institutional credit and yield products are moving onchain. And major financial institutions are starting to talk about tokenization in the trillions of dollars.
+Then we get to Bitcoin.
 
-That’s where I think the real story is.
+Bitcoin is still stuck in a range, roughly between sixty-two and sixty-six thousand dollars in the reporting this morning.
 
-Not just which token moves five percent today. What infrastructure has to exist if trillions of dollars of assets actually move onchain? Who provides the data? Who handles settlement? Where does liquidity live? What happens to Treasury products, credit markets and securities trading when those rails change?
+But again, price is only part of the story.
 
-That’s the conversation I want Silver Bull Radio built around.
+Spot Bitcoin ETFs brought in about eight hundred fifty-four million dollars last week, their strongest week since April.
 
-Here’s how we’re breaking up the morning.
+And Wintermute says institutions accounted for seventy-two percent of its spot over-the-counter volume in the first half of twenty twenty-six.
 
-At nine, we’re talking regulation and the changing path for crypto in Washington.
+That is the kind of number I care about.
 
-At ten, we go into GM Get Money — Bitcoin, Ethereum, Solana, ETF flows, macro and the charts in front of us.
+Price can go sideways while market infrastructure gets deeper underneath it.
 
-At eleven, we go deep into tokenization and real-world assets. That’s probably the hour I’m most excited about today.
+We’re also seeing another good example of why you have to understand on-chain data before reacting to it. Metaplanet moved three thousand eight hundred eighty-one Bitcoin between wallets it controls, and the transfer was not identified as a sale.
 
-Then at noon, we’ll get into institutional onchain finance — credit, yield, tokenized Treasuries and where capital is actually being deployed.
+Big movement does not automatically equal dumping.
 
-And if something breaks while we’re live, the schedule moves. This is radio. The board is here to help us, not trap us.
+At eleven, I think we’ve got one of the best conversations of the day.
 
-A couple pieces of housekeeping.
+Tokenized stocks have reportedly reached around two-point-four-nine billion dollars in value, up roughly six hundred percent over the past year.
 
-If you’re listening in the Space, hit the purple pill, repost the room and tag somebody who should be hanging out in the Bullpen with us.
+Crypto.com is pushing into tokenized stock derivatives. KuCoin is integrating tokenized assets. Robinhood Chain is already seeing decentralized liquidity form around tokenized equities.
 
-When we open the panel, if you’ve got a question or a take, raise your hand. If we have a scheduled guest, we’ll turn that block into a focused interview. Otherwise we’ll follow the strongest conversation in the room.
+And settlement is becoming a real part of the pitch — moving from next-business-day settlement toward seconds.
 
-You’re also going to hear a lot of music today. We built an entire Silver Bull catalog for this station, and when we need to reset or prep the next block, we’re going to let the radio actually be radio.
+But here’s the reality check I like.
 
-Most importantly, today is the first real run. We’re going to learn what works, what doesn’t, what needs to be tighter, and then make it one percent better tomorrow.
+A GSR executive is warning that tokenization hype has moved faster than actual usage on some walled-garden platforms.
 
-That is the whole idea.
+That’s exactly the conversation I want us having.
 
-Silver Bull Radio. W3BC.
+Not just, “Look, another tokenized product launched.”
+
+Show me the volume.
+Show me the users.
+Show me the settlement.
+Show me the liquidity.
+Show me what actually got better.
+
+That’s how we separate adoption from marketing.
+
+Then at noon we move into real-world assets, collateral and payments.
+
+The broader RWA market is being measured above seven hundred thirty billion dollars when stablecoins are included.
+
+Stablecoin card spending has reportedly moved past seven hundred fifty million dollars.
+
+Galaxy and Sharplink are launching a one-hundred-twenty-five-million-dollar fund designed to put institutional Ethereum to work in DeFi and other on-chain opportunities.
+
+And tokenized Treasury products continue growing.
+
+That’s the theme for me today:
+
+Capital is not just moving on-chain.
+
+It is starting to do things on-chain.
+
+It is being traded.
+It is being used as collateral.
+It is being deployed for yield.
+It is being used for payments.
+It is settling faster.
+
+That is a much more important signal than simply saying an asset has been tokenized.
+
+So today we start with Washington and regulation.
+
+At ten, we get into Bitcoin, ETF demand and institutional liquidity.
+
+At eleven, we go deep into tokenized stocks and whether the usage actually matches the hype.
+
+At noon, we get into RWAs, stablecoins, institutional ETH and capital actually working on-chain.
+
+And as always, if something breaks while we are live, we move with it.
+
+If you’re listening, hit the purple pill, repost the Space and tag somebody who belongs in the Bullpen.
+
+If you’ve got a strong take, raise your hand when we open the panel.
+
+We’re building this thing live, learning what works, fixing what doesn’t, and making it one percent better every day.
+
+This is Silver Bull Radio, W3BC.
 
 Welcome to the Bullpen.
 
