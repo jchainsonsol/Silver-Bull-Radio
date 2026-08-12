@@ -4,29 +4,29 @@
       "hour": 9,
       "slot": "9 AM",
       "title": "W3BC Media",
-      "audio": "audio/commercials/commercial-9am.mp3",
+      "audio": "audio/commercials/commercial-9am.MP3",
       "script": "Your story moves fast. Your content should too. W3BC Media creates on-site interviews, conference coverage, short-form content, podcasts, founder media and live event production built for the Web3 world. Turn your moment into momentum with W3BC Media."
     },
     {
       "hour": 10,
       "slot": "10 AM",
-      "title": "Welcome to the Bullpen",
-      "audio": "audio/commercials/commercial-10am.mp3",
-      "script": "You are listening to Silver Bull Radio, W3BC. If you are enjoying the show, hit the purple pill, repost the Space and tag somebody who belongs in the Bullpen. Great rooms are built by great people. Welcome to the Bullpen."
+      "title": "Bitunix",
+      "audio": "audio/commercials/commercial-bitunix.MP3",
+      "script": "Trading crypto? Check out Bitunix. Spot trading, futures, and the tools you need to stay active in the market, all in one platform. If you decide to sign up, use referral code JChains so they know Silver Bull Radio sent you. That’s Bitunix — referral code JChains. You’re listening to Silver Bull Radio, W3BC."
     },
     {
       "hour": 11,
       "slot": "11 AM",
-      "title": "1% Better Every Day",
-      "audio": "audio/commercials/commercial-11am.mp3",
-      "script": "One percent better every day. You do not need to change everything today. Learn something. Build something. Make one better decision than you made yesterday, then do it again tomorrow. That is how progress compounds. One percent better every day, from Silver Bull Radio."
+      "title": "Tangem",
+      "audio": "audio/commercials/commercial-tangem.MP3",
+      "script": "Your crypto belongs in your control. Tangem gives you a simple hardware wallet experience without turning self-custody into a science project. Secure your crypto, keep control of your keys, and take your wallet with you. When you order Tangem, use code JChains and save 10 percent. Tangem. Your keys. Your crypto. Use code JChains for 10 percent off."
     },
     {
       "hour": 12,
       "slot": "12 PM",
-      "title": "Get in the Bullpen",
-      "audio": "audio/commercials/commercial-12pm.mp3",
-      "script": "Building something worth talking about? Bring it to the Bullpen. Silver Bull Radio features founders, builders, traders, creators and people moving the industry forward. Join the conversation, book a guest spot or talk with W3BC Media about sponsoring the show. Silver Bull Radio, W3BC."
+      "title": "BC Game",
+      "audio": "audio/commercials/commercial-bcgame.MP3",
+      "script": "Looking for a little action after the markets close? Check out BC Game, a crypto-friendly gaming platform with casino games, sports and more. If you want to check it out, use the official JChains referral link posted by Silver Bull Radio. Hit the link, create your account, and tell them the Bullpen sent you. BC Game and Silver Bull Radio. Twenty-one plus where applicable. Play responsibly."
     }
   ]
 }
