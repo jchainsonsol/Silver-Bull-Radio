@@ -1,0 +1,32 @@
+{
+  "commercials": [
+    {
+      "hour": 9,
+      "slot": "9 AM",
+      "title": "W3BC Media",
+      "audio": "audio/commercials/commercial-9am.mp3",
+      "script": "Your story moves fast. Your content should too. W3BC Media creates on-site interviews, conference coverage, short-form content, podcasts, founder media and live event production built for the Web3 world. Turn your moment into momentum with W3BC Media."
+    },
+    {
+      "hour": 10,
+      "slot": "10 AM",
+      "title": "Welcome to the Bullpen",
+      "audio": "audio/commercials/commercial-10am.mp3",
+      "script": "You are listening to Silver Bull Radio, W3BC. If you are enjoying the show, hit the purple pill, repost the Space and tag somebody who belongs in the Bullpen. Great rooms are built by great people. Welcome to the Bullpen."
+    },
+    {
+      "hour": 11,
+      "slot": "11 AM",
+      "title": "1% Better Every Day",
+      "audio": "audio/commercials/commercial-11am.mp3",
+      "script": "One percent better every day. You do not need to change everything today. Learn something. Build something. Make one better decision than you made yesterday, then do it again tomorrow. That is how progress compounds. One percent better every day, from Silver Bull Radio."
+    },
+    {
+      "hour": 12,
+      "slot": "12 PM",
+      "title": "Get in the Bullpen",
+      "audio": "audio/commercials/commercial-12pm.mp3",
+      "script": "Building something worth talking about? Bring it to the Bullpen. Silver Bull Radio features founders, builders, traders, creators and people moving the industry forward. Join the conversation, book a guest spot or talk with W3BC Media about sponsoring the show. Silver Bull Radio, W3BC."
+    }
+  ]
+}
