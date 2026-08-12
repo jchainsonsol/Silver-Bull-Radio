@@ -8,17 +8,25 @@
   let queue=[];
   let queueIndex=0;
   let restoreBeds=[];
+  let clockTimer=null;
 
   function chain(){
     try{
       const outer=document.getElementById('board');
       const v19=outer?.contentDocument;
+      const v19w=outer?.contentWindow;
       const v18f=v19?.getElementById('shell');
       const v18=v18f?.contentDocument;
+      const v18w=v18f?.contentWindow;
       const v17f=v18?.getElementById('shell');
       const v17=v17f?.contentDocument;
+      const v17w=v17f?.contentWindow;
       const basef=v17?.getElementById('board');
-      return{base:basef?.contentDocument||null};
+      return{
+        v19,v19w,v18,v18w,v17,v17w,
+        base:basef?.contentDocument||null,
+        basew:basef?.contentWindow||null
+      };
     }catch(e){return{}}
   }
 
@@ -36,6 +44,12 @@
     return a;
   }
 
+  function fmt(sec){
+    if(!Number.isFinite(sec)||sec<0)return'--:--';
+    sec=Math.max(0,Math.ceil(sec));
+    return String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0');
+  }
+
   function status(text){
     const doc=d();
     const s=doc?.getElementById('sbrResetStatus');
@@ -49,21 +63,68 @@
     Object.entries(vals).forEach(([id,val])=>{const e=doc.getElementById(id);if(e)e.textContent=val});
   }
 
+  function setText(id,value){
+    const e=d()?.getElementById(id);
+    if(e)e.textContent=value;
+  }
+
+  function setMeter(pct){
+    const e=d()?.getElementById('playerMeter');
+    if(e)e.style.width=Math.max(0,Math.min(100,pct||0))+'%';
+  }
+
+  function resetPlaybackDisplay(){
+    setText('songLeft','--:--');
+    setText('nowLeft','--:--');
+    setMeter(0);
+  }
+
+  function updateResetClock(){
+    if(!running)return;
+    const item=queue[queueIndex];
+    const a=player();
+    if(!item||!Number.isFinite(a.duration)||a.duration<=0)return;
+    const left=Math.max(0,a.duration-a.currentTime);
+    const pct=a.duration?100*(a.currentTime/a.duration):0;
+    setText('nowLeft',fmt(left));
+    setMeter(pct);
+    if(item.type==='song'){
+      setText('songLeft',fmt(left));
+    }else{
+      setText('songLeft','--:--');
+    }
+  }
+
+  function startClock(){
+    stopClock();
+    clockTimer=setInterval(updateResetClock,75);
+  }
+
+  function stopClock(){
+    if(clockTimer){clearInterval(clockTimer);clockTimer=null}
+  }
+
+  function allDocuments(){
+    const docs=[];
+    const seen=new Set();
+    function walk(doc){
+      if(!doc||seen.has(doc))return;
+      seen.add(doc);docs.push(doc);
+      [...doc.querySelectorAll('iframe')].forEach(f=>{
+        try{if(f.contentDocument)walk(f.contentDocument)}catch(e){}
+      });
+    }
+    walk(document);
+    return docs;
+  }
+
   function allBeds(){
     const out=[];
-    try{
-      const outer=document.getElementById('board');
-      const docs=[];
-      const v19=outer?.contentDocument;if(v19)docs.push(v19);
-      const v18=v19?.getElementById('shell')?.contentDocument;if(v18)docs.push(v18);
-      const v17=v18?.getElementById('shell')?.contentDocument;if(v17)docs.push(v17);
-      const base=v17?.getElementById('board')?.contentDocument;if(base)docs.push(base);
-      docs.forEach(doc=>[...doc.querySelectorAll('audio')].forEach(a=>{
-        const id=(a.id||'').toLowerCase();
-        const src=(a.currentSrc||a.getAttribute('src')||'').toLowerCase();
-        if(id.includes('bed')||src.includes('/beds/')||src.includes('sunset-gate'))out.push(a);
-      }));
-    }catch(e){}
+    allDocuments().forEach(doc=>[...doc.querySelectorAll('audio')].forEach(a=>{
+      const id=(a.id||'').toLowerCase();
+      const src=(a.currentSrc||a.getAttribute('src')||'').toLowerCase();
+      if(id.includes('bed')||src.includes('/beds/')||src.includes('sunset-gate'))out.push(a);
+    }));
     return out;
   }
 
@@ -78,10 +139,10 @@
   }
 
   function stopOtherAudio(){
-    const doc=d();
-    if(!doc)return;
+    const {base}=chain();
+    if(!base)return;
     ['deckA','deckB','fx'].forEach(id=>{
-      const a=doc.getElementById(id);
+      const a=base.getElementById(id);
       if(a){a.pause();try{a.currentTime=0}catch(e){}}
     });
   }
@@ -115,17 +176,23 @@
     return 'Room reset · station handoff';
   }
 
+  function armResetButton(){
+    const btn=d()?.getElementById('sbrRoomReset');
+    if(btn)btn.disabled=false;
+  }
+
   function finish(ok=true){
     running=false;
     queue=[];
     queueIndex=0;
+    stopClock();
     restoreBedState();
     const a=player();
-    a.onended=null;a.onerror=null;
+    a.onended=null;a.onerror=null;a.ontimeupdate=null;a.onloadedmetadata=null;a.ondurationchange=null;
+    resetPlaybackDisplay();
     status(ok?'ROOM RESET COMPLETE · TAKE THE MIC':'ROOM RESET STOPPED');
     now(ok?'JChains':'Manual Control',ok?'Room reset complete · take the room live':'Room reset stopped',ok?'MIC':'RESET');
-    const btn=d()?.getElementById('sbrRoomReset');
-    if(btn)btn.disabled=false;
+    armResetButton();
   }
 
   function playQueueItem(){
@@ -133,13 +200,19 @@
     if(queueIndex>=queue.length)return finish(true);
     const item=queue[queueIndex];
     const a=player();
-    a.onended=null;a.onerror=null;
+    a.onended=null;a.onerror=null;a.ontimeupdate=null;a.onloadedmetadata=null;a.ondurationchange=null;
     a.pause();
     try{a.currentTime=0}catch(e){}
     a.src=item.file+'?v=reset-'+Date.now();
     a.load();
     status(labelFor(item));
     now(labelFor(item),subFor(item),item.type.toUpperCase());
+    setText('songLeft',item.type==='song'?'loading…':'--:--');
+    setText('nowLeft','--:--');
+    setMeter(0);
+    a.ontimeupdate=updateResetClock;
+    a.onloadedmetadata=updateResetClock;
+    a.ondurationchange=updateResetClock;
     a.onended=()=>{
       queueIndex++;
       playQueueItem();
@@ -153,8 +226,9 @@
     if(p&&typeof p.catch==='function')p.catch(err=>{
       status(`${labelFor(item)} · PLAYBACK BLOCKED · TAP ROOM RESET AGAIN`);
       running=false;
+      stopClock();
       restoreBedState();
-      const btn=d()?.getElementById('sbrRoomReset');if(btn)btn.disabled=false;
+      armResetButton();
       console.warn('Room reset playback blocked',err);
     });
   }
@@ -179,7 +253,37 @@
     const btn=d()?.getElementById('sbrRoomReset');
     if(btn)btn.disabled=true;
     status(`ROOM RESET · ${c.title} → ${song.title} → ID ${id}`);
+    startClock();
     playQueueItem();
+  }
+
+  function pauseEveryAudio(){
+    allDocuments().forEach(doc=>[...doc.querySelectorAll('audio')].forEach(a=>{
+      try{a.pause()}catch(e){}
+      try{a.currentTime=0}catch(e){}
+    }));
+  }
+
+  function emergencyStop(){
+    running=false;
+    queue=[];
+    queueIndex=0;
+    stopClock();
+
+    const {v19w,v17w,basew}=chain();
+    try{if(v19w&&typeof v19w.stopOpen==='function')v19w.stopOpen()}catch(e){}
+    try{if(v17w&&typeof v17w.stopNewswire==='function')v17w.stopNewswire()}catch(e){}
+    try{if(basew&&typeof basew.stopMusic==='function')basew.stopMusic()}catch(e){}
+
+    const a=player();
+    a.onended=null;a.onerror=null;a.ontimeupdate=null;a.onloadedmetadata=null;a.ondurationchange=null;
+    pauseEveryAudio();
+    restoreBedState();
+    resetPlaybackDisplay();
+    armResetButton();
+    status('STOP ALL · ALL AUDIO SILENCED');
+    now('Stopped','All audio stopped','STOPPED');
+    setText('segState','stopped');
   }
 
   async function loadData(){
@@ -193,17 +297,40 @@
     }catch(e){console.warn('Room reset data load failed',e)}
   }
 
-  function patch(){
+  function patchRoomReset(){
     const doc=d();
     const btn=doc?.getElementById('sbrRoomReset');
     if(!btn)return false;
-    if(btn.dataset.v20Queue==='1')return true;
-    btn.dataset.v20Queue='1';
-    btn.onclick=roomReset;
-    const hint=btn.querySelector('span');
-    if(hint)hint.textContent='Commercial → 1 full song → station ID → mic';
-    status('Ready · queued reset player armed.');
+    if(btn.dataset.v20Queue!=='1'){
+      btn.dataset.v20Queue='1';
+      btn.onclick=roomReset;
+      const hint=btn.querySelector('span');
+      if(hint)hint.textContent='Commercial → 1 full song → station ID → mic';
+      status('Ready · queued reset player armed.');
+    }
     return true;
+  }
+
+  function patchStopAll(){
+    const doc=d();
+    const btn=doc?.getElementById('stopAll');
+    if(!btn)return false;
+    if(btn.dataset.v20GlobalStop==='1')return true;
+    const original=btn.onclick;
+    btn.dataset.v20GlobalStop='1';
+    btn.onclick=e=>{
+      try{if(typeof original==='function')original.call(btn,e)}catch(err){console.warn('Original STOP ALL failed',err)}
+      emergencyStop();
+    };
+    btn.textContent='STOP ALL';
+    btn.title='Immediately stop every Silver Bull Radio audio source';
+    return true;
+  }
+
+  function patch(){
+    const a=patchRoomReset();
+    const b=patchStopAll();
+    return a&&b;
   }
 
   function boot(){
@@ -216,6 +343,7 @@
 
   window.addEventListener('beforeunload',()=>{
     try{player().pause()}catch(e){}
+    stopClock();
     restoreBedState();
   });
 
