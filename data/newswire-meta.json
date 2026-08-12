@@ -1,10 +1,11 @@
 {
-  "date": "2026-08-10",
-  "label": "Monday, August 10 Newswire",
+  "date": "2026-08-12",
+  "label": "Wednesday, August 12 Newswire",
   "audio": "audio/newswire-today.MP3",
-  "bed": "audio/beds/sunset-gate.mp3",
+  "bed": "",
   "handoff": "audio/station-id-2.mp3",
-  "bed_level": 0.025,
+  "bed_level": 0,
   "voice_level": 1.0,
-  "auto_station_id": true
+  "auto_station_id": true,
+  "mixed_bed": true
 }
