@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T09:42:42.846899+00:00",
+  "updated": "2026-08-13T12:05:36.893907+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -51,8 +51,8 @@
       "published": "2026-08-12T10:09:33+00:00"
     },
     {
-      "headline": "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Globe and Mail",
-      "source": "The Globe and Mail",
+      "headline": "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - theglobeandmail.com",
+      "source": "theglobeandmail.com",
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPbnBCdUNjWXB2NjdZc2dmQXhQME1EVXZuX0s1a0pERzFONDRMWjg1cHAzQmxtVXI4UGtLZHBSQmp0OGJuX2FmYWVEbGFKZ1VrWUhaOEtTSndfZzVpbjd3dFRHRnJacjk5bXloZU5hZnBiTVptMHU4ak5WdWlBbEM3ME1sX2FycGJHUWZDVS1jdzdRaTFCY3o1R0dvdTNPQnVocXUwZkNfaWx4LTJ3cWhCNEMybHgwU1B6SVd2S2wtVjNxMnM1LWppYl9LQnZTOEh5Z2FRWXJOT0YwVExhODcxaXF0WjlFSmJtcW12R3pQbXhsUE0xejQ4T2VMbi1vU1hEWDZQU1IzZTJnT2EzbkZvNm01YkJYSWRN?oc=5",
       "published": "2026-08-11T22:14:00+00:00"
     },
@@ -165,12 +165,6 @@
       "published": "2026-07-08T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - YouHodler",
-      "source": "YouHodler",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVmZyNG5YTXhPY3hzQXIyTDZyVXplcG05V01Sbk8yWkZfTVNhQ1Rrdi0zMDgyTXF3dGNGbVkzRWgtN2dLa2VzNWhlRDBGd0RwbzNFYVJfNkhWaHc?oc=5",
-      "published": "2026-07-06T07:00:00+00:00"
-    },
-    {
       "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - DailyCoin",
       "source": "DailyCoin",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDZFSzJMMFItWW80RHhoR0xQSktOaUdFS0lzNHh0eWxlZ2VUdTFjcm96UE9KMG5xYU1vOFNGTGhWYW5HcHF2alFZTjJZTFVQSzJSdjdSNE1rMkVYVWFFU3hkczdSUWJiVGVNcUJ6aTFyaXdoNTlEQmxTWnlCS0lLVUxkSlJGWEpMZVhhVUtQcTZpU2pKX0NveUJ6V0hEaU5RLXgzclNZSFpwWWVBNzRvVHJxZjZTb2RSX3RQUnlvejlfSmp5eUZaYXppdW0?oc=5",
@@ -189,8 +183,8 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - eqs-news.com",
-      "source": "eqs-news.com",
+      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - EQS News",
+      "source": "EQS News",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWGc2RUpiTTJNWi10TXh4ZFZLS0o0eFdJcnNsQ3N0ckw1Y2xRVXJEOWZqNWduUU9zMWgzTUIxV2NxMFNPMGcwQlZUcF9NRkNCZTNPQk51b2ljemdNSHp6Mm1hT2ZLaEh5RmlmZWxoanliSnN6aGdiYjdOdW5lM0JLMU43bG1fcnMtT3RUQVR4WkxLZnVBN2lKcWNLS1d1OFYtMm5aczFLUzZyenRYVGRWcGY4Zl9ydmRuLXhuWkk4V3FRbkhhQVpGRTBhQWJMYXlqSV9CZlVsVjZGM01CSnlqYWlWbTdYcXF5YkVOdEZ5SHJYY1EwNUM1UlRMNmF0cTB6bjN3QjFyektXWXlrRUNtRDdVcw?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
@@ -237,10 +231,16 @@
       "published": "2026-05-17T07:00:00+00:00"
     },
     {
-      "headline": "Top 10 Altcoins to Buy in May 2026 as Bitcoin Recovers - CryptoTicker",
-      "source": "CryptoTicker",
+      "headline": "Top 10 Altcoins to Buy in May 2026 as Bitcoin Recovers - cryptoticker.io",
+      "source": "cryptoticker.io",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFlfaWVDaUt0LXppd244V0EyOWJDZk9SWDlLb1ZxU1N0QlVKS3lTLURqY29TSGE0eUhDcVVPTlljcUc1QmFKOWhOYlVKaHdQUEI1djN0NHBSYllNQWtXSkhwM1Bzc1p5NWx0dWlpUkRhQUwweTd4Tk9YcVBMUlNaUg?oc=5",
       "published": "2026-05-15T07:00:00+00:00"
+    },
+    {
+      "headline": "Top Cryptos to Buy in 2026: BlockDAG, Ethereum, Chainlink, & Solana Poised For Growth - TechFinancials",
+      "source": "TechFinancials",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTFCZ19xQ3k5WVk3Y1hWWkg3MkI0ZEJWRjFBaUF0SXRRNnRRUHJDTWlXVkNVTVFCeksySWZwMDVPUFNYYnNTLTVnekZqcXZDWGF4YTdRYWpYeWQxRVBqOFNETGFlamV4VEVjNkY3UjNVWDhqbGhFNUpXOWJtaDZLVmwwZ0t6SXFJRVhZNHRyMFVYeXdleDZHdDhvSHIyVkxLNGV5eThlQUJ2czB1ZGFNUFVHMHh1X3hRSUZ5YtIBxAFBVV95cUxPQVdpZGxodFFNM1hQdXJfaWpuaUJtR0pLVjltWEVSNzh1MDZTOXNKakQ1Z0pMUzQ5dUthb2xRcjBnUFEtanhTY3VYQUlUeThLUWNONl9qcFlMRWo3aUI1QXNMdlgtV1M4Nkd3UWJubzNXU0JpSVVZY0NDdWVERGZNTHVUVk1iNjFjTlkwU2kwMEt1aTRWVXhFNjJLMkRPZkJYN0F2SjYwS0xScXpsbW9WWmo2WDZYT2o5b2MwejZVWXY5NDFn?oc=5",
+      "published": "2026-05-11T07:00:00+00:00"
     }
   ]
 }
