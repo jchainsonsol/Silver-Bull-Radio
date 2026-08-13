@@ -1,55 +1,79 @@
-SILVER BULL NEWSWIRE — WEDNESDAY, AUGUST 12
+SILVER BULL NEWSWIRE — THURSDAY, AUGUST 13
 
 This is the Silver Bull Newswire on W3BC. Here are the stories setting the table for today’s show.
 
-We begin in Washington, where Congress is still working through crypto market structure, but regulators appear ready to move on their own timelines.
+We begin with regulation, where the U.S. market-structure fight is getting more specific.
 
-Reporting this morning says the SEC and CFTC are preparing new crypto-focused initiatives while the broader Senate effort remains stalled.
+The Senate CLARITY Act vote remains pushed into September, but expectations are building around an SEC vote on August fourteenth involving a proposed Regulation Crypto framework.
 
-The SEC is also expected to consider a tailored offering regime for certain crypto-related investment contracts at an August fifteenth open meeting. The bigger question is whether workable agency rules can move faster than comprehensive legislation.
+Reporting in this morning’s file describes a potential path for certain issuers to raise up to seventy-five million dollars outside traditional registration while still providing audited financial statements and semiannual reports.
 
-Outside the United States, BRICS nations are discussing potential links between their fast-payment systems and central bank digital currencies. That creates a very different digital-money path from the United States, where private stablecoins continue gaining importance.
+Fidelity is also seeking SEC approval to add staking capabilities to its Ethereum ETF, which is reported to manage more than eight hundred ninety-eight million dollars in assets.
 
-Now to Bitcoin.
+That creates a bigger question for the industry: is the next phase of adoption really about more products, or is it about finally creating a market structure institutions can actually use?
 
-Bitcoin remains stuck in a narrow range, with reporting putting the market roughly between sixty-two and sixty-six thousand dollars. ETF demand is helping support the market, but selling from miners and other holders continues to offset some of those inflows.
+Now to the macro picture.
 
-United States spot Bitcoin ETFs brought in about eight hundred fifty-four million dollars last week, their strongest weekly haul since April. Wintermute says that is encouraging, but it wants to see sustained flows before turning fully bullish.
+United States CPI inflation slowed to three-point-four percent as expected. Bitcoin held near sixty-four thousand dollars while Treasury yields declined.
 
-The institutional story extends beyond ETFs. Wintermute says institutions accounted for seventy-two percent of its spot over-the-counter volume during the first half of twenty twenty-six. That points to deeper professional liquidity even while Bitcoin itself remains range-bound.
+The price action is still messy, but the institutional adoption story continues moving underneath it.
 
-Japanese Bitcoin treasury company Metaplanet also moved three thousand eight hundred eighty-one Bitcoin between wallets it controls. Blockchain data indicated the transfer was internal rather than a sale, another reminder that large on-chain movements do not automatically mean coins are headed to market.
+Coinbase Institutional leadership is describing what it calls a second phase of institutional crypto adoption — one that goes beyond simply giving institutions access to Bitcoin and Ethereum.
 
-Now to tokenized equities.
+BlackRock’s IBIT product has also lowered its swap minimum to one million dollars, reducing friction for Bitcoin holders looking to move BTC into the ETF structure without first selling it.
 
-Tokenized stocks have reportedly reached about two-point-four-nine billion dollars in value, up roughly six hundred percent over the past year.
+And TRON continues posting massive stablecoin activity. Reporting tied to Messari and Nansen says the network powered roughly two-point-one trillion dollars in USDT transfers during the second quarter.
 
-Crypto.com is rolling out tokenized stock derivatives as exchanges continue pushing into equity exposure. These products track share prices, although they do not necessarily provide the same ownership and shareholder rights as traditional stock.
+That is real blockchain usage at scale, whether or not it shows up in the daily token-price conversation.
 
-Settlement is also becoming part of the story. Tokenized equity systems are being promoted as a way to shrink settlement from a full business day toward seconds.
+Now to the biggest institutional-market story on the board today.
 
-On Robinhood Chain, decentralized liquidity is already forming around tokenized stocks, with Uniswap reported to hold the overwhelming majority of that liquidity.
+Bloomberg reporting says JPMorgan, Goldman Sachs, Invesco and Citadel Securities put Wall Street’s blockchain experiment to a much bigger test.
 
-But there is also an important reality check. A GSR executive says tokenization hype has outpaced actual usage on some heavily restricted, walled-garden platforms. The point is simple: launching a tokenized product is not the same thing as creating real liquidity or real market activity.
+For four hours in July, major financial firms reportedly traded stocks and Treasuries over blockchain networks.
 
-BlackRock is also continuing to expand tokenized money-market products as major financial institutions build out blockchain-based cash and settlement infrastructure.
+That matters because this is no longer just about issuing a digital version of an asset and showing that the technology works.
 
-Turning to real-world assets and payments, the broader RWA market is increasingly being discussed through the lens of collateral rather than simple token representation.
+The question is whether blockchain rails can become part of ordinary capital-market activity.
 
-When stablecoins are included, reporting puts the wider tokenized real-world-asset landscape above seven hundred thirty billion dollars. The next step is making those assets productive inside lending, collateral and settlement systems.
+Bullish is also moving further into tokenized equities. The company says market participants executed trades of its tokenized shares on Bullish Exchange.
 
-Stablecoin card spending has reportedly moved above seven hundred fifty million dollars. In many cases, the stablecoin is converted into local currency at the point of sale, meaning consumers can use digital dollars while merchants continue receiving familiar money through existing card rails.
+Crypto dot com is expanding tokenized stock derivatives as well, offering products that track approximately fifteen hundred United States stocks and ETFs, including names like Apple, Tesla and Nvidia.
 
-Payoneer leadership says that last-mile conversion into usable local currency may be where the stablecoin race is actually won.
+These products provide price exposure, although they do not necessarily come with the same ownership rights as traditional shares.
 
-Institutional Ethereum is also becoming more productive. Galaxy and Sharplink are launching a one-hundred-twenty-five-million-dollar fund designed to deploy institutional ETH into decentralized finance and other on-chain opportunities.
+Tokenization continues being pitched around faster settlement, lower trading costs, fractional access and twenty-four-seven markets.
 
-Tokenized Treasury products continue expanding as well, with Franklin Templeton highlighted as a major participant in tokenized United States Treasury bills.
+But there is another side to that story.
 
-And one more longer-term theme: Grayscale argues that AI agents may create new demand for blockchain infrastructure because autonomous systems need verifiable records, identity and payments.
+One argument in this morning’s file says tokenization may not kill the banks at all. It may simply give large financial institutions new ways to control custody, compliance, liquidity and distribution.
+
+So instead of eliminating intermediaries, better blockchain rails could actually help incumbents build new financial empires.
+
+The trillion-dollar forecasts remain in the conversation too. Coverage again cites Citi’s estimate that tokenized securities could grow to roughly five-point-five trillion dollars by twenty thirty, including around two-point-six trillion dollars in tokenized equities.
+
+Now to stablecoins, CBDCs and on-chain finance.
+
+The Bank of England is testing Polygon alongside a simulated central bank digital currency in a dual-rail payment experiment aimed at small and midsize enterprise trade flows.
+
+That is a useful example of how public blockchain infrastructure and central-bank money may eventually operate beside each other rather than in completely separate systems.
+
+In the United States, the stablecoin debate remains tied to banking competition.
+
+Senator Cynthia Lummis is rejecting claims that stablecoins are causing widespread deposit flight from community banks as the CLARITY Act fight continues.
+
+At the same time, the industry is still debating which form of digital money ultimately wins: stablecoins, tokenized bank deposits or central bank digital currencies.
+
+And Andre Cronje is arguing that the term DeFi may no longer describe what the industry has become.
+
+His view is that the market is evolving into something broader: on-chain finance, or open finance.
+
+That description may fit better as institutional funds, tokenized securities, stablecoins and traditional financial products begin using the same blockchain rails.
+
+Ondo Finance is also pushing that market-structure conversation forward. The company filed a comment with the SEC around Regulation NMS Rule six-eleven, arguing for a market that better connects on-chain and off-chain securities.
 
 The larger picture this morning is pretty clear.
 
-Congress is moving slowly, regulators are moving anyway, institutional crypto liquidity is deepening, tokenized stocks are growing fast, real-world assets are becoming collateral, and stablecoins are moving further into everyday payments.
+Regulators are trying to build a usable framework. Bitcoin is holding near sixty-four thousand dollars as inflation cools. Institutional adoption is moving into its next phase. Wall Street firms are testing real stocks and Treasuries over blockchain networks. Tokenized equity products are expanding. And stablecoins, bank deposits, CBDCs and tokenized assets are beginning to collide inside the same financial system.
 
-That’s the Silver Bull Newswire on W3BC. Now back to JChains in the Bullpen for the charts, the conversation, and what actually matters today.
+That’s the Silver Bull Newswire on W3BC. Now back to JChains in the Bullpen for the charts, the conversation and what actually matters today.
