@@ -2,91 +2,117 @@ Good morning and welcome to Silver Bull Radio, W3BC.
 
 Welcome to the Bullpen.
 
-It is Wednesday morning, August twelfth, and today’s board has a really good mix of regulation, markets, tokenization and actual on-chain usage.
+It is Thursday morning, August thirteenth, and today’s board is probably the clearest example yet of what we’ve been talking about all week.
 
-The first thing I’m watching is the split between Washington and the regulators.
+The story is not just crypto prices anymore.
 
-Congress is still dragging its feet on crypto market structure, but the SEC and CFTC appear ready to keep moving anyway. The SEC is expected to consider a more tailored offering regime for certain crypto investment contracts later this week.
+The story is market structure.
 
-That matters because the industry may not get one giant piece of clarity all at once. We may get pieces of it from different agencies, different rules and different product categories.
+The story is who is actually using the rails.
 
-Meanwhile, outside the United States, BRICS countries are discussing ways to connect payment systems and central bank digital currencies.
+The story is whether blockchain is moving from experiment to infrastructure.
 
-So you’ve got two very different paths developing at the same time: state-backed digital payment infrastructure in some parts of the world, and private stablecoin and crypto-market infrastructure becoming more important in the United States.
+We start in Washington, where the Senate CLARITY Act vote is still pushed into September, but the SEC is preparing for an August fourteenth vote around a proposed Regulation Crypto framework.
 
-Then we get to Bitcoin.
+There is reporting this morning around a possible raise path for certain issuers up to seventy-five million dollars outside traditional registration, with audited financials and semiannual reports still required.
 
-Bitcoin is still stuck in a range, roughly between sixty-two and sixty-six thousand dollars in the reporting this morning.
+Fidelity is also trying to add staking to its Ethereum ETF.
 
-But again, price is only part of the story.
+That matters because we may be moving into a phase where the question is not, “Can institutions buy crypto?”
 
-Spot Bitcoin ETFs brought in about eight hundred fifty-four million dollars last week, their strongest week since April.
+They already can.
 
-And Wintermute says institutions accounted for seventy-two percent of its spot over-the-counter volume in the first half of twenty twenty-six.
+The question is whether they can trade it, stake it, settle it, tokenize assets around it and plug it into familiar capital-market structures.
 
-That is the kind of number I care about.
+That’s a very different phase of adoption.
 
-Price can go sideways while market infrastructure gets deeper underneath it.
+At ten, we’ve got a pretty clean macro setup.
 
-We’re also seeing another good example of why you have to understand on-chain data before reacting to it. Metaplanet moved three thousand eight hundred eighty-one Bitcoin between wallets it controls, and the transfer was not identified as a sale.
+CPI slowed to three-point-four percent as expected.
 
-Big movement does not automatically equal dumping.
+Bitcoin is holding around sixty-four thousand dollars.
 
-At eleven, I think we’ve got one of the best conversations of the day.
+Treasury yields moved lower.
 
-Tokenized stocks have reportedly reached around two-point-four-nine billion dollars in value, up roughly six hundred percent over the past year.
+And Coinbase Institutional is talking about a second phase of institutional adoption.
 
-Crypto.com is pushing into tokenized stock derivatives. KuCoin is integrating tokenized assets. Robinhood Chain is already seeing decentralized liquidity form around tokenized equities.
+Again, that lines up with what we’ve been watching.
 
-And settlement is becoming a real part of the pitch — moving from next-business-day settlement toward seconds.
+Phase one was access.
 
-But here’s the reality check I like.
+ETFs.
+Custody.
+Institutional trading desks.
 
-A GSR executive is warning that tokenization hype has moved faster than actual usage on some walled-garden platforms.
+Phase two looks more like staking, tokenization, settlement, stablecoins, collateral and using blockchain rails inside actual financial workflows.
 
-That’s exactly the conversation I want us having.
+Then we get to the eleven o’clock hour, and this is the story I think matters most today.
 
-Not just, “Look, another tokenized product launched.”
+Bloomberg is reporting that JPMorgan, Goldman Sachs, Invesco and Citadel Securities took part in a bigger Wall Street blockchain test.
 
-Show me the volume.
-Show me the users.
-Show me the settlement.
-Show me the liquidity.
-Show me what actually got better.
+For four hours in July, they reportedly traded stocks and Treasuries over blockchain networks.
 
-That’s how we separate adoption from marketing.
+That is the shift I care about.
 
-Then at noon we move into real-world assets, collateral and payments.
+Not just issuing a tokenized asset.
 
-The broader RWA market is being measured above seven hundred thirty billion dollars when stablecoins are included.
+Not just announcing another pilot.
 
-Stablecoin card spending has reportedly moved past seven hundred fifty million dollars.
+Actually trading ordinary financial assets over blockchain rails.
 
-Galaxy and Sharplink are launching a one-hundred-twenty-five-million-dollar fund designed to put institutional Ethereum to work in DeFi and other on-chain opportunities.
+Bullish is also trading tokenized shares.
 
-And tokenized Treasury products continue growing.
+Crypto dot com is now offering tokenized derivatives tracking roughly fifteen hundred United States stocks and ETFs.
 
-That’s the theme for me today:
+The market is moving toward twenty-four-seven access, faster settlement, lower friction and fewer boundaries between crypto-native markets and traditional finance.
 
-Capital is not just moving on-chain.
+But there’s also a good counterpoint on the board today.
 
-It is starting to do things on-chain.
+Tokenization may not destroy the banks.
 
-It is being traded.
-It is being used as collateral.
-It is being deployed for yield.
-It is being used for payments.
-It is settling faster.
+It may make the biggest banks even stronger.
 
-That is a much more important signal than simply saying an asset has been tokenized.
+Because if they control custody, compliance, distribution and liquidity, then better rails do not necessarily remove them from the system.
 
-So today we start with Washington and regulation.
+They may simply build new empires on top of them.
 
-At ten, we get into Bitcoin, ETF demand and institutional liquidity.
+That is a much better conversation than just saying tokenization is bullish.
 
-At eleven, we go deep into tokenized stocks and whether the usage actually matches the hype.
+Who actually captures the value?
 
-At noon, we get into RWAs, stablecoins, institutional ETH and capital actually working on-chain.
+The blockchain?
+The issuer?
+The bank?
+The exchange?
+The oracle?
+The custody provider?
+The liquidity layer?
+
+That’s where this gets interesting.
+
+Then at noon, we get into digital money and on-chain finance.
+
+The Bank of England is testing Polygon alongside a simulated CBDC in a dual-rail payments experiment.
+
+Stablecoins are still being debated as possible competition for bank deposits.
+
+And Andre Cronje is arguing that DeFi is becoming something broader: on-chain finance.
+
+I actually think that language makes more sense for where this is heading.
+
+Because when banks, tokenized funds, stablecoins, Treasuries, stocks and institutional capital all start using blockchain rails, calling all of it DeFi starts to feel too narrow.
+
+The rails are converging.
+
+That is today’s theme.
+
+At nine, regulation and market structure.
+
+At ten, CPI, Bitcoin and institutional adoption phase two.
+
+At eleven, Wall Street putting real stocks and Treasuries onto blockchain rails.
+
+At noon, stablecoins, CBDCs and the shift toward on-chain finance.
 
 And as always, if something breaks while we are live, we move with it.
 
