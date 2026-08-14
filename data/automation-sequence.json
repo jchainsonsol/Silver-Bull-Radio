@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "updated": "2026-08-14",
+  "name": "Silver Bull Radio Morning Automation",
+  "description": "Post-monologue automation block: song -> Station ID 1 -> female news read -> Station ID 2 -> J Chains live mic.",
+  "sequence": [
+    {
+      "type": "song",
+      "label": "Opening Rotation Song",
+      "source": "data/music.json",
+      "selection": "rotation"
+    },
+    {
+      "type": "audio",
+      "label": "Station ID 1",
+      "file": "audio/station-id-1.mp3"
+    },
+    {
+      "type": "news",
+      "label": "Morning News — Female Voice",
+      "script": "data/morning-news-script.txt",
+      "fallback_audio": "audio/newswire-today.MP3",
+      "voice": "female",
+      "date": "2026-08-14"
+    },
+    {
+      "type": "audio",
+      "label": "Station ID 2",
+      "file": "audio/station-id-2.mp3"
+    },
+    {
+      "type": "handoff",
+      "label": "Back to J Chains",
+      "mode": "live-mic",
+      "next": "open-panel-or-focus-interview"
+    }
+  ]
+}
