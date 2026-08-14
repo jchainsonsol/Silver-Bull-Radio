@@ -1,7 +1,13 @@
 {
-  "updated": "2026-08-13T23:27:43.441420+00:00",
+  "updated": "2026-08-14T05:20:33.783854+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc2RuMzQ4ek5DWkR5SmUxV3BwSHNZN2VnVzdkZEpVXy0zRGFhbHd0ZXY2OHBZZWtWM2pzUU9GTGo4MDVhMEZ5aDdyRlhPc00zRENTVFFKUUM0amtCTzZZR0xTTHpSemllMS1TQVJnUGg5MVA0MjladWdpUHgwWkk2b0lQWWRmMy1wOXVvaDBiQVB0ekNuRGhWd3RKSVFFQmFDSjVlQlVTcWR5WTZoY0lGZ3dabGplbnI1aUFfWi1QR0wwWk94bnlGaQ?oc=5",
+      "published": "2026-08-13T12:45:48+00:00"
+    },
     {
       "headline": "Ondo Predicts 2025 Will Be 'Year of Tokenized Stocks' After Partnership with Trust Wallet, 8 Other Firms - Yellow.com",
       "source": "Yellow.com",
@@ -13,12 +19,6 @@
       "source": "The Coin Republic",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEQwVjNXeVJnMXJybkJaT1UxejJhdGtST3ItRVBoTzVfb2pGcTlaLVFhQVRiQVc5WGVKcElsT0Q2bGlFZUZMV3ZubGlNODdUWkJDZWRNN2JmVW02MDNQQmJfTXRVeDlkUS0wY2VSbWRNZEZEdWFqeHN2Ry04bFh6UkZjWDFNQ05ldG5BczFOc3hBTnpidjd5bGhmajJhQUxiRkdnRlJpWFpJblpJS3fSAbMBQVVfeXFMUFZhWlhZLUVCbXRqUll6ZkdWaWtwNjVvMWU5cE9qSXkyUy1vbWhINFlmOExyeGx4TVQwVHI4UmJoT0pIUjY0eWdMb01sX2d1VTBhYWo3YnNIY3FoUDZwR3BZLWZUV2JGQ2xWZGd0TnZvSzdrS21yNFNyNmNVcS1GVEtCUVVsSXd1c2VndzZCaTUtVFdadDdUd1lRenNBc1Z0MU9PSUUyaG51ZUhFdnlHS2txUmc?oc=5",
       "published": "2026-08-13T10:20:00+00:00"
-    },
-    {
-      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSkJFM1NxbTlZRXYyWmVRbWZ5dTQ2Q0FPSF9yV01CalJWQzF0WVBVSFNTWVBQeUFaa0xlMjU4RkltZWw0Ujl1LVlOMWpxbnE5cHZUMjZUMXlfTHVDZlpSQzF5N3dxWVlZcVk3NEliX3RDWnk5QjVjS2V0SHFXU3BjV0VCWlpoeVp3V2JqQXJMNjVsSGZSSDNXUHNHRHhCX05rYlNOYnJtUFFtVFFoamc4R0N4T0VrOGFtTl9oRGxqb2NYUVFnUGVkZzJyRlg?oc=5",
-      "published": "2026-08-13T08:15:00+00:00"
     },
     {
       "headline": "Ondo Finance Leads The $2B RWA Wave Reshaping DeFi - Yellow.com",
@@ -81,16 +81,16 @@
       "published": "2026-08-11T12:35:01+00:00"
     },
     {
-      "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
       "published": "2026-08-11T11:23:25+00:00"
     },
     {
       "headline": "RWA value on Avalanche surges to $1.93 billion, Securitize leads tokenization - Bitget",
       "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lTEZkcWhvU1B4X3NPU2dKQUthS1lqM05ka1hJa21HYm5FQkJKX1ZGc29aSW85azkxaGlYbm1kMnhPQjZLenR2am44djhwNS1jejMzZ1lPT1JSN3FuS2Q1NEI1NNIBY0FVX3lxTE5lTEZkcWhvU1B4X3NPU2dKQUthS1lqM05ka1hJa21HYm5FQkJKX1ZGc29aSW85azkxaGlYbm1kMnhPQjZLenR2am44djhwNS1jejMzZ1lPT1JSN3FuS2Q1NEI1NA?oc=5",
-      "published": "2026-08-11T00:14:05+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wTVRfcEpGS2ZoeXk4RkMyNHBwMUx3WEdmT3Q1NU5DZUxUNGM0cHBDQ2FvWmo5NmFuVUMtWlJhX1pjN0dWUkVTeU5MTmxCcHg1UGlKdkpyVXFJTTdmZ3pUSTN2VW1IWlkzUUHSAWpBVV95cUxPME1UX3BKRktmaHl5OEZDMjRwcDFMd1hHZk90NTVOQ2VMVDRjNHBwQ0Nhb1pqOTZhblVDLVpSYV9aYzdHVlJFU3lOTE5sQnB4NVBpSnZKclVxSU03Zmd6VEkzdlVtSFpZM1FB?oc=5",
+      "published": "2026-08-11T00:03:10+00:00"
     },
     {
       "headline": "Real-World Assets Are No Longer A Crypto Side Bet, And Ondo Finance Shows Why - Yellow.com",
@@ -111,20 +111,20 @@
       "published": "2026-08-09T06:42:20+00:00"
     },
     {
+      "headline": "Real World Asset Tokenization Market Opportunity: Key Sectors Driving 2026 Growth - Nasscom",
+      "source": "Nasscom",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYWZ2dmtiaUtwSnNRamFxdXVKVVZHWjFrVHZHb0lKYXRTWjRFS2JVRlFrOE5rT2JDNXpHbk51MnJMekpEemZVYkMtWnpZWEoxTktkWTYwaVlPVkg4WmtZdVo5bVNvUG9kWGhRUnVGU2wzNjBCT0NOempPS2RXenpCZEtWd2FkLW5Zemt6RlgzSHYwSDY2NXFERFBqTDdDakY1Z1BMYTM4bjNacENsaW1zbl9XNnVfSmZqTjBYeXhDcTlWTjROdUNB?oc=5",
+      "published": "2026-08-08T07:17:55+00:00"
+    },
+    {
       "headline": "Tokenized RWAs Gain 13.5% While Crypto Market Sheds $1T - CoinMarketCap",
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
       "published": "2026-08-07T04:57:36+00:00"
     },
     {
-      "headline": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOXlUWGRIa0FMNUktSzZiY1U2YzMzQVk1Rmg2SFdVQ3pQdEtiRDhpYW5JX19GSTREMi0td2ZQanE3N0dJMHUwUVc3empWOE8wWFdXR2tMSTI3R0lqU2dMY0lncEtnX0JUMXE3MFI0M253d19abG1GWHpQTFpySWJtSGpZWi1ld0VoQ0VPVjlRN19tNmtZQ1hhOWtPNVByZXBQRExEeEc3bGtJd1VoanZWYVRGaTBiS1R4T1VXd1VMaFFoZG8?oc=5",
-      "published": "2026-08-04T07:00:00+00:00"
-    },
-    {
-      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWF1NEFJeXVHa1duaWRHRnRXYnVDa2p4UzBIQjRIU2RrbVhwSWljZUVNU3ZMSGlvWG1iLVJaN1lxYXlDMENTXy1hX0hvN3NRRS1Fa2FyRFpHaXdJN0kwRUFzSnNEMW5rcmd2VGQ0cldfRlJYMDV3RVRzXzFMeEhqdGVIM2VKblloclBBUWxqLWxiWU42WkQ5TE1CaFRWNW5hc0lMNTlWVVlGaExya2t1QllBT1BCd24wQ0NPTGlVUlJGUXFUamc?oc=5",
       "published": "2026-07-28T07:00:00+00:00"
     },
@@ -213,8 +213,8 @@
       "published": "2026-05-22T07:00:00+00:00"
     },
     {
-      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
     },
