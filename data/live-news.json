@@ -1,7 +1,13 @@
 {
-  "updated": "2026-08-15T05:58:17.122799+00:00",
+  "updated": "2026-08-15T07:43:33.446953+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX1B6SlJETUd6WGJqN2xrRFBVQk4wLUtoRGYxb3k1aHJleWlHYWxzWkZaZlM5eEFvUFFXZS10alJiMFNjY3JZZ0F4dk92c2NvRFFUQ3BLa1pVOUV3alo2cmsySzQtSDlTczdidEQ1TTFRRjRSSnBIZWoxRXZoM0l2ZUVfMGppaEtuLVpQMGhrZ2Q0NzVkV3B4T2NKdjNWN0RXQVR0M1l2S05HN3pDS211WkNKNWk0S2d0OUhWY1FqU1V3RlZFNGRGNFhrcmtsUQ?oc=5",
+      "published": "2026-08-15T06:22:02+00:00"
+    },
     {
       "headline": "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls - The Motley Fool",
       "source": "The Motley Fool",
@@ -9,8 +15,8 @@
       "published": "2026-08-14T22:57:00+00:00"
     },
     {
-      "headline": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs - theblock.co",
-      "source": "theblock.co",
+      "headline": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs - The Block",
+      "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbzJVbzZPTi14NUUzaURFUE4ybEo4bm9zV3lOZjRVU3d6bUpvdXlpb2taZjJIYUczNHBUR2VGNFA3MUdyWDVuYnpsUlVvNWl4Y2NWVlNjTFhTVEdaWmJyeUxaRHM4WDdxeUpNZGRDWmU4RldJRXVTcVBwWEc3T2xFNkxXaGdySHBjVUpWUHNCdnpJUV8tOV8zWUFXT1RubVlKcEdNUXdJendsTUNKMjQzWXJIckRVUQ?oc=5",
       "published": "2026-08-14T19:01:18+00:00"
     },
@@ -43,12 +49,6 @@
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOb2N3Tklyd2trdU1wZktIRy1QVW1zbzhCeEJRUlZoaTJzeDIyRnZPT3U1Y2d0YjBkSVN2YmM4Z2ZyY29NV0o4aHFXa2lEblBiODhMT0p2SzJJSHp1S3k1SkNHck9TcmE2eEU4c0tHbGJPMk5ES3diUGtqTWMyblhDU1NreWtPRVpNdTlySnJsNDE3LXdOdXZUcHVrSm5zRFJwV3ZFWWZaSnAxRndKXzZXWnFRakYzblFYQkZyM1ZPdGZtMnlTREo4QTYyczlvSVVLM2c?oc=5",
       "published": "2026-08-13T11:06:39+00:00"
-    },
-    {
-      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcXI4SURjcW44M1l1MUQ1TkRGb2t4SlFNS1ptQTZtWm5UQjdEdGs0VThZSklQcUNPbEFDV3NsLVBwck1SZkVDOVNmYUUzdkEwWlhZVk4teDVWcXUyclI1c0x4WHQxUl9Zel9VS3lmRDI1Qks2eVR0UTFkc2kzdEQtTElLVTF3NTlqT0Q0ZmhPUFZ5cTgzZnRWYWZNS0ROcnRlOFlHblZoUHJDb3RHTEtLR0lrSjBYNE5sMl9YTjB3bmkya2oyVWJycnVqQldOQQ?oc=5",
-      "published": "2026-08-13T07:18:45+00:00"
     },
     {
       "headline": "Ondo Finance Leads The $2B RWA Wave Reshaping DeFi - Yellow.com",
@@ -153,12 +153,6 @@
       "published": "2026-07-23T07:00:00+00:00"
     },
     {
-      "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
-      "source": "CryptoNinjas",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFVpdjAzWm44c1RxejYyV3pHNl90Z0VMUmd4bjl6eVBkVjFhZjRKeUJka3NtZnJGQjYtX3FrSjhTeE1udVBsNTdOd1NxcW1xYVNJbzJOLVJ6T2lmYWZkM2Utak5PWVpHYjZIZnM4aEZPbVJ3cDRIZGd2N0gzWUF1eEtRYXNQa2QwbjlGUGc4eHJwd1dnaDZ1YVJKUnhNREd6V3JiQ0x5QXFYZXRjMXQ4ZFQ0dzN5b1BDT3VHOFdTOEdyUdIBxwFBVV95cUxOMHZpZno3c2JkOUlaUW9aOVFhTE1UdG90UGc2ZEhEeGc2NEMtS2hualZVbkJSUkNkRWNnd0RuX0liSUpCeDRPcXZ5ZXBHTTNXZjZIZVZWQUg2bWotdVgzTHZSekFlWTcySWl4bTZiZEc1dXA3VVM0dWg5VGMzLW41QkUwWXdXOHZJVDg5YkhRUUhkVGhnYmtmUi01MktRZ2lfczBydUJYZEFRUVJfUmM1YXlWLWdHbWFjdkNNOEo0SlN2b01sc0FV?oc=5",
-      "published": "2026-07-10T07:00:00+00:00"
-    },
-    {
       "headline": "US SEC Announces Long-Awaited Crypto Rules \u2014 Safe Harbor for Startups and DeFi Exemptions Could Arrive in July - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xMWNuZDI5TjUxdkp0cHpBODJJZ1gyVl9EWlVzb3FJMW5MYzZ5VmJGVW9hMlNkX1ZrX0FOaVVrN1FzOHpYUG9zSGNvYnRfb2hHRm94amFEdlJOZU92azFzay1xTUF4UjBMUmptVXVuVGgyamg2dlhLaw?oc=5",
@@ -195,8 +189,8 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - theblock.co",
-      "source": "theblock.co",
+      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - The Block",
+      "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
       "published": "2026-06-30T07:00:00+00:00"
     },
@@ -225,8 +219,14 @@
       "published": "2026-05-21T07:00:00+00:00"
     },
     {
-      "headline": "Top Cryptos to Buy in 2026: BlockDAG, Ethereum, Chainlink, & Solana Poised For Growth - TechFinancials",
-      "source": "TechFinancials",
+      "headline": "BeInCrypto Institutional Research: 15 Stablecoin Infrastructures Powering Crypto Offerings - BeInCrypto",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmZ5dUVfRnRGc1V0cE8td185Wlc0aGxhZ2xGakZXVmhOWXRLUGtxRENCM2JZVU11cDFYcTh1ZEJSSUt5OXp6dTExeEtZSHJ5T2ZxRmx1VS1BVWUzQ1I4LWk1WlVMMmNiR3ZhXzZmejVPdGFPNWw0bXFWOHV1cDhnTmI2eGg2RU5k?oc=5",
+      "published": "2026-05-17T07:00:00+00:00"
+    },
+    {
+      "headline": "Top Cryptos to Buy in 2026: BlockDAG, Ethereum, Chainlink, & Solana Poised For Growth - techfinancials.co.za",
+      "source": "techfinancials.co.za",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTFCZ19xQ3k5WVk3Y1hWWkg3MkI0ZEJWRjFBaUF0SXRRNnRRUHJDTWlXVkNVTVFCeksySWZwMDVPUFNYYnNTLTVnekZqcXZDWGF4YTdRYWpYeWQxRVBqOFNETGFlamV4VEVjNkY3UjNVWDhqbGhFNUpXOWJtaDZLVmwwZ0t6SXFJRVhZNHRyMFVYeXdleDZHdDhvSHIyVkxLNGV5eThlQUJ2czB1ZGFNUFVHMHh1X3hRSUZ5YtIBxAFBVV95cUxPQVdpZGxodFFNM1hQdXJfaWpuaUJtR0pLVjltWEVSNzh1MDZTOXNKakQ1Z0pMUzQ5dUthb2xRcjBnUFEtanhTY3VYQUlUeThLUWNONl9qcFlMRWo3aUI1QXNMdlgtV1M4Nkd3UWJubzNXU0JpSVVZY0NDdWVERGZNTHVUVk1iNjFjTlkwU2kwMEt1aTRWVXhFNjJLMkRPZkJYN0F2SjYwS0xScXpsbW9WWmo2WDZYT2o5b2MwejZVWXY5NDFn?oc=5",
       "published": "2026-05-11T07:00:00+00:00"
     },
