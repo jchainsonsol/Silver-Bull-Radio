@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T05:03:17.405405+00:00",
+  "updated": "2026-08-15T05:58:17.122799+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -9,8 +9,8 @@
       "published": "2026-08-14T22:57:00+00:00"
     },
     {
-      "headline": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs - The Block",
-      "source": "The Block",
+      "headline": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs - theblock.co",
+      "source": "theblock.co",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbzJVbzZPTi14NUUzaURFUE4ybEo4bm9zV3lOZjRVU3d6bUpvdXlpb2taZjJIYUczNHBUR2VGNFA3MUdyWDVuYnpsUlVvNWl4Y2NWVlNjTFhTVEdaWmJyeUxaRHM4WDdxeUpNZGRDWmU4RldJRXVTcVBwWEc3T2xFNkxXaGdySHBjVUpWUHNCdnpJUV8tOV8zWUFXT1RubVlKcEdNUXdJendsTUNKMjQzWXJIckRVUQ?oc=5",
       "published": "2026-08-14T19:01:18+00:00"
     },
@@ -105,12 +105,6 @@
       "published": "2026-08-11T11:23:25+00:00"
     },
     {
-      "headline": "RWA value on Avalanche surges to $1.93 billion, Securitize leads tokenization - Bitget",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wTVRfcEpGS2ZoeXk4RkMyNHBwMUx3WEdmT3Q1NU5DZUxUNGM0cHBDQ2FvWmo5NmFuVUMtWlJhX1pjN0dWUkVTeU5MTmxCcHg1UGlKdkpyVXFJTTdmZ3pUSTN2VW1IWlkzUUHSAWpBVV95cUxPME1UX3BKRktmaHl5OEZDMjRwcDFMd1hHZk90NTVOQ2VMVDRjNHBwQ0Nhb1pqOTZhblVDLVpSYV9aYzdHVlJFU3lOTE5sQnB4NVBpSnZKclVxSU03Zmd6VEkzdlVtSFpZM1FB?oc=5",
-      "published": "2026-08-11T00:03:10+00:00"
-    },
-    {
       "headline": "Crypto ETFs Vs. Direct Ownership: What You Actually Give Up With Each - Yellow.com",
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0NFNaOHhTTnoydm53LXJ2a0V6d3FjeEZfRVJXZmY0SkRFVFNxeGFQLXo3YnB0QlprS0N6bUlyYllOc1VQaVRFTmY0ZGgxbWJHbndDZkw4OW5mUE5TMVo2dGtuOHBtZTZIWERpc3QxRDJvUHM?oc=5",
@@ -139,6 +133,12 @@
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
       "published": "2026-08-07T04:57:36+00:00"
+    },
+    {
+      "headline": "Ondo Finance weighs $500M deal as RWA market hits $36B - Crypto News",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUhkZTRjVGQ1RnJ2eHNvQmZLTDhjUlZOazNjc3N1eXpTM3ExY0FjUXh0NUdUcTZXNU1KVnEydnZjOWlGdDVRNlpQSG14eWdkWnkyODhKV1Z2ZU1zLXFLcEZMRVhFbXE4UDg2MFota0Q1RWtDd0NXSzJrZ19CRi04U0Y2VDlCTjdwNGp4cmt3?oc=5",
+      "published": "2026-07-31T07:00:00+00:00"
     },
     {
       "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
@@ -183,8 +183,8 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - finance.yahoo.com",
-      "source": "finance.yahoo.com",
+      "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance",
+      "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOczRMTGZPay12RDM4b01ldnh0b1V0bzlQaEdvUi1mY0FGbEh6azV1TXA5T3d6NTBpcXQ4a2RfUDBzYW10b0tKVG9ZZjYxNkZqRkpmSGVRUU05TVU2N092LUE5QzBiOWltQWYwaWRmdDN2VFhfeG1rUWltclJ2Qmw2ZUd2Slp5ZnFIVnVGYjlkMWhmVkJ1Z1E?oc=5",
       "published": "2026-07-02T07:00:00+00:00"
     },
@@ -195,8 +195,8 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - The Block",
-      "source": "The Block",
+      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - theblock.co",
+      "source": "theblock.co",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
       "published": "2026-06-30T07:00:00+00:00"
     },
@@ -213,8 +213,8 @@
       "published": "2026-05-26T07:00:00+00:00"
     },
     {
-      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16zcrypto.com",
-      "source": "a16zcrypto.com",
+      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
+      "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
     },
