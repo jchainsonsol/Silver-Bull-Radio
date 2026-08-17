@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T23:08:51.052003+00:00",
+  "updated": "2026-08-17T23:35:01.851138+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -13,6 +13,12 @@
       "source": "CryptoTicker",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmx5TE1lZjBmQ0hVRkZmQjJQbUdYOTREZTlNM2dwdW5SVlNkcVctaDNUWUxOY2xpaFdJT0RURzAyek43LXRRSEdneHVLZGJRdDVHOHA2WnJQTVhXMnBiYkhBbmhndkFmVXNPWnpXZzF2NzBocG4wZVRLQmRZZE91Y3VhdnpKSU90UmNnSA?oc=5",
       "published": "2026-08-17T10:36:34+00:00"
+    },
+    {
+      "headline": "SEC Delays 7 Crypto ETF Decisions Until October 2025 Deadlines - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPblB3Y3RNQUZUbGFWa2ozSWZwZldueFJTUzFzM2xFRElpc2ZKUVdQYThXdm5QQURDMXJIX0FheUJYU1ktRl9LTktqUWdMZHpTT0ZSc3NpWTVRbVp6WGZyREY5NnI3Yk0zTWlDbmNCREYzOVpURzUwNDNqcTdXeEYwdTBYaTNsdzJvMVRnc2l5Y24tc0E3RWE4RHZCRE02TWx5TVE?oc=5",
+      "published": "2026-08-17T09:11:48+00:00"
     },
     {
       "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
@@ -135,6 +141,12 @@
       "published": "2026-07-23T07:00:00+00:00"
     },
     {
+      "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
+      "published": "2026-07-16T07:00:00+00:00"
+    },
+    {
       "headline": "Gauntlet Raises $125 Million to Power Institutional Crypto Vaults - PYMNTS.com",
       "source": "PYMNTS.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHVQR2xXVHQxdHdINVZZT3ZQSHVUbVZtUUQtbWRaSUQ5bFAyanYySzh2SlM1OUtOLU5TSVVPbTVpR0t4Z0hQZzM2ZGtxUHZyUHJjRHM5OHRTV2hrc0tRUy1mY1JEZTAtZkxRQUtSZ3psYmlTQ3BOaVE2bFNSU3doU0JSR0UwOGhNd3NHUGVpUVFHaTRIRzY3aHpMaEdHaUF0S1NXZzVOTjdielAyaVZlTWFEZl9rWG9B?oc=5",
@@ -147,8 +159,8 @@
       "published": "2026-07-10T07:00:00+00:00"
     },
     {
-      "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - cryptoninjas.net",
-      "source": "cryptoninjas.net",
+      "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
+      "source": "CryptoNinjas",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFVpdjAzWm44c1RxejYyV3pHNl90Z0VMUmd4bjl6eVBkVjFhZjRKeUJka3NtZnJGQjYtX3FrSjhTeE1udVBsNTdOd1NxcW1xYVNJbzJOLVJ6T2lmYWZkM2Utak5PWVpHYjZIZnM4aEZPbVJ3cDRIZGd2N0gzWUF1eEtRYXNQa2QwbjlGUGc4eHJwd1dnaDZ1YVJKUnhNREd6V3JiQ0x5QXFYZXRjMXQ4ZFQ0dzN5b1BDT3VHOFdTOEdyUdIBxwFBVV95cUxOMHZpZno3c2JkOUlaUW9aOVFhTE1UdG90UGc2ZEhEeGc2NEMtS2hualZVbkJSUkNkRWNnd0RuX0liSUpCeDRPcXZ5ZXBHTTNXZjZIZVZWQUg2bWotdVgzTHZSekFlWTcySWl4bTZiZEc1dXA3VVM0dWg5VGMzLW41QkUwWXdXOHZJVDg5YkhRUUhkVGhnYmtmUi01MktRZ2lfczBydUJYZEFRUVJfUmM1YXlWLWdHbWFjdkNNOEo0SlN2b01sc0FV?oc=5",
       "published": "2026-07-10T07:00:00+00:00"
     },
@@ -183,8 +195,8 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - eqs-news.com",
-      "source": "eqs-news.com",
+      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - EQS News",
+      "source": "EQS News",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWGc2RUpiTTJNWi10TXh4ZFZLS0o0eFdJcnNsQ3N0ckw1Y2xRVXJEOWZqNWduUU9zMWgzTUIxV2NxMFNPMGcwQlZUcF9NRkNCZTNPQk51b2ljemdNSHp6Mm1hT2ZLaEh5RmlmZWxoanliSnN6aGdiYjdOdW5lM0JLMU43bG1fcnMtT3RUQVR4WkxLZnVBN2lKcWNLS1d1OFYtMm5aczFLUzZyenRYVGRWcGY4Zl9ydmRuLXhuWkk4V3FRbkhhQVpGRTBhQWJMYXlqSV9CZlVsVjZGM01CSnlqYWlWbTdYcXF5YkVOdEZ5SHJYY1EwNUM1UlRMNmF0cTB6bjN3QjFyektXWXlrRUNtRDdVcw?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
@@ -201,10 +213,10 @@
       "published": "2026-06-16T07:00:00+00:00"
     },
     {
-      "headline": "U.S. Crypto Market Structure Reform: Is This the Bill That Will Redefine Bitcoin, ETFs, and Crypto Exchanges in 2026? - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa0FRSUM4TjQ0OGhYeXB1ZXN5OGR0RjFxdVExLWR5RnM0VjFDNzFpVkxCSmROak00V1JaWUJmZjk3MmEwdEZ6ZkJrOXQ0WG1POFRpOU5TRVhUdk9ZTDlZdXZYRUJiS3o1N3M3Tkw3YmVfU3Q1VFYzUnpsWF8yRmZsVmtqS0tLVVdEaTljYnJ4V29pZVFabmpJTV9jaUFBZ3hiaTdpX0ozaTRaa0JnRmdFQ1ZsdGs4R0p5YURwWlRVU3FwbkNTRS1YWFliVDFISnZnRXliSnZRYjZKRkFyanpsb1F5blpxSjJTN01Eeg?oc=5",
-      "published": "2026-06-05T07:00:00+00:00"
+      "headline": "Solstice\u2019s Ryan Day on why sustainable DeFi yield depends on business fundamentals, not token incentives - CryptoSlate",
+      "source": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNak5aSDVBbmxoRW1Wb1FsZVhHM3dETWtKcmdpV1R6SmZ5ZlBPeVpkRHhOc1NscnJfOFZpMERVR2p1SjcwQ1p5ZTJKUDF2ZWpFVHhLRXVLM2hGektPLTZLcXJ0dnM3V0VfVU95MlBPN2lnc2QzQXVlakd0OXE2dWlsY05jRDdlVGRDRTVWS2xBUE5HM2Ftczh3UU1zNFY4LUd5Yl9hcEMwRDd6cWZLMG5tYWlWeklTMFlrYWc3Q2VrSGhEaWk4aGc?oc=5",
+      "published": "2026-06-16T07:00:00+00:00"
     },
     {
       "headline": "Top RWA Crypto Projects 2026: Ondo, Maple, Centrifuge - Bitcoin Foundation",
@@ -229,18 +241,6 @@
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
-    },
-    {
-      "headline": "BeInCrypto Institutional Research: 15 Stablecoin Infrastructures Powering Crypto Offerings - BeInCrypto",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmZ5dUVfRnRGc1V0cE8td185Wlc0aGxhZ2xGakZXVmhOWXRLUGtxRENCM2JZVU11cDFYcTh1ZEJSSUt5OXp6dTExeEtZSHJ5T2ZxRmx1VS1BVWUzQ1I4LWk1WlVMMmNiR3ZhXzZmejVPdGFPNWw0bXFWOHV1cDhnTmI2eGg2RU5k?oc=5",
-      "published": "2026-05-17T07:00:00+00:00"
-    },
-    {
-      "headline": "Top Cryptos to Buy in 2026: BlockDAG, Ethereum, Chainlink, & Solana Poised For Growth - TechFinancials",
-      "source": "TechFinancials",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTFCZ19xQ3k5WVk3Y1hWWkg3MkI0ZEJWRjFBaUF0SXRRNnRRUHJDTWlXVkNVTVFCeksySWZwMDVPUFNYYnNTLTVnekZqcXZDWGF4YTdRYWpYeWQxRVBqOFNETGFlamV4VEVjNkY3UjNVWDhqbGhFNUpXOWJtaDZLVmwwZ0t6SXFJRVhZNHRyMFVYeXdleDZHdDhvSHIyVkxLNGV5eThlQUJ2czB1ZGFNUFVHMHh1X3hRSUZ5YtIBxAFBVV95cUxPQVdpZGxodFFNM1hQdXJfaWpuaUJtR0pLVjltWEVSNzh1MDZTOXNKakQ1Z0pMUzQ5dUthb2xRcjBnUFEtanhTY3VYQUlUeThLUWNONl9qcFlMRWo3aUI1QXNMdlgtV1M4Nkd3UWJubzNXU0JpSVVZY0NDdWVERGZNTHVUVk1iNjFjTlkwU2kwMEt1aTRWVXhFNjJLMkRPZkJYN0F2SjYwS0xScXpsbW9WWmo2WDZYT2o5b2MwejZVWXY5NDFn?oc=5",
-      "published": "2026-05-11T07:00:00+00:00"
     }
   ]
 }
