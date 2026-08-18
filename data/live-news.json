@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T03:59:21.295108+00:00",
+  "updated": "2026-08-18T04:43:18.520780+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -13,12 +13,6 @@
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMU1iRGNiY1o1Znppb2ctS2tPS0dnRl9kaXdDdjFicFRzTjJ6WWVYZE16RGxCQWZXQzhXaW51NU1TYXpFMmd0MEo2QXpLY2RpRXNXTWQ0MG5Jb1E4YklseG53bHptMjBNZVhNYUViZERvUHVmZW5sMlkxUGNDVzZKMGJvemhycEg1MjFxTGhiTHZUSWYxNWdZZGI0OWdubW4zcHhPVHhvbWM3V3o2SHZla0psUUxoZ1RXbElFZXoyNGEwS2w3RG1adnhPbTFnc0FwaFJJMklSTQ?oc=5",
       "published": "2026-08-17T15:55:45+00:00"
-    },
-    {
-      "headline": "Crypto News Today: White House Crypto Summit Collides With Collapsing CLARITY Act Odds - CryptoTicker",
-      "source": "CryptoTicker",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmx5TE1lZjBmQ0hVRkZmQjJQbUdYOTREZTlNM2dwdW5SVlNkcVctaDNUWUxOY2xpaFdJT0RURzAyek43LXRRSEdneHVLZGJRdDVHOHA2WnJQTVhXMnBiYkhBbmhndkFmVXNPWnpXZzF2NzBocG4wZVRLQmRZZE91Y3VhdnpKSU90UmNnSA?oc=5",
-      "published": "2026-08-17T10:36:34+00:00"
     },
     {
       "headline": "SEC Delays 7 Crypto ETF Decisions Until October 2025 Deadlines - Yellow.com",
@@ -105,6 +99,12 @@
       "published": "2026-08-12T19:05:59+00:00"
     },
     {
+      "headline": "Nasdaq Removes Position Limits on Bitcoin and Ethereum ETF Options - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT2YxRUdyN3dWZjZ3Vk1SVmlueWNYRjF5RXl5elViUTh5WXhlcFhsaEhWOV9CeGZwWGR1emFQTG53ckhsVE9mMkkzeEJlSFBnTFczQWVtblF2cTNmVEhyOXJSa1hmbWhJVW9zOHIycm5SdnF4VzNnVTJ0dUg1a191MnVpNUpRX1JOel9jR1YtcFZmclNZckVaNHVfNXlxNHJjWmFISkUyREFNQmQ0?oc=5",
+      "published": "2026-08-12T10:09:33+00:00"
+    },
+    {
       "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - Nasscom",
       "source": "Nasscom",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUy1YbUp1WHhEc0VlT1RnOUs3TDFxMnM2ck81em5fbWtjMU5tVGstMHhrWTlScDQ2SWtTSDhPal9sYnVrd3NaYi1tSWRVVm9hd1FaVThnd3lvb1NVY3RJaEtabmVtZGJiUV95VTVOdXl6QVN3SkVWeEhOQUFadWlLVW9kMjBtVXFHWWNXNE9VVlpPU0F0enNLNVVlYnViY1lzUDBwY3VrUDY2Yk9mQWpqeVQ4QjUwUQ?oc=5",
@@ -139,12 +139,6 @@
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
       "published": "2026-08-07T04:57:36+00:00"
-    },
-    {
-      "headline": "Ondo Finance weighs $500M deal as RWA market hits $36B - Crypto News",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUhkZTRjVGQ1RnJ2eHNvQmZLTDhjUlZOazNjc3N1eXpTM3ExY0FjUXh0NUdUcTZXNU1KVnEydnZjOWlGdDVRNlpQSG14eWdkWnkyODhKV1Z2ZU1zLXFLcEZMRVhFbXE4UDg2MFota0Q1RWtDd0NXSzJrZ19CRi04U0Y2VDlCTjdwNGp4cmt3?oc=5",
-      "published": "2026-07-31T07:00:00+00:00"
     },
     {
       "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
@@ -219,16 +213,16 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - The Block",
-      "source": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
-      "published": "2026-06-30T07:00:00+00:00"
-    },
-    {
       "headline": "Solstice\u2019s Ryan Day on why sustainable DeFi yield depends on business fundamentals, not token incentives - CryptoSlate",
       "source": "CryptoSlate",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNak5aSDVBbmxoRW1Wb1FsZVhHM3dETWtKcmdpV1R6SmZ5ZlBPeVpkRHhOc1NscnJfOFZpMERVR2p1SjcwQ1p5ZTJKUDF2ZWpFVHhLRXVLM2hGektPLTZLcXJ0dnM3V0VfVU95MlBPN2lnc2QzQXVlakd0OXE2dWlsY05jRDdlVGRDRTVWS2xBUE5HM2Ftczh3UU1zNFY4LUd5Yl9hcEMwRDd6cWZLMG5tYWlWeklTMFlrYWc3Q2VrSGhEaWk4aGc?oc=5",
       "published": "2026-06-16T07:00:00+00:00"
+    },
+    {
+      "headline": "Top RWA Crypto Projects 2026: Ondo, Maple, Centrifuge - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV0VtUmNLQUpwVVJ1Zmg3Y0l4MER0bUR2S190R0pDZjVnVjVjUWl6TVpkN1pZSmdZRXpRdkVyT0pTR1hjdlhYdEtrZ1VmWjJrU2RlTXdRbnExVkYtYVFQclJSS0t5WTZfbE1tck56VmNwWjA1TDNvUzlFUUdXN09xTE1mMkFrU1hNUi15M1FCUmtYU0l1emc?oc=5",
+      "published": "2026-05-29T07:00:00+00:00"
     },
     {
       "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
@@ -241,6 +235,12 @@
       "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
+    },
+    {
+      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
+      "published": "2026-05-21T07:00:00+00:00"
     }
   ]
 }
