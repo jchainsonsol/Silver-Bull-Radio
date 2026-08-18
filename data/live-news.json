@@ -1,13 +1,7 @@
 {
-  "updated": "2026-08-18T16:40:58.734335+00:00",
+  "updated": "2026-08-18T17:03:44.281275+00:00",
   "refresh_minutes": 5,
   "items": [
-    {
-      "headline": "RWA Tokenization Trends 2026 - Blockchain Council",
-      "source": "Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa0lOR3dRc3k3TUY0Z09VZl9wOFFNUXg3N3N5VWRFLVNJTjlVcTVuUHVvWlNlSk8yYlZCcjhCc2FNTzFPY2QxVi1TWE9qelZQTWhRSllfRHMxdm1jY1FUdEh0azZKODcwbmlQYS10REdMVlMwclNHS1NsYUkycFQ4ZjJXTkhlcF8yY3hna2MwWjRiU0dEQVVadkctZ1BuU2Q1WmJlWWN2OVhTNVRvN3hZc2thbVVXOGhKUFh4bGdB?oc=5",
-      "published": "2026-08-18T09:41:00+00:00"
-    },
     {
       "headline": "Current RWA Tokenization Market Outlook - Blockchain Council",
       "source": "Blockchain Council",
@@ -15,10 +9,10 @@
       "published": "2026-08-18T09:37:48+00:00"
     },
     {
-      "headline": "What RWA Tokenization Means in Capital Markets - Blockchain Council",
+      "headline": "RWA Tokenization and KYC/AML Guide - Blockchain Council",
       "source": "Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc002VXdJaW1PczFlZGdaX2p1VlN4SVhfbFVKaUFwT3pVVWVPeTAtWXhTdm4wUXZhQWgwZE1rakN1cmRzVWxQZElPQTR0ZVNsV2t5SWo0TDQtN3pPYS14ekNyS1FJRFRKWWVkR1NOTG9uWmlqdVZQSllBaEd6NlA1dC04TkEwS0sxekgycW9BS1pLSnptU3JLVA?oc=5",
-      "published": "2026-08-18T09:26:58+00:00"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMkRGYTFsNlJoS3JYT2hZeVVzdG94WHhFa0VwYlFFWkdnY1oyRWx2ZkZTMmlvdFAyU285R2FXbVBHeVBYY0RuN2s2cW9SWEM5VFFGRVU5RUh5bmZEaTNvMXJXTVV2aW8zV0V5c0d4MUJmUEg1dndJSC1wUjJiUFRzVlRXNGV0eUlBUDg0Zy0zbU9IV2JVbnVHQUh3T05iVzNvdjhIUEh2ZkJac3dIWEdVVzJScUg3QQ?oc=5",
+      "published": "2026-08-18T09:16:10+00:00"
     },
     {
       "headline": "RWA Tokenization Regulations by Market - Blockchain Council",
@@ -31,6 +25,12 @@
       "source": "Blockchain Council",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX05SYUt5V0NHNFByOWluRGRBWjVQVFZQblRsTXFxVXR2VDFJTGhOYUVhZWZLQ1lpYWdSaGh6NWxCU0pjZ0Q4b0dZVjhLQnFYUzhKcHg2MTNLQUdnZzFYWGFTZExla0p2a1FEeDlFQU90R19oX3YwcW53Qi1mTERmZHRVei1SNTlaWXpHR2Zyb0Y4Tk5FQVJFMEt5MU5KU1RXZkRZeFVrdzNoUE1iQXRTREFNM0oweGFjSTZBWWNn?oc=5",
       "published": "2026-08-18T09:07:40+00:00"
+    },
+    {
+      "headline": "What RWA Tokenization Means in Institutional Finance - Blockchain Council",
+      "source": "Blockchain Council",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSUZ2QlJacFZhWkZ1MDdrd3dSMTZIYTZwdFFhZ0NveHVaclNON0k0ZHpfalJPTnBDNlZiU2gxTnhPcmZSem1HYVVnUEc1SXA1Uk5ydW1fQ2hqNmx2cWxMWUVQY2lmY01sbWE2SG5jWHh5YV9jdVk5T2ljZEZpcTZpN09sNlRTWXFRal9ibVBFS24wRy1kSks0?oc=5",
+      "published": "2026-08-18T08:57:45+00:00"
     },
     {
       "headline": "Shinhan Asset Management Partners with Plume to Scale Tokenized Securities and RWA Infrastructure - FF News",
@@ -219,14 +219,20 @@
       "published": "2026-06-16T07:00:00+00:00"
     },
     {
+      "headline": "Solstice\u2019s Ryan Day on why sustainable DeFi yield depends on business fundamentals, not token incentives - CryptoSlate",
+      "source": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNak5aSDVBbmxoRW1Wb1FsZVhHM3dETWtKcmdpV1R6SmZ5ZlBPeVpkRHhOc1NscnJfOFZpMERVR2p1SjcwQ1p5ZTJKUDF2ZWpFVHhLRXVLM2hGektPLTZLcXJ0dnM3V0VfVU95MlBPN2lnc2QzQXVlakd0OXE2dWlsY05jRDdlVGRDRTVWS2xBUE5HM2Ftczh3UU1zNFY4LUd5Yl9hcEMwRDd6cWZLMG5tYWlWeklTMFlrYWc3Q2VrSGhEaWk4aGc?oc=5",
+      "published": "2026-06-16T07:00:00+00:00"
+    },
+    {
       "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLThvVElYTHhTQWI0THVfWnF1WW9kQkdpZFdweFlEd2ZhaDk0bGNDVTY5V3psM25VcjdWcEl5ZmJqVC0tVmNpaWhfSFdiVGZLVVhBN3BJRUFlVnVsSHRlQ1lOQkx4MFJxVFU3YldOOWh4eDNLd3dOcG9PUk50RTY5cWdDY3lVbUF5UUpFQ19n?oc=5",
       "published": "2026-05-26T07:00:00+00:00"
     },
     {
-      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16zcrypto.com",
-      "source": "a16zcrypto.com",
+      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
+      "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
     },
@@ -235,12 +241,6 @@
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
-    },
-    {
-      "headline": "BeInCrypto Institutional Research: 15 Stablecoin Infrastructures Powering Crypto Offerings - BeInCrypto",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmZ5dUVfRnRGc1V0cE8td185Wlc0aGxhZ2xGakZXVmhOWXRLUGtxRENCM2JZVU11cDFYcTh1ZEJSSUt5OXp6dTExeEtZSHJ5T2ZxRmx1VS1BVWUzQ1I4LWk1WlVMMmNiR3ZhXzZmejVPdGFPNWw0bXFWOHV1cDhnTmI2eGg2RU5k?oc=5",
-      "published": "2026-05-17T07:00:00+00:00"
     }
   ]
 }
