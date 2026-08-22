@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T06:01:47.394810+00:00",
+  "updated": "2026-08-22T06:54:42.331676+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -7,12 +7,6 @@
       "source": "Tech Times",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLWtJQUZIaVJYVmd0bXd1MFppYWtNSUhYTkplQXhNMEVRUG13RzA3TS1YbHdiQlVtR1pfaUF1dlduenBjUEZNVTJ1NTd5eEZxeDJzWVV6NlFLVTZCZkw2dW5fckFJTy1jbndCbDcyUGdZRWQwUU1tZmR1aGJualRQVDhGa0hHamRsdnNoektaa3BhdkpnRjBIVE5NMURRUVhRUEdzQ2lVQVpOWHlrTzV4QjRIVGFnS002V0lkcU9lSHlsa2FLNzRJelVxdllzdkFwV3c?oc=5",
       "published": "2026-08-21T19:41:37+00:00"
-    },
-    {
-      "headline": "SEC Opens Public Comment On CBOE Proposal For First U.S. 3x Bitcoin And Ethereum ETFs - Bitcoin World",
-      "source": "Bitcoin World",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnSDhEZmREdlBzSmR1WllmS1lvZTZidXhSdEJXcDBlS193d2k1Ynh3ankyeDRsWEgwNTRvUncwTEo1V1RubVl2Y1F3WGZwcUI5Sy1Kb3BLUjRfcnIxYnZlN292Mnl5X0QtWGs0RjlUUlJFbFc1OXNn?oc=5",
-      "published": "2026-08-21T18:55:11+00:00"
     },
     {
       "headline": "CZ Says \u201cTokenize Everything\u201d With BNB Chain RWA Holders Surging 370% to 776K - CryptoNinjas",
@@ -43,6 +37,12 @@
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
       "published": "2026-08-20T09:20:39+00:00"
+    },
+    {
+      "headline": "Bitcoin ETF inflows hit $517M as BlackRock\u2019s IBIT leads Bitcoin past $69K - The Cryptonomist",
+      "source": "The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PLVZMa2JpVFNMb3hUa1M4WFBNakxLcmhMWjRDc3dqdkxuSFkyNy1KUndQWlFjS1pCZjRIU0NPWGFqQy11bk1PbVF3VVhucFcxdTZRbXRoQ0JJUEVOQk1xY0gyVVNTZFZOQ0paWFJSRldBZkNRV2w3Qw?oc=5",
+      "published": "2026-08-20T08:40:58+00:00"
     },
     {
       "headline": "US Bitcoin ETFs see $517M inflows as BTC tops $69K, driven by liquidity boost and SEC crypto rules. - Pluang",
