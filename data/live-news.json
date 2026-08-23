@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T19:28:47.611360+00:00",
+  "updated": "2026-08-23T19:47:38.203908+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -33,18 +33,6 @@
       "published": "2026-08-21T17:46:07+00:00"
     },
     {
-      "headline": "CZ Says \u201cTokenize Everything\u201d With BNB Chain RWA Holders Surging 370% to 776K - CryptoNinjas",
-      "source": "CryptoNinjas",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRTBwb0IwTzVTdFJKNWxaNW1XWUVTV3VkS091bUVFWjhqel90UF9pRkZnWkVPS3dxZDh0SFpZd1R3TUtXVGI1blZnUi1NYVFJQ0g3ekx4VWdwUlowMkNkMDFPaF95bjBueHVEOXYtemhVMXRKT2V6bWROTG9JczI0VUhQM2ZBTEp5blpob20xWmVPMVlZZk9HcXRIMTVfNlJlRDRQczlKaDJzZFZjLVlsdEphUdIBswFBVV95cUxNRTBwb0IwTzVTdFJKNWxaNW1XWUVTV3VkS091bUVFWjhqel90UF9pRkZnWkVPS3dxZDh0SFpZd1R3TUtXVGI1blZnUi1NYVFJQ0g3ekx4VWdwUlowMkNkMDFPaF95bjBueHVEOXYtemhVMXRKT2V6bWROTG9JczI0VUhQM2ZBTEp5blpob20xWmVPMVlZZk9HcXRIMTVfNlJlRDRQczlKaDJzZFZjLVlsdEphUQ?oc=5",
-      "published": "2026-08-21T16:19:02+00:00"
-    },
-    {
-      "headline": "RWA Tokenization Is Turning Blockchain Into A Back Office For Wall Street - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNUnFvQ3RoQl9meVpvbFZlQktmSkhaem51UzctbXJ2SERmM0tlbGJES0lTNDhLMXNfRVN3dkEyd3hxSU9iNURsRXowYWhUWm16Y3JUdE1hYWZNdVRBMVBPNXRHWUZhNk44VkZXTEhzSktqeE9idDJZa2FPd2NicnJsVmcxRS1SMnFCYjhlakNRdlpoTi1EeTVzUjJVTlBmWS1HNXNJd0Rfbjl3OEN2M2E3NjVXMU5rbHgwdXVBd1lJWlJPYlNnaWJLb05CaEJrYW9ESC1taXBqYS1SajFBTm5RVTRDMmZBZHgyYXYwd002eTJkZUE4S25fYTdiSHVnSHJfaldqOEZxWUcyX2h3dTgwRWVXS1d3eGc1dHlLSnY5Mzl6eUFCVE9SenVGeEZJeEVmYXA4bnI5R0cxbDBKSjVjVlhR?oc=5",
-      "published": "2026-08-21T09:59:44+00:00"
-    },
-    {
       "headline": "BNB Chain leads RWA ownership as CZ says \u2018tokenize everything\u2019 \u2013 Details - AMBCrypto",
       "source": "AMBCrypto",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObFgyenVoYm5YallfVm41LWxIdS1mVF96elFOY2c5Z3pSVFdJTW1BUkhJREg3TmtVOWx0YnhQazgyZ3ZoaHpJdzhhaTAxT2FJWDUwTzFGMmZ2ejZLVzYwZEtDaHhPN0xFdFo1MmZNWThMdjlCbFZ2OE44Nng4VXVUbGFuZjhzdWxWV20xclZEeGhmeUNMaUE?oc=5",
@@ -57,34 +45,10 @@
       "published": "2026-08-21T06:30:15+00:00"
     },
     {
-      "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - Nasscom",
-      "source": "Nasscom",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUy1YbUp1WHhEc0VlT1RnOUs3TDFxMnM2ck81em5fbWtjMU5tVGstMHhrWTlScDQ2SWtTSDhPal9sYnVrd3NaYi1tSWRVVm9hd1FaVThnd3lvb1NVY3RJaEtabmVtZGJiUV95VTVOdXl6QVN3SkVWeEhOQUFadWlLVW9kMjBtVXFHWWNXNE9VVlpPU0F0enNLNVVlYnViY1lzUDBwY3VrUDY2Yk9mQWpqeVQ4QjUwUQ?oc=5",
-      "published": "2026-08-21T05:10:37+00:00"
-    },
-    {
-      "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
-      "published": "2026-08-21T02:18:02+00:00"
-    },
-    {
-      "headline": "Tokenized RWAs Gain 13.5% While Crypto Market Sheds $1T - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
-      "published": "2026-08-20T09:20:39+00:00"
-    },
-    {
       "headline": "US Bitcoin ETFs see $517M inflows as BTC tops $69K, driven by liquidity boost and SEC crypto rules. - Pluang",
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcGVSSFZCaDFIb3dJcmNTRlR1WExyalpad0htRkhvZWtPWDY5UUJhTlRZeVVyNEUyTmZXNWtJU3lZaFhudVIwcEcxeUtHa2ttanl6Q2xNWXl3S3JsLUlTcDk4ek10MFI0TDhpYzlka2JodUlGNFNYdE1xWTFBdnp2Z1FqY3hDMl94empuaExCZWxlT0xqTm0wWm1iaw?oc=5",
       "published": "2026-08-20T08:19:14+00:00"
-    },
-    {
-      "headline": "Top 10 RWA Crypto Coins by Market Cap in August 2026 - CoinDCX",
-      "source": "CoinDCX",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE02a21feEdPRDVyaTZWUmwzWjR1SkRkZHNBMlhybGlJYVRKY2p2MlVqS2pIZUsxSmhKYlF3V0NtTk5vNWZER1IydzZ5WjlzcUtRbnZaOXVUMm9aSVRlTUNDM1BpWUdna3Q0ckYyc1cwemJKVEdvcG1Wa2U2bkk?oc=5",
-      "published": "2026-08-20T07:00:00+00:00"
     },
     {
       "headline": "Tokenized Stocks\u2019 Share of RWA Market Triples to 15%, Market Cap Hits $2.8 Billion - bloomingbit",
@@ -115,18 +79,6 @@
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGZqUUZBQzVtblVLMXpqTC13Q1dHcjZwV2J6bFJsdElJajFtbjZuZWVkYkFWcUtUdWJwaW1zejFlbkgwaHhJemFZZFVieF93b043c1JPSjJPQmd3emJtSXVfMWJZcm9XT0VmNWdNSlB3RkVrXzUzcEJYaTZpVkpzejF2YmRBTUNsQ3duaXk4bFpKOFpLbjhrdDF3UWpaWVVLZm1IM2hFMWFKUXdQLUozUHltcmgyQQ?oc=5",
       "published": "2026-08-10T07:00:00+00:00"
-    },
-    {
-      "headline": "Ondo Finance weighs $500M deal as RWA market hits $36B - Crypto News",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUhkZTRjVGQ1RnJ2eHNvQmZLTDhjUlZOazNjc3N1eXpTM3ExY0FjUXh0NUdUcTZXNU1KVnEydnZjOWlGdDVRNlpQSG14eWdkWnkyODhKV1Z2ZU1zLXFLcEZMRVhFbXE4UDg2MFota0Q1RWtDd0NXSzJrZ19CRi04U0Y2VDlCTjdwNGp4cmt3?oc=5",
-      "published": "2026-07-31T07:00:00+00:00"
-    },
-    {
-      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWF1NEFJeXVHa1duaWRHRnRXYnVDa2p4UzBIQjRIU2RrbVhwSWljZUVNU3ZMSGlvWG1iLVJaN1lxYXlDMENTXy1hX0hvN3NRRS1Fa2FyRFpHaXdJN0kwRUFzSnNEMW5rcmd2VGQ0cldfRlJYMDV3RVRzXzFMeEhqdGVIM2VKblloclBBUWxqLWxiWU42WkQ5TE1CaFRWNW5hc0lMNTlWVVlGaExya2t1QllBT1BCd24wQ0NPTGlVUlJGUXFUamc?oc=5",
-      "published": "2026-07-28T07:00:00+00:00"
     },
     {
       "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - Bitcoin Foundation",
@@ -195,16 +147,28 @@
       "published": "2026-06-30T07:00:00+00:00"
     },
     {
-      "headline": "Backpack Token Soars 87% Amid Stock Trading Plan - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM3hZOENObGwwUEtoWnBPSmhNQV94UHRpeWx2VUw2SVZTUTk2MzFOMHBhVXJRNnZyNHpuY2NidF9Tc19lS0hLTmZ2VWdmZnBjT1RTMDhRaXRHLVJJLUNQRDBiQWNHQTZqWUVQckVmTHZuRTd0cTVxZWhKUk1rM215NmRaWVoyaUJIZTBUUUZ4aUgtMzh0SUVv?oc=5",
-      "published": "2026-06-03T07:00:00+00:00"
+      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
+      "published": "2026-06-22T07:00:00+00:00"
+    },
+    {
+      "headline": "RWA Tokenization: How To Understand And Track Real-World Assets On-Chain - Arkham | Research",
+      "source": "Arkham | Research",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVjQwMmhZT3Z0eXFPYm5qdlpxRkEtRnRtNFFtbkx1Mno4U0ZoUldHQ2tmT1hDbUFELUdKMDNELU5LQjlYcW9Hd1RtdUw2MmYwcTR0dlFMS0puY1Q0TUhmMlpac0dldXZIZzhlSmw2dXRXWEc5TTFBcEo1MUdYQUIzR0ZtYlFMU09HT1NpdXpick1qSnZhZjFDMzlZR3U0ZGZQUjI0Sg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00"
     },
     {
       "headline": "Exclusive: Standard Chartered's Venture Arm 'Very, Very Close' To Owning Institutional Crypto, Exec Says - Yellow.com",
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFZ5SHNxZjk5Y2o4WDdIQmhPRnotaThRdmhYekNZY05zZzgzbVJyUjRYZFpjVFo5UU1ZUndGXy1US1VfMGJfV1IyUmhuVGRkdEktR3JaV3hiZmhzZ1htMWR1WmhuTU9YZkJXNTBXWFRUMG5IQjk0T2p6OE9GaE1vcUJ0dnZORE5KT0JLUQ?oc=5",
       "published": "2026-06-02T14:04:08+00:00"
+    },
+    {
+      "headline": "Top RWA Crypto Projects 2026: Ondo, Maple, Centrifuge - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV0VtUmNLQUpwVVJ1Zmg3Y0l4MER0bUR2S190R0pDZjVnVjVjUWl6TVpkN1pZSmdZRXpRdkVyT0pTR1hjdlhYdEtrZ1VmWjJrU2RlTXdRbnExVkYtYVFQclJSS0t5WTZfbE1tck56VmNwWjA1TDNvUzlFUUdXN09xTE1mMkFrU1hNUi15M1FCUmtYU0l1emc?oc=5",
+      "published": "2026-05-29T07:00:00+00:00"
     },
     {
       "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
@@ -241,6 +205,42 @@
       "source": "TechFinancials",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTFCZ19xQ3k5WVk3Y1hWWkg3MkI0ZEJWRjFBaUF0SXRRNnRRUHJDTWlXVkNVTVFCeksySWZwMDVPUFNYYnNTLTVnekZqcXZDWGF4YTdRYWpYeWQxRVBqOFNETGFlamV4VEVjNkY3UjNVWDhqbGhFNUpXOWJtaDZLVmwwZ0t6SXFJRVhZNHRyMFVYeXdleDZHdDhvSHIyVkxLNGV5eThlQUJ2czB1ZGFNUFVHMHh1X3hRSUZ5YtIBxAFBVV95cUxPQVdpZGxodFFNM1hQdXJfaWpuaUJtR0pLVjltWEVSNzh1MDZTOXNKakQ1Z0pMUzQ5dUthb2xRcjBnUFEtanhTY3VYQUlUeThLUWNONl9qcFlMRWo3aUI1QXNMdlgtV1M4Nkd3UWJubzNXU0JpSVVZY0NDdWVERGZNTHVUVk1iNjFjTlkwU2kwMEt1aTRWVXhFNjJLMkRPZkJYN0F2SjYwS0xScXpsbW9WWmo2WDZYT2o5b2MwejZVWXY5NDFn?oc=5",
       "published": "2026-05-11T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle - CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblZuZGtUUWVZOXB2a1piTktkN1JzamJla0lKaGZVVzhBcjFpQjNweG92OVRhYS1ZRkVMWVlQRS1FNWJTM05MMDhOd2xEQkhKakM5aG96ZHoxV1k2Q1ZWWUIxeVlOaWhlRDJfRmh5R0lFZ2ZaWnJBY3Yzc25JY3RJU2hqSEdOa0MwWUNCNm1B0gGTAUFVX3lxTE1pb2ZUM1d1MjNoWlByNDNLcDZZSndLTVJ2U0xUbmY1UFVWUC11UW1yTWtKUmRwS1hNaHVYT1Qwa0s0X0tsa2hZVW1FbEx2QjFrZmdTWnh0S1Ytc3dVRlJWdzQxc291c09ISGJXQ1o2Y3JlTzBfMzhXREVNTnVObGxDZzhNQ0JOb0ZSNnFKNVV0M0U0WQ?oc=5",
+      "published": "2026-05-10T07:00:00+00:00"
+    },
+    {
+      "headline": "Asset Tokenization in the US: A Practical Guide | Practical Law The Journal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVm03d25rMGhuNVJ1M3gyM2dxd0dQTm1WUmtQZkNtTFBnQnI5ZC1JUVFtZzhhNm0zcDBvcG1KRnBDVno3V2k0amRwQXQxR1RJRW5oRkR1aFh6bWwzVldjbVpraXEzc3Z3OFFYVzFoNnJWRWlvellVRVUtYU5hR0NBb3NVVFE2TERHamdfMkVWaVRlWDdkbkE0bDljQlBINWhSUk1mU3FqaG5BYjJzMm96cG1sSQ?oc=5",
+      "published": "2026-05-01T07:00:00+00:00"
+    },
+    {
+      "headline": "Impact of Stablecoins on Bank Deposits - Chainlink",
+      "source": "Chainlink",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uSG9BeDhGWjZEV0UtYS1pSXpKdUFfZS1pSzBTTUlXeTNLZE5rTGdVYzczbnFCWXphTTItRmJUbUdzUXEzMUIyQlJNd1BEZ0ZRS0k1SkRITkdvdXhCd1JTZDUzUy1Ra00?oc=5",
+      "published": "2026-05-01T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC Reviews 85-Item Proposal That Could Affect Bitcoin and XRP ETF Listings - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNak5jdmlkeUpRdENoS2hTUnVUYXh4SlNMZTJBV0ZCVHZUUjdOdFBSOU5MeF9WaGNfTlJZeWRmNktfQm12TUEydGY5b2pEbUtCZDMtaFBEekJiNU50dWdXbEQ2SWhVRHhTcjVDVmc4bU1fM1U0dk9rQkJsZkVxMm9XTS1sLW00R0ZGVjA2MllzdzZfWmE0QzAydg?oc=5",
+      "published": "2026-04-28T07:00:00+00:00"
+    },
+    {
+      "headline": "CLARITY Act Could Unlock Institutional Capital Into Crypto Markets - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEJYR0dIR214OUQwVHZhYkk1NzRZcUV0b0FQRExGcE5QNE1halBCTS0wM0R5MGVjVGN6WklLU3dTcGkycVNCXzBZYUdKY3dlZWVxejA5aFBoQnJvcFFWYnJDaXFJNGdxdDlFNFpQX1F2YVdkX0xzUjd5ZUR1OG1ORzl5ZF9MTWRfd2U1dTdGMlNtRWQ2T2FDa3AzdmRqN3dhZnJ1bTctX0YtWTJBT0pxZjJYc1V1TnFLcDd4dGRkcE5DZDQ?oc=5",
+      "published": "2026-04-11T07:00:00+00:00"
+    },
+    {
+      "headline": "Tokenization of Real World Assets (RWA) Takes Off - Why 2026 Marks the Breakout Phase for Digital Assets like Real Estate - MoreThanDigital",
+      "source": "MoreThanDigital",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNG5xakxpNC1uTDlzMTlVdXI4d1NkRGhOOGxnM2hhZncyZHNwOVFhT2hSM0JWLWhoRVdLclZ1Zm1XM3JXV2lac0JYa3RScUNPcFc4MnpxaTVMTHMyVmZXT3pOQlR3aklodmh5cEhveUZTdGJ4WnBoUGNPNTBMdl9PZC1ZcVF3TGZ0Nk1wSmpIMlJGLWZadEFGZE83TEZYaFdnQ09GZndqX1JFZXl2UE55UVplMlVrN180eFVZNXpSbFVRUGZtcVJFWHR3WlpNZkgtZUt5QmF5a3BoVW92QXNQMnRHbXk?oc=5",
+      "published": "2026-03-30T07:00:00+00:00"
     }
   ]
 }
