@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T04:08:49.372242+00:00",
+  "updated": "2026-08-24T04:59:34.747642+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -85,12 +85,6 @@
       "source": "CoinDCX",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE02a21feEdPRDVyaTZWUmwzWjR1SkRkZHNBMlhybGlJYVRKY2p2MlVqS2pIZUsxSmhKYlF3V0NtTk5vNWZER1IydzZ5WjlzcUtRbnZaOXVUMm9aSVRlTUNDM1BpWUdna3Q0ckYyc1cwemJKVEdvcG1Wa2U2bkk?oc=5",
       "published": "2026-08-20T07:00:00+00:00"
-    },
-    {
-      "headline": "Aptos (APT) Gains 3.6% Amid Broad Crypto Market Rally - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44QkJtU2FQcDBKaE5zc1RoSU9CS3NHRXlxX2JPdzFGOEpQWk5VbVBxbzl4T3RTMVYzTEFzdWt1a2Njb3c2ZG5mNFZ4TVBiOFl1am9oRUVPMWJ2bUNYVVBwaDVIckpTdU1jUjc5bzdfOEs?oc=5",
-      "published": "2026-08-19T17:07:00+00:00"
     },
     {
       "headline": "Bitcoin nears $64K as Ethereum ETFs see $103.9M... - Pluang",
@@ -241,6 +235,12 @@
       "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
+    },
+    {
+      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
+      "published": "2026-05-21T07:00:00+00:00"
     }
   ]
 }
