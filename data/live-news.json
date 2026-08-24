@@ -1,18 +1,24 @@
 {
-  "updated": "2026-08-24T00:25:27.182970+00:00",
+  "updated": "2026-08-24T02:07:09.881663+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaE9BZzdrbFprSk1XWmdqN2tFX3B3Zkg1U1d3SzAzZWtLejByejBvdm9xYXpFU09NcVZaUUFuS1NKeWs0V2NyWE1YSVJUN0ZDUjVfT09ySW1ObFFTNHlkaFNpR2lvOWdTX21NNDVMYkJaZ3Jwc2Utbm9YcU9Ld1F6ek1oQlNNaUNMdGlfdUdUaVBEX09JSnU2MUt4MlpiY0tuOXlib3hETW9SMHV6V1dZNm5GZWpsRllmNVoxMmoyb1dqSlE?oc=5",
+      "published": "2026-08-23T20:14:15+00:00"
+    },
+    {
+      "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
+      "published": "2026-08-22T22:46:02+00:00"
+    },
     {
       "headline": "Bitcoin tops $72K, Trump backs CLARITY, SEC unveils crypto rules | Weekly recap - Crypto News",
       "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCWGVlWk1IMHlSdml5OTRSSWllYWFjMWdYVko3Z3hyMUZEbjdLVUhGU1RzanVaZ1Z6YUZFMmlhd0o1SEdiVDRtQjEzcGdEMUVTa25wVC0yMmFLNXc3SVlvbUszQlozaVNKUkFxdGRTZkdqOThOUmFtQ05xRXJpelU?oc=5",
       "published": "2026-08-22T07:35:18+00:00"
-    },
-    {
-      "headline": "SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYmxkNVBqdXdXZHJfa1kwUXd1NVhXMm5HSFNpME1DOHl2M1ZrUlZUR0I0R09IY1plYmJoWUFYeFBFWTlOUUZYdDNnVHBmQUFmb2plWGU2bzVMcEhRMVJEdUhwa1BfdG1tZjBIZG00MllFTlhEV1lBY2ZrVFNLaV9Wdl92clU?oc=5",
-      "published": "2026-08-21T22:44:48+00:00"
     },
     {
       "headline": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing - The Block",
@@ -63,12 +69,6 @@
       "published": "2026-08-21T05:10:37+00:00"
     },
     {
-      "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
-      "published": "2026-08-21T02:18:02+00:00"
-    },
-    {
       "headline": "Tokenized RWAs Gain 13.5% While Crypto Market Sheds $1T - CoinMarketCap",
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
@@ -85,6 +85,12 @@
       "source": "CoinDCX",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE02a21feEdPRDVyaTZWUmwzWjR1SkRkZHNBMlhybGlJYVRKY2p2MlVqS2pIZUsxSmhKYlF3V0NtTk5vNWZER1IydzZ5WjlzcUtRbnZaOXVUMm9aSVRlTUNDM1BpWUdna3Q0ckYyc1cwemJKVEdvcG1Wa2U2bkk?oc=5",
       "published": "2026-08-20T07:00:00+00:00"
+    },
+    {
+      "headline": "Aptos (APT) Gains 3.6% Amid Broad Crypto Market Rally - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44QkJtU2FQcDBKaE5zc1RoSU9CS3NHRXlxX2JPdzFGOEpQWk5VbVBxbzl4T3RTMVYzTEFzdWt1a2Njb3c2ZG5mNFZ4TVBiOFl1am9oRUVPMWJ2bUNYVVBwaDVIckpTdU1jUjc5bzdfOEs?oc=5",
+      "published": "2026-08-19T17:07:00+00:00"
     },
     {
       "headline": "Bitcoin nears $64K as Ethereum ETFs see $103.9M... - Pluang",
@@ -235,12 +241,6 @@
       "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
-    },
-    {
-      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
-      "published": "2026-05-21T07:00:00+00:00"
     }
   ]
 }
