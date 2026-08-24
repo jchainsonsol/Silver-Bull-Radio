@@ -1,7 +1,13 @@
 {
-  "updated": "2026-08-24T11:15:23.643878+00:00",
+  "updated": "2026-08-24T11:46:49.455652+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaE9BZzdrbFprSk1XWmdqN2tFX3B3Zkg1U1d3SzAzZWtLejByejBvdm9xYXpFU09NcVZaUUFuS1NKeWs0V2NyWE1YSVJUN0ZDUjVfT09ySW1ObFFTNHlkaFNpR2lvOWdTX21NNDVMYkJaZ3Jwc2Utbm9YcU9Ld1F6ek1oQlNNaUNMdGlfdUdUaVBEX09JSnU2MUt4MlpiY0tuOXlib3hETW9SMHV6V1dZNm5GZWpsRllmNVoxMmoyb1dqSlE?oc=5",
+      "published": "2026-08-23T20:14:15+00:00"
+    },
     {
       "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
       "source": "CoinMarketCap",
@@ -25,12 +31,6 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15OGNXaTc0MDNUZUJFaW5YaFUwdjY3MS1XTlVicGNCcUFyeXVVb1FKdmgzd0k0V3ZJa0tYSjlyLXlVUHJtXzMwN2ZKZzVzVWpHYzhvTGtRMHJ1dUtzSGJLWjNiU3hQSm1PWlRWdDRlcnYxYm9xTkpHRk55eE5Ddw?oc=5",
       "published": "2026-08-21T17:46:07+00:00"
-    },
-    {
-      "headline": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
-      "source": "Investing News Network",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
-      "published": "2026-08-21T17:05:00+00:00"
     },
     {
       "headline": "CZ Says \u201cTokenize Everything\u201d With BNB Chain RWA Holders Surging 370% to 776K - CryptoNinjas",
@@ -85,6 +85,48 @@
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS1BsSWUyWE9yRjZVa0VCbDlJUjRCNGFMbk9seWRjUVlyOU5jaHc4cVlDbWxiRHhBQVluRDFXSDd3MGVFZXUtTXlHT2JQNVlzVHBSbkFGZGhSQmZTUzZqZkhEdlFjamtZWXVnc05VWXd0SC05OVdDUWdYZ0ZBSTI3WFlnSmtOZmlVRnBDZE1NSmxXeU9paTVNSFVCQVlSdXdpaGlGbnlaTU5GQ05kZ1dPWWZB?oc=5",
       "published": "2026-08-18T07:34:48+00:00"
+    },
+    {
+      "headline": "Cboe pushes for 3x Bitcoin and Ethereum ETFs after 2x crypto funds suffer losses of up to 96% - CryptoSlate",
+      "source": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXQ2YklrbUZ3ZndnbnlVeVQ2NHFhOFRVWF9rd3V5b3FkaU1VdEwyUHJ6Tk9UV19ZSG5PSVNTekV2ZVQ5VVZBdGQwQW1yQ0s2VV8tZmxNZUh4VEdzbEhqanFIWHJLSnN6TEhDY1dlVm5ra3VIZ2N1REMwVXBkdHJSbVJnYkN0cjZPc24tejN6YmZ3N1FuV0xwYjU0Y2VIOG43cnIwdUpR?oc=5",
+      "published": "2026-08-16T16:50:42+00:00"
+    },
+    {
+      "headline": "How Come Ethereum ETF Approvals Spark More Political Firestorm Than Bitcoin's Did? - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYkM1THRKRVF3MGVHamlYWFZjLXo1eTVBVTM3QjdDSnJSRnFJOEUwNFNKT2JvaktaS08taHJwaHowa1dXd3hvY20tYjFuV21uMjF3WFYzU3VRYjE3RTVCRkxCd2ppbV9sOHh3cDJRTFpXcUNRc0x2ZUJkUVRUUEZmeU1BNHlDWDFTYU5DNTY0RU1ubjQ4VUotb3NxOERYQXdTTmlIN1JKbXE4bHZtdVF4NnpzT0c0OWlZ?oc=5",
+      "published": "2026-08-14T07:32:48+00:00"
+    },
+    {
+      "headline": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbzJVbzZPTi14NUUzaURFUE4ybEo4bm9zV3lOZjRVU3d6bUpvdXlpb2taZjJIYUczNHBUR2VGNFA3MUdyWDVuYnpsUlVvNWl4Y2NWVlNjTFhTVEdaWmJyeUxaRHM4WDdxeUpNZGRDWmU4RldJRXVTcVBwWEc3T2xFNkxXaGdySHBjVUpWUHNCdnpJUV8tOV8zWUFXT1RubVlKcEdNUXdJendsTUNKMjQzWXJIckRVUQ?oc=5",
+      "published": "2026-08-14T07:00:00+00:00"
+    },
+    {
+      "headline": "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls - The Motley Fool",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPczk0cFZuRHhQOXMweDRkTER5NmQ4VjA5ZWZDR2dxY01tdkdOd0VBeTd6RE5pTkU0SFVtQ0oyMHYxeGxWNnBYeVlMcXFFTXRteFhac3ZpY1JwcGh1eWFDbmdfYXh4a1JDSWdEY09LbU93N0tmcW9aRzVlUWYzSnZ1Y1dYV19fNU0wczhmZ3MweWNzeDdpUUZoWjdMVUJTd2hYVFRzLW9GT2dvNzBaYjF4b3BiQ05CaDAwQl93dWNha1c4bWJvZ0tzWTYxTjlNbU5z?oc=5",
+      "published": "2026-08-14T07:00:00+00:00"
+    },
+    {
+      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMjhLYXZjZV9BT2dvb3d5NUkxTktPSGxDMTZNTGpyY3lvbEpTUDFtRWJoSDJWOXNBWnZJdTJnTWhkdXFocUV1UXVoVFVuT2Y3QlZMQXlTd0hsUTJWOFZLcXItRkRYWHlUbTVHcFR5MnViYUQzSXFzVG1ZSlF0WnJZc1hzS0lOWWx5R1Z0amVjWXZobS1GdkY0dnRfVHNqQlFGRGNXMTVaanM2dUJ1d1BfdV9NU1paTGRBdmpOb1NiTk5xMWNPMXk1Z29VS0xKalEw?oc=5",
+      "published": "2026-08-13T12:29:59+00:00"
+    },
+    {
+      "headline": "Nasdaq Removes Position Limits on Bitcoin and Ethereum ETF Options - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT2YxRUdyN3dWZjZ3Vk1SVmlueWNYRjF5RXl5elViUTh5WXhlcFhsaEhWOV9CeGZwWGR1emFQTG53ckhsVE9mMkkzeEJlSFBnTFczQWVtblF2cTNmVEhyOXJSa1hmbWhJVW9zOHIycm5SdnF4VzNnVTJ0dUg1a191MnVpNUpRX1JOel9jR1YtcFZmclNZckVaNHVfNXlxNHJjWmFISkUyREFNQmQ0?oc=5",
+      "published": "2026-08-12T10:09:33+00:00"
+    },
+    {
+      "headline": "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motley Fool",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNTR5OElwaW9Vc2x5Q2ljeEJpQVpBRWNrRlV5TnU1QUNZSnIyaTlvUkVjTGxjSlZrZWtQYy1JWXBzT0ljVTlBSzNnaVlBTmpZSGZtcnBFY1YzRUcxQTNNLVFDMHUtclMxWmtwSldnSW9NZnctOGlyRlhhV0pCVVgwY3hCTGp6T3Zmd0RBV0dtVEdIMGtWUFRWczV1UEZvUkRIdXdHb2lfNVBxZ01ucWk4YnRsYlZLTGdzYkhsODIxODQxMWdlSzlrTkY0d25uV3d0QWpKWXlJN3ZiZDA4WnV4emx1UXZEQzFZd0dBUlhSS0xENGpTUG1LSTNjazk0Zw?oc=5",
+      "published": "2026-08-11T07:00:00+00:00"
     },
     {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
@@ -171,12 +213,6 @@
       "published": "2026-06-28T07:00:00+00:00"
     },
     {
-      "headline": "SEC Approves T. Rowe Price Multi-Crypto ETF for NYSE Arca \u2014 Institutional Crypto Adoption Enters New Phase - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
-      "published": "2026-06-16T07:00:00+00:00"
-    },
-    {
       "headline": "Backpack Token Soars 87% Amid Stock Trading Plan - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM3hZOENObGwwUEtoWnBPSmhNQV94UHRpeWx2VUw2SVZTUTk2MzFOMHBhVXJRNnZyNHpuY2NidF9Tc19lS0hLTmZ2VWdmZnBjT1RTMDhRaXRHLVJJLUNQRDBiQWNHQTZqWUVQckVmTHZuRTd0cTVxZWhKUk1rM215NmRaWVoyaUJIZTBUUUZ4aUgtMzh0SUVv?oc=5",
@@ -205,42 +241,6 @@
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
-    },
-    {
-      "headline": "Why Crypto Whales Are Accumulating Ethereum Again in May 2026 - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTHo2VW9ES0tiLVVWUGNvSFV2ZW9seTExd3dMZmtybjJxY2FoczhYNmdJeklIX0dSSlgyOFlLS0gzbzF1SWxfVWJiNU9ncURIeUp1WFlMbk1BS284SFNMTFA1Ukg1VWZGNlRjdERLMnp3aW5sclE0Vk5zeHBOem9BX0cxWm1fdTdYTEROQ1FzTi1TcFZRX1ItYTBER1h5dm1HNm1EU1JtcnE4UQ?oc=5",
-      "published": "2026-05-20T07:00:00+00:00"
-    },
-    {
-      "headline": "Top 10 Altcoins to Buy in May 2026 as Bitcoin Recovers - CryptoTicker",
-      "source": "CryptoTicker",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFlfaWVDaUt0LXppd244V0EyOWJDZk9SWDlLb1ZxU1N0QlVKS3lTLURqY29TSGE0eUhDcVVPTlljcUc1QmFKOWhOYlVKaHdQUEI1djN0NHBSYllNQWtXSkhwM1Bzc1p5NWx0dWlpUkRhQUwweTd4Tk9YcVBMUlNaUg?oc=5",
-      "published": "2026-05-15T07:00:00+00:00"
-    },
-    {
-      "headline": "Top Cryptos to Buy in 2026: BlockDAG, Ethereum, Chainlink, & Solana Poised For Growth - TechFinancials",
-      "source": "TechFinancials",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTFCZ19xQ3k5WVk3Y1hWWkg3MkI0ZEJWRjFBaUF0SXRRNnRRUHJDTWlXVkNVTVFCeksySWZwMDVPUFNYYnNTLTVnekZqcXZDWGF4YTdRYWpYeWQxRVBqOFNETGFlamV4VEVjNkY3UjNVWDhqbGhFNUpXOWJtaDZLVmwwZ0t6SXFJRVhZNHRyMFVYeXdleDZHdDhvSHIyVkxLNGV5eThlQUJ2czB1ZGFNUFVHMHh1X3hRSUZ5YtIBxAFBVV95cUxPQVdpZGxodFFNM1hQdXJfaWpuaUJtR0pLVjltWEVSNzh1MDZTOXNKakQ1Z0pMUzQ5dUthb2xRcjBnUFEtanhTY3VYQUlUeThLUWNONl9qcFlMRWo3aUI1QXNMdlgtV1M4Nkd3UWJubzNXU0JpSVVZY0NDdWVERGZNTHVUVk1iNjFjTlkwU2kwMEt1aTRWVXhFNjJLMkRPZkJYN0F2SjYwS0xScXpsbW9WWmo2WDZYT2o5b2MwejZVWXY5NDFn?oc=5",
-      "published": "2026-05-11T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle - CNBC",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblZuZGtUUWVZOXB2a1piTktkN1JzamJla0lKaGZVVzhBcjFpQjNweG92OVRhYS1ZRkVMWVlQRS1FNWJTM05MMDhOd2xEQkhKakM5aG96ZHoxV1k2Q1ZWWUIxeVlOaWhlRDJfRmh5R0lFZ2ZaWnJBY3Yzc25JY3RJU2hqSEdOa0MwWUNCNm1B0gGTAUFVX3lxTE1pb2ZUM1d1MjNoWlByNDNLcDZZSndLTVJ2U0xUbmY1UFVWUC11UW1yTWtKUmRwS1hNaHVYT1Qwa0s0X0tsa2hZVW1FbEx2QjFrZmdTWnh0S1Ytc3dVRlJWdzQxc291c09ISGJXQ1o2Y3JlTzBfMzhXREVNTnVObGxDZzhNQ0JOb0ZSNnFKNVV0M0U0WQ?oc=5",
-      "published": "2026-05-10T07:00:00+00:00"
-    },
-    {
-      "headline": "Asset Tokenization in the US: A Practical Guide | Practical Law The Journal - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVm03d25rMGhuNVJ1M3gyM2dxd0dQTm1WUmtQZkNtTFBnQnI5ZC1JUVFtZzhhNm0zcDBvcG1KRnBDVno3V2k0amRwQXQxR1RJRW5oRkR1aFh6bWwzVldjbVpraXEzc3Z3OFFYVzFoNnJWRWlvellVRVUtYU5hR0NBb3NVVFE2TERHamdfMkVWaVRlWDdkbkE0bDljQlBINWhSUk1mU3FqaG5BYjJzMm96cG1sSQ?oc=5",
-      "published": "2026-05-01T07:00:00+00:00"
-    },
-    {
-      "headline": "Impact of Stablecoins on Bank Deposits - Chainlink",
-      "source": "Chainlink",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uSG9BeDhGWjZEV0UtYS1pSXpKdUFfZS1pSzBTTUlXeTNLZE5rTGdVYzczbnFCWXphTTItRmJUbUdzUXEzMUIyQlJNd1BEZ0ZRS0k1SkRITkdvdXhCd1JTZDUzUy1Ra00?oc=5",
-      "published": "2026-05-01T07:00:00+00:00"
     }
   ]
 }
