@@ -1,7 +1,25 @@
 {
-  "updated": "2026-08-25T10:30:26.453774+00:00",
+  "updated": "2026-08-25T11:02:28.772646+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "Thailand SEC proposes strict rules for Bitcoin and Ether spot ETFs with mutual fund structure - Pluang",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLTFYZmtscl9BLWIzR3dqa3N6YzlnS0pMSXRnV3E2MkU2aEI1Y21LLWFhalRZTzJkeDhNOWJoeFQ3d05rZGFMTXAyUERCZThoUHllcGVFNVlETzV3QkVVZnR2NlYwUEl1bFF4TURhUVM0ODFzQUFpNzBuaXozd21KQ0dwUXdfN3c?oc=5",
+      "published": "2026-08-25T10:54:41+00:00"
+    },
+    {
+      "headline": "Thailand advances spot Bitcoin and Ether ETF rules with 80% exposure floor - Crypto News",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdjUkhHYnF0N2h1aGU5ekRIT2Q0d3dzRjNkdWlvTUh0eEpvM2ROQUtWVEFFTEhlX283ODRjaVNZb2UtbDc5dXIxZUZ3OFF1bndOdkRmeFVSanc5ODZqSF82UFI1Zy1QaTUtMzNhUkVPWU0xVXJtRXpVT1ZwMW9SMDFhNHhqVEl3RVhhclpHcGJMczZ2Nm9ycXBB?oc=5",
+      "published": "2026-08-25T10:37:33+00:00"
+    },
+    {
+      "headline": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSnpPMWZ0UTItbkg5NUIwV3QyUkxYNUlkTDhsTkVhNFRiZmhsRjlaMlFuWHBfSmdTalNhLXF6TjhsVEhQSm5YbDJpdHdmSXZucU5fY1dxcHhMVjhfdmpiWWFLa1JhNUFHUTUwcWNEcnlvd0xsbk9vekIxUm1yNDFmS0p1dWwzT2pXeDAyZGRxUXFNQzFzR2ZIeU9HYXQ5WmhEbmVCWkEtampkam95VzVDajVfd0NBeVFCZWFKVUVZVkpvZw?oc=5",
+      "published": "2026-08-25T10:20:14+00:00"
+    },
     {
       "headline": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher - CryptoRank",
       "source": "CryptoRank",
@@ -99,18 +117,6 @@
       "published": "2026-08-13T12:29:59+00:00"
     },
     {
-      "headline": "Nasdaq Removes Position Limits on Bitcoin and Ethereum ETF Options - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT2YxRUdyN3dWZjZ3Vk1SVmlueWNYRjF5RXl5elViUTh5WXhlcFhsaEhWOV9CeGZwWGR1emFQTG53ckhsVE9mMkkzeEJlSFBnTFczQWVtblF2cTNmVEhyOXJSa1hmbWhJVW9zOHIycm5SdnF4VzNnVTJ0dUg1a191MnVpNUpRX1JOel9jR1YtcFZmclNZckVaNHVfNXlxNHJjWmFISkUyREFNQmQ0?oc=5",
-      "published": "2026-08-12T10:09:33+00:00"
-    },
-    {
-      "headline": "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motley Fool",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNTR5OElwaW9Vc2x5Q2ljeEJpQVpBRWNrRlV5TnU1QUNZSnIyaTlvUkVjTGxjSlZrZWtQYy1JWXBzT0ljVTlBSzNnaVlBTmpZSGZtcnBFY1YzRUcxQTNNLVFDMHUtclMxWmtwSldnSW9NZnctOGlyRlhhV0pCVVgwY3hCTGp6T3Zmd0RBV0dtVEdIMGtWUFRWczV1UEZvUkRIdXdHb2lfNVBxZ01ucWk4YnRsYlZLTGdzYkhsODIxODQxMWdlSzlrTkY0d25uV3d0QWpKWXlJN3ZiZDA4WnV4emx1UXZEQzFZd0dBUlhSS0xENGpTUG1LSTNjazk0Zw?oc=5",
-      "published": "2026-08-11T07:00:00+00:00"
-    },
-    {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
@@ -165,12 +171,6 @@
       "published": "2026-07-10T07:00:00+00:00"
     },
     {
-      "headline": "US SEC Announces Long-Awaited Crypto Rules \u2014 Safe Harbor for Startups and DeFi Exemptions Could Arrive in July - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xMWNuZDI5TjUxdkp0cHpBODJJZ1gyVl9EWlVzb3FJMW5MYzZ5VmJGVW9hMlNkX1ZrX0FOaVVrN1FzOHpYUG9zSGNvYnRfb2hHRm94amFEdlJOZU92azFzay1xTUF4UjBMUmptVXVuVGgyamg2dlhLaw?oc=5",
-      "published": "2026-07-08T07:00:00+00:00"
-    },
-    {
       "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - YouHodler",
       "source": "YouHodler",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVmZyNG5YTXhPY3hzQXIyTDZyVXplcG05V01Sbk8yWkZfTVNhQ1Rrdi0zMDgyTXF3dGNGbVkzRWgtN2dLa2VzNWhlRDBGd0RwbzNFYVJfNkhWaHc?oc=5",
@@ -207,6 +207,12 @@
       "published": "2026-06-30T07:00:00+00:00"
     },
     {
+      "headline": "SEC Approves T. Rowe Price Multi-Crypto ETF for NYSE Arca \u2014 Institutional Crypto Adoption Enters New Phase - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
+      "published": "2026-06-16T07:00:00+00:00"
+    },
+    {
       "headline": "Exclusive: Standard Chartered's Venture Arm 'Very, Very Close' To Owning Institutional Crypto, Exec Says - Yellow.com",
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFZ5SHNxZjk5Y2o4WDdIQmhPRnotaThRdmhYekNZY05zZzgzbVJyUjRYZFpjVFo5UU1ZUndGXy1US1VfMGJfV1IyUmhuVGRkdEktR3JaV3hiZmhzZ1htMWR1WmhuTU9YZkJXNTBXWFRUMG5IQjk0T2p6OE9GaE1vcUJ0dnZORE5KT0JLUQ?oc=5",
@@ -235,12 +241,6 @@
       "source": "CryptoTicker",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFlfaWVDaUt0LXppd244V0EyOWJDZk9SWDlLb1ZxU1N0QlVKS3lTLURqY29TSGE0eUhDcVVPTlljcUc1QmFKOWhOYlVKaHdQUEI1djN0NHBSYllNQWtXSkhwM1Bzc1p5NWx0dWlpUkRhQUwweTd4Tk9YcVBMUlNaUg?oc=5",
       "published": "2026-05-15T07:00:00+00:00"
-    },
-    {
-      "headline": "Top Cryptos to Buy in 2026: BlockDAG, Ethereum, Chainlink, & Solana Poised For Growth - TechFinancials",
-      "source": "TechFinancials",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTFCZ19xQ3k5WVk3Y1hWWkg3MkI0ZEJWRjFBaUF0SXRRNnRRUHJDTWlXVkNVTVFCeksySWZwMDVPUFNYYnNTLTVnekZqcXZDWGF4YTdRYWpYeWQxRVBqOFNETGFlamV4VEVjNkY3UjNVWDhqbGhFNUpXOWJtaDZLVmwwZ0t6SXFJRVhZNHRyMFVYeXdleDZHdDhvSHIyVkxLNGV5eThlQUJ2czB1ZGFNUFVHMHh1X3hRSUZ5YtIBxAFBVV95cUxPQVdpZGxodFFNM1hQdXJfaWpuaUJtR0pLVjltWEVSNzh1MDZTOXNKakQ1Z0pMUzQ5dUthb2xRcjBnUFEtanhTY3VYQUlUeThLUWNONl9qcFlMRWo3aUI1QXNMdlgtV1M4Nkd3UWJubzNXU0JpSVVZY0NDdWVERGZNTHVUVk1iNjFjTlkwU2kwMEt1aTRWVXhFNjJLMkRPZkJYN0F2SjYwS0xScXpsbW9WWmo2WDZYT2o5b2MwejZVWXY5NDFn?oc=5",
-      "published": "2026-05-11T07:00:00+00:00"
     }
   ]
 }
