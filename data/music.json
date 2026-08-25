@@ -1,24 +1,116 @@
 {
-  "version": 1,
-  "updated": "2026-08-09",
-  "source": "Silver Bull Radio music library",
+  "version": 2,
+  "updated": "2026-08-25T19:10:42.612771+00:00",
+  "source": "Silver Bull Radio music library — auto-generated from audio/music",
+  "count": 18,
   "items": [
-    {"id":"addicted-to-the-gamble","title":"Addicted to the Gamble","file":"audio/music/Addicted to the Gamble.mp3","rotation":"standard"},
-    {"id":"blueprint","title":"Blueprint","file":"audio/music/Blueprint (1).mp3","rotation":"standard"},
-    {"id":"bullish-vibes","title":"Bullish Vibes","file":"audio/music/Bullish Vibes.mp3","rotation":"standard"},
-    {"id":"chasing-candles","title":"Chasing Candles","file":"audio/music/Chasing Candles.mp3","rotation":"standard"},
-    {"id":"coin-wars","title":"Coin Wars","file":"audio/music/Coin Wars.mp3","rotation":"standard"},
-    {"id":"decentralize-my-mind","title":"Decentralize My Mind","file":"audio/music/Decentralize My Mind.mp3","rotation":"standard"},
-    {"id":"diamond-hands-dont-dance","title":"Diamond Hands Don’t Dance","file":"audio/music/Diamond Hands Don’t Dance.mp3","rotation":"standard"},
-    {"id":"digital-gold-rush","title":"Digital Gold Rush","file":"audio/music/Digital Gold Rush.mp3","rotation":"standard"},
-    {"id":"lambos-and-labubus","title":"Lambos and Labubus","file":"audio/music/Lambos and Labubus.mp3","rotation":"standard"},
-    {"id":"leverage-lord","title":"Leverage Lord","file":"audio/music/Leverage Lord.mp3","rotation":"standard"},
-    {"id":"money-dont-love-you-back","title":"Money Don’t Love You Back","file":"audio/music/Money Don’t Love You Back.mp3","rotation":"standard"},
-    {"id":"own-the-block","title":"OWN THE BLOCK","file":"audio/music/OWN THE BLOCK (1).mp3","rotation":"standard"},
-    {"id":"proof-of-community","title":"Proof of Community","file":"audio/music/Proof of Community.mp3","rotation":"standard"},
-    {"id":"proof-of-hustle","title":"Proof of Hustle","file":"audio/music/Proof of Hustle.mp3","rotation":"standard"},
-    {"id":"stablecoin-woman","title":"Stablecoin Woman","file":"audio/music/Stablecoin Woman.mp3","rotation":"standard"},
-    {"id":"bear-market-blues","title":"The Bear Market Blues","file":"audio/music/The Bear Market Blues.mp3","rotation":"standard"},
-    {"id":"tokenized-empire","title":"Tokenized Empire","file":"audio/music/Tokenized Empire.mp3","rotation":"standard"}
+    {
+      "id": "addicted-to-the-gamble",
+      "title": "Addicted to the Gamble",
+      "file": "audio/music/Addicted to the Gamble.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "blueprint",
+      "title": "Blueprint",
+      "file": "audio/music/Blueprint (1).mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "bullish-vibes",
+      "title": "Bullish Vibes",
+      "file": "audio/music/Bullish Vibes.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "chasing-candles",
+      "title": "Chasing Candles",
+      "file": "audio/music/Chasing Candles.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "coin-wars",
+      "title": "Coin Wars",
+      "file": "audio/music/Coin Wars.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "decentralize-my-mind",
+      "title": "Decentralize My Mind",
+      "file": "audio/music/Decentralize My Mind.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "diamond-hands-dont-dance",
+      "title": "Diamond Hands Don’t Dance",
+      "file": "audio/music/Diamond Hands Don’t Dance.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "digital-gold-rush",
+      "title": "Digital Gold Rush",
+      "file": "audio/music/Digital Gold Rush.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "green-candles",
+      "title": "Green Candles",
+      "file": "audio/music/Green Candles.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "lambos-and-labubus",
+      "title": "Lambos and Labubus",
+      "file": "audio/music/Lambos and Labubus.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "leverage-lord",
+      "title": "Leverage Lord",
+      "file": "audio/music/Leverage Lord.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "money-dont-love-you-back",
+      "title": "Money Don’t Love You Back",
+      "file": "audio/music/Money Don’t Love You Back.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "own-the-block",
+      "title": "OWN THE BLOCK",
+      "file": "audio/music/OWN THE BLOCK (1).mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "proof-of-community",
+      "title": "Proof of Community",
+      "file": "audio/music/Proof of Community.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "proof-of-hustle",
+      "title": "Proof of Hustle",
+      "file": "audio/music/Proof of Hustle.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "stablecoin-woman",
+      "title": "Stablecoin Woman",
+      "file": "audio/music/Stablecoin Woman.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "bear-market-blues",
+      "title": "The Bear Market Blues",
+      "file": "audio/music/The Bear Market Blues.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "tokenized-empire",
+      "title": "Tokenized Empire",
+      "file": "audio/music/Tokenized Empire.mp3",
+      "rotation": "standard"
+    }
   ]
 }
