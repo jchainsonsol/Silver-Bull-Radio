@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "updated": "2026-08-25T19:10:42.612771+00:00",
+  "updated": "2026-08-25T19:42:12.302155+00:00",
   "source": "Silver Bull Radio music library — auto-generated from audio/music",
-  "count": 18,
+  "count": 20,
   "items": [
     {
       "id": "addicted-to-the-gamble",
@@ -14,6 +14,12 @@
       "id": "blueprint",
       "title": "Blueprint",
       "file": "audio/music/Blueprint (1).mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "bull-market-summer",
+      "title": "BULL MARKET SUMMER",
+      "file": "audio/music/BULL MARKET SUMMER.mp3",
       "rotation": "standard"
     },
     {
@@ -92,6 +98,12 @@
       "id": "proof-of-hustle",
       "title": "Proof of Hustle",
       "file": "audio/music/Proof of Hustle.mp3",
+      "rotation": "standard"
+    },
+    {
+      "id": "risk-on",
+      "title": "RISK ON",
+      "file": "audio/music/RISK ON.mp3",
       "rotation": "standard"
     },
     {
