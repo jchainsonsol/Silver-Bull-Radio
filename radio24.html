@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Silver Bull Radio W3BC — 24 Hour Control</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}#station{border:0;width:100%;height:100%;display:block;background:#07090c}#badge{position:fixed;right:12px;bottom:12px;z-index:99;background:#0b1118;border:1px solid #65ff9a;color:#65ff9a;border-radius:999px;padding:7px 10px;font:800 10px system-ui;letter-spacing:.05em;box-shadow:0 0 16px rgba(101,255,154,.12)}</style>
+</head>
+<body>
+<iframe id="station" src="./?radio24=20260825" title="Silver Bull Radio 24 Hour Control"></iframe>
+<div id="badge">24H CONTROL LOADING…</div>
+<script>
+const station=document.getElementById('station'),badge=document.getElementById('badge');
+function base(){
+  try{
+    const idx=station.contentDocument;
+    const v19f=idx?.getElementById('board');
+    const v19=v19f?.contentDocument;
+    const v18f=v19?.getElementById('shell');
+    const v18=v18f?.contentDocument;
+    const v17f=v18?.getElementById('shell');
+    const v17=v17f?.contentDocument;
+    const basef=v17?.getElementById('board');
+    return {doc:basef?.contentDocument,win:basef?.contentWindow};
+  }catch(e){return{}}
+}
+function patch(){
+  const {doc,win}=base();
+  if(!doc||!win||!doc.getElementById('music'))return false;
+  if(doc.documentElement.dataset.radio24Patched==='1')return true;
+  doc.documentElement.dataset.radio24Patched='1';
+  const st=doc.createElement('style');
+  st.textContent=`.radio24tag{display:inline-block;margin-left:7px;padding:2px 6px;border-radius:999px;border:1px solid var(--green);color:var(--green);font-size:8px;font-weight:900;letter-spacing:.08em}.radio24row{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}.radio24row .btn{min-width:92px}`;
+  doc.head.appendChild(st);
+  const brand=doc.querySelector('.brand .mut');
+  if(brand)brand.innerHTML='Bullpen Control Room <span class="radio24tag">24H RADIO</span>';
+  const main=doc.getElementById('music20');
+  if(main){main.innerHTML='MUSIC BLOCK<span>1 hour auto rotation</span>';main.onclick=()=>win.startRun(60)}
+  const music=doc.getElementById('music');
+  const row=[...music.querySelectorAll('.row')].find(r=>r.querySelector('[data-run]'));
+  if(row){
+    row.querySelectorAll('[data-run]').forEach(b=>b.remove());
+    const stop=row.querySelector('#stopMusic');
+    const next=row.querySelector('#nextSong');
+    const blocks=[[60,'1 HOUR'],[120,'2 HOURS'],[240,'4 HOURS'],[480,'8 HOURS'],[720,'12 HOURS'],[1440,'24 HOURS']];
+    blocks.forEach(([mins,label])=>{
+      const b=doc.createElement('button');b.className='btn purple';b.textContent=label;b.onclick=()=>win.startRun(mins);row.insertBefore(b,next||stop||null);
+    });
+  }
+  const head=music.querySelector('.head .mut');if(head)head.textContent='hour blocks · crossfade · station ID every 2 songs';
+  const status=doc.getElementById('musicStatus');if(status)status.textContent='24-hour mode ready. Choose 1, 2, 4, 8, 12 or 24 hours.';
+  badge.textContent='24H CONTROL READY';
+  return true;
+}
+station.addEventListener('load',()=>{let n=0;const t=setInterval(()=>{n++;if(patch()||n>200)clearInterval(t)},100)});
+setInterval(patch,1500);
+</script>
+</body>
+</html>
