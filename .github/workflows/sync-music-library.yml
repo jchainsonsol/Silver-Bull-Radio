@@ -1,0 +1,99 @@
+name: Sync Silver Bull Music Library
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'audio/music/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: silver-bull-music-library
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild music library from uploaded audio
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import unicodedata
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          music_dir = Path('audio/music')
+          data_file = Path('data/music.json')
+          supported = {'.mp3', '.m4a', '.wav', '.ogg', '.aac'}
+
+          existing = {}
+          if data_file.exists():
+              try:
+                  old = json.loads(data_file.read_text(encoding='utf-8'))
+                  existing = {item.get('file'): item for item in old.get('items', []) if item.get('file')}
+              except Exception as exc:
+                  print('Could not read existing music.json:', exc)
+
+          def display_title(path):
+              stem = path.stem
+              stem = re.sub(r'\s*\(\d+\)$', '', stem)
+              stem = re.sub(r'[_-]+', ' ', stem)
+              stem = re.sub(r'\s+', ' ', stem).strip()
+              return stem
+
+          def slugify(text):
+              normalized = unicodedata.normalize('NFKD', text)
+              ascii_text = normalized.encode('ascii', 'ignore').decode('ascii').lower()
+              slug = re.sub(r'[^a-z0-9]+', '-', ascii_text).strip('-')
+              return slug or 'track'
+
+          files = sorted(
+              [p for p in music_dir.iterdir() if p.is_file() and p.suffix.lower() in supported],
+              key=lambda p: p.name.lower()
+          )
+
+          items = []
+          used_ids = set()
+          for path in files:
+              rel = path.as_posix()
+              previous = existing.get(rel, {})
+              title = previous.get('title') or display_title(path)
+              base_id = previous.get('id') or slugify(title)
+              track_id = base_id
+              n = 2
+              while track_id in used_ids:
+                  track_id = f'{base_id}-{n}'
+                  n += 1
+              used_ids.add(track_id)
+              items.append({
+                  'id': track_id,
+                  'title': title,
+                  'file': rel,
+                  'rotation': previous.get('rotation', 'standard')
+              })
+
+          payload = {
+              'version': 2,
+              'updated': datetime.now(timezone.utc).isoformat(),
+              'source': 'Silver Bull Radio music library — auto-generated from audio/music',
+              'count': len(items),
+              'items': items
+          }
+          data_file.parent.mkdir(parents=True, exist_ok=True)
+          data_file.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          print(f'Indexed {len(items)} tracks.')
+          PY
+
+      - name: Commit updated library index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/music.json
+          git diff --cached --quiet || git commit -m "Sync Silver Bull music library"
+          git push
