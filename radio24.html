@@ -7,7 +7,7 @@
 <style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07090c}#station{border:0;width:100%;height:100%;display:block;background:#07090c}#badge{position:fixed;right:12px;bottom:12px;z-index:99;background:#0b1118;border:1px solid #65ff9a;color:#65ff9a;border-radius:999px;padding:7px 10px;font:800 10px system-ui;letter-spacing:.05em;box-shadow:0 0 16px rgba(101,255,154,.12)}</style>
 </head>
 <body>
-<iframe id="station" src="./?radio24=20260825" title="Silver Bull Radio 24 Hour Control"></iframe>
+<iframe id="station" src="./?radio24=20260825b" title="Silver Bull Radio 24 Hour Control"></iframe>
 <div id="badge">24H CONTROL LOADING…</div>
 <script>
 const station=document.getElementById('station'),badge=document.getElementById('badge');
@@ -47,9 +47,19 @@ function patch(){
       const b=doc.createElement('button');b.className='btn purple';b.textContent=label;b.onclick=()=>win.startRun(mins);row.insertBefore(b,next||stop||null);
     });
   }
-  const head=music.querySelector('.head .mut');if(head)head.textContent='hour blocks · crossfade · station ID every 2 songs';
-  const status=doc.getElementById('musicStatus');if(status)status.textContent='24-hour mode ready. Choose 1, 2, 4, 8, 12 or 24 hours.';
-  badge.textContent='24H CONTROL READY';
+  /* Override the legacy 2-song station-ID rule for 24H mode. */
+  win.afterSong=function(){
+    win.songsPlayed++;
+    const count=doc.getElementById('songCount');if(count)count.textContent=`${win.songsPlayed} songs`;
+    if(Date.now()>=win.runEnd)return win.stopMusic();
+    if(win.songsPlayed%5===0)return win.insertId();
+    win.playTrack(win.choose(),true);
+  };
+  const rule=[...doc.querySelectorAll('.story')].find(x=>x.textContent.includes('STATION ID RULE'));
+  if(rule){const big=rule.querySelector('.big');const small=rule.querySelector('.small:last-child');if(big)big.textContent='5 SONGS';if(small)small.textContent='ID alternates 1 / 2';}
+  const head=music.querySelector('.head .mut');if(head)head.textContent='hour blocks · crossfade · station ID every 5 songs';
+  const status=doc.getElementById('musicStatus');if(status)status.textContent='24-hour mode ready. Station ID every 5 songs. Choose 1, 2, 4, 8, 12 or 24 hours.';
+  badge.textContent='24H CONTROL READY · ID / 5 SONGS';
   return true;
 }
 station.addEventListener('load',()=>{let n=0;const t=setInterval(()=>{n++;if(patch()||n>200)clearInterval(t)},100)});
