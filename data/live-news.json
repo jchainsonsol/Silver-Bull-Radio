@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-29T09:12:10.797887+00:00",
+  "updated": "2026-08-29T14:29:30.082850+00:00",
   "refresh_minutes": 5,
   "items": [
     {
-      "headline": "SEC Crypto Custody Rule: What's Changing for Banks - Memeburn",
+      "headline": "SEC Is Rewriting Crypto Custody Rules \u2014 What Changed and What Didn't? - Memeburn",
       "source": "Memeburn",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94dFRGelZmd0xyd2d1OWJKYkQxeGNKWkVxcFZLaDc4YThuYkVpeXRSZXZnUkJzQ2pBc19xS0ljMGJxZmR3U1dZdEF2cGhvYUVvZ09ETUxwbncyWXI1bTRZ?oc=5",
       "published": "2026-08-29T07:57:41+00:00"
@@ -13,12 +13,6 @@
       "source": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSkMxN3hiYnU5S3FnOHhkbG82bXpCMGlmbm5QX2RRNl9RN0N1NFAtbXEyNk5fRkUwWll2aTBWNnI0MWVLZjRwUnRUV25oWG82SUlwQkQzSEx4SjhFQWZqQ3NxOGY5TE1BdFFwa0VzcTFGRnVqbmowZTdrX2tOUE8tZG9OZEFvZUJSeC1ROVlGU3Z6eVppczdESjd4dGQ?oc=5",
       "published": "2026-08-28T05:00:01+00:00"
-    },
-    {
-      "headline": "Solana, Avalanche, Chainlink Rise as Charles Schwab Prepares Spot Crypto Trading - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
-      "published": "2026-08-28T01:37:33+00:00"
     },
     {
       "headline": "Thailand SEC Proposes Bitcoin ETF and Ethereum ETF Framework - Tekedia",
@@ -45,22 +39,10 @@
       "published": "2026-08-27T00:49:26+00:00"
     },
     {
-      "headline": "Thailand Proposes Rules to Localize Bitcoin and Ethereum ETF Markets - KuCoin",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY096bklCbUc0U3F6OHg1bWlaS3QzUWhmMFV4c1BzOVptMTFrVEV3dzdpWENZVlRiYnk3Y0d4aTZmUmZmRGFOaE9tb0Zfa0IyTlcyN01UZkRKcFhoelA5Q2dZUGpOM3VYSHZuTXA3b016QkZEVUpZYTh6dDZPX1hfNktGN0trNTIxYUhtcmpnWlNwZkRVOEVJSE92Mkl3T0tXcUx5WQ?oc=5",
-      "published": "2026-08-26T22:02:51+00:00"
-    },
-    {
       "headline": "Robinhood Chain Tokenized Asset Volume Hits $85.1M as Stock Tokens Dominate - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KbWVNNnR1YnAzTzl3X0FMREdPMkhlUy1ydE44MGJodGh2cmJ0bTExMFJvRllFcjhqbVZkOTFzbWt0akZPcVlOYmgwcjlRWDNTOGo2VHY4Tmg5VGxoOHhMMC05MExJdk1ub3Q5OGdJRGVlcWdoUEJB?oc=5",
       "published": "2026-08-26T10:54:32+00:00"
-    },
-    {
-      "headline": "Thailand SEC proposes draft rules for spot Bitc... - Pluang",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUm82NnRsY1QzYXNoRDN4VXN1aS1uMThSMjhURjY2c3NWcE1YMmd0U3NiQ2lnWkh5THZFQi12alRkbkJ4T2kxdjZkYkhJRG1RR2ZnbjliTjlzSHdnUlRrRFNBaUU1VmFISjlHZ21nM2VyVkZxTlIxWEl6dElrbHJoQ18zY19JV0NuRXBN?oc=5",
-      "published": "2026-08-26T05:48:52+00:00"
     },
     {
       "headline": "Thailand SEC Proposes Bitcoin, ETH ETF Rules - Coinpedia",
@@ -75,6 +57,12 @@
       "published": "2026-08-25T11:52:57+00:00"
     },
     {
+      "headline": "Thailand SEC proposes strict rules for Bitcoin and Ether spot ETFs with mutual fund structure - Pluang",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLTFYZmtscl9BLWIzR3dqa3N6YzlnS0pMSXRnV3E2MkU2aEI1Y21LLWFhalRZTzJkeDhNOWJoeFQ3d05rZGFMTXAyUERCZThoUHllcGVFNVlETzV3QkVVZnR2NlYwUEl1bFF4TURhUVM0ODFzQUFpNzBuaXozd21KQ0dwUXdfN3c?oc=5",
+      "published": "2026-08-25T10:54:41+00:00"
+    },
+    {
       "headline": "Thailand advances spot Bitcoin and Ether ETF rules with 80% exposure floor - Crypto News",
       "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdjUkhHYnF0N2h1aGU5ekRIT2Q0d3dzRjNkdWlvTUh0eEpvM2ROQUtWVEFFTEhlX283ODRjaVNZb2UtbDc5dXIxZUZ3OFF1bndOdkRmeFVSanc5ODZqSF82UFI1Zy1QaTUtMzNhUkVPWU0xVXJtRXpVT1ZwMW9SMDFhNHhqVEl3RVhhclpHcGJMczZ2Nm9ycXBB?oc=5",
@@ -85,6 +73,12 @@
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSnpPMWZ0UTItbkg5NUIwV3QyUkxYNUlkTDhsTkVhNFRiZmhsRjlaMlFuWHBfSmdTalNhLXF6TjhsVEhQSm5YbDJpdHdmSXZucU5fY1dxcHhMVjhfdmpiWWFLa1JhNUFHUTUwcWNEcnlvd0xsbk9vekIxUm1yNDFmS0p1dWwzT2pXeDAyZGRxUXFNQzFzR2ZIeU9HYXQ5WmhEbmVCWkEtampkam95VzVDajVfd0NBeVFCZWFKVUVZVkpvZw?oc=5",
       "published": "2026-08-25T10:20:14+00:00"
+    },
+    {
+      "headline": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher - CryptoSlate",
+      "source": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkhTLXBDUVNqOUVTeXlsZTJ5X2hwTHhLQUtLa1VHY1NJZTYwSGIxLVNqUHV6SWVteU5jakJyY00wX19udFgySV9xa2djclNkcFpYVW9aM3dUNFBKUUxfellveUV5eXBSQ2FJUmZnWUloMU5oZm1HYjc3TmV0YlRJZWtaYWZtcHJOWV9fMnhiNk1YRWd1dUxyakR5TC0wbFU2LXl3b2x4S1dXd2h0Z0VXUw?oc=5",
+      "published": "2026-08-23T21:10:58+00:00"
     },
     {
       "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
@@ -139,6 +133,12 @@
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPczk0cFZuRHhQOXMweDRkTER5NmQ4VjA5ZWZDR2dxY01tdkdOd0VBeTd6RE5pTkU0SFVtQ0oyMHYxeGxWNnBYeVlMcXFFTXRteFhac3ZpY1JwcGh1eWFDbmdfYXh4a1JDSWdEY09LbU93N0tmcW9aRzVlUWYzSnZ1Y1dYV19fNU0wczhmZ3MweWNzeDdpUUZoWjdMVUJTd2hYVFRzLW9GT2dvNzBaYjF4b3BiQ05CaDAwQl93dWNha1c4bWJvZ0tzWTYxTjlNbU5z?oc=5",
       "published": "2026-08-14T07:00:00+00:00"
+    },
+    {
+      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMjhLYXZjZV9BT2dvb3d5NUkxTktPSGxDMTZNTGpyY3lvbEpTUDFtRWJoSDJWOXNBWnZJdTJnTWhkdXFocUV1UXVoVFVuT2Y3QlZMQXlTd0hsUTJWOFZLcXItRkRYWHlUbTVHcFR5MnViYUQzSXFzVG1ZSlF0WnJZc1hzS0lOWWx5R1Z0amVjWXZobS1GdkY0dnRfVHNqQlFGRGNXMTVaanM2dUJ1d1BfdV9NU1paTGRBdmpOb1NiTk5xMWNPMXk1Z29VS0xKalEw?oc=5",
+      "published": "2026-08-13T12:29:59+00:00"
     },
     {
       "headline": "Nasdaq Removes Position Limits on Bitcoin and Ethereum ETF Options - CoinMarketCap",
