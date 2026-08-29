@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T14:29:30.082850+00:00",
+  "updated": "2026-08-29T17:51:11.543369+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -9,10 +9,10 @@
       "published": "2026-08-29T07:57:41+00:00"
     },
     {
-      "headline": "The SEC Just Sent Its Crypto Custody Rule Rewrite to the White House - Startup Fortune",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSkMxN3hiYnU5S3FnOHhkbG82bXpCMGlmbm5QX2RRNl9RN0N1NFAtbXEyNk5fRkUwWll2aTBWNnI0MWVLZjRwUnRUV25oWG82SUlwQkQzSEx4SjhFQWZqQ3NxOGY5TE1BdFFwa0VzcTFGRnVqbmowZTdrX2tOUE8tZG9OZEFvZUJSeC1ROVlGU3Z6eVppczdESjd4dGQ?oc=5",
-      "published": "2026-08-28T05:00:01+00:00"
+      "headline": "Solana, Avalanche, Chainlink Rise as Charles Schwab Prepares Spot Crypto Trading - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
+      "published": "2026-08-28T01:37:33+00:00"
     },
     {
       "headline": "Thailand SEC Proposes Bitcoin ETF and Ethereum ETF Framework - Tekedia",
@@ -37,6 +37,12 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1ejcyNGFwTVl5MEVrZndLVEJVSG1CR3hVTEVOOG9od2RxZlpZSE5iakxSYXNCTWk3ZlAwLURya3ZkRVVMTU9tcWVtaWNRcUFGVUZLSUxuRURzQlFyRjRqQVVCNEdyQVpnQ0VGSFgyRUVGRFJBQlV6N0RxQQ?oc=5",
       "published": "2026-08-27T00:49:26+00:00"
+    },
+    {
+      "headline": "Thailand is rewriting its stock exchange rules to trap billions in Bitcoin ETF wealth strictly inside its own borders - CryptoSlate",
+      "source": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYTNzWFIwQVRqZ2RoSDFkRnV3TnNtOVFDbE9iLWFCWVl5QWRWN3c4NldCZzN5OENTenpLRzRQdFpWaHktVGQ5SG1tdjFzMFRlZWVQODBfdV9od3hmN2kxU05PT2d4M0Z5a2FxbE4zS1NFUzhvUVhmTURPRjZ0Y1dhX3JmeXN3T2ZGTmZud3RaOGM0X1pfdGd5WFpRVXQxU0Myb21CYllic0hBSVlQUTdLT2doenBKdEg2N1BnNmFmd0wxLWdQNzExTkRiUUl2LUdITElGbnR5U0hpQQ?oc=5",
+      "published": "2026-08-26T21:50:59+00:00"
     },
     {
       "headline": "Robinhood Chain Tokenized Asset Volume Hits $85.1M as Stock Tokens Dominate - CryptoRank",
@@ -234,12 +240,6 @@
       "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
       "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
-      "published": "2026-05-22T07:00:00+00:00"
-    },
-    {
-      "headline": "Grayscale Names 4 Altcoins Likely To Benefit From the CLARITY Act - BeInCrypto",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMkV1VVJWeFEzWnk5b1FvakZfZndOUnB0NFFiU3RGQTVkbF96dFd5MGJicEU0MGlabnhyOHBBYjc1Y0FYdlh3Y1piQ0JSakg2Vmx1T1g4am9UMUFUaHNLRmZnQzlQa2RHZkhkZElB?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
     }
   ]
