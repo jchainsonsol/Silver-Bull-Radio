@@ -1,7 +1,13 @@
 {
-  "updated": "2026-08-30T21:30:48.996504+00:00",
+  "updated": "2026-08-30T23:47:26.829741+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "Charles Schwab adds Solana, Avalanche and Chainlink to crypto platform - Bitget",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yN2hkWmhpWC1udkRSSDY0VERBSTB6eEVDbkZhazRiS1NaT2liMWVzajFiT2F5UFAzcWFSd3F4UWU3ejQyUGl1WjMyekx6SGxTTTJZdWVMY2hWZGJqZDFmSzZub9IBY0FVX3lxTE5yN2hkWmhpWC1udkRSSDY0VERBSTB6eEVDbkZhazRiS1NaT2liMWVzajFiT2F5UFAzcWFSd3F4UWU3ejQyUGl1WjMyekx6SGxTTTJZdWVMY2hWZGJqZDFmSzZubw?oc=5",
+      "published": "2026-08-30T19:38:10+00:00"
+    },
     {
       "headline": "SEC Crypto Custody Rule: What's Changing for Banks - Memeburn",
       "source": "Memeburn",
@@ -19,6 +25,12 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
       "published": "2026-08-28T01:37:33+00:00"
+    },
+    {
+      "headline": "Charles Schwab Expands Crypto Platform With SOL, AVAX and LINK - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNjd5ZXJRQjlEU2NlUjZraUU2aDV3V3pncm44OWFnYV94RDJmSEFlSklIWXAzZ2MxUkh1a1hEMVZ4Rk41ZmZiVE5ydmYxQk5zc2pxTXljTXZ3OHZXNUxHMlRHUjJlb1ppY19tZ09meW9oODVyZTZYQzJzQ0RaMDVoNGRkWUlJeklHcGthRThVQnhOaE01WWRWOFpjTkdmbXhj?oc=5",
+      "published": "2026-08-28T00:15:58+00:00"
     },
     {
       "headline": "SEC Crypto Custody Rule Review: Why the Next Bitcoin Boom Could Start on Wall Street - Bitcoin Foundation",
@@ -201,6 +213,12 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
+      "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOczRMTGZPay12RDM4b01ldnh0b1V0bzlQaEdvUi1mY0FGbEh6azV1TXA5T3d6NTBpcXQ4a2RfUDBzYW10b0tKVG9ZZjYxNkZqRkpmSGVRUU05TVU2N092LUE5QzBiOWltQWYwaWRmdDN2VFhfeG1rUWltclJ2Qmw2ZUd2Slp5ZnFIVnVGYjlkMWhmVkJ1Z1E?oc=5",
+      "published": "2026-07-02T07:00:00+00:00"
+    },
+    {
       "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - EQS News",
       "source": "EQS News",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWGc2RUpiTTJNWi10TXh4ZFZLS0o0eFdJcnNsQ3N0ckw1Y2xRVXJEOWZqNWduUU9zMWgzTUIxV2NxMFNPMGcwQlZUcF9NRkNCZTNPQk51b2ljemdNSHp6Mm1hT2ZLaEh5RmlmZWxoanliSnN6aGdiYjdOdW5lM0JLMU43bG1fcnMtT3RUQVR4WkxLZnVBN2lKcWNLS1d1OFYtMm5aczFLUzZyenRYVGRWcGY4Zl9ydmRuLXhuWkk4V3FRbkhhQVpGRTBhQWJMYXlqSV9CZlVsVjZGM01CSnlqYWlWbTdYcXF5YkVOdEZ5SHJYY1EwNUM1UlRMNmF0cTB6bjN3QjFyektXWXlrRUNtRDdVcw?oc=5",
@@ -223,24 +241,6 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM3hZOENObGwwUEtoWnBPSmhNQV94UHRpeWx2VUw2SVZTUTk2MzFOMHBhVXJRNnZyNHpuY2NidF9Tc19lS0hLTmZ2VWdmZnBjT1RTMDhRaXRHLVJJLUNQRDBiQWNHQTZqWUVQckVmTHZuRTd0cTVxZWhKUk1rM215NmRaWVoyaUJIZTBUUUZ4aUgtMzh0SUVv?oc=5",
       "published": "2026-06-03T07:00:00+00:00"
-    },
-    {
-      "headline": "Exclusive: Standard Chartered's Venture Arm 'Very, Very Close' To Owning Institutional Crypto, Exec Says - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFZ5SHNxZjk5Y2o4WDdIQmhPRnotaThRdmhYekNZY05zZzgzbVJyUjRYZFpjVFo5UU1ZUndGXy1US1VfMGJfV1IyUmhuVGRkdEktR3JaV3hiZmhzZ1htMWR1WmhuTU9YZkJXNTBXWFRUMG5IQjk0T2p6OE9GaE1vcUJ0dnZORE5KT0JLUQ?oc=5",
-      "published": "2026-06-02T14:04:08+00:00"
-    },
-    {
-      "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLThvVElYTHhTQWI0THVfWnF1WW9kQkdpZFdweFlEd2ZhaDk0bGNDVTY5V3psM25VcjdWcEl5ZmJqVC0tVmNpaWhfSFdiVGZLVVhBN3BJRUFlVnVsSHRlQ1lOQkx4MFJxVFU3YldOOWh4eDNLd3dOcG9PUk50RTY5cWdDY3lVbUF5UUpFQ19n?oc=5",
-      "published": "2026-05-26T07:00:00+00:00"
-    },
-    {
-      "headline": "XRP, ETH, SOL, LINK Look Cheap\u2014The Catalysts That Could Drive The Next Leg Up | Ethereum Ripple - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcTZlWFFyZFZTbkN1bjYwU2JJTDZwOWNXSzNTWjRFdGVsM090TFdBRTNsRDdHX2Zkb2VBUjZTQU1ZR0tnLThyemprRWxISlhnekVGNmlRMmV3Mi1EWF94Um1OZjhrRjJxc1Vtd0Q2SG1iU2VZQnJRQkFEdUdYMlYtQnRQdHJnOUtNSVJTa1RLeEQzdDhxOXVTNG1pNDR3U2p1UHVQT3NhejVxRmhadTNpSWR3?oc=5",
-      "published": "2026-05-25T07:00:00+00:00"
     }
   ]
 }
