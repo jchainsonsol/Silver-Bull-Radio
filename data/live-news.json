@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T10:49:11.491888+00:00",
+  "updated": "2026-08-30T15:04:13.040676+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -27,9 +27,15 @@
       "published": "2026-08-27T17:57:34+00:00"
     },
     {
+      "headline": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVRyS0Z1bURuNHlnU1l5WWt3NWtqcm1hZElMS0xnbXlBOUE2NmQtcDBQcEVEb1E4b21tcFV1bTk2Zkw0ZWxlaHZjb3JIVFBwbV9CR21DWE5uS3c5N0ZaMTNsMm1PZ0lsVTNXaUhKQ25HUFN2U2JpNXN4T1ZmWVdjaEItRktzQ0xZU1BkRnBXVzhkT1NWbDdIU2lzN3ZJUGd4bG9j?oc=5",
+      "published": "2026-08-27T15:44:00+00:00"
+    },
+    {
       "headline": "Bitcoin Price Outlook: Can ETF Inflows Break $80,000? - equiti.com",
       "source": "equiti.com",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOcmhIT2VBQWZUUXc5eDZBLWtTOXpJMW1MQVpHcUc3aFJNV2JFd3lncjhyRHl1X2xBWUU3NWdfSjY2R2hiZWEwSHROMHlLODk5Q2FtUDJMX18tam1XTFd4SE5fM1ptaDhZQWdFMXNpOE5YR2l5emtseGRFQVlXbExCRHNxS3F1STE0VHM1czhQLU9FcVB1R2VTVllIcWotUEtqTmlVVjZMM3Z6TUh5N0IydThXMXFDSE5PdmZ1a1hqYjR3b0tuNldiejVqNGRybXNiVUtHMkx6ZE1XSGdIUE5aSHQ3ZlNRdDFveXVfbmN2bUxWaEQ2Q2Y2UmxSRFhIQWJZcnViWTJlcWtaRTZoRkZv?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZjZBX20zeXJhZUpuVzAxdnZuTU1RcVFJNzFaNnJBLXFWdG5Ma3Vwem9lV1Yza3pUdi1kZE5QQjhMY1Y4Z2JJX3VGUlFBU1FyUm9tcWJkMzhJcGw0RDVjb3NwVTVyYzJPSkdZNkNvcGJfTjNpY1lHVWh6blpwVVNmQnBkZTl1V003bUpEN0NBWjVSZC11cS1NZS1aTUdrLUpULXFkTXdPVE5sX0FQ?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
@@ -37,12 +43,6 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1ejcyNGFwTVl5MEVrZndLVEJVSG1CR3hVTEVOOG9od2RxZlpZSE5iakxSYXNCTWk3ZlAwLURya3ZkRVVMTU9tcWVtaWNRcUFGVUZLSUxuRURzQlFyRjRqQVVCNEdyQVpnQ0VGSFgyRUVGRFJBQlV6N0RxQQ?oc=5",
       "published": "2026-08-27T00:49:26+00:00"
-    },
-    {
-      "headline": "Thailand is rewriting its stock exchange rules to trap billions in Bitcoin ETF wealth strictly inside its own borders - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeWpza1NMMGxaRzRCUG5wcFV5RXJWZnhNaEVjSWZKQlZjSUJSNGN4U3JIX3dyTTF5bTFtWjBXU0s5NElrLVRkWEdXMlpFNEg2cHVvcUlVakU3MzdWZFNjTXVXekRJVmdrTkV6aFdsc3psNU1nOHpYb0s1LXAzVEEzT0E4c3czekUzODllLUNnTFI0ODcwMFRNS2xGRm8yY25HT2RiYk8wZVVkYmItdGF6enRndmNkZjJpXzItdHpid2lpSVJrLTllNVByWldYZUI5eDBtR1V4S184NzJUaDlxc1R1M1pQRXktbXQ0?oc=5",
-      "published": "2026-08-26T22:20:31+00:00"
     },
     {
       "headline": "Thailand is rewriting its stock exchange rules to trap billions in Bitcoin ETF wealth strictly inside its own borders - CryptoSlate",
@@ -129,6 +129,12 @@
       "published": "2026-08-14T07:00:00+00:00"
     },
     {
+      "headline": "BlackRock, Fidelity, Grayscale: Why Nasdaq's SEC Rule Change Could Trigger A Crypto Derivatives Boom - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMjhLYXZjZV9BT2dvb3d5NUkxTktPSGxDMTZNTGpyY3lvbEpTUDFtRWJoSDJWOXNBWnZJdTJnTWhkdXFocUV1UXVoVFVuT2Y3QlZMQXlTd0hsUTJWOFZLcXItRkRYWHlUbTVHcFR5MnViYUQzSXFzVG1ZSlF0WnJZc1hzS0lOWWx5R1Z0amVjWXZobS1GdkY0dnRfVHNqQlFGRGNXMTVaanM2dUJ1d1BfdV9NU1paTGRBdmpOb1NiTk5xMWNPMXk1Z29VS0xKalEw?oc=5",
+      "published": "2026-08-13T12:29:59+00:00"
+    },
+    {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
@@ -159,16 +165,16 @@
       "published": "2026-07-13T07:00:00+00:00"
     },
     {
+      "headline": "Reality of RWA Tokenization in 2026: Only One Asset Class Is Ready for Prime Time - BeInCrypto",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EQjlkRnRodEl0bXJwdU0wbWF3X0NmaEtFTWFSaGtkZzNtSFFfcGVkeDF1ZmdUY2I3eGEtb0gtNGV1OEJSdW4wRTNobEkyQ2ZWNzNlN2pKUHN5WDNKa0ZQeEtyU25selpXX2RkQkFXblZjZ1d3OXc?oc=5",
+      "published": "2026-07-12T07:00:00+00:00"
+    },
+    {
       "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
       "source": "CryptoNinjas",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFVpdjAzWm44c1RxejYyV3pHNl90Z0VMUmd4bjl6eVBkVjFhZjRKeUJka3NtZnJGQjYtX3FrSjhTeE1udVBsNTdOd1NxcW1xYVNJbzJOLVJ6T2lmYWZkM2Utak5PWVpHYjZIZnM4aEZPbVJ3cDRIZGd2N0gzWUF1eEtRYXNQa2QwbjlGUGc4eHJwd1dnaDZ1YVJKUnhNREd6V3JiQ0x5QXFYZXRjMXQ4ZFQ0dzN5b1BDT3VHOFdTOEdyUdIBxwFBVV95cUxOMHZpZno3c2JkOUlaUW9aOVFhTE1UdG90UGc2ZEhEeGc2NEMtS2hualZVbkJSUkNkRWNnd0RuX0liSUpCeDRPcXZ5ZXBHTTNXZjZIZVZWQUg2bWotdVgzTHZSekFlWTcySWl4bTZiZEc1dXA3VVM0dWg5VGMzLW41QkUwWXdXOHZJVDg5YkhRUUhkVGhnYmtmUi01MktRZ2lfczBydUJYZEFRUVJfUmM1YXlWLWdHbWFjdkNNOEo0SlN2b01sc0FV?oc=5",
       "published": "2026-07-10T07:00:00+00:00"
-    },
-    {
-      "headline": "Tokenized stock transfers surge 105% in a month to $8.4B - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS2tPcEpiNWktY2YwVUpPVlBKa3FQblp4dC1EUkc4OHk1UHNBRkxXWTYzT1E5NjViZHFxOHdrNlZGVkVUMXRCNE5CbHpoYXJlVGV4c1FrNmVNRmtmQTdyaVNkQjgzY19wbFdqcVpOdTNoMzZEX2I2WmRISnlmRk1oTnZKdUd5LW4zMXptNmtpdHYxTHY3c0ZUOGQ2amd0cF9PaXk3MWVGUHJxVEZZWnpwWnBPQV9BTFhVS2c?oc=5",
-      "published": "2026-07-08T07:00:00+00:00"
     },
     {
       "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - YouHodler",
@@ -235,12 +241,6 @@
       "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
-    },
-    {
-      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
-      "published": "2026-05-21T07:00:00+00:00"
     }
   ]
 }
