@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T19:11:54.586691+00:00",
+  "updated": "2026-09-07T22:01:53.707554+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -9,16 +9,16 @@
       "published": "2026-09-07T00:49:39+00:00"
     },
     {
-      "headline": "Ondo Finance Leads The $2B RWA Wave Reshaping DeFi - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wbVVkNVBYNmFtU1puRlB1cjVmbkd1WHdTd2VHTWlnRFMyOGVmVkFtQ2o2R2RSVlhIOGlJSmZ5Y2k1MkxtdGVPWGhhM0x2VlF0cy14RnhFQWtFSkZISHJkWkxzSGhxaW41RUZxWkpIY3AyN3dp?oc=5",
-      "published": "2026-09-06T20:55:54+00:00"
-    },
-    {
       "headline": "SEC Approves Nasdaq Texas Rule Adding Digital Commodity Definition to Crypto ETPs - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdDM2V1dHaDJvYXBnNEJFYzYtcWp2YkdHTnFCQmk3V0lxTFlBMlgwVkhwbDd5OFRhQUNjQU5DT0RGVlRjb3lPdTZDdHNGUy1WdllLQlFPdzZSbmJQYmpCWjR1NUlXOGpmeHNkSllXVGV2UU9FUWNmMzUxUG5icWo3Mk14NA?oc=5",
       "published": "2026-09-06T19:37:28+00:00"
+    },
+    {
+      "headline": "Ondo Finance Leads The $2B RWA Wave Reshaping DeFi - Yellow.com",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU2NJMmYxcXRReW16Nm1sV1lBZ2lUQjEzTExyV2FWUnMxUlNoVFZEOHl5bjVPWm1oRHVudHg2YWJob0xCeEtaMThjb1V0SkxnYzJqZjFPZlcyUzA3bVh6bzFrSFA2MGthUExlX01kVkJMUmY0Q0dYYnpKc1RQZXRCVDZmMERzZ0d2ZFE?oc=5",
+      "published": "2026-09-06T18:52:14+00:00"
     },
     {
       "headline": "SEC Names XRP With Bitcoin and Ether as a Hidden 15% Crypto ETF Rule Lands - CryptoRank",
@@ -33,8 +33,8 @@
       "published": "2026-09-05T19:53:09+00:00"
     },
     {
-      "headline": "Ethereum, Solana, and Chainlink Highlight Key Altcoin Trends - kucoin.com",
-      "source": "kucoin.com",
+      "headline": "Ethereum, Solana, and Chainlink Highlight Key Altcoin Trends - KuCoin",
+      "source": "KuCoin",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc2lVRi04blgyaXRJNlRjYWNUaXZNaFNBel9mVUZPeEsyZ0ROMXV0LWF2STE2LWRPZDFPbldpQ19TdjdtVHhIcG8tWHhSbkxwUVY4QWM3M1NHa1FyZ0JfZVJxWEM2WWlDRlpDS01vek91R3ZnSXRPTHJ1ZmZRNlhUc0dLZk9vTllqeS14ajc5ck5FdzVYMGlF?oc=5",
       "published": "2026-09-05T14:02:50+00:00"
     },
@@ -81,14 +81,20 @@
       "published": "2026-09-02T10:48:21+00:00"
     },
     {
+      "headline": "Ethereum Price Forecast 2030: How High Can ETH Go? - Bitget",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORFpwVFpSb3YwQnJCVGpCWTRwWmN2NDNhaTNpY0paUVdEY1dJdExMVnlHLVo5VEpfUzZNc0RrM3JQQ2FJcG9CRUpsajR2eVBzSHctWjM4WElnLV9wLVYtaVNLZHFxZkN4SmQ4Ykw0bVZXMGVPQ1FORnNyNW5XeUJ1X2NMNFo0d3pZ0gGOAUFVX3lxTE16VTB4cmZnOEQySFFVU1ItdzJHcEpadXFqY2dZeHNPWFBzc0J0WXV2OEx5T3NjdHBTc09PN2QyMk9SMUVSaHRCOEd0TS1HcnlTbW1ZX1hFVTFueXVwaVZodDY3NTVGOVNScEUxYzFONUdYYnNjUEdTQTBmN2RHOG0yUUd2WVJlTkRlTXVRa2c?oc=5",
+      "published": "2026-09-02T07:00:00+00:00"
+    },
+    {
       "headline": "5 Next Cryptocurrencies to Explode in 2026 - The Motley Fool",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGZqUUZBQzVtblVLMXpqTC13Q1dHcjZwV2J6bFJsdElJajFtbjZuZWVkYkFWcUtUdWJwaW1zejFlbkgwaHhJemFZZFVieF93b043c1JPSjJPQmd3emJtSXVfMWJZcm9XT0VmNWdNSlB3RkVrXzUzcEJYaTZpVkpzejF2YmRBTUNsQ3duaXk4bFpKOFpLbjhrdDF3UWpaWVVLZm1IM2hFMWFKUXdQLUozUHltcmgyQQ?oc=5",
       "published": "2026-09-01T17:37:00+00:00"
     },
     {
-      "headline": "Zero-Knowledge Asset Verification: How ZK-Proofs Fix Privacy in RWA Tokenization - medium.datadriveninvestor.com",
-      "source": "medium.datadriveninvestor.com",
+      "headline": "Zero-Knowledge Asset Verification: How ZK-Proofs Fix Privacy in RWA Tokenization - DataDrivenInvestor",
+      "source": "DataDrivenInvestor",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbW5Ia3RlZk8tLV9wNVZCYVRCTldzbURhb0FnUzZwMUY2MHhCTWlKYmRxSmdQaFBDMVI5WGNXYWc0Y1V3cTFMV0hwZHNrd3pvVHppaFU1OG1PWjhYdDg1YmJ4LWlTMFNSa0dHLVZmZ2hGVXFyaGhURnY3SW5wTTMwdGtodkczek4tV1lMTmYtX21KVE9VMFh2a1RydWlSbm5hY05NUm1DSElBUk5Pa3hGU1YxOEgxQnRJMlU1RVp0NURzYjBtbTE1b1dB?oc=5",
       "published": "2026-09-01T12:30:31+00:00"
     },
@@ -105,8 +111,8 @@
       "published": "2026-08-31T13:21:32+00:00"
     },
     {
-      "headline": "SEC Crypto Custody Rule Review: Why the Next Bitcoin Boom Could Start on Wall Street - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
+      "headline": "SEC Crypto Custody Rule Review: Why the Next Bitcoin Boom Could Start on Wall Street - bitcoinfoundation.org",
+      "source": "bitcoinfoundation.org",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3VMdzcyWE90MWZvMGhqS3Z0bGtseU14MFRoalo0aFQyS0VISjRiNWx5NHFwNTYxTDFKZDcxOUIxN2lFSTdmaHc2b3RHR1V3S0VQTTJhRVB1QW9rN1hnRDNWZUhwTWlKVWFVOUdJOERwVkpfRUNWOVkta0RIaElTc0Mzc2RkRzhSbW1WVGI1ZmxHNVc1bTVCZnREbDEyZkZsSHRnYnZ1WGxIanhnLXBPVmw2MTVoaW5kYkE3SWdHVHJxSy0xX2I4YVlIZ1hRdw?oc=5",
       "published": "2026-08-27T17:57:34+00:00"
     },
@@ -177,8 +183,8 @@
       "published": "2026-07-28T07:00:00+00:00"
     },
     {
-      "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
+      "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - bitcoinfoundation.org",
+      "source": "bitcoinfoundation.org",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRHFUbGV0Y0hxMzlzUHJ5M1VRSW1YNVdfeUJTOUs4cXFrVlNva3VTVUFXM1hGQjBPaEVxcVp6M3JnMkhSNzdPRFJPbFNCVTN5bmJUZnlsSDZSVVk5LTJJNUlIYXFpei01UWtqYzNPcGRRbk9xLXpYVmR3U1JLY0RxMGJtTm05Z2dONWQ0?oc=5",
       "published": "2026-07-23T07:00:00+00:00"
     },
@@ -207,8 +213,8 @@
       "published": "2026-07-06T07:53:03+00:00"
     },
     {
-      "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - DailyCoin",
-      "source": "DailyCoin",
+      "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - dailycoin.com",
+      "source": "dailycoin.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDZFSzJMMFItWW80RHhoR0xQSktOaUdFS0lzNHh0eWxlZ2VUdTFjcm96UE9KMG5xYU1vOFNGTGhWYW5HcHF2alFZTjJZTFVQSzJSdjdSNE1rMkVYVWFFU3hkczdSUWJiVGVNcUJ6aTFyaXdoNTlEQmxTWnlCS0lLVUxkSlJGWEpMZVhhVUtQcTZpU2pKX0NveUJ6V0hEaU5RLXgzclNZSFpwWWVBNzRvVHJxZjZTb2RSX3RQUnlvejlfSmp5eUZaYXppdW0?oc=5",
       "published": "2026-07-06T07:00:00+00:00"
     },
@@ -225,8 +231,8 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
-      "source": "The Block",
+      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - theblock.co",
+      "source": "theblock.co",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
       "published": "2026-06-22T07:00:00+00:00"
     },
@@ -235,12 +241,6 @@
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFZ5SHNxZjk5Y2o4WDdIQmhPRnotaThRdmhYekNZY05zZzgzbVJyUjRYZFpjVFo5UU1ZUndGXy1US1VfMGJfV1IyUmhuVGRkdEktR3JaV3hiZmhzZ1htMWR1WmhuTU9YZkJXNTBXWFRUMG5IQjk0T2p6OE9GaE1vcUJ0dnZORE5KT0JLUQ?oc=5",
       "published": "2026-06-02T14:04:08+00:00"
-    },
-    {
-      "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLThvVElYTHhTQWI0THVfWnF1WW9kQkdpZFdweFlEd2ZhaDk0bGNDVTY5V3psM25VcjdWcEl5ZmJqVC0tVmNpaWhfSFdiVGZLVVhBN3BJRUFlVnVsSHRlQ1lOQkx4MFJxVFU3YldOOWh4eDNLd3dOcG9PUk50RTY5cWdDY3lVbUF5UUpFQ19n?oc=5",
-      "published": "2026-05-26T07:00:00+00:00"
     }
   ]
 }
