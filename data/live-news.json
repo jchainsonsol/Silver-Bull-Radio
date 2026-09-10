@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T13:48:49.773382+00:00",
+  "updated": "2026-09-10T17:18:53.351801+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -25,12 +25,6 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWXo1ZXg4S2pfTWFvT1VUdmwtb2ttOXZJcURkT05abzhmd1hJMmh4VVZUQjBkbFdIRGlHQ0VWM1B0OUJwRTNWN19IM3lLYkRIR29QX2NLMVc0ZFpOYzZFaXU1ZUFNVDVfaEFpNEttV3JSLWNPU083U0lVYzZ4RHJISDdvNlh6WmlRc0JrMWtTRWsxQQ?oc=5",
       "published": "2026-09-08T14:38:16+00:00"
-    },
-    {
-      "headline": "Looking for Top 12 Coins? Traders Hunt the Next Big Crypto as Apeing\u2019s September 8 Presale Approaches - Bitget",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhNVZyci1oYWJDVXZMZDJPMnc1Tlc1VV9OTHgtbTVzbUFkTWtKUlNLbGxZWmZ0LXFlcUo3bGxlVWx6ZkRWRTFOSThxbjFzWUp0Z3BaN2gtd0s5bkhNdTkzOXEzY9IBY0FVX3lxTFBhNVZyci1oYWJDVXZMZDJPMnc1Tlc1VV9OTHgtbTVzbUFkTWtKUlNLbGxZWmZ0LXFlcUo3bGxlVWx6ZkRWRTFOSThxbjFzWUp0Z3BaN2gtd0s5bkhNdTkzOXEzYw?oc=5",
-      "published": "2026-09-07T22:25:36+00:00"
     },
     {
       "headline": "Ondo Finance Leads The $2B RWA Wave Reshaping DeFi - Yellow.com",
@@ -81,6 +75,18 @@
       "published": "2026-09-04T16:11:51+00:00"
     },
     {
+      "headline": "Broadridge Adds G7 Securities to Tokenized Repo Network - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZnVBbmNHRXBSOTlhM1I1OG5PTXhWekNjWUxybUpRd0ZXN00xLXB0TjFmSENMb3ZrazRYcWM4QmlScjdnTWpTaVpmTUxzSVQ3QndjZm5jNms2QTJncXY4Y1FKOUE1YTJ2ZzVTNVJKSmNpY1U4dTAwYUhweks0M0FoZEliNDVUU25xVXhkZUJR?oc=5",
+      "published": "2026-09-04T02:07:34+00:00"
+    },
+    {
+      "headline": "Ethereum Price Forecast 2030: How High Can ETH Go? - Bitget",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORFpwVFpSb3YwQnJCVGpCWTRwWmN2NDNhaTNpY0paUVdEY1dJdExMVnlHLVo5VEpfUzZNc0RrM3JQQ2FJcG9CRUpsajR2eVBzSHctWjM4WElnLV9wLVYtaVNLZHFxZkN4SmQ4Ykw0bVZXMGVPQ1FORnNyNW5XeUJ1X2NMNFo0d3pZ0gGOAUFVX3lxTE16VTB4cmZnOEQySFFVU1ItdzJHcEpadXFqY2dZeHNPWFBzc0J0WXV2OEx5T3NjdHBTc09PN2QyMk9SMUVSaHRCOEd0TS1HcnlTbW1ZX1hFVTFueXVwaVZodDY3NTVGOVNScEUxYzFONUdYYnNjUEdTQTBmN2RHOG0yUUd2WVJlTkRlTXVRa2c?oc=5",
+      "published": "2026-09-02T07:00:00+00:00"
+    },
+    {
       "headline": "5 Next Cryptocurrencies to Explode in 2026 - The Motley Fool",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGZqUUZBQzVtblVLMXpqTC13Q1dHcjZwV2J6bFJsdElJajFtbjZuZWVkYkFWcUtUdWJwaW1zejFlbkgwaHhJemFZZFVieF93b043c1JPSjJPQmd3emJtSXVfMWJZcm9XT0VmNWdNSlB3RkVrXzUzcEJYaTZpVkpzejF2YmRBTUNsQ3duaXk4bFpKOFpLbjhrdDF3UWpaWVVLZm1IM2hFMWFKUXdQLUozUHltcmgyQQ?oc=5",
@@ -111,8 +117,8 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules - TradingView",
-      "source": "TradingView",
+      "headline": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules - tradingview.com",
+      "source": "tradingview.com",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSnpPMWZ0UTItbkg5NUIwV3QyUkxYNUlkTDhsTkVhNFRiZmhsRjlaMlFuWHBfSmdTalNhLXF6TjhsVEhQSm5YbDJpdHdmSXZucU5fY1dxcHhMVjhfdmpiWWFLa1JhNUFHUTUwcWNEcnlvd0xsbk9vekIxUm1yNDFmS0p1dWwzT2pXeDAyZGRxUXFNQzFzR2ZIeU9HYXQ5WmhEbmVCWkEtampkam95VzVDajVfd0NBeVFCZWFKVUVZVkpvZw?oc=5",
       "published": "2026-08-25T10:20:14+00:00"
     },
@@ -159,12 +165,6 @@
       "published": "2026-08-11T07:00:00+00:00"
     },
     {
-      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWF1NEFJeXVHa1duaWRHRnRXYnVDa2p4UzBIQjRIU2RrbVhwSWljZUVNU3ZMSGlvWG1iLVJaN1lxYXlDMENTXy1hX0hvN3NRRS1Fa2FyRFpHaXdJN0kwRUFzSnNEMW5rcmd2VGQ0cldfRlJYMDV3RVRzXzFMeEhqdGVIM2VKblloclBBUWxqLWxiWU42WkQ5TE1CaFRWNW5hc0lMNTlWVVlGaExya2t1QllBT1BCd24wQ0NPTGlVUlJGUXFUamc?oc=5",
-      "published": "2026-07-28T07:00:00+00:00"
-    },
-    {
       "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRHFUbGV0Y0hxMzlzUHJ5M1VRSW1YNVdfeUJTOUs4cXFrVlNva3VTVUFXM1hGQjBPaEVxcVp6M3JnMkhSNzdPRFJPbFNCVTN5bmJUZnlsSDZSVVk5LTJJNUlIYXFpei01UWtqYzNPcGRRbk9xLXpYVmR3U1JLY0RxMGJtTm05Z2dONWQ0?oc=5",
@@ -177,8 +177,8 @@
       "published": "2026-07-16T07:00:00+00:00"
     },
     {
-      "headline": "Gauntlet Raises $125 Million to Power Institutional Crypto Vaults - pymnts.com",
-      "source": "pymnts.com",
+      "headline": "Gauntlet Raises $125 Million to Power Institutional Crypto Vaults - PYMNTS.com",
+      "source": "PYMNTS.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHVQR2xXVHQxdHdINVZZT3ZQSHVUbVZtUUQtbWRaSUQ5bFAyanYySzh2SlM1OUtOLU5TSVVPbTVpR0t4Z0hQZzM2ZGtxUHZyUHJjRHM5OHRTV2hrc0tRUy1mY1JEZTAtZkxRQUtSZ3psYmlTQ3BOaVE2bFNSU3doU0JSR0UwOGhNd3NHUGVpUVFHaTRIRzY3aHpMaEdHaUF0S1NXZzVOTjdielAyaVZlTWFEZl9rWG9B?oc=5",
       "published": "2026-07-13T07:00:00+00:00"
     },
