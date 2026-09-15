@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T17:00:39.663381+00:00",
+  "updated": "2026-09-15T20:08:39.181407+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -21,18 +21,6 @@
       "published": "2026-09-14T00:38:12+00:00"
     },
     {
-      "headline": "SEC Streamlines Crypto ETF Approval Process, Clears Grayscale's $2.7 Billion Fund - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbHRjV3lJalZXTUlGczA3aG9HVnZLd1diakxseUhUM1ZKV3hTN3pkYjdyRnNRaERzemdCYzJkMnB2ZjdZTmJESmtBZGwzVXMtSk1OeHBkWFp6NmJ2bllvMmhzVVN4LVR5b2xuZHlCdUNLTTFiSFE4cTNVcGllb1ZNZmZRNGRDd2JOU1BncjJ2NTMtVEVvR3YxSVM4TlNoUDNfUUpTLXdrSGpuS1YwWFpRYVp3OVBZS0FyR3BVMUZWb2NjZm1jLW14ODFUUlB1ZW9PQWx4bmVXcw?oc=5",
-      "published": "2026-09-12T09:48:20+00:00"
-    },
-    {
-      "headline": "SEC Halts High-Leverage ETF Filings, Citing Rising Market Risk - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWm1YYktsTTd1YTQ1VkVKRko1WTNVRVFwZk9ZWk16NzlyN180eGF3clR2RzVEMHh0dmMweGVLYnpHaFZXMmN6dmRTaWttLXZBZm9KUDBreFVieVFSTjU4Y3F5RWs3NlhPOWZPXzBqM0lZaG9ZemxrdjlSeGhXQkZBOS1SeWNCOWFqY2lSM3BoYlhTc1oxVVY2VmJxZnBNcm5XM0NqSHRmaS1hMnE5anRaWm5mQVVvUWktMTZ1WFpOQUNnZjhrNnU1NzhFSWUwWDhfeUNjbjhSU0JJWXkwVlpSekpqUnhmZw?oc=5",
-      "published": "2026-09-11T23:41:31+00:00"
-    },
-    {
       "headline": "Why Real-World Asset Tokens Are Not What Most People Think - Yellow.com",
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0pUaEQwZWtmbkdhdld0MWJwU3BTaUlfRTR3WG02Y2NPTFFtdUJleFkwZ2FhS0hNZXd2Ymw1amlRcFFYSHE2VDFwV2h4U1dRakQzWHV2SkdRTVRzSjB4SDZZZWkwenpOVWs3N1JkUm92YzJ5Z3BSMFFxaXl2TjA0VDBheWE5MERjZm5zbE1ybHp6SjFFejhKR0lWMThtM1U?oc=5",
@@ -45,8 +33,8 @@
       "published": "2026-09-11T13:32:07+00:00"
     },
     {
-      "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - Nasscom",
-      "source": "Nasscom",
+      "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - community.nasscom.in",
+      "source": "community.nasscom.in",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUy1YbUp1WHhEc0VlT1RnOUs3TDFxMnM2ck81em5fbWtjMU5tVGstMHhrWTlScDQ2SWtTSDhPal9sYnVrd3NaYi1tSWRVVm9hd1FaVThnd3lvb1NVY3RJaEtabmVtZGJiUV95VTVOdXl6QVN3SkVWeEhOQUFadWlLVW9kMjBtVXFHWWNXNE9VVlpPU0F0enNLNVVlYnViY1lzUDBwY3VrUDY2Yk9mQWpqeVQ4QjUwUQ?oc=5",
       "published": "2026-09-11T13:07:11+00:00"
     },
@@ -159,8 +147,14 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - Yahoo Finance",
-      "source": "Yahoo Finance",
+      "headline": "Bitcoin Price Outlook: Can ETF Inflows Break $80,000? - equiti.com",
+      "source": "equiti.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZjZBX20zeXJhZUpuVzAxdnZuTU1RcVFJNzFaNnJBLXFWdG5Ma3Vwem9lV1Yza3pUdi1kZE5QQjhMY1Y4Z2JJX3VGUlFBU1FyUm9tcWJkMzhJcGw0RDVjb3NwVTVyYzJPSkdZNkNvcGJfTjNpY1lHVWh6blpwVVNmQnBkZTl1V003bUpEN0NBWjVSZC11cS1NZS1aTUdrLUpULXFkTXdPVE5sX0FQ?oc=5",
+      "published": "2026-08-27T07:00:00+00:00"
+    },
+    {
+      "headline": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - finance.yahoo.com",
+      "source": "finance.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVRyS0Z1bURuNHlnU1l5WWt3NWtqcm1hZElMS0xnbXlBOUE2NmQtcDBQcEVEb1E4b21tcFV1bTk2Zkw0ZWxlaHZjb3JIVFBwbV9CR21DWE5uS3c5N0ZaMTNsMm1PZ0lsVTNXaUhKQ25HUFN2U2JpNXN4T1ZmWVdjaEItRktzQ0xZU1BkRnBXVzhkT1NWbDdIU2lzN3ZJUGd4bG9j?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
     },
@@ -168,6 +162,12 @@
       "headline": "Solana, Avalanche, Chainlink Rise as Charles Schwab Prepares Spot Crypto Trading - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
+      "published": "2026-08-27T07:00:00+00:00"
+    },
+    {
+      "headline": "Polymarket US Moves to Launch Bitcoin, Ethereum, and Solana Event Contracts on CFTC-Approved Platform - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbndQRmlDbUloRlNSMVh2M3RrRERjTVZOd29nYXJrZ1JkWmp4YkVsVnR5ckk0NkFLSHdfSGJ5QVJSV2JwMjdGVHpiRjlBNzc5Nkg3NG1JaWstOWhFZC1xdW5OUkRSMjVYRkdUeXdWUkRTcHZsdnFXdnV5UmZOTXRGREZRZXFITXVHUHlTSQ?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
@@ -181,6 +181,18 @@
       "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdjUkhHYnF0N2h1aGU5ekRIT2Q0d3dzRjNkdWlvTUh0eEpvM2ROQUtWVEFFTEhlX283ODRjaVNZb2UtbDc5dXIxZUZ3OFF1bndOdkRmeFVSanc5ODZqSF82UFI1Zy1QaTUtMzNhUkVPWU0xVXJtRXpVT1ZwMW9SMDFhNHhqVEl3RVhhclpHcGJMczZ2Nm9ycXBB?oc=5",
       "published": "2026-08-25T07:00:00+00:00"
+    },
+    {
+      "headline": "Ethereum\u2019s Institutional Shift: How Tokenization, DeFi, Wall Street Could Shape ETH\u2019s Next Phase - Analytics Insight",
+      "source": "Analytics Insight",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMXlpODlFTFZpUlBCYjJjcnVsZXpJLWgtMlU0a0gtYVJIOF9PYjBVMC1BaDJlWEtmaGNvS3dsMXlhclNmTHNNRjNEOUZsM2czaUJBaUFXMTQ3bE9OVlBqLU5OU0dqajRZcVJVTUNKMXp4NjZ5M3RiNU91TjFIRlZUQ2FPVlpfb2pYWHBxZ3Uxemd3LXFkSTZNVFRZTnlZbmJvYnZjbjVZWlZvYVRCdVBEMzY0T1NsNXdyLXJ3WV8xT3ZsaU1TLVhYNVlhM2M5QdIB2wFBVV95cUxQMzg3bmN0M2xUckhQVHBybkhvblFaSVVEQmlIRGlUTkFRaVQ1Z1dvcGJuQUppM0tCYzViQ3pMMWZVeFhQMzgxYmVOcHdHaXJYOWs5bVVWVEpJb196TmFBR2J5bkZCZjNUZ0VtbUFWYTU4bzlRLUNUbldRVVY2WjdHRVNFbXNENk9sdVpyZU5zMGNHQWdweFBLSFI5R3pFWlhDcFhPVnNoTkMxYW1WekxEOEZ6c3lpTTZUeGpuMVlOY2lPX1Z4TVpRWV9BejVZNndIT3BpcjMxZHg4OU0?oc=5",
+      "published": "2026-08-24T07:00:00+00:00"
+    },
+    {
+      "headline": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaE9BZzdrbFprSk1XWmdqN2tFX3B3Zkg1U1d3SzAzZWtLejByejBvdm9xYXpFU09NcVZaUUFuS1NKeWs0V2NyWE1YSVJUN0ZDUjVfT09ySW1ObFFTNHlkaFNpR2lvOWdTX21NNDVMYkJaZ3Jwc2Utbm9YcU9Ld1F6ek1oQlNNaUNMdGlfdUdUaVBEX09JSnU2MUt4MlpiY0tuOXlib3hETW9SMHV6V1dZNm5GZWpsRllmNVoxMmoyb1dqSlE?oc=5",
+      "published": "2026-08-23T07:00:00+00:00"
     },
     {
       "headline": "Bitcoin tops $72K, Trump backs CLARITY, SEC unveils crypto rules | Weekly recap - Crypto News",
@@ -201,10 +213,16 @@
       "published": "2026-07-16T07:00:00+00:00"
     },
     {
-      "headline": "Gauntlet Raises $125 Million to Power Institutional Crypto Vaults - PYMNTS.com",
-      "source": "PYMNTS.com",
+      "headline": "Gauntlet Raises $125 Million to Power Institutional Crypto Vaults - pymnts.com",
+      "source": "pymnts.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHVQR2xXVHQxdHdINVZZT3ZQSHVUbVZtUUQtbWRaSUQ5bFAyanYySzh2SlM1OUtOLU5TSVVPbTVpR0t4Z0hQZzM2ZGtxUHZyUHJjRHM5OHRTV2hrc0tRUy1mY1JEZTAtZkxRQUtSZ3psYmlTQ3BOaVE2bFNSU3doU0JSR0UwOGhNd3NHUGVpUVFHaTRIRzY3aHpMaEdHaUF0S1NXZzVOTjdielAyaVZlTWFEZl9rWG9B?oc=5",
       "published": "2026-07-13T07:00:00+00:00"
+    },
+    {
+      "headline": "Crypto expert outlines $1,000 portfolio with 40% Bitcoin, 25% Ethereum, plus Solana, Chainlink, Near, and stablecoins - Pluang",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHNYVmlxRnFrd2hWUVpVenBOM21scHYydm9QQ0NDWlFXdmFPSVFiZEdfTndRbUVva1FRc2s3RmF2UUhUZllycmQ1MVFKVDE3bWtlUzFKZ3VOY2YyMU02SkZ1NzN1R2ZuLW5jeTFWTWRuZ2J1R1RyQW9aSDl1em1scERSWVg0R1lTRThxVDE1VmVvcGZUY09HaC15V2VLdVVWR2tiOEZWMTdYTkJBdmQ0?oc=5",
+      "published": "2026-07-11T07:00:00+00:00"
     },
     {
       "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
@@ -219,28 +237,10 @@
       "published": "2026-07-08T07:00:00+00:00"
     },
     {
-      "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - DailyCoin",
-      "source": "DailyCoin",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDZFSzJMMFItWW80RHhoR0xQSktOaUdFS0lzNHh0eWxlZ2VUdTFjcm96UE9KMG5xYU1vOFNGTGhWYW5HcHF2alFZTjJZTFVQSzJSdjdSNE1rMkVYVWFFU3hkczdSUWJiVGVNcUJ6aTFyaXdoNTlEQmxTWnlCS0lLVUxkSlJGWEpMZVhhVUtQcTZpU2pKX0NveUJ6V0hEaU5RLXgzclNZSFpwWWVBNzRvVHJxZjZTb2RSX3RQUnlvejlfSmp5eUZaYXppdW0?oc=5",
-      "published": "2026-07-06T07:00:00+00:00"
-    },
-    {
-      "headline": "Trump Opposes Bitcoin Tax, SEC Admits ETF Mistakes \u2014 What Changes for Crypto Investors in July 2026 - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oVDVGem5tTmdIY3psZlUyS1RGODRaNVBybUJUeEh4NWJMNHMyVHpCUmxWVzl4Y3dBLTlaRG1kYWFsSW44SHA1dzVuaGtaNlZRZ0NfYWNqNENCQzhhRFVvU3ZhUmR1amRobDRMdHRUYUh5QUU?oc=5",
-      "published": "2026-07-03T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - The Block",
-      "source": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
-      "published": "2026-06-30T07:00:00+00:00"
-    },
-    {
-      "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLThvVElYTHhTQWI0THVfWnF1WW9kQkdpZFdweFlEd2ZhaDk0bGNDVTY5V3psM25VcjdWcEl5ZmJqVC0tVmNpaWhfSFdiVGZLVVhBN3BJRUFlVnVsSHRlQ1lOQkx4MFJxVFU3YldOOWh4eDNLd3dOcG9PUk50RTY5cWdDY3lVbUF5UUpFQ19n?oc=5",
-      "published": "2026-05-26T07:00:00+00:00"
+      "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - youhodler.com",
+      "source": "youhodler.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVmZyNG5YTXhPY3hzQXIyTDZyVXplcG05V01Sbk8yWkZfTVNhQ1Rrdi0zMDgyTXF3dGNGbVkzRWgtN2dLa2VzNWhlRDBGd0RwbzNFYVJfNkhWaHc?oc=5",
+      "published": "2026-07-06T07:53:03+00:00"
     }
   ]
 }
