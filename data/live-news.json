@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T20:22:59.207584+00:00",
+  "updated": "2026-09-18T22:42:05.088436+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -37,12 +37,6 @@
       "source": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdVExRHIzTkFGMHNQMmxLR2lmWjI2NTJmb255M3JrMm5BN0sxd2QxTGM3WnZWbWxtQ2xYQ1AtOWdILWRFVTY0eElPQjlMVTJuUVl4RGgzTVkxYkdLQUd4VWxiYkxYWmZHNENWVU5zQmkweXpaSmw4S2MzalRpTEpwY1duNDJmRkh6M2oxNlVENWZVWUdWS0FB?oc=5",
       "published": "2026-09-14T00:38:12+00:00"
-    },
-    {
-      "headline": "QMMM Trading Frozen by SEC Through Oct. 10 Following Social Media-Fueled 1,000% Jump - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYkhFVEtNVzA1S1o4dEM2VndiOXh0NVUtQzU1S09uQWdLMHdUTFBCZzN2TVEyQmx2bDJDdTBUU0pqTnpuOWZ2M1htYjRmREV3eWlZNDJhVWF0OE5wc2NuUmdqZ1NoaERjU3ROX1lNbmc4VWozaDVHaFRhdVhmZS1SOUFacDc5NlVHS05rS1M0Sm9kT2lneHlzSTZESTVtZVA2SWh6ZnByNE9oMDg3eXB3MDFtc29DZUht?oc=5",
-      "published": "2026-09-13T19:03:42+00:00"
     },
     {
       "headline": "Why Real-World Asset Tokens Are Not What Most People Think - Yellow.com",
@@ -84,12 +78,6 @@
       "headline": "SEC Names XRP With Bitcoin and Ether as a Hidden 15% Crypto ETF Rule Lands - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDcwQmFpRGJSeEYzMlNnemZRRFFHSnFRV29CX0NyeXBnMWJwT05LSGpBalB2WkJEaThOZFNtUXhveXg3c3dkWk9fVXBkUWdwblptSDNwa1cwZzZXZzEtNXlRdFRhREhxS0s0alRSTmFDdW5kUkI2TUFvdW1tMjhUZEJETDg1dlA1RkQ5YVdDVUpDSHd5Qk9aVzlob0tkYy1jcl9LR05hdzZKYTRKbjVFMw?oc=5",
-      "published": "2026-09-05T23:08:05+00:00"
-    },
-    {
-      "headline": "SEC approves Nasdaq rule citing XRP with Bitcoi... - Pluang",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVjNuZ0d5T1ozdnYydnZGV2FsN0JDTWdXeDhKclBVekRuN2t5M1VNTDhkaURKTmNJNno3LUVXZjMyT0pPTldNWkVDUE9XM0Z3cHlSaDY1azZvUW11YzFqZ1JrWUtFWUhUMFlHQlhhcHpRTUlXam9VRVdVY2lxcERPTmNRYy1NeWJZRTgwNjFhNFFlbTg?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
@@ -141,16 +129,28 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "Ethereum\u2019s Institutional Shift: How Tokenization, DeFi, Wall Street Could Shape ETH\u2019s Next Phase - analyticsinsight.net",
-      "source": "analyticsinsight.net",
+      "headline": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules - tradingview.com",
+      "source": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSnpPMWZ0UTItbkg5NUIwV3QyUkxYNUlkTDhsTkVhNFRiZmhsRjlaMlFuWHBfSmdTalNhLXF6TjhsVEhQSm5YbDJpdHdmSXZucU5fY1dxcHhMVjhfdmpiWWFLa1JhNUFHUTUwcWNEcnlvd0xsbk9vekIxUm1yNDFmS0p1dWwzT2pXeDAyZGRxUXFNQzFzR2ZIeU9HYXQ5WmhEbmVCWkEtampkam95VzVDajVfd0NBeVFCZWFKVUVZVkpvZw?oc=5",
+      "published": "2026-08-25T07:00:00+00:00"
+    },
+    {
+      "headline": "Ethereum\u2019s Institutional Shift: How Tokenization, DeFi, Wall Street Could Shape ETH\u2019s Next Phase - Analytics Insight",
+      "source": "Analytics Insight",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMXlpODlFTFZpUlBCYjJjcnVsZXpJLWgtMlU0a0gtYVJIOF9PYjBVMC1BaDJlWEtmaGNvS3dsMXlhclNmTHNNRjNEOUZsM2czaUJBaUFXMTQ3bE9OVlBqLU5OU0dqajRZcVJVTUNKMXp4NjZ5M3RiNU91TjFIRlZUQ2FPVlpfb2pYWHBxZ3Uxemd3LXFkSTZNVFRZTnlZbmJvYnZjbjVZWlZvYVRCdVBEMzY0T1NsNXdyLXJ3WV8xT3ZsaU1TLVhYNVlhM2M5QdIB2wFBVV95cUxQMzg3bmN0M2xUckhQVHBybkhvblFaSVVEQmlIRGlUTkFRaVQ1Z1dvcGJuQUppM0tCYzViQ3pMMWZVeFhQMzgxYmVOcHdHaXJYOWs5bVVWVEpJb196TmFBR2J5bkZCZjNUZ0VtbUFWYTU4bzlRLUNUbldRVVY2WjdHRVNFbXNENk9sdVpyZU5zMGNHQWdweFBLSFI5R3pFWlhDcFhPVnNoTkMxYW1WekxEOEZ6c3lpTTZUeGpuMVlOY2lPX1Z4TVpRWV9BejVZNndIT3BpcjMxZHg4OU0?oc=5",
       "published": "2026-08-24T07:00:00+00:00"
     },
     {
-      "headline": "SEC Delays Meeting On Crypto Rules Proposal. Bitcoin Price, Crypto Stocks Fall. - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPajdGOWFhY0dfMUVueHRjZUpUeXBDTGZfeEdkVU9UcGZ6TkVYZ0ZpNUNCYi1LanVjZkJETTc2T0NjbmpkMkd4cHJmMlYwMUV5NFFOYkNmN1FPUG5sdm9jc1AyUWlkRU56anVTYnNoTF9vQU9jbU1CODdKYW1JR25nWWVGX081ZEpFZFc4T0FSdTRmcXYzV19YbkJpYUZLVlBxb1I4R1dfTGh1R1RhclE?oc=5",
-      "published": "2026-08-14T07:00:00+00:00"
+      "headline": "Bitcoin tops $72K, Trump backs CLARITY, SEC unveils crypto rules | Weekly recap - Crypto News",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCWGVlWk1IMHlSdml5OTRSSWllYWFjMWdYVko3Z3hyMUZEbjdLVUhGU1RzanVaZ1Z6YUZFMmlhd0o1SEdiVDRtQjEzcGdEMUVTa25wVC0yMmFLNXc3SVlvbUszQlozaVNKUkFxdGRTZkdqOThOUmFtQ05xRXJpelU?oc=5",
+      "published": "2026-08-22T07:00:00+00:00"
+    },
+    {
+      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWF1NEFJeXVHa1duaWRHRnRXYnVDa2p4UzBIQjRIU2RrbVhwSWljZUVNU3ZMSGlvWG1iLVJaN1lxYXlDMENTXy1hX0hvN3NRRS1Fa2FyRFpHaXdJN0kwRUFzSnNEMW5rcmd2VGQ0cldfRlJYMDV3RVRzXzFMeEhqdGVIM2VKblloclBBUWxqLWxiWU42WkQ5TE1CaFRWNW5hc0lMNTlWVVlGaExya2t1QllBT1BCd24wQ0NPTGlVUlJGUXFUamc?oc=5",
+      "published": "2026-07-28T07:00:00+00:00"
     },
     {
       "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - Bitcoin Foundation",
@@ -163,12 +163,6 @@
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
       "published": "2026-07-16T07:00:00+00:00"
-    },
-    {
-      "headline": "Reality of RWA Tokenization in 2026: Only One Asset Class Is Ready for Prime Time - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUUVLazNKRlBTSXhUaC1idkhUQ3ZYNHRZTVhpQTAycHJSbmpjWUVQT21fUVJRdFpkMzl4X1VNb0Nkd2Y5MFpPaFFoaUxkVzh0Y3p2WXFDcllGOG83ZXZUcVVWdU9XdldLZUVZb0x3THdlYjh1M3dGemUyVFZSQXE0MU91MUpBYncydEVSSTFFaS1iMHJhWHBIMk8ybTZNOVFu?oc=5",
-      "published": "2026-07-10T07:00:00+00:00"
     },
     {
       "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
@@ -192,7 +186,7 @@
       "headline": "Trump Opposes Bitcoin Tax, SEC Admits ETF Mistakes \u2014 What Changes for Crypto Investors in July 2026 - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oVDVGem5tTmdIY3psZlUyS1RGODRaNVBybUJUeEh4NWJMNHMyVHpCUmxWVzl4Y3dBLTlaRG1kYWFsSW44SHA1dzVuaGtaNlZRZ0NfYWNqNENCQzhhRFVvU3ZhUmR1amRobDRMdHRUYUh5QUU?oc=5",
-      "published": "2026-07-03T12:12:35+00:00"
+      "published": "2026-07-03T07:00:00+00:00"
     },
     {
       "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St.",
@@ -207,22 +201,16 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - The Block",
-      "source": "The Block",
+      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - theblock.co",
+      "source": "theblock.co",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
       "published": "2026-06-30T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
-      "source": "The Block",
+      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - theblock.co",
+      "source": "theblock.co",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
       "published": "2026-06-22T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC Approves T. Rowe Price Multi-Crypto ETF for NYSE Arca \u2014 Institutional Crypto Adoption Enters New Phase - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
-      "published": "2026-06-16T07:00:00+00:00"
     },
     {
       "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
@@ -241,6 +229,18 @@
       "source": "BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmZ5dUVfRnRGc1V0cE8td185Wlc0aGxhZ2xGakZXVmhOWXRLUGtxRENCM2JZVU11cDFYcTh1ZEJSSUt5OXp6dTExeEtZSHJ5T2ZxRmx1VS1BVWUzQ1I4LWk1WlVMMmNiR3ZhXzZmejVPdGFPNWw0bXFWOHV1cDhnTmI2eGg2RU5k?oc=5",
       "published": "2026-05-17T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle - CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblZuZGtUUWVZOXB2a1piTktkN1JzamJla0lKaGZVVzhBcjFpQjNweG92OVRhYS1ZRkVMWVlQRS1FNWJTM05MMDhOd2xEQkhKakM5aG96ZHoxV1k2Q1ZWWUIxeVlOaWhlRDJfRmh5R0lFZ2ZaWnJBY3Yzc25JY3RJU2hqSEdOa0MwWUNCNm1B0gGTAUFVX3lxTE1pb2ZUM1d1MjNoWlByNDNLcDZZSndLTVJ2U0xUbmY1UFVWUC11UW1yTWtKUmRwS1hNaHVYT1Qwa0s0X0tsa2hZVW1FbEx2QjFrZmdTWnh0S1Ytc3dVRlJWdzQxc291c09ISGJXQ1o2Y3JlTzBfMzhXREVNTnVObGxDZzhNQ0JOb0ZSNnFKNVV0M0U0WQ?oc=5",
+      "published": "2026-05-10T07:00:00+00:00"
+    },
+    {
+      "headline": "Asset Tokenization in the US: A Practical Guide | Practical Law The Journal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVm03d25rMGhuNVJ1M3gyM2dxd0dQTm1WUmtQZkNtTFBnQnI5ZC1JUVFtZzhhNm0zcDBvcG1KRnBDVno3V2k0amRwQXQxR1RJRW5oRkR1aFh6bWwzVldjbVpraXEzc3Z3OFFYVzFoNnJWRWlvellVRVUtYU5hR0NBb3NVVFE2TERHamdfMkVWaVRlWDdkbkE0bDljQlBINWhSUk1mU3FqaG5BYjJzMm96cG1sSQ?oc=5",
+      "published": "2026-05-01T07:00:00+00:00"
     }
   ]
 }
