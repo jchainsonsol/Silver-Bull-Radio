@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T19:41:08.201577+00:00",
+  "updated": "2026-09-20T21:51:42.555415+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -111,20 +111,26 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
+      "headline": "Bitcoin tops $72K, Trump backs CLARITY, SEC unveils crypto rules | Weekly recap - Crypto News",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCWGVlWk1IMHlSdml5OTRSSWllYWFjMWdYVko3Z3hyMUZEbjdLVUhGU1RzanVaZ1Z6YUZFMmlhd0o1SEdiVDRtQjEzcGdEMUVTa25wVC0yMmFLNXc3SVlvbUszQlozaVNKUkFxdGRTZkdqOThOUmFtQ05xRXJpelU?oc=5",
+      "published": "2026-08-22T07:00:00+00:00"
+    },
+    {
       "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
       "source": "Altcoin Buzz",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aTlfaTRFUXRwUnNhQzZrTUk4RHNySFg0RTdLZ0p6dkV3U3dodUdRZkZTWjZ6eXFnc1BkZm9uSDVkaDhiS3U3QnZNQjgxbmxZMXBLQzdpNFIyWFQtekJGeDV4U1JFa3Ns?oc=5",
       "published": "2026-08-15T07:00:00+00:00"
     },
     {
-      "headline": "BlackRock deepens RWA push with 2 tokenized funds - crypto.news",
-      "source": "crypto.news",
+      "headline": "BlackRock deepens RWA push with 2 tokenized funds - Crypto News",
+      "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yYUdLVFlPLVVfc29HWUkxZFBSYXN6VVJ6SUZPRTVidnk3RXdiSGR3c3hLMmVDdHdKRlo0b0ZqNXUzNmo1VjAyOGhZSVoycjFhSlo5SmtYMHpaazFGdjJhTm8wZGNwbTNIejVBWEZEaHdhdm1vNUhfeVB3?oc=5",
       "published": "2026-08-03T07:00:00+00:00"
     },
     {
-      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWF1NEFJeXVHa1duaWRHRnRXYnVDa2p4UzBIQjRIU2RrbVhwSWljZUVNU3ZMSGlvWG1iLVJaN1lxYXlDMENTXy1hX0hvN3NRRS1Fa2FyRFpHaXdJN0kwRUFzSnNEMW5rcmd2VGQ0cldfRlJYMDV3RVRzXzFMeEhqdGVIM2VKblloclBBUWxqLWxiWU42WkQ5TE1CaFRWNW5hc0lMNTlWVVlGaExya2t1QllBT1BCd24wQ0NPTGlVUlJGUXFUamc?oc=5",
       "published": "2026-07-28T07:00:00+00:00"
     },
@@ -135,8 +141,8 @@
       "published": "2026-07-23T07:00:00+00:00"
     },
     {
-      "headline": "Galaxy launches onchain yield vaults for institutions - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
       "published": "2026-07-16T07:00:00+00:00"
     },
@@ -153,8 +159,8 @@
       "published": "2026-07-10T07:00:00+00:00"
     },
     {
-      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDhHamcwNnJqNmRCa1ZaLVVQUmYtRG5oek9BTTFLbjBGN2pTSmk5QjdGYi1GUFhNUHpuS0tweU44bmY0elBESkZWR2NOOHlmTVRJQ2N0UmZZQ3o3UUM2c3Zsc1lYOUwwajJrWkRlUkdnZGNiNHQwcW4ySEJHUkNVWVFnSzRaalFHZWszZ0JSNHZhYm9sQmJpSlJPd25IajE3Y0hrTG9MYkxMWTZMMDJRNXV5aUZyRF9TcnJPSmVJLUgyYU14N0I0Ml9GTE5xUzA?oc=5",
       "published": "2026-07-09T07:00:00+00:00"
     },
@@ -189,8 +195,8 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMldjZDJTVmJYYlp0Q2VoUzd0NzlKNnhJSGEzUmUxRHZwNld1MHI1cG5LWjg0Mm4xbkFBTzlnVTdLVWQ2Vy1nQUd3TkNjVFlMVHNBWjFxd1VMSU12QzRtRlNwYXhCZEZzRmZlVEhLVjNiaFhucV9OR1Y0ZXZIRzl6dThVRUJfVVBjNTdNbWdJRkhXWW5KSVZ1MkNHRnQwQmJSbm56SEpKTTdEdmNreWVyRlRjYUtxRTA?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
@@ -213,14 +219,20 @@
       "published": "2026-05-26T07:00:00+00:00"
     },
     {
+      "headline": "Why Stablecoins Are the New Global Payment Layer in 2026: The Shift in Global Finance - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRDY5UHJra0VRQVlTcDZ6RHI4SmRtNEliUVZ6a3JiYkdpa3ZUSmxwLTRTTjNuTWxjVzJXejlHZGs0VHlZaV9KYkpKb2Vqb3JId2lZUzhONUo4QWZxTG5lTHEyS2dhTFUyZlN1aE8zQkxDU3VndzFRd2JZbjNheXhTUUVVeEJkdktiaXpRR3JDMk1yMndJR3UzREU2bmxWVGpuQjhiOVVn?oc=5",
+      "published": "2026-05-25T07:00:00+00:00"
+    },
+    {
       "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
       "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
     },
     {
-      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
     },
@@ -229,18 +241,6 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTHo2VW9ES0tiLVVWUGNvSFV2ZW9seTExd3dMZmtybjJxY2FoczhYNmdJeklIX0dSSlgyOFlLS0gzbzF1SWxfVWJiNU9ncURIeUp1WFlMbk1BS284SFNMTFA1Ukg1VWZGNlRjdERLMnp3aW5sclE0Vk5zeHBOem9BX0cxWm1fdTdYTEROQ1FzTi1TcFZRX1ItYTBER1h5dm1HNm1EU1JtcnE4UQ?oc=5",
       "published": "2026-05-20T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC Prepares Tokenized Stock Rules as Onchain Market Tops $1.4 Billion - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcV9UcmRiQndvb1d3aXNlWm5HVnRFbWwyTGhHeGpVOGwzZk9JeldvSnBsQ3N4bzFmbVNhazY5d3VpNldzWHBrWmt5ekZ5OVF5NXp4T2Q3UFNTQTBXeF9yUlBpcnQ3V3ZxN1k1OF9OWm5WLTNpWTRLOGFnQ3RuY0FNT2RhQXhGd1BaRktPUWZfTElmbGRZMFBzdjExNlZoMXpV?oc=5",
-      "published": "2026-05-18T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle - CNBC",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblZuZGtUUWVZOXB2a1piTktkN1JzamJla0lKaGZVVzhBcjFpQjNweG92OVRhYS1ZRkVMWVlQRS1FNWJTM05MMDhOd2xEQkhKakM5aG96ZHoxV1k2Q1ZWWUIxeVlOaWhlRDJfRmh5R0lFZ2ZaWnJBY3Yzc25JY3RJU2hqSEdOa0MwWUNCNm1B0gGTAUFVX3lxTE1pb2ZUM1d1MjNoWlByNDNLcDZZSndLTVJ2U0xUbmY1UFVWUC11UW1yTWtKUmRwS1hNaHVYT1Qwa0s0X0tsa2hZVW1FbEx2QjFrZmdTWnh0S1Ytc3dVRlJWdzQxc291c09ISGJXQ1o2Y3JlTzBfMzhXREVNTnVObGxDZzhNQ0JOb0ZSNnFKNVV0M0U0WQ?oc=5",
-      "published": "2026-05-10T07:00:00+00:00"
     }
   ]
 }
