@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T22:58:52.107348+00:00",
+  "updated": "2026-09-20T00:56:25.862270+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -75,12 +75,6 @@
       "published": "2026-09-08T07:00:00+00:00"
     },
     {
-      "headline": "Why Real-World Asset Tokens Are Not What Most People Think - Yellow.com",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYW45dzVXZTk1QUhLcjFNczlhOERrbll1NkQ5Qjl5UXY3OWFMRzd4M2M3N0VyRmJuLXNUXzQwN3Bna0wyVVU5T2xxVHpHbUpjWW5HM255aUJUaWgxN0N3QmRhckNjWlhhQWxMZUx1SGNYOFYtanBZQlNGTFNBakQ2b2FB?oc=5",
-      "published": "2026-09-07T22:56:53+00:00"
-    },
-    {
       "headline": "SEC Names XRP With Bitcoin and Ether as a Hidden 15% Crypto ETF Rule Lands - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDcwQmFpRGJSeEYzMlNnemZRRFFHSnFRV29CX0NyeXBnMWJwT05LSGpBalB2WkJEaThOZFNtUXhveXg3c3dkWk9fVXBkUWdwblptSDNwa1cwZzZXZzEtNXlRdFRhREhxS0s0alRSTmFDdW5kUkI2TUFvdW1tMjhUZEJETDg1dlA1RkQ5YVdDVUpDSHd5Qk9aVzlob0tkYy1jcl9LR05hdzZKYTRKbjVFMw?oc=5",
@@ -93,8 +87,8 @@
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
-      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - coingape.com",
-      "source": "coingape.com",
+      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
+      "source": "CoinGape",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
@@ -165,8 +159,8 @@
       "published": "2026-07-23T07:00:00+00:00"
     },
     {
-      "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "Galaxy launches onchain yield vaults for institutions - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
       "published": "2026-07-16T07:00:00+00:00"
     },
@@ -183,8 +177,8 @@
       "published": "2026-07-10T07:00:00+00:00"
     },
     {
-      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDhHamcwNnJqNmRCa1ZaLVVQUmYtRG5oek9BTTFLbjBGN2pTSmk5QjdGYi1GUFhNUHpuS0tweU44bmY0elBESkZWR2NOOHlmTVRJQ2N0UmZZQ3o3UUM2c3Zsc1lYOUwwajJrWkRlUkdnZGNiNHQwcW4ySEJHUkNVWVFnSzRaalFHZWszZ0JSNHZhYm9sQmJpSlJPd25IajE3Y0hrTG9MYkxMWTZMMDJRNXV5aUZyRF9TcnJPSmVJLUgyYU14N0I0Ml9GTE5xUzA?oc=5",
       "published": "2026-07-09T07:00:00+00:00"
     },
@@ -213,16 +207,22 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMldjZDJTVmJYYlp0Q2VoUzd0NzlKNnhJSGEzUmUxRHZwNld1MHI1cG5LWjg0Mm4xbkFBTzlnVTdLVWQ2Vy1nQUd3TkNjVFlMVHNBWjFxd1VMSU12QzRtRlNwYXhCZEZzRmZlVEhLVjNiaFhucV9OR1Y0ZXZIRzl6dThVRUJfVVBjNTdNbWdJRkhXWW5KSVZ1MkNHRnQwQmJSbm56SEpKTTdEdmNreWVyRlRjYUtxRTA?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - theblock.co",
-      "source": "theblock.co",
+      "headline": "SEC opens ETF rule review following crypto fund surge, prediction markets push - The Block",
+      "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
       "published": "2026-06-30T07:00:00+00:00"
+    },
+    {
+      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
+      "published": "2026-06-22T07:00:00+00:00"
     },
     {
       "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
@@ -237,8 +237,8 @@
       "published": "2026-05-22T07:00:00+00:00"
     },
     {
-      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - CoinDesk",
-      "source": "CoinDesk",
+      "headline": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
     }
