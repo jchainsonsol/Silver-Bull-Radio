@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T15:45:52.131871+00:00",
+  "updated": "2026-09-22T19:16:00.971121+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -7,6 +7,12 @@
       "source": "Kitco",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNS1wZWN4Z01UZXE3QWVrV0JjREhDdmhGVFV0ZVdfeGxGeEd6OEZwVGUyYkhfenhaQWFWY05OSHM0ZTctQUlZbjc4Xzk5M3VCQWFiaE9DbUNSUTEtVUVFdzBkTXE1M094SlktZUlCTnFrZ1NuNVJhODBrMnUzQnU3dVZqSkExRTh6WWg2WGxKdFUyTE5XaFdaSXNUbF9TOTBvbnRpQjA1U0s?oc=5",
       "published": "2026-09-21T14:30:31+00:00"
+    },
+    {
+      "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - Nasscom",
+      "source": "Nasscom",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUy1YbUp1WHhEc0VlT1RnOUs3TDFxMnM2ck81em5fbWtjMU5tVGstMHhrWTlScDQ2SWtTSDhPal9sYnVrd3NaYi1tSWRVVm9hd1FaVThnd3lvb1NVY3RJaEtabmVtZGJiUV95VTVOdXl6QVN3SkVWeEhOQUFadWlLVW9kMjBtVXFHWWNXNE9VVlpPU0F0enNLNVVlYnViY1lzUDBwY3VrUDY2Yk9mQWpqeVQ4QjUwUQ?oc=5",
+      "published": "2026-09-20T13:19:21+00:00"
     },
     {
       "headline": "SEC Grants Five-Year Exemption For Tokenized Stock Trading Venues - CryptoRank",
@@ -31,12 +37,6 @@
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
       "published": "2026-09-15T06:18:38+00:00"
-    },
-    {
-      "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - Nasscom",
-      "source": "Nasscom",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUy1YbUp1WHhEc0VlT1RnOUs3TDFxMnM2ck81em5fbWtjMU5tVGstMHhrWTlScDQ2SWtTSDhPal9sYnVrd3NaYi1tSWRVVm9hd1FaVThnd3lvb1NVY3RJaEtabmVtZGJiUV95VTVOdXl6QVN3SkVWeEhOQUFadWlLVW9kMjBtVXFHWWNXNE9VVlpPU0F0enNLNVVlYnViY1lzUDBwY3VrUDY2Yk9mQWpqeVQ4QjUwUQ?oc=5",
-      "published": "2026-09-11T13:07:11+00:00"
     },
     {
       "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - HackerNoon",
@@ -75,8 +75,8 @@
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
-      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - coingape.com",
-      "source": "coingape.com",
+      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
+      "source": "CoinGape",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
@@ -109,12 +109,6 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
-    },
-    {
-      "headline": "Thailand advances spot Bitcoin and Ether ETF rules with 80% exposure floor - Crypto News",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdjUkhHYnF0N2h1aGU5ekRIT2Q0d3dzRjNkdWlvTUh0eEpvM2ROQUtWVEFFTEhlX283ODRjaVNZb2UtbDc5dXIxZUZ3OFF1bndOdkRmeFVSanc5ODZqSF82UFI1Zy1QaTUtMzNhUkVPWU0xVXJtRXpVT1ZwMW9SMDFhNHhqVEl3RVhhclpHcGJMczZ2Nm9ycXBB?oc=5",
-      "published": "2026-08-25T07:00:00+00:00"
     },
     {
       "headline": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network - CoinDesk",
@@ -153,8 +147,8 @@
       "published": "2026-07-09T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized stock transfers surge 105% in a month to $8.4B - tradingview.com",
-      "source": "tradingview.com",
+      "headline": "Tokenized stock transfers surge 105% in a month to $8.4B - TradingView",
+      "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS2tPcEpiNWktY2YwVUpPVlBKa3FQblp4dC1EUkc4OHk1UHNBRkxXWTYzT1E5NjViZHFxOHdrNlZGVkVUMXRCNE5CbHpoYXJlVGV4c1FrNmVNRmtmQTdyaVNkQjgzY19wbFdqcVpOdTNoMzZEX2I2WmRISnlmRk1oTnZKdUd5LW4zMXptNmtpdHYxTHY3c0ZUOGQ2amd0cF9PaXk3MWVGUHJxVEZZWnpwWnBPQV9BTFhVS2c?oc=5",
       "published": "2026-07-08T07:00:00+00:00"
     },
@@ -241,6 +235,12 @@
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWFEMlVoWndCSTVSdGJrb0VhaEpEMzNZeURGZkZNbldmTGFYYlh1OHVDMjhkd3FxNzVETFFYSVNlRkkyMEFObTdUb0k2U2NaNEJVRmFPVkc4dlJ1LXlNc0xmT0pDa2pPWVJ0WUpfa0lIbnNHeVZnbUNtS0dBMHJQTGR0bDdoV1FaZUZ4R254U0hQQlpzMWZiU2FSSGVHRU5VNDJsSGNTc1k4NDRpajhDWG5iS3JOZU9vbWF4YmdnWVZxbm1xcFE?oc=5",
       "published": "2026-05-21T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC Prepares Tokenized Stock Rules as Onchain Market Tops $1.4 Billion - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcV9UcmRiQndvb1d3aXNlWm5HVnRFbWwyTGhHeGpVOGwzZk9JeldvSnBsQ3N4bzFmbVNhazY5d3VpNldzWHBrWmt5ekZ5OVF5NXp4T2Q3UFNTQTBXeF9yUlBpcnQ3V3ZxN1k1OF9OWm5WLTNpWTRLOGFnQ3RuY0FNT2RhQXhGd1BaRktPUWZfTElmbGRZMFBzdjExNlZoMXpV?oc=5",
+      "published": "2026-05-18T07:00:00+00:00"
     }
   ]
 }
