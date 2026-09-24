@@ -1,7 +1,13 @@
 {
-  "updated": "2026-09-24T18:29:53.246494+00:00",
+  "updated": "2026-09-24T21:44:15.496768+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "Blockchain.com and NYSE Partner on Tokenized Securities Trading - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjkwLWlUZUhXNVFuaHluZWd2V3FFVkd3aTZTX3dvRTN4Tndjak5VcmpramlBVVJFbXlPNjYwMTAxeXNkb01VQlhHOVc0UTJ5TmtDMzVOOUJHV0xBNE1KTXBrM19WMnl2dmlCMXBFR21BdUY4UDRKRFNORGNEZHNBa1pxcHY?oc=5",
+      "published": "2026-09-24T19:12:17+00:00"
+    },
     {
       "headline": "Options on Crypto ETFs: What the SEC Deadline on September 27 Means for Your ETP - CryptoTicker",
       "source": "CryptoTicker",
@@ -45,8 +51,8 @@
       "published": "2026-09-15T06:18:38+00:00"
     },
     {
-      "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - hackernoon.com",
-      "source": "hackernoon.com",
+      "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - HackerNoon",
+      "source": "HackerNoon",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ2xCRkdHTlRaVnJ2ZkZ5bTRoYkRNcnczdy1EbGQtbjZMWFVLWURHZ2tTRi1Obzc1ZGRJSnZabEgtRHVwTjlMTXBsVVdYaTN3c3VNUlBlaDRxUGY2YlM1cU90QmNsdG4yekFieFU2S2dZOFhsQmk5LU9lWEFNaUNvU3JraGt6M1B1WFZRb0lXVGdnVEVYV0dVZ0NPMkwtMkxvdE54WkVubXJTZHhUVUQxUDNidWk?oc=5",
       "published": "2026-09-11T07:00:00+00:00"
     },
@@ -72,6 +78,12 @@
       "headline": "SEC Names XRP With Bitcoin and Ether as a Hidden 15% Crypto ETF Rule Lands - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDcwQmFpRGJSeEYzMlNnemZRRFFHSnFRV29CX0NyeXBnMWJwT05LSGpBalB2WkJEaThOZFNtUXhveXg3c3dkWk9fVXBkUWdwblptSDNwa1cwZzZXZzEtNXlRdFRhREhxS0s0alRSTmFDdW5kUkI2TUFvdW1tMjhUZEJETDg1dlA1RkQ5YVdDVUpDSHd5Qk9aVzlob0tkYy1jcl9LR05hdzZKYTRKbjVFMw?oc=5",
+      "published": "2026-09-05T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC approves Nasdaq rule citing XRP with Bitcoi... - Pluang",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVjNuZ0d5T1ozdnYydnZGV2FsN0JDTWdXeDhKclBVekRuN2t5M1VNTDhkaURKTmNJNno3LUVXZjMyT0pPTldNWkVDUE9XM0Z3cHlSaDY1azZvUW11YzFqZ1JrWUtFWUhUMFlHQlhhcHpRTUlXam9VRVdVY2lxcERPTmNRYy1NeWJZRTgwNjFhNFFlbTg?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
@@ -153,12 +165,6 @@
       "published": "2026-07-09T07:00:00+00:00"
     },
     {
-      "headline": "US SEC Announces Long-Awaited Crypto Rules \u2014 Safe Harbor for Startups and DeFi Exemptions Could Arrive in July - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xMWNuZDI5TjUxdkp0cHpBODJJZ1gyVl9EWlVzb3FJMW5MYzZ5VmJGVW9hMlNkX1ZrX0FOaVVrN1FzOHpYUG9zSGNvYnRfb2hHRm94amFEdlJOZU92azFzay1xTUF4UjBMUmptVXVuVGgyamg2dlhLaw?oc=5",
-      "published": "2026-07-08T07:00:00+00:00"
-    },
-    {
       "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - YouHodler",
       "source": "YouHodler",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVmZyNG5YTXhPY3hzQXIyTDZyVXplcG05V01Sbk8yWkZfTVNhQ1Rrdi0zMDgyTXF3dGNGbVkzRWgtN2dLa2VzNWhlRDBGd0RwbzNFYVJfNkhWaHc?oc=5",
@@ -231,16 +237,10 @@
       "published": "2026-05-25T07:00:00+00:00"
     },
     {
-      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
-      "source": "a16z crypto",
+      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16zcrypto.com",
+      "source": "a16zcrypto.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC Prepares Tokenized Stock Rules as Onchain Market Tops $1.4 Billion - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcV9UcmRiQndvb1d3aXNlWm5HVnRFbWwyTGhHeGpVOGwzZk9JeldvSnBsQ3N4bzFmbVNhazY5d3VpNldzWHBrWmt5ekZ5OVF5NXp4T2Q3UFNTQTBXeF9yUlBpcnQ3V3ZxN1k1OF9OWm5WLTNpWTRLOGFnQ3RuY0FNT2RhQXhGd1BaRktPUWZfTElmbGRZMFBzdjExNlZoMXpV?oc=5",
-      "published": "2026-05-18T07:00:00+00:00"
     }
   ]
 }
