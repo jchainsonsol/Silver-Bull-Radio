@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T09:29:29.907896+00:00",
+  "updated": "2026-09-24T14:22:00.752792+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -15,10 +15,16 @@
       "published": "2026-09-23T18:19:54+00:00"
     },
     {
-      "headline": "Crypto SWOT: The SEC and CFTC advance crypto rules as Clarity Act stalls - Kitco",
-      "source": "Kitco",
+      "headline": "Crypto SWOT: The SEC and CFTC advance crypto rules as Clarity Act stalls - kitco.com",
+      "source": "kitco.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNS1wZWN4Z01UZXE3QWVrV0JjREhDdmhGVFV0ZVdfeGxGeEd6OEZwVGUyYkhfenhaQWFWY05OSHM0ZTctQUlZbjc4Xzk5M3VCQWFiaE9DbUNSUTEtVUVFdzBkTXE1M094SlktZUlCTnFrZ1NuNVJhODBrMnUzQnU3dVZqSkExRTh6WWg2WGxKdFUyTE5XaFdaSXNUbF9TOTBvbnRpQjA1U0s?oc=5",
       "published": "2026-09-21T14:30:31+00:00"
+    },
+    {
+      "headline": "XRP Spot ETF Guide: Approval, Options, and How to Get Started - MEXC",
+      "source": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQWtObkhZd0JzdXBNSHVoTW9pWUZGZ2syQ2ltWF82cWtDWXh5Rkg0ZXlTck03NWJVcGxCU0ZOUkRDWS00RUhINXdrbUVEY0NmWmJ0U2NQWnJIYnRVSGx1OXJkY3NpRWFFWW5BUjlhczlVS1kzZjctVUwzc2dpTEU1N1Z0VHBOaGNmMk91RmUtMV9sTHhPSndBS04tMA?oc=5",
+      "published": "2026-09-21T07:00:00+00:00"
     },
     {
       "headline": "13 Predictions About Real World Asset Tokenization Through 2030 - Nasscom",
@@ -69,16 +75,16 @@
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
-      "headline": "SEC approves Nasdaq rule citing XRP with Bitcoi... - Pluang",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVjNuZ0d5T1ozdnYydnZGV2FsN0JDTWdXeDhKclBVekRuN2t5M1VNTDhkaURKTmNJNno3LUVXZjMyT0pPTldNWkVDUE9XM0Z3cHlSaDY1azZvUW11YzFqZ1JrWUtFWUhUMFlHQlhhcHpRTUlXam9VRVdVY2lxcERPTmNRYy1NeWJZRTgwNjFhNFFlbTg?oc=5",
-      "published": "2026-09-05T07:00:00+00:00"
-    },
-    {
       "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
       "source": "CoinGape",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
+    },
+    {
+      "headline": "Nasdaq Removes Position Limits on Bitcoin and Ethereum ETF Options - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT2YxRUdyN3dWZjZ3Vk1SVmlueWNYRjF5RXl5elViUTh5WXhlcFhsaEhWOV9CeGZwWGR1emFQTG53ckhsVE9mMkkzeEJlSFBnTFczQWVtblF2cTNmVEhyOXJSa1hmbWhJVW9zOHIycm5SdnF4VzNnVTJ0dUg1a191MnVpNUpRX1JOel9jR1YtcFZmclNZckVaNHVfNXlxNHJjWmFISkUyREFNQmQ0?oc=5",
+      "published": "2026-09-05T01:44:25+00:00"
     },
     {
       "headline": "5 Next Cryptocurrencies to Explode in 2026 - The Motley Fool",
@@ -93,8 +99,8 @@
       "published": "2026-08-31T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized stocks hit $29.5B as Coinbase joins Base - crypto.news",
-      "source": "crypto.news",
+      "headline": "Tokenized stocks hit $29.5B as Coinbase joins Base - Crypto News",
+      "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PdWZPTV9kNVNwRm4zM2NmWThVVTRZakxueWlnT004OFd5b3pJX3AtTm5rOE5hd1Q1ODZQeVNjWUd2T3EzdmdoaEpUVmxrLXJJZGJodWlxQ2xKUXE3STRqZGtYM3lYeVlWVkVRT29jd3N0dER0TWVuSEx3?oc=5",
       "published": "2026-08-30T07:00:00+00:00"
     },
@@ -159,12 +165,6 @@
       "published": "2026-07-08T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized stock transfers surge 105% in a month to $8.4B - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS2tPcEpiNWktY2YwVUpPVlBKa3FQblp4dC1EUkc4OHk1UHNBRkxXWTYzT1E5NjViZHFxOHdrNlZGVkVUMXRCNE5CbHpoYXJlVGV4c1FrNmVNRmtmQTdyaVNkQjgzY19wbFdqcVpOdTNoMzZEX2I2WmRISnlmRk1oTnZKdUd5LW4zMXptNmtpdHYxTHY3c0ZUOGQ2amd0cF9PaXk3MWVGUHJxVEZZWnpwWnBPQV9BTFhVS2c?oc=5",
-      "published": "2026-07-08T07:00:00+00:00"
-    },
-    {
       "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - YouHodler",
       "source": "YouHodler",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVmZyNG5YTXhPY3hzQXIyTDZyVXplcG05V01Sbk8yWkZfTVNhQ1Rrdi0zMDgyTXF3dGNGbVkzRWgtN2dLa2VzNWhlRDBGd0RwbzNFYVJfNkhWaHc?oc=5",
@@ -189,8 +189,8 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - EQS News",
-      "source": "EQS News",
+      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - eqs-news.com",
+      "source": "eqs-news.com",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWGc2RUpiTTJNWi10TXh4ZFZLS0o0eFdJcnNsQ3N0ckw1Y2xRVXJEOWZqNWduUU9zMWgzTUIxV2NxMFNPMGcwQlZUcF9NRkNCZTNPQk51b2ljemdNSHp6Mm1hT2ZLaEh5RmlmZWxoanliSnN6aGdiYjdOdW5lM0JLMU43bG1fcnMtT3RUQVR4WkxLZnVBN2lKcWNLS1d1OFYtMm5aczFLUzZyenRYVGRWcGY4Zl9ydmRuLXhuWkk4V3FRbkhhQVpGRTBhQWJMYXlqSV9CZlVsVjZGM01CSnlqYWlWbTdYcXF5YkVOdEZ5SHJYY1EwNUM1UlRMNmF0cTB6bjN3QjFyektXWXlrRUNtRDdVcw?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
@@ -237,10 +237,10 @@
       "published": "2026-05-22T07:00:00+00:00"
     },
     {
-      "headline": "SEC Prepares Tokenized Stock Rules as Onchain Market Tops $1.4 Billion - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcV9UcmRiQndvb1d3aXNlWm5HVnRFbWwyTGhHeGpVOGwzZk9JeldvSnBsQ3N4bzFmbVNhazY5d3VpNldzWHBrWmt5ekZ5OVF5NXp4T2Q3UFNTQTBXeF9yUlBpcnQ3V3ZxN1k1OF9OWm5WLTNpWTRLOGFnQ3RuY0FNT2RhQXhGd1BaRktPUWZfTElmbGRZMFBzdjExNlZoMXpV?oc=5",
-      "published": "2026-05-18T07:00:00+00:00"
+      "headline": "Why Crypto Whales Are Accumulating Ethereum Again in May 2026 - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTHo2VW9ES0tiLVVWUGNvSFV2ZW9seTExd3dMZmtybjJxY2FoczhYNmdJeklIX0dSSlgyOFlLS0gzbzF1SWxfVWJiNU9ncURIeUp1WFlMbk1BS284SFNMTFA1Ukg1VWZGNlRjdERLMnp3aW5sclE0Vk5zeHBOem9BX0cxWm1fdTdYTEROQ1FzTi1TcFZRX1ItYTBER1h5dm1HNm1EU1JtcnE4UQ?oc=5",
+      "published": "2026-05-20T07:00:00+00:00"
     }
   ]
 }
