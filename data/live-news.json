@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T04:46:39.526106+00:00",
+  "updated": "2026-09-25T09:50:49.477990+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -87,14 +87,8 @@
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
-      "headline": "SEC approves Nasdaq rule citing XRP with Bitcoi... - Pluang",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVjNuZ0d5T1ozdnYydnZGV2FsN0JDTWdXeDhKclBVekRuN2t5M1VNTDhkaURKTmNJNno3LUVXZjMyT0pPTldNWkVDUE9XM0Z3cHlSaDY1azZvUW11YzFqZ1JrWUtFWUhUMFlHQlhhcHpRTUlXam9VRVdVY2lxcERPTmNRYy1NeWJZRTgwNjFhNFFlbTg?oc=5",
-      "published": "2026-09-05T07:00:00+00:00"
-    },
-    {
-      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - coingape.com",
-      "source": "coingape.com",
+      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
+      "source": "CoinGape",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
@@ -123,12 +117,6 @@
       "published": "2026-08-30T07:00:00+00:00"
     },
     {
-      "headline": "SEC Crypto Custody Rule Review: Why the Next Bitcoin Boom Could Start on Wall Street - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3VMdzcyWE90MWZvMGhqS3Z0bGtseU14MFRoalo0aFQyS0VISjRiNWx5NHFwNTYxTDFKZDcxOUIxN2lFSTdmaHc2b3RHR1V3S0VQTTJhRVB1QW9rN1hnRDNWZUhwTWlKVWFVOUdJOERwVkpfRUNWOVkta0RIaElTc0Mzc2RkRzhSbW1WVGI1ZmxHNVc1bTVCZnREbDEyZkZsSHRnYnZ1WGxIanhnLXBPVmw2MTVoaW5kYkE3SWdHVHJxSy0xX2I4YVlIZ1hRdw?oc=5",
-      "published": "2026-08-27T07:00:00+00:00"
-    },
-    {
       "headline": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVRyS0Z1bURuNHlnU1l5WWt3NWtqcm1hZElMS0xnbXlBOUE2NmQtcDBQcEVEb1E4b21tcFV1bTk2Zkw0ZWxlaHZjb3JIVFBwbV9CR21DWE5uS3c5N0ZaMTNsMm1PZ0lsVTNXaUhKQ25HUFN2U2JpNXN4T1ZmWVdjaEItRktzQ0xZU1BkRnBXVzhkT1NWbDdIU2lzN3ZJUGd4bG9j?oc=5",
@@ -147,8 +135,8 @@
       "published": "2026-07-23T07:00:00+00:00"
     },
     {
-      "headline": "Galaxy launches onchain yield vaults for institutions - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
       "published": "2026-07-16T07:00:00+00:00"
     },
@@ -165,10 +153,16 @@
       "published": "2026-07-10T07:00:00+00:00"
     },
     {
-      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDhHamcwNnJqNmRCa1ZaLVVQUmYtRG5oek9BTTFLbjBGN2pTSmk5QjdGYi1GUFhNUHpuS0tweU44bmY0elBESkZWR2NOOHlmTVRJQ2N0UmZZQ3o3UUM2c3Zsc1lYOUwwajJrWkRlUkdnZGNiNHQwcW4ySEJHUkNVWVFnSzRaalFHZWszZ0JSNHZhYm9sQmJpSlJPd25IajE3Y0hrTG9MYkxMWTZMMDJRNXV5aUZyRF9TcnJPSmVJLUgyYU14N0I0Ml9GTE5xUzA?oc=5",
       "published": "2026-07-09T07:00:00+00:00"
+    },
+    {
+      "headline": "US SEC Announces Long-Awaited Crypto Rules \u2014 Safe Harbor for Startups and DeFi Exemptions Could Arrive in July - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xMWNuZDI5TjUxdkp0cHpBODJJZ1gyVl9EWlVzb3FJMW5MYzZ5VmJGVW9hMlNkX1ZrX0FOaVVrN1FzOHpYUG9zSGNvYnRfb2hHRm94amFEdlJOZU92azFzay1xTUF4UjBMUmptVXVuVGgyamg2dlhLaw?oc=5",
+      "published": "2026-07-08T07:00:00+00:00"
     },
     {
       "headline": "Tokenized Stocks, Ethereum Rails, and the Google DeFi Trap - YouHodler",
@@ -177,8 +171,8 @@
       "published": "2026-07-06T07:53:03+00:00"
     },
     {
-      "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - dailycoin.com",
-      "source": "dailycoin.com",
+      "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - DailyCoin",
+      "source": "DailyCoin",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDZFSzJMMFItWW80RHhoR0xQSktOaUdFS0lzNHh0eWxlZ2VUdTFjcm96UE9KMG5xYU1vOFNGTGhWYW5HcHF2alFZTjJZTFVQSzJSdjdSNE1rMkVYVWFFU3hkczdSUWJiVGVNcUJ6aTFyaXdoNTlEQmxTWnlCS0lLVUxkSlJGWEpMZVhhVUtQcTZpU2pKX0NveUJ6V0hEaU5RLXgzclNZSFpwWWVBNzRvVHJxZjZTb2RSX3RQUnlvejlfSmp5eUZaYXppdW0?oc=5",
       "published": "2026-07-06T07:00:00+00:00"
     },
@@ -201,8 +195,8 @@
       "published": "2026-07-01T07:00:00+00:00"
     },
     {
-      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - coindesk.com",
-      "source": "coindesk.com",
+      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - CoinDesk",
+      "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMldjZDJTVmJYYlp0Q2VoUzd0NzlKNnhJSGEzUmUxRHZwNld1MHI1cG5LWjg0Mm4xbkFBTzlnVTdLVWQ2Vy1nQUd3TkNjVFlMVHNBWjFxd1VMSU12QzRtRlNwYXhCZEZzRmZlVEhLVjNiaFhucV9OR1Y0ZXZIRzl6dThVRUJfVVBjNTdNbWdJRkhXWW5KSVZ1MkNHRnQwQmJSbm56SEpKTTdEdmNreWVyRlRjYUtxRTA?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
@@ -217,6 +211,12 @@
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
       "published": "2026-06-22T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC Approves T. Rowe Price Multi-Crypto ETF for NYSE Arca \u2014 Institutional Crypto Adoption Enters New Phase - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
+      "published": "2026-06-16T07:00:00+00:00"
     },
     {
       "headline": "Exclusive: Standard Chartered's Venture Arm 'Very, Very Close' To Owning Institutional Crypto, Exec Says - Yellow.com",
@@ -237,8 +237,8 @@
       "published": "2026-05-25T07:00:00+00:00"
     },
     {
-      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16zcrypto.com",
-      "source": "a16zcrypto.com",
+      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
+      "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
     }
