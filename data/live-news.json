@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T18:57:32.331136+00:00",
+  "updated": "2026-09-25T22:05:40.104374+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -51,14 +51,20 @@
       "published": "2026-09-20T13:19:21+00:00"
     },
     {
+      "headline": "Crypto Price Prediction: Where Will XRP, Bitcoin and Ethereum Be by Year End Now That the CLARITY Act Has Failed? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ2FUSjhRampTcFdBWEpCYk1EWE9ubVpYMmduWWEtZ2ZMZ2NXVTZhUGlNUHlPU0pXZldiME8zVHdfV292SDlnNlR5X3pHaE1fdmx4SXNULWhGMDF2Yk5DRzNOQmlHSl9pdWxwSTZkdnV4cUNzVlZmYUd6cUp0NnhpN05DRDRxZllNUEVZOG91UEhuNjdnQ0FWNndzRTFCaHotNUNXQWQ3a0Rrc2NzMDVybmJsM0FlVWp5NGtmMGNEM0RrTktmVWxOU3hZUVJKRFF0WGNaaUFGWmdrNGR1UGg1Rmo0b0FqcnY2NXhOdDF2ZHdmajVPcFZvTTZqd01QUQ?oc=5",
+      "published": "2026-09-17T07:00:00+00:00"
+    },
+    {
       "headline": "Everything You Own Will Live On-Chain Thanks to RWA Tokenization - CoinMarketCap",
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
       "published": "2026-09-15T06:18:38+00:00"
     },
     {
-      "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - HackerNoon",
-      "source": "HackerNoon",
+      "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - hackernoon.com",
+      "source": "hackernoon.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ2xCRkdHTlRaVnJ2ZkZ5bTRoYkRNcnczdy1EbGQtbjZMWFVLWURHZ2tTRi1Obzc1ZGRJSnZabEgtRHVwTjlMTXBsVVdYaTN3c3VNUlBlaDRxUGY2YlM1cU90QmNsdG4yekFieFU2S2dZOFhsQmk5LU9lWEFNaUNvU3JraGt6M1B1WFZRb0lXVGdnVEVYV0dVZ0NPMkwtMkxvdE54WkVubXJTZHhUVUQxUDNidWk?oc=5",
       "published": "2026-09-11T07:00:00+00:00"
     },
@@ -84,12 +90,6 @@
       "headline": "SEC Names XRP With Bitcoin and Ether as a Hidden 15% Crypto ETF Rule Lands - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDcwQmFpRGJSeEYzMlNnemZRRFFHSnFRV29CX0NyeXBnMWJwT05LSGpBalB2WkJEaThOZFNtUXhveXg3c3dkWk9fVXBkUWdwblptSDNwa1cwZzZXZzEtNXlRdFRhREhxS0s0alRSTmFDdW5kUkI2TUFvdW1tMjhUZEJETDg1dlA1RkQ5YVdDVUpDSHd5Qk9aVzlob0tkYy1jcl9LR05hdzZKYTRKbjVFMw?oc=5",
-      "published": "2026-09-05T07:00:00+00:00"
-    },
-    {
-      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
-      "source": "CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
@@ -159,12 +159,6 @@
       "published": "2026-07-09T07:00:00+00:00"
     },
     {
-      "headline": "US SEC Announces Long-Awaited Crypto Rules \u2014 Safe Harbor for Startups and DeFi Exemptions Could Arrive in July - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xMWNuZDI5TjUxdkp0cHpBODJJZ1gyVl9EWlVzb3FJMW5MYzZ5VmJGVW9hMlNkX1ZrX0FOaVVrN1FzOHpYUG9zSGNvYnRfb2hHRm94amFEdlJOZU92azFzay1xTUF4UjBMUmptVXVuVGgyamg2dlhLaw?oc=5",
-      "published": "2026-07-08T07:00:00+00:00"
-    },
-    {
       "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - DailyCoin",
       "source": "DailyCoin",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDZFSzJMMFItWW80RHhoR0xQSktOaUdFS0lzNHh0eWxlZ2VUdTFjcm96UE9KMG5xYU1vOFNGTGhWYW5HcHF2alFZTjJZTFVQSzJSdjdSNE1rMkVYVWFFU3hkczdSUWJiVGVNcUJ6aTFyaXdoNTlEQmxTWnlCS0lLVUxkSlJGWEpMZVhhVUtQcTZpU2pKX0NveUJ6V0hEaU5RLXgzclNZSFpwWWVBNzRvVHJxZjZTb2RSX3RQUnlvejlfSmp5eUZaYXppdW0?oc=5",
@@ -183,8 +177,8 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - eqs-news.com",
-      "source": "eqs-news.com",
+      "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - EQS News",
+      "source": "EQS News",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWGc2RUpiTTJNWi10TXh4ZFZLS0o0eFdJcnNsQ3N0ckw1Y2xRVXJEOWZqNWduUU9zMWgzTUIxV2NxMFNPMGcwQlZUcF9NRkNCZTNPQk51b2ljemdNSHp6Mm1hT2ZLaEh5RmlmZWxoanliSnN6aGdiYjdOdW5lM0JLMU43bG1fcnMtT3RUQVR4WkxLZnVBN2lKcWNLS1d1OFYtMm5aczFLUzZyenRYVGRWcGY4Zl9ydmRuLXhuWkk4V3FRbkhhQVpGRTBhQWJMYXlqSV9CZlVsVjZGM01CSnlqYWlWbTdYcXF5YkVOdEZ5SHJYY1EwNUM1UlRMNmF0cTB6bjN3QjFyektXWXlrRUNtRDdVcw?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     },
@@ -211,6 +205,12 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
       "published": "2026-06-16T07:00:00+00:00"
+    },
+    {
+      "headline": "Backpack Token Soars 87% Amid Stock Trading Plan - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM3hZOENObGwwUEtoWnBPSmhNQV94UHRpeWx2VUw2SVZTUTk2MzFOMHBhVXJRNnZyNHpuY2NidF9Tc19lS0hLTmZ2VWdmZnBjT1RTMDhRaXRHLVJJLUNQRDBiQWNHQTZqWUVQckVmTHZuRTd0cTVxZWhKUk1rM215NmRaWVoyaUJIZTBUUUZ4aUgtMzh0SUVv?oc=5",
+      "published": "2026-06-03T07:00:00+00:00"
     },
     {
       "headline": "Exclusive: Standard Chartered's Venture Arm 'Very, Very Close' To Owning Institutional Crypto, Exec Says - Yellow.com",
