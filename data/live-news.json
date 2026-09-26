@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T00:35:54.446830+00:00",
+  "updated": "2026-09-26T05:25:38.418027+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -19,12 +19,6 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjkwLWlUZUhXNVFuaHluZWd2V3FFVkd3aTZTX3dvRTN4Tndjak5VcmpramlBVVJFbXlPNjYwMTAxeXNkb01VQlhHOVc0UTJ5TmtDMzVOOUJHV0xBNE1KTXBrM19WMnl2dmlCMXBFR21BdUY4UDRKRFNORGNEZHNBa1pxcHY?oc=5",
       "published": "2026-09-24T19:12:17+00:00"
-    },
-    {
-      "headline": "Options on Crypto ETFs: What the SEC Deadline on September 27 Means for Your ETP - cryptoticker.io",
-      "source": "cryptoticker.io",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYc20zaWxxVnEzLXlNVVFQV0lNME1MWXJYNVdIdXBiSVpNU19KdnhDeUs0b3htTEs0aENjN3RpZ0tLN2p5aTl0UGhYbWs2Wm5qUEQwMl9RaFRqbm8yZUFMQl9ueURWX3RhX0FFMHQ4S0VDV0FB?oc=5",
-      "published": "2026-09-24T03:22:15+00:00"
     },
     {
       "headline": "NYSE and Blockchain.com Working Together To List Tokenized Stocks - CryptoRank",
@@ -87,8 +81,8 @@
       "published": "2026-09-05T07:00:00+00:00"
     },
     {
-      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
-      "source": "CoinGape",
+      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - coingape.com",
+      "source": "coingape.com",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
       "published": "2026-09-05T07:00:00+00:00"
     },
@@ -123,6 +117,12 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
+      "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
+      "source": "Altcoin Buzz",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aTlfaTRFUXRwUnNhQzZrTUk4RHNySFg0RTdLZ0p6dkV3U3dodUdRZkZTWjZ6eXFnc1BkZm9uSDVkaDhiS3U3QnZNQjgxbmxZMXBLQzdpNFIyWFQtekJGeDV4U1JFa3Ns?oc=5",
+      "published": "2026-08-15T07:00:00+00:00"
+    },
+    {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
@@ -147,8 +147,8 @@
       "published": "2026-07-13T07:00:00+00:00"
     },
     {
-      "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - cryptoninjas.net",
-      "source": "cryptoninjas.net",
+      "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
+      "source": "CryptoNinjas",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFVpdjAzWm44c1RxejYyV3pHNl90Z0VMUmd4bjl6eVBkVjFhZjRKeUJka3NtZnJGQjYtX3FrSjhTeE1udVBsNTdOd1NxcW1xYVNJbzJOLVJ6T2lmYWZkM2Utak5PWVpHYjZIZnM4aEZPbVJ3cDRIZGd2N0gzWUF1eEtRYXNQa2QwbjlGUGc4eHJwd1dnaDZ1YVJKUnhNREd6V3JiQ0x5QXFYZXRjMXQ4ZFQ0dzN5b1BDT3VHOFdTOEdyUdIBxwFBVV95cUxOMHZpZno3c2JkOUlaUW9aOVFhTE1UdG90UGc2ZEhEeGc2NEMtS2hualZVbkJSUkNkRWNnd0RuX0liSUpCeDRPcXZ5ZXBHTTNXZjZIZVZWQUg2bWotdVgzTHZSekFlWTcySWl4bTZiZEc1dXA3VVM0dWg5VGMzLW41QkUwWXdXOHZJVDg5YkhRUUhkVGhnYmtmUi01MktRZ2lfczBydUJYZEFRUVJfUmM1YXlWLWdHbWFjdkNNOEo0SlN2b01sc0FV?oc=5",
       "published": "2026-07-10T07:00:00+00:00"
     },
@@ -195,12 +195,6 @@
       "published": "2026-06-30T07:00:00+00:00"
     },
     {
-      "headline": "Chainlink teams up with 47 South Korean, European banks to speed up international money transfers - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSjhWNE5NTUJSQ25ENWZqWFM5Q0l1VDFlVHJtLVdQcVNKV3FDamRGQzZjWmV0ZHBjSXNfa0QxbWc0YkMzbF81cExockptQVlTWUg4dmMzN1NUQTRPT292U0MtemFRdWhGd2VzbENWTnFGWVVxVFNRbkJlMFhSdWtBUldfYm9pVEptdnprVlJrTmJ0MGhReW1ha0djWGd0cXMyVEI0ajNxNVc1cUZ1aVlJa0VsZWdNTXBLaEsydVd3dGh6bEUtRzZvNVEyRWtQOXlJMUdOb2pVOA?oc=5",
-      "published": "2026-06-23T07:00:00+00:00"
-    },
-    {
       "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
@@ -241,6 +235,12 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcV9UcmRiQndvb1d3aXNlWm5HVnRFbWwyTGhHeGpVOGwzZk9JeldvSnBsQ3N4bzFmbVNhazY5d3VpNldzWHBrWmt5ekZ5OVF5NXp4T2Q3UFNTQTBXeF9yUlBpcnQ3V3ZxN1k1OF9OWm5WLTNpWTRLOGFnQ3RuY0FNT2RhQXhGd1BaRktPUWZfTElmbGRZMFBzdjExNlZoMXpV?oc=5",
       "published": "2026-05-18T07:00:00+00:00"
+    },
+    {
+      "headline": "BeInCrypto Institutional Research: 15 Stablecoin Infrastructures Powering Crypto Offerings - BeInCrypto",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmZ5dUVfRnRGc1V0cE8td185Wlc0aGxhZ2xGakZXVmhOWXRLUGtxRENCM2JZVU11cDFYcTh1ZEJSSUt5OXp6dTExeEtZSHJ5T2ZxRmx1VS1BVWUzQ1I4LWk1WlVMMmNiR3ZhXzZmejVPdGFPNWw0bXFWOHV1cDhnTmI2eGg2RU5k?oc=5",
+      "published": "2026-05-17T07:00:00+00:00"
     }
   ]
 }
