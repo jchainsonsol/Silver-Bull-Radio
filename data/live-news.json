@@ -1,7 +1,13 @@
 {
-  "updated": "2026-09-30T01:39:32.781044+00:00",
+  "updated": "2026-09-30T07:27:54.972374+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "Chainlink vs Solana: Which Is the Better Buy After Chainlink\u2019s 96% Quarter? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb2FfM3AxQkpZTHkxTHVUV01nbVRyaVdkVGNGNHB2QVRIWjkzcngzVy1NZWJwSXhlWk85bDhZZ0UteWpHSUtTSlhDVnhuQldiMkJoeHhEZGVoRXBNODFFem0wUVRrQ2lKdkt1aDlsek5zQldYWFdjV2tqdlF4aGM0cjBKOFlRWFUwUTBWYzhCMTFqWHhJUS1tRDRocEczNW5pLU5pNzM1T25WdUtIS1ZHUEEtZElZNkxjNllqYTNuQkszT3FUWlZPMzhB?oc=5",
+      "published": "2026-09-30T07:00:00+00:00"
+    },
     {
       "headline": "XREX & Morpho host Singapore summits on stablecoins - CFOtech Asia",
       "source": "CFOtech Asia",
@@ -15,8 +21,8 @@
       "published": "2026-09-26T18:11:00+00:00"
     },
     {
-      "headline": "NEAR ETF NRR approved: how to buy NEAR in Europe - CryptoTicker",
-      "source": "CryptoTicker",
+      "headline": "NEAR ETF NRR approved: how to buy NEAR in Europe - cryptoticker.io",
+      "source": "cryptoticker.io",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wWWF3dGZpdTRJSFVtekhKZmUtR2xRenRRSTVJdjNpM2RWdHJRZjhJY0hzUzhkcjZ1bUthOERQdlpjU3J1TEJobjA4NnI1cFZzdk9ucldtc1RGdGpOSDVvcEd2VnNnQUcwNEE?oc=5",
       "published": "2026-09-26T03:28:54+00:00"
     },
@@ -33,27 +39,33 @@
       "published": "2026-09-25T03:42:00+00:00"
     },
     {
-      "headline": "Blockchain.com And NYSE Plan 24/7 Tokenized Stock Access - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTEp4WU85UmdNU1RoV2REM3p5eDFHMjBqc1J0eUQ3V3lGVFVkSG8ydnhPeVJrRzVPbWdXOTdzTkdBM1pmWkx1UFlmY29RZGNWMkxwQTRmYnI1ekQ3aWhMeGJVV2RiT3RpZkJZaExVLWpfZW9qTXViNnFWQzNzSXBvcnhXLUNQQ1g2UHQxdXVwS1dWeGp2d0xxaGdR?oc=5",
-      "published": "2026-09-25T00:36:05+00:00"
-    },
-    {
       "headline": "Blockchain.com and NYSE Partner on Tokenized Securities Trading - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjkwLWlUZUhXNVFuaHluZWd2V3FFVkd3aTZTX3dvRTN4Tndjak5VcmpramlBVVJFbXlPNjYwMTAxeXNkb01VQlhHOVc0UTJ5TmtDMzVOOUJHV0xBNE1KTXBrM19WMnl2dmlCMXBFR21BdUY4UDRKRFNORGNEZHNBa1pxcHY?oc=5",
       "published": "2026-09-24T19:12:17+00:00"
     },
     {
-      "headline": "Options on Crypto ETFs: What the SEC Deadline on September 27 Means for Your ETP - CryptoTicker",
-      "source": "CryptoTicker",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYc20zaWxxVnEzLXlNVVFQV0lNME1MWXJYNVdIdXBiSVpNU19KdnhDeUs0b3htTEs0aENjN3RpZ0tLN2p5aTl0UGhYbWs2Wm5qUEQwMl9RaFRqbm8yZUFMQl9ueURWX3RhX0FFMHQ4S0VDV0FB?oc=5",
-      "published": "2026-09-24T03:22:15+00:00"
+      "headline": "NYSE and Blockchain.com Working Together To List Tokenized Stocks - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jWHJCal9yNElET2wyTFVWQzczbnR2VC1IcVI1SklsVzB4VUdCMlA3bWNNZ05xekdvbzNkYnNTYVpqSjlqTjRjdmpEdnU0WmZ2WnVSdjQ0dmJIbXFmSHFwMzFuYkxUZXVyeUxFXzVFODVqTGhOYjVIX0I1SmtmUQ?oc=5",
+      "published": "2026-09-23T18:19:54+00:00"
+    },
+    {
+      "headline": "Weekly Crypto News: Bitcoin Reclaims $80K, SEC Moves Ahead - CoinDCX",
+      "source": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFNnFUZUZHTTlDQjBzQjdDb3R3amhGWDZwZjdvX2VwQnNrUVpHUHFIVHh5SkcyVW1XQzV6LWZMRzRXR3ZHSW9IREo4XzJXWmFGb3VDUnNrNmZEdmpwSjlqazBDckYzamF3djdj?oc=5",
+      "published": "2026-09-22T06:42:00+00:00"
     },
     {
       "headline": "XRP SEC Case: Complete Analysis of Ripple Lawsuit and ETF Approval Timeline - MEXC",
       "source": "MEXC",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWZncmtwWktsQTJkMGpPRGs1a3pBSTVES0dEV0J4Qk4ySTBBVFBxb0F2dEVwSm9NMHdPdThaTjc2VkhpTmlvMWxxQUZxcVpBaVlUeVE0bG1GZ0dQaFZ6d04zcnVnZlZhZ3F5eHBvVkFJakFXUV81SzcwdldXS0xOZlV5V2hNRHdGYU8xbWluSFBPWlMwM1NhZHk1RG5VeHZYM2pNUHJQU3NQS2dGSUhkQw?oc=5",
+      "published": "2026-09-21T07:00:00+00:00"
+    },
+    {
+      "headline": "What Is XRP ETF? SEC Approval Status, Launch Date & How to Invest Guide - MEXC",
+      "source": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaFB3R25yNEYxa3pKbTl2YXlxdkVUMHBacFhHVGVUMG85MkY5MDFOeGxiWFJqUlRBSnh3MmU1UGxiZnlkOHlJOURJaG5YbjM3WWVEZGVEZWFmM08yTGR4WDhSc3MzQU0yZlZwY2pmZVduYkthV3AtaHdFSHBqd3FCbU5QQkttcDA1aS1IVXJGNWxwamxWNzgzbjRXWTBmTmtBYVNuRE5ZVQ?oc=5",
       "published": "2026-09-21T07:00:00+00:00"
     },
     {
@@ -75,6 +87,12 @@
       "published": "2026-09-09T07:00:00+00:00"
     },
     {
+      "headline": "10 Best White Label RWA Tokenization Platform Development Companies - CoinGape",
+      "source": "CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5uRzVnSEFtMDJPMzM3MzhPUkt2bjV2SjRkdlBaUW13aldMLW1kakxyck14U0ZlMV9MeUNETUVaNHRxZE9JQnBaZzMtV2FyS3NhMlRmUmJzREc4Z3dCYXVPWXdGdHJYYVhabHBKYTk5R05NdVpxTkJIbmtGNm9hak9aTQ?oc=5",
+      "published": "2026-09-05T07:00:00+00:00"
+    },
+    {
       "headline": "5 Next Cryptocurrencies to Explode in 2026 - The Motley Fool",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGZqUUZBQzVtblVLMXpqTC13Q1dHcjZwV2J6bFJsdElJajFtbjZuZWVkYkFWcUtUdWJwaW1zejFlbkgwaHhJemFZZFVieF93b043c1JPSjJPQmd3emJtSXVfMWJZcm9XT0VmNWdNSlB3RkVrXzUzcEJYaTZpVkpzejF2YmRBTUNsQ3duaXk4bFpKOFpLbjhrdDF3UWpaWVVLZm1IM2hFMWFKUXdQLUozUHltcmgyQQ?oc=5",
@@ -87,16 +105,22 @@
       "published": "2026-08-31T07:00:00+00:00"
     },
     {
-      "headline": "Schwab Plans to Add SOL, AVAX, and LINK Trading Across Its 39.9 Million Accounts. Here's What It Means for the Crypto Trade - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOTXJvcjVaOGJJVlZrbnFQbGZQZURoY3hBdHhSVExaMWo0Tjk5bHdkTlpSbmx2QjJwRk9BTGVRQ21wMC1mZWY2WTVDZmVBSkg0eDFRcTRuS3ZwNTU2NHAtS19QbTRqczFUci1lcThXcDlwZXl6bkJBejczYThRMVlnX05TaC1QX24xVXdnYVJNYUJFVW93X2NUTkRmdFF2OWFtSG9jODRKcWFqN1Z3YlJlR2M0XzUwYlRJQ2V5dW1OSWM3c2NaTHRVNG1CSU9DdENsN2h3dWQ2dzM5d0xqM00yU2d5cWE0eFAxNHctd2FsNXpyMFhDMXFJRGEwbmQwdnZPOTRqbWxPTTdtdw?oc=5",
-      "published": "2026-08-28T07:00:00+00:00"
+      "headline": "SEC Crypto Custody Rule Review: Why the Next Bitcoin Boom Could Start on Wall Street - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3VMdzcyWE90MWZvMGhqS3Z0bGtseU14MFRoalo0aFQyS0VISjRiNWx5NHFwNTYxTDFKZDcxOUIxN2lFSTdmaHc2b3RHR1V3S0VQTTJhRVB1QW9rN1hnRDNWZUhwTWlKVWFVOUdJOERwVkpfRUNWOVkta0RIaElTc0Mzc2RkRzhSbW1WVGI1ZmxHNVc1bTVCZnREbDEyZkZsSHRnYnZ1WGxIanhnLXBPVmw2MTVoaW5kYkE3SWdHVHJxSy0xX2I4YVlIZ1hRdw?oc=5",
+      "published": "2026-08-27T07:00:00+00:00"
     },
     {
       "headline": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVRyS0Z1bURuNHlnU1l5WWt3NWtqcm1hZElMS0xnbXlBOUE2NmQtcDBQcEVEb1E4b21tcFV1bTk2Zkw0ZWxlaHZjb3JIVFBwbV9CR21DWE5uS3c5N0ZaMTNsMm1PZ0lsVTNXaUhKQ25HUFN2U2JpNXN4T1ZmWVdjaEItRktzQ0xZU1BkRnBXVzhkT1NWbDdIU2lzN3ZJUGd4bG9j?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
+    },
+    {
+      "headline": "Thailand advances spot Bitcoin and Ether ETF rules with 80% exposure floor - Crypto News",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdjUkhHYnF0N2h1aGU5ekRIT2Q0d3dzRjNkdWlvTUh0eEpvM2ROQUtWVEFFTEhlX283ODRjaVNZb2UtbDc5dXIxZUZ3OFF1bndOdkRmeFVSanc5ODZqSF82UFI1Zy1QaTUtMzNhUkVPWU0xVXJtRXpVT1ZwMW9SMDFhNHhqVEl3RVhhclpHcGJMczZ2Nm9ycXBB?oc=5",
+      "published": "2026-08-25T07:00:00+00:00"
     },
     {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
@@ -127,18 +151,6 @@
       "source": "CryptoNinjas",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFVpdjAzWm44c1RxejYyV3pHNl90Z0VMUmd4bjl6eVBkVjFhZjRKeUJka3NtZnJGQjYtX3FrSjhTeE1udVBsNTdOd1NxcW1xYVNJbzJOLVJ6T2lmYWZkM2Utak5PWVpHYjZIZnM4aEZPbVJ3cDRIZGd2N0gzWUF1eEtRYXNQa2QwbjlGUGc4eHJwd1dnaDZ1YVJKUnhNREd6V3JiQ0x5QXFYZXRjMXQ4ZFQ0dzN5b1BDT3VHOFdTOEdyUdIBxwFBVV95cUxOMHZpZno3c2JkOUlaUW9aOVFhTE1UdG90UGc2ZEhEeGc2NEMtS2hualZVbkJSUkNkRWNnd0RuX0liSUpCeDRPcXZ5ZXBHTTNXZjZIZVZWQUg2bWotdVgzTHZSekFlWTcySWl4bTZiZEc1dXA3VVM0dWg5VGMzLW41QkUwWXdXOHZJVDg5YkhRUUhkVGhnYmtmUi01MktRZ2lfczBydUJYZEFRUVJfUmM1YXlWLWdHbWFjdkNNOEo0SlN2b01sc0FV?oc=5",
       "published": "2026-07-10T07:00:00+00:00"
-    },
-    {
-      "headline": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDhHamcwNnJqNmRCa1ZaLVVQUmYtRG5oek9BTTFLbjBGN2pTSmk5QjdGYi1GUFhNUHpuS0tweU44bmY0elBESkZWR2NOOHlmTVRJQ2N0UmZZQ3o3UUM2c3Zsc1lYOUwwajJrWkRlUkdnZGNiNHQwcW4ySEJHUkNVWVFnSzRaalFHZWszZ0JSNHZhYm9sQmJpSlJPd25IajE3Y0hrTG9MYkxMWTZMMDJRNXV5aUZyRF9TcnJPSmVJLUgyYU14N0I0Ml9GTE5xUzA?oc=5",
-      "published": "2026-07-09T07:00:00+00:00"
-    },
-    {
-      "headline": "US SEC Announces Long-Awaited Crypto Rules \u2014 Safe Harbor for Startups and DeFi Exemptions Could Arrive in July - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xMWNuZDI5TjUxdkp0cHpBODJJZ1gyVl9EWlVzb3FJMW5MYzZ5VmJGVW9hMlNkX1ZrX0FOaVVrN1FzOHpYUG9zSGNvYnRfb2hHRm94amFEdlJOZU92azFzay1xTUF4UjBMUmptVXVuVGgyamg2dlhLaw?oc=5",
-      "published": "2026-07-08T07:00:00+00:00"
     },
     {
       "headline": "Tokenized stock transfers surge 105% in a month to $8.4B - TradingView",
@@ -189,15 +201,21 @@
       "published": "2026-06-28T07:00:00+00:00"
     },
     {
+      "headline": "Chainlink teams up with 47 South Korean, European banks to speed up international money transfers - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSjhWNE5NTUJSQ25ENWZqWFM5Q0l1VDFlVHJtLVdQcVNKV3FDamRGQzZjWmV0ZHBjSXNfa0QxbWc0YkMzbF81cExockptQVlTWUg4dmMzN1NUQTRPT292U0MtemFRdWhGd2VzbENWTnFGWVVxVFNRbkJlMFhSdWtBUldfYm9pVEptdnprVlJrTmJ0MGhReW1ha0djWGd0cXMyVEI0ajNxNVc1cUZ1aVlJa0VsZWdNTXBLaEsydVd3dGh6bEUtRzZvNVEyRWtQOXlJMUdOb2pVOA?oc=5",
+      "published": "2026-06-23T07:00:00+00:00"
+    },
+    {
       "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
       "published": "2026-06-22T07:00:00+00:00"
     },
     {
-      "headline": "SEC Approves T. Rowe Price Multi-Crypto ETF for NYSE Arca \u2014 Institutional Crypto Adoption Enters New Phase - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
+      "headline": "SEC Approves T. Rowe Price Active Crypto ETF - blockhead.co",
+      "source": "blockhead.co",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSFVmLVhHSGo4c095OVN1UTRELVZPeXdMVFRueXFGX0taZC1IbllDUGRpX0dkWkdZeDRHdWF5U3d3LXF3SlQwUktBX3lLNVJjbnFuR29IVjFwQVRiQmFzeEJRN09UWVN6eGw5b1QwQjNqdTRodVhPVnVOT2h2aDltQ1ozb0p3YnM?oc=5",
       "published": "2026-06-16T07:00:00+00:00"
     },
     {
@@ -219,28 +237,10 @@
       "published": "2026-05-25T07:00:00+00:00"
     },
     {
-      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16zcrypto.com",
-      "source": "a16zcrypto.com",
+      "headline": "7 Charts: Tokenized assets have proved the concept. Now comes the hard part. - a16z crypto",
+      "source": "a16z crypto",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYldqNlR5akVDTHlvNW1ld2F6bXFPUUF0VzZocWNkSUt0R2EtdkJsMUNjRVptZy1IaW1mV0V6Y2xZQkloTzNlUnh0T2JHSnVnSlBCeG8zTFRGeDNyWXlNYkhncDd0QWJYeURRSDZEbjB4SjVma1Y1cFZjeklDQzJrSl93?oc=5",
       "published": "2026-05-22T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC Prepares Tokenized Stock Rules as Onchain Market Tops $1.4 Billion - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcV9UcmRiQndvb1d3aXNlWm5HVnRFbWwyTGhHeGpVOGwzZk9JeldvSnBsQ3N4bzFmbVNhazY5d3VpNldzWHBrWmt5ekZ5OVF5NXp4T2Q3UFNTQTBXeF9yUlBpcnQ3V3ZxN1k1OF9OWm5WLTNpWTRLOGFnQ3RuY0FNT2RhQXhGd1BaRktPUWZfTElmbGRZMFBzdjExNlZoMXpV?oc=5",
-      "published": "2026-05-18T07:00:00+00:00"
-    },
-    {
-      "headline": "BeInCrypto Institutional Research: 15 Stablecoin Infrastructures Powering Crypto Offerings - BeInCrypto",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmZ5dUVfRnRGc1V0cE8td185Wlc0aGxhZ2xGakZXVmhOWXRLUGtxRENCM2JZVU11cDFYcTh1ZEJSSUt5OXp6dTExeEtZSHJ5T2ZxRmx1VS1BVWUzQ1I4LWk1WlVMMmNiR3ZhXzZmejVPdGFPNWw0bXFWOHV1cDhnTmI2eGg2RU5k?oc=5",
-      "published": "2026-05-17T07:00:00+00:00"
-    },
-    {
-      "headline": "Top 10 Altcoins to Buy in May 2026 as Bitcoin Recovers - CryptoTicker",
-      "source": "CryptoTicker",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFlfaWVDaUt0LXppd244V0EyOWJDZk9SWDlLb1ZxU1N0QlVKS3lTLURqY29TSGE0eUhDcVVPTlljcUc1QmFKOWhOYlVKaHdQUEI1djN0NHBSYllNQWtXSkhwM1Bzc1p5NWx0dWlpUkRhQUwweTd4Tk9YcVBMUlNaUg?oc=5",
-      "published": "2026-05-15T07:00:00+00:00"
     }
   ]
 }
