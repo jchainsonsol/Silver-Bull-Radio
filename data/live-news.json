@@ -1,7 +1,13 @@
 {
-  "updated": "2026-10-07T05:47:30.224791+00:00",
+  "updated": "2026-10-07T12:04:55.498653+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "The SEC Just Approved 3x Bitcoin ETFs \u2013 But is the Product Built to Decay? - www.blockhead.co",
+      "source": "www.blockhead.co",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVVM4dVAyaFhncFNlZDZwWDFIdXlxNHpBY1JBYm1BeW5TT3ZkeU04YWNOY1ZhZUk0VXBzY1JCVnpjOXFkSy0tT2lKTDVaN2tUVno4YUJUZkswSEllUVhwOW1VU3dXZERZSldORE9ncWRyWmtEWm55QjN6QVZ6S2tacXRCMl9mUTNkYS1IWXFkbU9FVk90WE5GSjBQNVFkQkhJTlJVQ2RreUhoS0Nz?oc=5",
+      "published": "2026-10-07T10:33:23+00:00"
+    },
     {
       "headline": "CLARITY Act Is Dead, but First 3x Bitcoin and Ethereum ETFs Clear US Regulatory Hurdle - CCN.com",
       "source": "CCN.com",
@@ -235,12 +241,6 @@
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGR6d21FVmg2eEZzNlMzUDlFdGE4ajZFaWFDWC1rdHVzZU9NTktabDdzdk5hZUJTRklTeVBGcFF4ajlBakRyVTFDenpadDRyUUNRUnFtLTR3T0gzcWVLTUlrRDYzck5yOUlaMXdjNFhCekFJVFJIdnVIaE5fdWFwVzBrTks5TTU1ZXhoQmZiNk9iZTZ1UWJQb3BJcjhsT2l0bktFTEt0ZXM1TWpPNmNTLTlUQ1NHUWlheWRaQzNZNGczYm1nM0FsU1hla0dFOUo1?oc=5",
       "published": "2026-06-30T07:00:00+00:00"
-    },
-    {
-      "headline": "cirBTC Is Live on Ethereum for Wrapped BTC Deployment - www.circle.com",
-      "source": "www.circle.com",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EVi01VnNoVDVUV0pLZWM5ckJfS1hNQlQ0MFQwdHpKVGdPcHZZUVNVM25OYXE3QzJ2Mkp4QXVjeWxVOHplbGhOeGVLSXE2cGFPN1JyMGRGbkQxYmd1Z0w0NXdIdmV4NjFSMHc?oc=5",
-      "published": "2026-06-08T07:00:00+00:00"
     }
   ]
 }
