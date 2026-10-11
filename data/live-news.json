@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T19:23:18.677116+00:00",
+  "updated": "2026-10-11T23:01:02.941503+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -63,12 +63,6 @@
       "published": "2026-10-09T09:47:02+00:00"
     },
     {
-      "headline": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs - Cryptonews.net",
-      "source": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFLXpOOG5aZUFUMVppSkZQY3RUNmJtMEtFYVB4VHk1MjBZZExUTWZxYktvdUxXMFkwSGxFQWZSUm56UldnTzVXcGw4b0d5OU9teGNuZVZB?oc=5",
-      "published": "2026-10-09T07:00:00+00:00"
-    },
-    {
       "headline": "Thailand Opens the Door to Crypto ETFs, but Shuts the Back Door on Foreign Ones - BeInCrypto",
       "source": "BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUlVZbjlQWTg4ZWw2S3duU1Zkc2pVRjJ5d3NKRFI3MEVYU1B1ZDBjN1ByeEFIeHdnVW51MkI2NG95Z0Q0d0F2c01JYzJKT3ZhS3RSOGw2SEpqRzZIanhvNlJFSldVcGNMY2hpR2l3?oc=5",
@@ -79,6 +73,12 @@
       "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FZWlRUVBPSm9tSXpLZ2RJWE85ZGt2SXkzaFIxTEpUZGlZNGllNGhZX2Z6Q2l2c0xycWZDTnR3WEZleFRGV2hhaWRDeXE2UEwybGFBOUhGVEhaRE5KQUxQenplUHJieHpJOE1mRQ?oc=5",
       "published": "2026-10-09T05:39:00+00:00"
+    },
+    {
+      "headline": "Thailand Greenlights Bitcoin and Ethereum ETFs on Local Bourse Starting Oct. 16 - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sTVJ3RzFFS1AyZjd1WGZoUVlXd0pBR2hFTTF5a19nMjIwYTRqMUUxbHYxUzJEQzdRSmo0bTRIM2hhRWROMm5PMjNHUjdkMHQ1WGExbGpCRzY3Wm0zVWRvLVNRdE8yTmZFM05TdkgxYjJGVC1lSnc?oc=5",
+      "published": "2026-10-09T04:35:00+00:00"
     },
     {
       "headline": "Thailand Opens the Door to Bitcoin and Ether ETFs on Stock Exchange - TradingView",
@@ -189,10 +189,10 @@
       "published": "2026-09-24T07:00:00+00:00"
     },
     {
-      "headline": "Black Titan Highlights Banks\u2019 Public-Chain Stablecoins and Institutional DeFi Shift in September Analysis - The Globe and Mail",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUng2VFJVNU1zanJjNzUySl9uUmJ4TFJPWlNVVlJybWtyNDEzd3BJSEt6bk5QVlBWMng4elRkMk5CdjhKVkhSRjlyMWFPN0RQa2stUWliWFhwODhveGRMVzFaaEpUMV9hZEl4Sl9USms1WVpuV21ScWhOT0ljMnN2SE5QeDhGbjhRdUdlRXhRZ0tEVk1oRnNSRThzd3hXLTRHRGhQRkJuaDBiS1g0ZXZoX3AxVlhmU0N2emlGa1pua0RBMzNYNDRBdFRVUmpEb2dKel9xXzN4NFpMWXFudFlxclZyanQyb0duUng1amd0TVVyZC1ubWlGTk5oQ203bUJTMS1aSzNDUGNxUGZEXzBXSHRJZw?oc=5",
-      "published": "2026-09-19T07:00:00+00:00"
+      "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - HackerNoon",
+      "source": "HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ2xCRkdHTlRaVnJ2ZkZ5bTRoYkRNcnczdy1EbGQtbjZMWFVLWURHZ2tTRi1Obzc1ZGRJSnZabEgtRHVwTjlMTXBsVVdYaTN3c3VNUlBlaDRxUGY2YlM1cU90QmNsdG4yekFieFU2S2dZOFhsQmk5LU9lWEFNaUNvU3JraGt6M1B1WFZRb0lXVGdnVEVYV0dVZ0NPMkwtMkxvdE54WkVubXJTZHhUVUQxUDNidWk?oc=5",
+      "published": "2026-09-11T07:00:00+00:00"
     },
     {
       "headline": "Charles Schwab Expands Crypto Platform Beyond Bitcoin And Ethereum - CryptoRank",
