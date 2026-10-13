@@ -1,7 +1,13 @@
 {
-  "updated": "2026-10-13T07:52:41.142377+00:00",
+  "updated": "2026-10-13T15:25:17.055632+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "SEC okays 3x leveraged ETFs, mulls first tokenized equities - CoinGeek",
+      "source": "CoinGeek",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmttM09wQ2JYcTQ2VlFyd1NaNFRLbkN0WWlEWExFZllkZ3dCWGFWUkxSWnF6V0xfOGhLY3RVREU5VlZoX0VPV2hfNDQ3U0tkZ0NRUUhxZktjcnUzeGZBRjA2aWR1WVdicDdveF81d0tPamcyOG52c2hkNmZtSmtIY1YyQmQ1dWM?oc=5",
+      "published": "2026-10-13T09:00:00+00:00"
+    },
     {
       "headline": "Thailand wants a piece of the $120 billion Bitcoin and Ethereum ETF market, but on its own terms - CryptoSlate",
       "source": "CryptoSlate",
@@ -69,22 +75,16 @@
       "published": "2026-10-09T09:47:02+00:00"
     },
     {
-      "headline": "Thailand Opens the Door to Crypto ETFs, but Shuts the Back Door on Foreign Ones - BeInCrypto",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUlVZbjlQWTg4ZWw2S3duU1Zkc2pVRjJ5d3NKRFI3MEVYU1B1ZDBjN1ByeEFIeHdnVW51MkI2NG95Z0Q0d0F2c01JYzJKT3ZhS3RSOGw2SEpqRzZIanhvNlJFSldVcGNMY2hpR2l3?oc=5",
-      "published": "2026-10-09T06:34:00+00:00"
+      "headline": "Thailand SEC approves Bitcoin and Ether ETFs for main stock exchange from 2026 - Cryptonews.net",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsZGpwTk9ZZ05Oc29VOW5zU3MyeDVCdkM3U1QycGFQalNlSUtRMmYzU1JqZnB6MjdmUWhoVk5rWGlpUWJxZHh0eC1zcWZPZ2kyQW1rRWZn?oc=5",
+      "published": "2026-10-09T07:00:00+00:00"
     },
     {
       "headline": "Thailand to allow Bitcoin and Ethereum ETFs from October 16 - Crypto News",
       "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FZWlRUVBPSm9tSXpLZ2RJWE85ZGt2SXkzaFIxTEpUZGlZNGllNGhZX2Z6Q2l2c0xycWZDTnR3WEZleFRGV2hhaWRDeXE2UEwybGFBOUhGVEhaRE5KQUxQenplUHJieHpJOE1mRQ?oc=5",
       "published": "2026-10-09T05:39:00+00:00"
-    },
-    {
-      "headline": "Thailand Greenlights Bitcoin and Ethereum ETFs on Local Bourse Starting Oct. 16 - BigGo Finance",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sTVJ3RzFFS1AyZjd1WGZoUVlXd0pBR2hFTTF5a19nMjIwYTRqMUUxbHYxUzJEQzdRSmo0bTRIM2hhRWROMm5PMjNHUjdkMHQ1WGExbGpCRzY3Wm0zVWRvLVNRdE8yTmZFM05TdkgxYjJGVC1lSnc?oc=5",
-      "published": "2026-10-09T04:35:00+00:00"
     },
     {
       "headline": "Thailand Opens the Door to Bitcoin and Ether ETFs on Stock Exchange - TradingView",
@@ -207,12 +207,6 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "Coinbase (COIN) debuts tokenized stocks on Base with Apple, Nvidia among first shares - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOXZIQldPQUlDVDdlblo2bWNWREhkamFaQm5uMVl5NU9wN0JQM1JSQXQ2cENYVlhieHFqN0pCMC03MzNhTFpNSFpnZ3NJVmg2Y1hLX0prMGhCT2traWZRYUVBZk53bVZjSmNpRWdrMmppd2syeU9GZGIwVF92dDM2YXU4clRTTTFpMmQzRWgxYjhfb0tqb2J5Zjl6cGlJdW5rN1hKQVhKWkRNVm5xWFJfcnNiejRpTFQ5T0JscHFLb3haRS1hYlpxOXduOUZUZFRXMkRuYw?oc=5",
-      "published": "2026-08-24T07:00:00+00:00"
-    },
-    {
       "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
       "source": "Altcoin Buzz",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aTlfaTRFUXRwUnNhQzZrTUk4RHNySFg0RTdLZ0p6dkV3U3dodUdRZkZTWjZ6eXFnc1BkZm9uSDVkaDhiS3U3QnZNQjgxbmxZMXBLQzdpNFIyWFQtekJGeDV4U1JFa3Ns?oc=5",
@@ -241,6 +235,12 @@
       "source": "PYMNTS.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHVQR2xXVHQxdHdINVZZT3ZQSHVUbVZtUUQtbWRaSUQ5bFAyanYySzh2SlM1OUtOLU5TSVVPbTVpR0t4Z0hQZzM2ZGtxUHZyUHJjRHM5OHRTV2hrc0tRUy1mY1JEZTAtZkxRQUtSZ3psYmlTQ3BOaVE2bFNSU3doU0JSR0UwOGhNd3NHUGVpUVFHaTRIRzY3aHpMaEdHaUF0S1NXZzVOTjdielAyaVZlTWFEZl9rWG9B?oc=5",
       "published": "2026-07-13T07:00:00+00:00"
+    },
+    {
+      "headline": "Gauntlet Bags $125M From SBI to Supercharge Stablecoins and Institutional On-Chain Finance - CryptoNinjas",
+      "source": "CryptoNinjas",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFVpdjAzWm44c1RxejYyV3pHNl90Z0VMUmd4bjl6eVBkVjFhZjRKeUJka3NtZnJGQjYtX3FrSjhTeE1udVBsNTdOd1NxcW1xYVNJbzJOLVJ6T2lmYWZkM2Utak5PWVpHYjZIZnM4aEZPbVJ3cDRIZGd2N0gzWUF1eEtRYXNQa2QwbjlGUGc4eHJwd1dnaDZ1YVJKUnhNREd6V3JiQ0x5QXFYZXRjMXQ4ZFQ0dzN5b1BDT3VHOFdTOEdyUdIBxwFBVV95cUxOMHZpZno3c2JkOUlaUW9aOVFhTE1UdG90UGc2ZEhEeGc2NEMtS2hualZVbkJSUkNkRWNnd0RuX0liSUpCeDRPcXZ5ZXBHTTNXZjZIZVZWQUg2bWotdVgzTHZSekFlWTcySWl4bTZiZEc1dXA3VVM0dWg5VGMzLW41QkUwWXdXOHZJVDg5YkhRUUhkVGhnYmtmUi01MktRZ2lfczBydUJYZEFRUVJfUmM1YXlWLWdHbWFjdkNNOEo0SlN2b01sc0FV?oc=5",
+      "published": "2026-07-10T07:00:00+00:00"
     }
   ]
 }
