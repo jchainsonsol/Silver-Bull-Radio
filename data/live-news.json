@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T01:21:50.410834+00:00",
+  "updated": "2026-10-13T07:52:41.142377+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -75,16 +75,16 @@
       "published": "2026-10-09T06:34:00+00:00"
     },
     {
-      "headline": "Thailand SEC approves Bitcoin and Ether ETFs for main stock exchange from 2026 - Cryptonews.net",
-      "source": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzWG84VUwzQXJCRkxndkVjQmZXMU1IM0k2UWlDNXdieVI0RG5fS3l6QmkyM3h5VVNtbnd3c0tQU1BoX0ZvbWVsUEFrZjJBMlIydnVWbVROaW8?oc=5",
-      "published": "2026-10-09T06:13:38+00:00"
-    },
-    {
       "headline": "Thailand to allow Bitcoin and Ethereum ETFs from October 16 - Crypto News",
       "source": "Crypto News",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FZWlRUVBPSm9tSXpLZ2RJWE85ZGt2SXkzaFIxTEpUZGlZNGllNGhZX2Z6Q2l2c0xycWZDTnR3WEZleFRGV2hhaWRDeXE2UEwybGFBOUhGVEhaRE5KQUxQenplUHJieHpJOE1mRQ?oc=5",
       "published": "2026-10-09T05:39:00+00:00"
+    },
+    {
+      "headline": "Thailand Greenlights Bitcoin and Ethereum ETFs on Local Bourse Starting Oct. 16 - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sTVJ3RzFFS1AyZjd1WGZoUVlXd0pBR2hFTTF5a19nMjIwYTRqMUUxbHYxUzJEQzdRSmo0bTRIM2hhRWROMm5PMjNHUjdkMHQ1WGExbGpCRzY3Wm0zVWRvLVNRdE8yTmZFM05TdkgxYjJGVC1lSnc?oc=5",
+      "published": "2026-10-09T04:35:00+00:00"
     },
     {
       "headline": "Thailand Opens the Door to Bitcoin and Ether ETFs on Stock Exchange - TradingView",
@@ -121,12 +121,6 @@
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNGtlLWZJanYxeC1WWFJYZ2tPX3VYM2lMLXhfYjRWaG9UZllnSmRySkRhUG5MR3kxNGFORnNFcFZFUG1jbWh1b2FQYWV3RUtsS0JSUnpkeGZnZkxOcXJ1MEN1VkJtX1U0UERJMzRHRFprQ2hJZmw0UVM5TEx6VnVnbmdfNEYxWWg1dWNxNFVVV1lPV3JmTFQ5S3h6dGExYWg4a3Brd3JfRVJkczFq?oc=5",
       "published": "2026-10-05T16:06:00+00:00"
-    },
-    {
-      "headline": "Tokenized RWAs Gain 13.5% While Crypto Market Sheds $1T - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
-      "published": "2026-10-03T23:13:47+00:00"
     },
     {
       "headline": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026 - Bitcoin Foundation",
@@ -211,6 +205,12 @@
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
+    },
+    {
+      "headline": "Coinbase (COIN) debuts tokenized stocks on Base with Apple, Nvidia among first shares - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOXZIQldPQUlDVDdlblo2bWNWREhkamFaQm5uMVl5NU9wN0JQM1JSQXQ2cENYVlhieHFqN0pCMC03MzNhTFpNSFpnZ3NJVmg2Y1hLX0prMGhCT2traWZRYUVBZk53bVZjSmNpRWdrMmppd2syeU9GZGIwVF92dDM2YXU4clRTTTFpMmQzRWgxYjhfb0tqb2J5Zjl6cGlJdW5rN1hKQVhKWkRNVm5xWFJfcnNiejRpTFQ5T0JscHFLb3haRS1hYlpxOXduOUZUZFRXMkRuYw?oc=5",
+      "published": "2026-08-24T07:00:00+00:00"
     },
     {
       "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
