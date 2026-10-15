@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T14:26:18.960038+00:00",
+  "updated": "2026-10-15T18:30:17.583944+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -13,6 +13,12 @@
       "source": "TheStreet",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZzdoakN0ZG1ZbEZmMXBaNXVLcFN3NXFlbFI2ckJ2Z21acGg5Rkd3UWtTMVpJczdQZFVoMndOTnF6VlVNMXpzVko4MlRWcHBVQTZFWDRUbldPczBOOTc4Rl9tQ2kyWHJFSENRVnNBS0c3RnZHeUdXS21HdXN3cGJqOTN5ZW5sWW9kUHBfTFFzWkdMMGwx?oc=5",
       "published": "2026-10-14T20:35:55+00:00"
+    },
+    {
+      "headline": "Crypto RWA: Wall Street\u2019s Next Big Financial Revolution - OCNJ Daily",
+      "source": "OCNJ Daily",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYVhPcUZNa3ZIZ002a0NGdkhNSTZlQXNCX3hXa0FMa0Z3aHNZZlJqbWd3MVNDWk9HYmw0T2FpU3dRMjk1YVZESTZCTUlSZzJydUU1UHRleEVBUGxxNmhYYUNyZjIwRGI5QTBkd3hwb2g5TnVFUlZVYnB0WE95N0FUSTU5dHhUQ0ZObXpDOXZyRmdMNUJ6dVVtQVBHV3J1QXBw?oc=5",
+      "published": "2026-10-14T14:59:57+00:00"
     },
     {
       "headline": "Thailand Opens the Door to Bitcoin and Ethereum ETFs While Hosting the IMF - Disruption Banking",
@@ -39,10 +45,10 @@
       "published": "2026-10-10T05:00:53+00:00"
     },
     {
-      "headline": "Thailand SEC Approves Local Bitcoin and Ethereum ETFs, Effective October 16 - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWV2aU9Ca0dKRkFjaTRqT290Y3NXUl9EcThHb2pzMGU3MVo1RTZIVllBMmFPY2FuRDFGeFNad3hHVjdRVHQ3VUJsMzdGcTExMUhmWHl4Q0Qtb0xwRHhabjM0NWp1RWhMRHZZVjB2VXZyUEtGRE1xaEJpMl9RbXBUVFVmZWJHYTZa?oc=5",
-      "published": "2026-10-09T19:40:05+00:00"
+      "headline": "Thailand SEC Sets Oct. 16 Start for Bitcoin, Ethereum ETFs - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWpqQUFnOWlEZUNwdFVjNUJ3RlJhdnpVS3JHeXlVYmlBYjZacWxFRGdPXzJaMU5QN3FEUmNhNXp0bU5OZjRtNGxmOWt6YldtQmRmWGNoUUlvbzNnT3p1cDZUY3pKbnpDa0dYYzY0TTd6U0p3TjZWb09SQjBhaDhGbFBVeHYwXzhfQUoxTE9zRUlMN2FWT2l2ZVdSRTZMNVE?oc=5",
+      "published": "2026-10-09T16:13:23+00:00"
     },
     {
       "headline": "Thailand finalizes rules for Bitcoin and Ether ETFs, with October 16 start - Altcoin Buzz",
@@ -103,12 +109,6 @@
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNGtlLWZJanYxeC1WWFJYZ2tPX3VYM2lMLXhfYjRWaG9UZllnSmRySkRhUG5MR3kxNGFORnNFcFZFUG1jbWh1b2FQYWV3RUtsS0JSUnpkeGZnZkxOcXJ1MEN1VkJtX1U0UERJMzRHRFprQ2hJZmw0UVM5TEx6VnVnbmdfNEYxWWg1dWNxNFVVV1lPV3JmTFQ5S3h6dGExYWg4a3Brd3JfRVJkczFq?oc=5",
       "published": "2026-10-05T16:06:00+00:00"
-    },
-    {
-      "headline": "Tokenized RWAs Gain 13.5% While Crypto Market Sheds $1T - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2I0OVJ6cW5CVDdjVGY2QnZVU2xLX0JHMW9mM3VOelBXenNZWnhjV1BtY0RsblF1clNsMUh4Y0FCOFdkcG5tUnNfOEFIVm1saEJVbjNtbDBEYWNEWHVrR2NSMkFwbEZocGFlR1FoVU93b0E1c2o2RVBFTmkyUktXLWs5MVVUMlYyXzZIZlY5N1V4WFJiNjhzOWQwRHJ0OEpxZWJMNGFfdHVhd0E?oc=5",
-      "published": "2026-10-03T23:13:47+00:00"
     },
     {
       "headline": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026 - Bitcoin Foundation",
@@ -183,6 +183,12 @@
       "published": "2026-09-19T07:00:00+00:00"
     },
     {
+      "headline": "Anchorage Digital Adds Support for Frgmnt\u2019s fUSD as Stablecoin Protocol Targets Institutions - HackerNoon",
+      "source": "HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ2xCRkdHTlRaVnJ2ZkZ5bTRoYkRNcnczdy1EbGQtbjZMWFVLWURHZ2tTRi1Obzc1ZGRJSnZabEgtRHVwTjlMTXBsVVdYaTN3c3VNUlBlaDRxUGY2YlM1cU90QmNsdG4yekFieFU2S2dZOFhsQmk5LU9lWEFNaUNvU3JraGt6M1B1WFZRb0lXVGdnVEVYV0dVZ0NPMkwtMkxvdE54WkVubXJTZHhUVUQxUDNidWk?oc=5",
+      "published": "2026-09-11T07:00:00+00:00"
+    },
+    {
       "headline": "Zero-Knowledge Asset Verification: How ZK-Proofs Fix Privacy in RWA Tokenization | by Quinn Donovan | Sep, 2026 - DataDrivenInvestor",
       "source": "DataDrivenInvestor",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbW5Ia3RlZk8tLV9wNVZCYVRCTldzbURhb0FnUzZwMUY2MHhCTWlKYmRxSmdQaFBDMVI5WGNXYWc0Y1V3cTFMV0hwZHNrd3pvVHppaFU1OG1PWjhYdDg1YmJ4LWlTMFNSa0dHLVZmZ2hGVXFyaGhURnY3SW5wTTMwdGtodkczek4tV1lMTmYtX21KVE9VMFh2a1RydWlSbm5hY05NUm1DSElBUk5Pa3hGU1YxOEgxQnRJMlU1RVp0NURzYjBtbTE1b1dB?oc=5",
@@ -235,12 +241,6 @@
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
       "published": "2026-08-11T07:00:00+00:00"
-    },
-    {
-      "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
-      "published": "2026-07-16T07:00:00+00:00"
     }
   ]
 }
