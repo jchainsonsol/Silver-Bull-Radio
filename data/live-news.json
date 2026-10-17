@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T04:54:52.534315+00:00",
+  "updated": "2026-10-17T08:59:33.114969+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -43,12 +43,6 @@
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
       "published": "2026-10-14T02:50:30+00:00"
-    },
-    {
-      "headline": "What Are Tokenized Stocks? IMF Finds Real Demand but Flags Volatility and Liquidity Gaps - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QYmdvSDVFVk5QaGl6d0Y5RUI0VkdmNUlkSER3NVRBcnIycGlMNFJ0QWpvR3F0cURvei1NdHI5TlVoZnhMMm9jZjQ3eWk0dG9lT3Q4eWxfcG8tNmNDR2dwc2s1TUZGUFRQSmw2TTNDWkY?oc=5",
-      "published": "2026-10-11T15:45:18+00:00"
     },
     {
       "headline": "Thailand SEC Approves Local Bitcoin and Ethereum ETFs, Effective October 16 - CryptoRank",
@@ -102,7 +96,7 @@
       "headline": "The SEC Just Approved 3x Bitcoin ETFs \u2013 But is the Product Built to Decay? - blockhead.co",
       "source": "blockhead.co",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVVM4dVAyaFhncFNlZDZwWDFIdXlxNHpBY1JBYm1BeW5TT3ZkeU04YWNOY1ZhZUk0VXBzY1JCVnpjOXFkSy0tT2lKTDVaN2tUVno4YUJUZkswSEllUVhwOW1VU3dXZERZSldORE9ncWRyWmtEWm55QjN6QVZ6S2tacXRCMl9mUTNkYS1IWXFkbU9FVk90WE5GSjBQNVFkQkhJTlJVQ2RreUhoS0Nz?oc=5",
-      "published": "2026-10-07T07:00:00+00:00"
+      "published": "2026-10-07T10:32:46+00:00"
     },
     {
       "headline": "RWA Tokenization in 2026: Tokenized Stocks Drive the Next Phase - The Block",
@@ -117,15 +111,15 @@
       "published": "2026-10-03T07:00:00+00:00"
     },
     {
-      "headline": "SEC Proposes New Rule for Investment Advisers to Hold Bitcoin for Clients: Which Coins Will See Over $100 Trillion in Managed Funds First? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbWpJcTdmVXVPU1JCR09kZUVTMDRZRnhfNVd0SVZsbk0yM0xHWlNqMngwQm1LWWdOTFpEMnQxdkxwcDBqYlQ5RGlNLTlkN21WZk03RElKYWd1cG52UTRqYzdscktyNzdMb3Z0WTItcVN3YVRoOVFVOXRIYllhUEpoT2o1d3FCRE9YVlVXMHhNMlFaazRpRW1mNUFVNlhxTjRYalRvMU9mQ2dPcGNkUDBYUXVMU1pWdVFaYlFSXzJyU0hGaFVlX2FjV0lJaElvM2N3VUpLbXB3bVNDNlBFVkpBaUJ6YnV6eGNxSTdHX2Z1aGhTZFNZd2NDellqT2ZrNnJLREl5d0lxYk1QLUhvVlFSUWphVUZyWGlvbHExeXBGSQ?oc=5",
-      "published": "2026-10-01T07:00:00+00:00"
-    },
-    {
       "headline": "SEC Admits Regulation Has Lagged Bitcoin, Proposes New Custody Rules - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcmNvUFRtUnVXLXBsQVhBVGJYa2Mwa2lMT0IyaWlCdEx5T2thSUUwTGszVlRjYTFidTZCeVR1QlFpMGEtUlllUThna0tkX0tKZzRBMkdScnoxbnNFRGNUUjlfV2lhQlMzb0VfN2xKMGFSRkhHN3pKUkcwbHFGVGtxMGxwY2RjS29TbkcyWWhIUnZ2NFBtMVlIRExIUkozNVIxdlY4?oc=5",
+      "published": "2026-10-01T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC Proposes New Rule for Investment Advisers to Hold Bitcoin for Clients: Which Coins Will See Over $100 Trillion in Managed Funds First? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbWpJcTdmVXVPU1JCR09kZUVTMDRZRnhfNVd0SVZsbk0yM0xHWlNqMngwQm1LWWdOTFpEMnQxdkxwcDBqYlQ5RGlNLTlkN21WZk03RElKYWd1cG52UTRqYzdscktyNzdMb3Z0WTItcVN3YVRoOVFVOXRIYllhUEpoT2o1d3FCRE9YVlVXMHhNMlFaazRpRW1mNUFVNlhxTjRYalRvMU9mQ2dPcGNkUDBYUXVMU1pWdVFaYlFSXzJyU0hGaFVlX2FjV0lJaElvM2N3VUpLbXB3bVNDNlBFVkpBaUJ6YnV6eGNxSTdHX2Z1aGhTZFNZd2NDellqT2ZrNnJLREl5d0lxYk1QLUhvVlFSUWphVUZyWGlvbHExeXBGSQ?oc=5",
       "published": "2026-10-01T07:00:00+00:00"
     },
     {
@@ -141,15 +135,15 @@
       "published": "2026-09-30T07:00:00+00:00"
     },
     {
-      "headline": "Best Altcoins to Buy in October 2026 Before the Next Crypto Rally - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDBLaXhSUWxkek1LM3Z5a25uNWh6cWF5YklsUnl5Sk16VWxKLTN0Q0pUcVJSVUk3cmxFWGljQlRySE11NUtaa0ZreUZjMHZ2NjZHOGxnelBqVFlVTHdFOVZTT1V3UE5HMVdGa2RwZkZFRl9uMzJ4bEZ3UXhabDl0Z3pqUXlETlFRSmtPYVpRRHc3dWpDRzdlbTh2ejBxMjVua3ZFcmcxT3ZEX2Q0UE9j?oc=5",
-      "published": "2026-09-30T07:00:00+00:00"
-    },
-    {
       "headline": "Top 5 cryptos for long-term investors: Bitcoin, Ethereum, Solana, Chainlink, and Hyperliquid. - Pluang",
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanNnT1pzOUxmS3l4S2lLZmxCRTgxNnU0VzBaMWd2THlGVjBaU0F3N2NDampwY2hQbkxvalpod0x0ZmdYR05iTXppR3l6RjZTS1RvR0hoS0pTMDN3NktudEhIajZJR3lzSFBjY2hPSUliMjk5aEotMFhMWG8wQlU4QXZteVJIT1liUEswaHBOUHFCVGFTd3J5Q2pPekVXZw?oc=5",
+      "published": "2026-09-30T07:00:00+00:00"
+    },
+    {
+      "headline": "Best Altcoins to Buy in October 2026 Before the Next Crypto Rally - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDBLaXhSUWxkek1LM3Z5a25uNWh6cWF5YklsUnl5Sk16VWxKLTN0Q0pUcVJSVUk3cmxFWGljQlRySE11NUtaa0ZreUZjMHZ2NjZHOGxnelBqVFlVTHdFOVZTT1V3UE5HMVdGa2RwZkZFRl9uMzJ4bEZ3UXhabDl0Z3pqUXlETlFRSmtPYVpRRHc3dWpDRzdlbTh2ejBxMjVua3ZFcmcxT3ZEX2Q0UE9j?oc=5",
       "published": "2026-09-30T07:00:00+00:00"
     },
     {
@@ -174,6 +168,12 @@
       "headline": "Options on Crypto ETFs: What the SEC Deadline on September 27 Means for Your ETP - CryptoTicker",
       "source": "CryptoTicker",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYc20zaWxxVnEzLXlNVVFQV0lNME1MWXJYNVdIdXBiSVpNU19KdnhDeUs0b3htTEs0aENjN3RpZ0tLN2p5aTl0UGhYbWs2Wm5qUEQwMl9RaFRqbm8yZUFMQl9ueURWX3RhX0FFMHQ4S0VDV0FB?oc=5",
+      "published": "2026-09-24T07:00:00+00:00"
+    },
+    {
+      "headline": "Blockchain.com and NYSE Partner on Tokenized Securities Trading - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjkwLWlUZUhXNVFuaHluZWd2V3FFVkd3aTZTX3dvRTN4Tndjak5VcmpramlBVVJFbXlPNjYwMTAxeXNkb01VQlhHOVc0UTJ5TmtDMzVOOUJHV0xBNE1KTXBrM19WMnl2dmlCMXBFR21BdUY4UDRKRFNORGNEZHNBa1pxcHY?oc=5",
       "published": "2026-09-24T07:00:00+00:00"
     },
     {
