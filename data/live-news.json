@@ -1,7 +1,13 @@
 {
-  "updated": "2026-10-19T13:50:56.453150+00:00",
+  "updated": "2026-10-19T19:31:22.890538+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "SEC Approves First Multi-Asset Crypto ETP, Includes Bitcoin and Ethereum - CoinMarketCap",
+      "source": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQU9tMHI0WjNFOERNSEZDblkzaUF2ZU84d3NkdHJra1pjQWxITVllRHlwOGw2dVkyUldGaEZlbV9nQmh0RDgtV016SEN6M1JKblZWYkRUd0t0UFFrdGtoRnBtdFFiNk9kNWo3anI0U3J6YjU2QzRoX0l3NDk3Y3ZIVFVraWZreGhYek1SbjN2ZkJnVUQzVE5OakREbUluRjlKTXc?oc=5",
+      "published": "2026-10-17T05:02:25+00:00"
+    },
     {
       "headline": "3 Cryptocurrencies That Could Stage a Comeback by the End of 2026 - 24/7 Wall St.",
       "source": "24/7 Wall St.",
@@ -45,12 +51,6 @@
       "published": "2026-10-14T02:50:30+00:00"
     },
     {
-      "headline": "Regulator to allow crypto ETF trading - Bangkok Post",
-      "source": "Bangkok Post",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHlaMjJuN2FURkVKSW9RQkd4Zl9jR3FPTHFiQURyS1RqdVkycXgtVzFvaHRBRTFqY2RRUHAycjUxVXViZXY5Z192RTJFSk1rWmtHeWFhWTZmZ1NVa2RaanZxcHBEOEtsRXZJeEJBdnRKZ2tvTWtKRXRETmNTdTZTSVRJMnU5QkZRWWk1dl8tVVh0VGVD?oc=5",
-      "published": "2026-10-12T22:11:00+00:00"
-    },
-    {
       "headline": "Thailand wants a piece of the $120 billion Bitcoin and Ethereum ETF market, but on its own terms - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQN2hDbVcwRkdEQjVPaTdlZWpRclV5LXhUVmhGOUswNVRCTzZPcXk4Vm9teENEekZhMVdhc3dwZkZvb2Q2d0pETmw0OUZERzBtYXkxSmt5aGdqcUUyMWJNZGhTc3U5Z2ZYckNEenBodjhlWjd2dHMxTHNycWxvQWtLaW9rUUw0elNocUNXSU92dG5NUDVxS3VCOVllWG1BZ05hNE9wb0JuYnVWazR2bG41QmZvc2RoeDNIVHBfdFN4dGgtaFduX2g5YnVLOUo?oc=5",
@@ -84,6 +84,12 @@
       "headline": "Thailand SEC Issues Rules for Bitcoin and Ether ETFs, Effective October 16: 14 outlets compared - NewsCord",
       "source": "NewsCord",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTnVvNEY0Q19oZEw4Y3UwczE2dmd1RUxaTU10cURZYkg3dXZLcTlGa0xLLTdhc0FfdTdiRGxUczRnWGJ3RGNoUEY4RGhmY0FvWnRPVXZ6eUZZUW5nMWEzVFRIbTlOcVhKS1NBNVNyb01oNkpXT1V2czl0UUVUOGJCT0Q4bmRFcDZ5X1kwZkoySUlNV0VhTktHS3luOGJQUUNTWGI5ZVBLZmNvZm4wcHFCUzJCUFMzUHVOSFpSMXYzRFpuNDFzajhsX0dFQW5yem1fWVdZYUI4ZlpoNXpsZzEw?oc=5",
+      "published": "2026-10-09T07:00:00+00:00"
+    },
+    {
+      "headline": "Apple, Nvidia, and Tesla Shares Now Trade on Solana: Why Did Securitize Choose Solana Over Ethereum? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaFpidzB3cy1GVUdXLUppS3RVWDc1SDIwLWtvN20wSWc5ODN3OUU0TjR5Vng3VEU0b0RDUF9YdDZlOEdrYlFNa0hCdFg1LXY1NE5UaWp0eVcwMURrZ09RbVF0MkxzUERxVnd1VFNZbFBEUV90UEtwSTM1Y3B1WXNCZzVudFZQWjVsZUMtVVl3RkF3ejJ0WXVKZmFfZE5lLWgzb0V2dkpkYkZCTHhybTJtdVlJbVBRX3hwdjI5b1JVRUVWRjhGTUY3X0pfNnJPdjlBUHRJOVJRRFZsTHREQ2d6RGFkekNXQkVvbFkw?oc=5",
       "published": "2026-10-09T07:00:00+00:00"
     },
     {
@@ -165,12 +171,6 @@
       "published": "2026-09-30T07:00:00+00:00"
     },
     {
-      "headline": "Best Crypto to Buy and Hold for 10 Years: Bitcoin, Ethereum, XRP, or Solana? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWnVNNmtpOGR2U0dEUWo4Sy1tWWRaLVpUNUlhZkdNSmFNbnhYYVFfR2pOb2NWR3Z1SVotaWpIaGpOS25hNXRMZEgxRnU2NEwzYllETWpTamFMUDFTYWhJalYyWENLQmlHbmNFUTRSUXNYaDBJcGxpZTNtNi1jeVFHZVA2cmN5MUo3ZlVIUFhINnlHdk1fZzlmT1RHOTh3SWlQczRzZnJNVmdiaWJYby1DSHRCejEwWWFGOEF4YXloeVdndjVlR01MdUhB?oc=5",
-      "published": "2026-09-30T07:00:00+00:00"
-    },
-    {
       "headline": "Real-World Asset Tokens: The Complete Guide to RWA Tokenization in 2026 - Bleap",
       "source": "Bleap",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QN29RQ2E4S2w5NEVlX1l5WTBFdnE0NEFDRks5VmJMN2E2NVZXSzc5M3VabWV4cmhLX1BGeXVzUmxPaTFYeTdJNlcxWnBNWTZZUnF1alRDLTBEX0dzb3hwMWVPNEowdXdzdy1BNmZlb01yUQ?oc=5",
@@ -192,6 +192,12 @@
       "headline": "Securitize Stock Surges 15% as SEC's Tokenization Exemption Turns RWA Theory Into Trading Reality - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLS1xeThnZnJxakhaVEFicTFwTGpUV0lJc3ZSUVQ1Tk9acFZIa3JaV3d0ZHFxT2ZWZnV2QVFMMm03aWZYaFpzRDZmcGN0Rjh5V3Bsc1hyVTNUYkZ6dEg1QnhwaFNGNi14NndlNnI0TUlfTktVSDI3dHFUU3Z1VHh3UEpyMXl2M3R5VEo0ZnZPR3JaeEJLdHFoZnFKdUE?oc=5",
+      "published": "2026-09-24T07:00:00+00:00"
+    },
+    {
+      "headline": "Blockchain.com and NYSE Partner on Tokenized Securities Trading - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjkwLWlUZUhXNVFuaHluZWd2V3FFVkd3aTZTX3dvRTN4Tndjak5VcmpramlBVVJFbXlPNjYwMTAxeXNkb01VQlhHOVc0UTJ5TmtDMzVOOUJHV0xBNE1KTXBrM19WMnl2dmlCMXBFR21BdUY4UDRKRFNORGNEZHNBa1pxcHY?oc=5",
       "published": "2026-09-24T07:00:00+00:00"
     },
     {
@@ -225,22 +231,16 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
+      "headline": "Schwab Expands Crypto Offerings to Include Solana, Avalanche, and Chainlink - KuCoin",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZnc1RnhFQWNxT1Z3NGRhUjNEdk5vcEg4R1FCb3FBR09tVVA2Zk1jU2NMYTkzTE1MdVhsQXJEaUtvbnVuUEZFdFZpNFJXdk04SU5UQ1VlLTlZUUphSWN1YXJqZmVzUHV6cFV2WGV0U2hOZzZ6VmQ3NFgxY3FmOU0tN0x3WWNuTVRrTktYd0pZVmhuSHZ2eVB2Z3VlQkxvVC15RFdHREk2X2o4eFk?oc=5",
+      "published": "2026-08-27T07:00:00+00:00"
+    },
+    {
       "headline": "Solana, Avalanche, Chainlink Rise as Charles Schwab Prepares Spot Crypto Trading - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0pBMS1BMWFSc3RBTjVsc19XUFFtd0hTM0cwRmlENGJUblR3eUU0VUdkcTB3SFJ5TUNKemxWNFZuUnlaS1d4ZHROb3VVenRveVdOMTR2clFickdYV3lnNjZDTDhwLWNSc0lQbFprRWJFclo5cDY3UzNzNnc3STRnc2JHbk5BdFRpa0Y0ZUhvaWd6V0FmQUl6c3lNN0hCWHpRejlVbE56OA?oc=5",
       "published": "2026-08-27T07:00:00+00:00"
-    },
-    {
-      "headline": "RWA Tokenization Trends 2026 - Blockchain Council",
-      "source": "Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa0lOR3dRc3k3TUY0Z09VZl9wOFFNUXg3N3N5VWRFLVNJTjlVcTVuUHVvWlNlSk8yYlZCcjhCc2FNTzFPY2QxVi1TWE9qelZQTWhRSllfRHMxdm1jY1FUdEh0azZKODcwbmlQYS10REdMVlMwclNHS1NsYUkycFQ4ZjJXTkhlcF8yY3hna2MwWjRiU0dEQVVadkctZ1BuU2Q1WmJlWWN2OVhTNVRvN3hZc2thbVVXOGhKUFh4bGdB?oc=5",
-      "published": "2026-08-18T07:00:00+00:00"
-    },
-    {
-      "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
-      "source": "Altcoin Buzz",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aTlfaTRFUXRwUnNhQzZrTUk4RHNySFg0RTdLZ0p6dkV3U3dodUdRZkZTWjZ6eXFnc1BkZm9uSDVkaDhiS3U3QnZNQjgxbmxZMXBLQzdpNFIyWFQtekJGeDV4U1JFa3Ns?oc=5",
-      "published": "2026-08-15T07:00:00+00:00"
     }
   ]
 }
