@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T06:29:16.481681+00:00",
+  "updated": "2026-10-19T13:50:56.453150+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -43,6 +43,12 @@
       "source": "CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWdnUlJRUEFmeVh1Zmk5REMxNHRjb0tYUFVQdE1WZHh3RlJMME4tTHEwblNpSjNGX2d5QTBJb3VYV0dXYlNyTE43WTV1OW1tdTZLQ1g1dnhmcW9GTWhBQk5nQlY3cTdnLWl4amdxSWFuYVUtX2JlVkZHb1gwQl9NY084cmNBV2wwZWQxYTFMYw?oc=5",
       "published": "2026-10-14T02:50:30+00:00"
+    },
+    {
+      "headline": "Regulator to allow crypto ETF trading - Bangkok Post",
+      "source": "Bangkok Post",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHlaMjJuN2FURkVKSW9RQkd4Zl9jR3FPTHFiQURyS1RqdVkycXgtVzFvaHRBRTFqY2RRUHAycjUxVXViZXY5Z192RTJFSk1rWmtHeWFhWTZmZ1NVa2RaanZxcHBEOEtsRXZJeEJBdnRKZ2tvTWtKRXRETmNTdTZTSVRJMnU5QkZRWWk1dl8tVVh0VGVD?oc=5",
+      "published": "2026-10-12T22:11:00+00:00"
     },
     {
       "headline": "Thailand wants a piece of the $120 billion Bitcoin and Ethereum ETF market, but on its own terms - CryptoRank",
@@ -99,6 +105,12 @@
       "published": "2026-10-08T07:00:00+00:00"
     },
     {
+      "headline": "IMF: Tokenized Securities Market Quadruples - \uc870\uc120\uc77c\ubcf4",
+      "source": "\uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaW91Rld6YWg3MkxoU29VT2o4OV85dkpTN0JTUU1ROG9QbVYtNWZkQ2ZlYUw0MDlBWlBaZkJ2U2lPMGd1QkZOaHFFVU84Uzd2aEU4NnpjaVZlSjNuNTFvMm80SF9BVG4tMU5DbHZSd2xrWnBLZ1BvX0F1SnRkbHFXY3EyOW1vUjJKV0o3bFRR?oc=5",
+      "published": "2026-10-08T07:00:00+00:00"
+    },
+    {
       "headline": "5 Next Cryptocurrencies to Explode in 2026 - The Motley Fool",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGZqUUZBQzVtblVLMXpqTC13Q1dHcjZwV2J6bFJsdElJajFtbjZuZWVkYkFWcUtUdWJwaW1zejFlbkgwaHhJemFZZFVieF93b043c1JPSjJPQmd3emJtSXVfMWJZcm9XT0VmNWdNSlB3RkVrXzUzcEJYaTZpVkpzejF2YmRBTUNsQ3duaXk4bFpKOFpLbjhrdDF3UWpaWVVLZm1IM2hFMWFKUXdQLUozUHltcmgyQQ?oc=5",
@@ -109,12 +121,6 @@
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNGtlLWZJanYxeC1WWFJYZ2tPX3VYM2lMLXhfYjRWaG9UZllnSmRySkRhUG5MR3kxNGFORnNFcFZFUG1jbWh1b2FQYWV3RUtsS0JSUnpkeGZnZkxOcXJ1MEN1VkJtX1U0UERJMzRHRFprQ2hJZmw0UVM5TEx6VnVnbmdfNEYxWWg1dWNxNFVVV1lPV3JmTFQ5S3h6dGExYWg4a3Brd3JfRVJkczFq?oc=5",
       "published": "2026-10-05T16:06:00+00:00"
-    },
-    {
-      "headline": "The SEC Approves the First 3x Bitcoin and Ether Funds: Understanding the Risks Involved - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTXFhZTRFcFpIb09vVnFQN2o2VW93X1lldF91emFhN3BMQ0F1VXltMkhpNWZHblRVUWlFc1gzb04wb3g4aXNZeXg1V3dKWlYzdlJ4MEFtd0JiSUgySC1IYnV3TWJBMU8ycjRtWFJJeWJmLXZsdHJFZGp4YmdYUG9yYW1sbDN6Z3pOLTZwUzQ0MXZjeFItQ1ZmUjln?oc=5",
-      "published": "2026-10-05T07:00:00+00:00"
     },
     {
       "headline": "3 Crypto to Buy Now \u2014 SOL, LINK, HYPE - Bitget",
@@ -186,12 +192,6 @@
       "headline": "Securitize Stock Surges 15% as SEC's Tokenization Exemption Turns RWA Theory Into Trading Reality - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLS1xeThnZnJxakhaVEFicTFwTGpUV0lJc3ZSUVQ1Tk9acFZIa3JaV3d0ZHFxT2ZWZnV2QVFMMm03aWZYaFpzRDZmcGN0Rjh5V3Bsc1hyVTNUYkZ6dEg1QnhwaFNGNi14NndlNnI0TUlfTktVSDI3dHFUU3Z1VHh3UEpyMXl2M3R5VEo0ZnZPR3JaeEJLdHFoZnFKdUE?oc=5",
-      "published": "2026-09-24T07:00:00+00:00"
-    },
-    {
-      "headline": "Blockchain.com and NYSE Partner on Tokenized Securities Trading - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjkwLWlUZUhXNVFuaHluZWd2V3FFVkd3aTZTX3dvRTN4Tndjak5VcmpramlBVVJFbXlPNjYwMTAxeXNkb01VQlhHOVc0UTJ5TmtDMzVOOUJHV0xBNE1KTXBrM19WMnl2dmlCMXBFR21BdUY4UDRKRFNORGNEZHNBa1pxcHY?oc=5",
       "published": "2026-09-24T07:00:00+00:00"
     },
     {
