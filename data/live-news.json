@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T01:45:40.835164+00:00",
+  "updated": "2026-10-21T06:37:20.456539+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -61,12 +61,6 @@
       "source": "Disruption Banking",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNUZOY2JzWW5jRXJSTXhGN1FJMkxRNWloZ2FJajk1S0xZNWhTcVhZRFVNaHVYdHdJUUNnSmhlYmVFZWtpZllyVVVMNnJCTmY3bVlQWWpwMDR5bmphend3RjBnLTM5dV8yRG9QU0pwZzBCSHVSaEJEeEhvRVMyM1k3emNPTWpyUWE2cG5tWlZlVGMzV3NSUmdMbWJxck9HX0E0czlXX2lkdGhnWnJDTDd1LVI5dFlmZThIazlKcQ?oc=5",
       "published": "2026-10-14T12:17:22+00:00"
-    },
-    {
-      "headline": "Thailand wants a piece of the $120 billion Bitcoin and Ethereum ETF market, but on its own terms - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQN2hDbVcwRkdEQjVPaTdlZWpRclV5LXhUVmhGOUswNVRCTzZPcXk4Vm9teENEekZhMVdhc3dwZkZvb2Q2d0pETmw0OUZERzBtYXkxSmt5aGdqcUUyMWJNZGhTc3U5Z2ZYckNEenBodjhlWjd2dHMxTHNycWxvQWtLaW9rUUw0elNocUNXSU92dG5NUDVxS3VCOVllWG1BZ05hNE9wb0JuYnVWazR2bG41QmZvc2RoeDNIVHBfdFN4dGgtaFduX2g5YnVLOUo?oc=5",
-      "published": "2026-10-12T12:54:25+00:00"
     },
     {
       "headline": "What Are Tokenized Stocks? IMF Finds Real Demand but Flags Volatility and Liquidity Gaps - CryptoRank",
@@ -183,12 +177,6 @@
       "published": "2026-09-30T07:00:00+00:00"
     },
     {
-      "headline": "Best Crypto to Buy and Hold for 10 Years: Bitcoin, Ethereum, XRP, or Solana? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWnVNNmtpOGR2U0dEUWo4Sy1tWWRaLVpUNUlhZkdNSmFNbnhYYVFfR2pOb2NWR3Z1SVotaWpIaGpOS25hNXRMZEgxRnU2NEwzYllETWpTamFMUDFTYWhJalYyWENLQmlHbmNFUTRSUXNYaDBJcGxpZTNtNi1jeVFHZVA2cmN5MUo3ZlVIUFhINnlHdk1fZzlmT1RHOTh3SWlQczRzZnJNVmdiaWJYby1DSHRCejEwWWFGOEF4YXloeVdndjVlR01MdUhB?oc=5",
-      "published": "2026-09-30T07:00:00+00:00"
-    },
-    {
       "headline": "Real-World Asset Tokens: The Complete Guide to RWA Tokenization in 2026 - Bleap",
       "source": "Bleap",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QN29RQ2E4S2w5NEVlX1l5WTBFdnE0NEFDRks5VmJMN2E2NVZXSzc5M3VabWV4cmhLX1BGeXVzUmxPaTFYeTdJNlcxWnBNWTZZUnF1alRDLTBEX0dzb3hwMWVPNEowdXdzdy1BNmZlb01yUQ?oc=5",
@@ -237,10 +225,22 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "RWA Tokenization Trends 2026 - Blockchain Council",
-      "source": "Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa0lOR3dRc3k3TUY0Z09VZl9wOFFNUXg3N3N5VWRFLVNJTjlVcTVuUHVvWlNlSk8yYlZCcjhCc2FNTzFPY2QxVi1TWE9qelZQTWhRSllfRHMxdm1jY1FUdEh0azZKODcwbmlQYS10REdMVlMwclNHS1NsYUkycFQ4ZjJXTkhlcF8yY3hna2MwWjRiU0dEQVVadkctZ1BuU2Q1WmJlWWN2OVhTNVRvN3hZc2thbVVXOGhKUFh4bGdB?oc=5",
-      "published": "2026-08-18T07:00:00+00:00"
+      "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
+      "source": "Altcoin Buzz",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aTlfaTRFUXRwUnNhQzZrTUk4RHNySFg0RTdLZ0p6dkV3U3dodUdRZkZTWjZ6eXFnc1BkZm9uSDVkaDhiS3U3QnZNQjgxbmxZMXBLQzdpNFIyWFQtekJGeDV4U1JFa3Ns?oc=5",
+      "published": "2026-08-15T07:00:00+00:00"
+    },
+    {
+      "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
+      "published": "2026-08-11T07:00:00+00:00"
+    },
+    {
+      "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
+      "published": "2026-07-16T07:00:00+00:00"
     }
   ]
 }
