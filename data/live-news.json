@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T21:28:36.383947+00:00",
+  "updated": "2026-10-24T23:34:27.031848+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -39,6 +39,12 @@
       "published": "2026-10-20T13:47:27+00:00"
     },
     {
+      "headline": "BlackRock Files iShares Bitcoin Managed Protection ETF PBIT With Downside Protection: how 20 outlets framed it - NewsCord",
+      "source": "NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTU5QNUJ6R0JxNVRMcmotQmRKUFFBSUtiM3ZTa0NOQWRkZFNQRklRR0pZNl9fQkN6LUNFMl9rWlhxUEpEMzF3WDFxeHpRY1dXWjZLZTZxZGhqckVxMmtYVXRDMnZkeHl1N2psZTdqOUlNT3FqWkZ1d1c3UDBRQUZWUGlyTkhNOXRsME9Yc19DcHowZFlxRE5PekdGUUR5SnU3YmN5Y3JvOFU3Mm5fcXRWWndEM1RfWm12bHl1V3IyanFNWUlhT0hmaDBPOUF3RHFiZWd1MHRtU0dkX01oSVAwRnN1WXBDYzRvdnc?oc=5",
+      "published": "2026-10-20T11:33:01+00:00"
+    },
+    {
       "headline": "How RWA Adoption is Spreading Across Crypto Markets - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMW93TGdnaHVqT29pc3RIWVRqcHkxQUJ6Nm5BREdsc0VTdGw3RGd5WTlSZHFVMnI5dUtMRERlVUxvQ3dQbmxLYWRaeTRaNjBKUVlERFUySXFrLXFwNzc2Y2IxLTBGSWsyQU82Q1VrX0NoVUpoVUNHelVrMkoxSUc0cFVHZndDMERDdDJRY1FRb0d1SklXRlE?oc=5",
@@ -49,12 +55,6 @@
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOREhTS0JtbExUbmZQUFNpNE9iTDV5eFhOVjRtZ2xjTEpCTktRYU5wOEp6WDJtT1VRX3pNMk5JV0oxcXRmQjlsc2lROUVhVF84TFNGbXN0eDZMaUdkWEhyOXNtbUliVk12Qmdpenp4RW5qSFJtTUFLTXJvLWx4OWxUTzNJUFNEU0QwSDRJUllGbFlDRXRFeXhhYl9KNjZhVE1sTVhTMkNwSHN0eWkyWFZTODVlU2hTd2U2bTNySHo5cjJ5UQ?oc=5",
       "published": "2026-10-16T07:00:00+00:00"
-    },
-    {
-      "headline": "XRP and Solana Added to Major U.S. Crypto ETF as SEC Opens Floodgate - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW9Fd29zbl85NkFKamptcm5rOHJyM2M4Rk9Nc1VaU2N6VXQ5c04tV096ckprR00tWlQzU2JvckJNbzdIanFMM1pkTnphMjZqRGpFaTlCVWQ4SEpyLV9YUUw1b1hGd3RwQmlDNGVBYXZ0R3JlUF8wSEkwaVhXR2xpRHJiX1VpdHpXeXpjUm1OWTRFalBkMkFKd2xDQkF4YUVzWFdEXzF2TmRPU1JD?oc=5",
-      "published": "2026-10-15T22:48:29+00:00"
     },
     {
       "headline": "Crypto RWA: Wall Street\u2019s Next Big Financial Revolution - OCNJ Daily",
@@ -195,16 +195,16 @@
       "published": "2026-09-08T07:00:00+00:00"
     },
     {
+      "headline": "Zero-Knowledge Asset Verification: How ZK-Proofs Fix Privacy in RWA Tokenization | by Quinn Donovan | Sep, 2026 - DataDrivenInvestor",
+      "source": "DataDrivenInvestor",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbW5Ia3RlZk8tLV9wNVZCYVRCTldzbURhb0FnUzZwMUY2MHhCTWlKYmRxSmdQaFBDMVI5WGNXYWc0Y1V3cTFMV0hwZHNrd3pvVHppaFU1OG1PWjhYdDg1YmJ4LWlTMFNSa0dHLVZmZ2hGVXFyaGhURnY3SW5wTTMwdGtodkczek4tV1lMTmYtX21KVE9VMFh2a1RydWlSbm5hY05NUm1DSElBUk5Pa3hGU1YxOEgxQnRJMlU1RVp0NURzYjBtbTE1b1dB?oc=5",
+      "published": "2026-09-01T07:00:00+00:00"
+    },
+    {
       "headline": "Charles Schwab Expands Crypto Platform Beyond Bitcoin And Ethereum - CryptoRank",
       "source": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSWpBYS13REtaN0J1MS1OalljVy1nU1JicnBIRllEV195aEVFcVVRNmwwek5RU0NraWhfazJTb1l4WlZITWdoQWQ4YTNlcmZBYVlTWkFBRnRtdUtxQUc5WlE2a2p1bnFLRWh2SW9JcjBOdkJwQXFqN0phREhhcE8yOGNnMktYWDBLV01fZlZ6Q2xPWEVCTG1vXzRzYlhVbE8zQzZkbjBB?oc=5",
       "published": "2026-08-31T07:00:00+00:00"
-    },
-    {
-      "headline": "Kevin O'Leary Says Institutional Crypto Is Narrowing to Bitcoin and Ethereum - BigGo Finance",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JVTU0UHFqeDBDZnYzS0J5UDJ3aWZmcm0zTDBidDNfZko0LWZ3SGtVNktvcFJWamtwRkxfUG9UbjR4R0pKS09JaktzaHc4T2tzS05QUHRocEIyMEV5cU5MSExacDAzbnFVR1BYUzNRekFrbFllSGc?oc=5",
-      "published": "2026-08-28T07:00:00+00:00"
     },
     {
       "headline": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - Yahoo Finance",
@@ -219,10 +219,10 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "Coinbase (COIN) debuts tokenized stocks on Base with Apple, Nvidia among first shares - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOXZIQldPQUlDVDdlblo2bWNWREhkamFaQm5uMVl5NU9wN0JQM1JSQXQ2cENYVlhieHFqN0pCMC03MzNhTFpNSFpnZ3NJVmg2Y1hLX0prMGhCT2traWZRYUVBZk53bVZjSmNpRWdrMmppd2syeU9GZGIwVF92dDM2YXU4clRTTTFpMmQzRWgxYjhfb0tqb2J5Zjl6cGlJdW5rN1hKQVhKWkRNVm5xWFJfcnNiejRpTFQ5T0JscHFLb3haRS1hYlpxOXduOUZUZFRXMkRuYw?oc=5",
-      "published": "2026-08-24T07:00:00+00:00"
+      "headline": "Schwab Expands Crypto Offerings to Include Solana, Avalanche, and Chainlink - KuCoin",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZnc1RnhFQWNxT1Z3NGRhUjNEdk5vcEg4R1FCb3FBR09tVVA2Zk1jU2NMYTkzTE1MdVhsQXJEaUtvbnVuUEZFdFZpNFJXdk04SU5UQ1VlLTlZUUphSWN1YXJqZmVzUHV6cFV2WGV0U2hOZzZ6VmQ3NFgxY3FmOU0tN0x3WWNuTVRrTktYd0pZVmhuSHZ2eVB2Z3VlQkxvVC15RFdHREk2X2o4eFk?oc=5",
+      "published": "2026-08-27T07:00:00+00:00"
     },
     {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
