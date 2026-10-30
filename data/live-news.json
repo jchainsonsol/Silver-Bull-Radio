@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T21:59:03.730143+00:00",
+  "updated": "2026-10-30T01:48:48.477819+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -7,6 +7,12 @@
       "source": "Altcoin Buzz",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYTE1bVpISDQtRXNxbFRPR1BJb3EwZ1kycXdYTU9IOWE4cUpFVjFvdGhDbF92aVo0UXJRd1cxeUNfdlVVYXRRNnZUZmF0YWRMQlhrZWN2c1c3VDhlN1NBczkxR3VPZWZxa1haSmlyaWJMOExkLTZQUFFoS3VDTzVDQQ?oc=5",
       "published": "2026-10-29T05:49:31+00:00"
+    },
+    {
+      "headline": "Polymarket US launches 5-minute crypto up or down markets - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbXc5b25uZ09iTnNMNDRxUjFtVzVfbUhDMllFanRwV3A1czcwMV8zRkFpSEV5b2dSaWJ5ZEFOMVY4WkZQM1dNNEU0eFQzRGI3QVRkdjFET0ZKakdXNUFyZDBxaHROVUVOczktVVhfQXFrVk9wU3FhN1g4dEtnSXZLTDJaUDZXSTlfQ2VHTkRlSUhPQ3dyWWdWaHIxMk1FTW43M3RVN1dybWNzTWJMUlZpeGw2eFpJcnU1TzdfTVN4UQ?oc=5",
+      "published": "2026-10-27T21:01:57+00:00"
     },
     {
       "headline": "Ethereum, Solana, and Chainlink Highlighted for Potential October 2026 Rally - KuCoin",
@@ -66,12 +72,6 @@
       "headline": "Thailand SEC Issues Rules for Bitcoin and Ether ETFs, Effective October 16: 13 outlets compared - NewsCord",
       "source": "NewsCord",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTnVvNEY0Q19oZEw4Y3UwczE2dmd1RUxaTU10cURZYkg3dXZLcTlGa0xLLTdhc0FfdTdiRGxUczRnWGJ3RGNoUEY4RGhmY0FvWnRPVXZ6eUZZUW5nMWEzVFRIbTlOcVhKS1NBNVNyb01oNkpXT1V2czl0UUVUOGJCT0Q4bmRFcDZ5X1kwZkoySUlNV0VhTktHS3luOGJQUUNTWGI5ZVBLZmNvZm4wcHFCUzJCUFMzUHVOSFpSMXYzRFpuNDFzajhsX0dFQW5yem1fWVdZYUI4ZlpoNXpsZzEw?oc=5",
-      "published": "2026-10-09T07:00:00+00:00"
-    },
-    {
-      "headline": "Apple, Nvidia, and Tesla Shares Now Trade on Solana: Why Did Securitize Choose Solana Over Ethereum? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaFpidzB3cy1GVUdXLUppS3RVWDc1SDIwLWtvN20wSWc5ODN3OUU0TjR5Vng3VEU0b0RDUF9YdDZlOEdrYlFNa0hCdFg1LXY1NE5UaWp0eVcwMURrZ09RbVF0MkxzUERxVnd1VFNZbFBEUV90UEtwSTM1Y3B1WXNCZzVudFZQWjVsZUMtVVl3RkF3ejJ0WXVKZmFfZE5lLWgzb0V2dkpkYkZCTHhybTJtdVlJbVBRX3hwdjI5b1JVRUVWRjhGTUY3X0pfNnJPdjlBUHRJOVJRRFZsTHREQ2d6RGFkekNXQkVvbFkw?oc=5",
       "published": "2026-10-09T07:00:00+00:00"
     },
     {
@@ -141,6 +141,12 @@
       "published": "2026-09-24T07:00:00+00:00"
     },
     {
+      "headline": "Ethereum vs. Chainlink: Which Will Benefit More From Tokenization? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU2JLRWZiQkRSbXN5YkNiY0swanc2Tm43LXdmc05BRHY0R0FHUUdwdXk5aXV1cFNuejVzWmNicV91OW1pbU5CdUlGS1dwNDdwaHc4SjQwc3JLX1E2Zi1xQmg5Q2E3ajU1QW1qU1dwcFhESGEyZjlQTlBOM3FsMXR3elItQ3BydHctZHNpa0M4b1BMQ0ZBbjd4RFlocnhqRUxLSzNLYWVLZGxhQWFEVlJ4RDhJQmRPb1daUGZpdWhOZw?oc=5",
+      "published": "2026-09-23T07:00:00+00:00"
+    },
+    {
       "headline": "Best RWA Tokenization Platforms in 2026: Who Is Winning the $30B+ Market? - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWXo1ZXg4S2pfTWFvT1VUdmwtb2ttOXZJcURkT05abzhmd1hJMmh4VVZUQjBkbFdIRGlHQ0VWM1B0OUJwRTNWN19IM3lLYkRIR29QX2NLMVc0ZFpOYzZFaXU1ZUFNVDVfaEFpNEttV3JSLWNPU083U0lVYzZ4RHJISDdvNlh6WmlRc0JrMWtTRWsxQQ?oc=5",
@@ -165,12 +171,6 @@
       "published": "2026-08-27T07:00:00+00:00"
     },
     {
-      "headline": "Schwab Expands Crypto Offerings to Include Solana, Avalanche, and Chainlink - KuCoin",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZnc1RnhFQWNxT1Z3NGRhUjNEdk5vcEg4R1FCb3FBR09tVVA2Zk1jU2NMYTkzTE1MdVhsQXJEaUtvbnVuUEZFdFZpNFJXdk04SU5UQ1VlLTlZUUphSWN1YXJqZmVzUHV6cFV2WGV0U2hOZzZ6VmQ3NFgxY3FmOU0tN0x3WWNuTVRrTktYd0pZVmhuSHZ2eVB2Z3VlQkxvVC15RFdHREk2X2o4eFk?oc=5",
-      "published": "2026-08-27T07:00:00+00:00"
-    },
-    {
       "headline": "Ethereum Co-Founder Joseph Lubin to Visit Seoul After 7 Years, Joins KBW2026 Speaker Lineup - BigGo Finance",
       "source": "BigGo Finance",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ybTBwaEFUbXltWDlsSTM2QXZ5czJPZ2VNOVBZeGU1Y0Z1UUtNLUI0WWdKbEJLbjdnbVJvdGZRX0RIUFQ4dkhFS1ZuMjV5aTN0MzRpbERDRWk0bVVpX1NRM3VnNnRLS2U3dlJSYWFaZlF3M19Banc?oc=5",
@@ -187,12 +187,6 @@
       "source": "Elliptic",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX0J5MzR5X3ZnOUpsaVBGRzdJVERJT2F5djJ2TzBxdzFGdXBwY3JOWjJwNnp3NmFMZERFVk82cjB4MWhiLWhsYnF5RGpWSklzVHN3TjV1WERwWDc5OVNwUjhhSlpyTE83R0I0bXZDZXp3NHBRdFhvZXRrX2g1ekNNc1JkeGVrWDZSMkplajVwNEdFcFAzQlZ4eVVVQUxYQQ?oc=5",
       "published": "2026-08-01T07:25:16+00:00"
-    },
-    {
-      "headline": "What are real-world assets (RWAs) in crypto? Tokenized stocks, gold and more - Bybit",
-      "source": "Bybit",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0weGtNcjJYRXpId2E2VU5HLWNaTERXektnUkprLXdOcUdDVHJPalZyZmkya0pmbWdVcklfamlrWDJZa01JY0JMZ3ZZV1Njc3NYU1VyTmV4dkNTUnh0ZUNRTUozbHlmaVNTYUNCZEZNQU5tWWFmWl9F?oc=5",
-      "published": "2026-07-27T07:00:00+00:00"
     },
     {
       "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - Bitcoin Foundation",
@@ -240,6 +234,12 @@
       "headline": "Ethereum Institutional Launches as Independent Non-Profit to Bring Institutional Finance Onchain at Scale | Corporate - EQS News",
       "source": "EQS News",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWGc2RUpiTTJNWi10TXh4ZFZLS0o0eFdJcnNsQ3N0ckw1Y2xRVXJEOWZqNWduUU9zMWgzTUIxV2NxMFNPMGcwQlZUcF9NRkNCZTNPQk51b2ljemdNSHp6Mm1hT2ZLaEh5RmlmZWxoanliSnN6aGdiYjdOdW5lM0JLMU43bG1fcnMtT3RUQVR4WkxLZnVBN2lKcWNLS1d1OFYtMm5aczFLUzZyenRYVGRWcGY4Zl9ydmRuLXhuWkk4V3FRbkhhQVpGRTBhQWJMYXlqSV9CZlVsVjZGM01CSnlqYWlWbTdYcXF5YkVOdEZ5SHJYY1EwNUM1UlRMNmF0cTB6bjN3QjFyektXWXlrRUNtRDdVcw?oc=5",
+      "published": "2026-07-01T07:00:00+00:00"
+    },
+    {
+      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMldjZDJTVmJYYlp0Q2VoUzd0NzlKNnhJSGEzUmUxRHZwNld1MHI1cG5LWjg0Mm4xbkFBTzlnVTdLVWQ2Vy1nQUd3TkNjVFlMVHNBWjFxd1VMSU12QzRtRlNwYXhCZEZzRmZlVEhLVjNiaFhucV9OR1Y0ZXZIRzl6dThVRUJfVVBjNTdNbWdJRkhXWW5KSVZ1MkNHRnQwQmJSbm56SEpKTTdEdmNreWVyRlRjYUtxRTA?oc=5",
       "published": "2026-07-01T07:00:00+00:00"
     }
   ]
