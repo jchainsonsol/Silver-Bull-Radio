@@ -1,12 +1,24 @@
 {
-  "updated": "2026-11-07T01:51:51.259808+00:00",
+  "updated": "2026-11-07T07:53:00.199536+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "HashKey On-Chain and RD Technologies team up on RDUSD - The Paypers",
+      "source": "The Paypers",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3pHNWtTSHpTUTNiUEtxWjgyVmczUWlGaFdxaDQyZUpaeDJrcHdQc19xU0haU094Z0xuMGUwZkJiT0otUU43S0hEZ2x4OHVwMUJtT09yczNJQk80TzVMTHlyUUYzSmp1NTZwNk0zQXZhWlE3cGhOcnd5MDl5VFlNTVlsaGRFS3VhZVFMby1VZThLQXpLTVBDV3QzUTIxZmFUZWRLNkZxcnhIZ21ZOVJGYVhvemZSdw?oc=5",
+      "published": "2026-11-06T07:41:02+00:00"
+    },
     {
       "headline": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
       "source": "Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
       "published": "2026-11-04T20:05:00+00:00"
+    },
+    {
+      "headline": "How Ethereum Infrastructure Fits Into Tokenized Securities Markets - Florida Today",
+      "source": "Florida Today",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSGdhUWE3aTk5a3E2QjNDQjlTeVg3Y2Z2R2pLaTBmM2JjNm9PUTNJQzA0R0F5YU9GOVAzT3pfbGJaZlJTX2J1ZVJLM3ktcDQ1QllEODNiczBFRTUzQkpSNml5VlFhYTU0aXZtcGtjNVBMT2N5STBDdnVacG81dlNFQkdCZENnTW50RTNDdVo1Um1FNVRfTllZLVozcU12RnpjOS1iS2RMdFRpSjl4ajVVdHZSZEhuMmxUTmV2cEZOMDk1X1pFLXphMVpoV0tmWjE2Z0hBY0ZHaGNHM0ZsQldOSkQ4TkVKWEF4?oc=5",
+      "published": "2026-11-03T20:25:00+00:00"
     },
     {
       "headline": "Grok AI Ranks Ethereum, Chainlink and Ondo: Which Gains Most if Tokenized Stocks Take Off? - 24/7 Wall St.",
@@ -123,22 +135,10 @@
       "published": "2026-08-11T07:00:00+00:00"
     },
     {
-      "headline": "Stablecoins and U.S. Treasury Demand: Impact Explained - Citizens Bank",
-      "source": "Citizens Bank",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnBWN0ozWDZmVEg3TGRhRGxPcktjTE1LY3pYTmE0Qkh1RERsYktLcjFKZDVuNk5Cbml5SkRMdVE1c1p1UzM3dnhCV1MySWo1TmREZUl3R0lFTXNrb2MtS3Jsb2R1YmZBREFRbWtjY3ozLUhVMWJzLVAxUzVONnFaZ0haMUhmX0FiS0szQzRiWjJSdDhiR3c?oc=5",
-      "published": "2026-08-09T02:19:19+00:00"
-    },
-    {
       "headline": "Real-world asset tokenization: what\u2019s hype and what\u2019s not - Elliptic",
       "source": "Elliptic",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX0J5MzR5X3ZnOUpsaVBGRzdJVERJT2F5djJ2TzBxdzFGdXBwY3JOWjJwNnp3NmFMZERFVk82cjB4MWhiLWhsYnF5RGpWSklzVHN3TjV1WERwWDc5OVNwUjhhSlpyTE83R0I0bXZDZXp3NHBRdFhvZXRrX2g1ekNNc1JkeGVrWDZSMkplajVwNEdFcFAzQlZ4eVVVQUxYQQ?oc=5",
       "published": "2026-08-01T07:25:16+00:00"
-    },
-    {
-      "headline": "How do stablecoins make money? - Elliptic",
-      "source": "Elliptic",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xMGhNNWVaU1A3Z3pJa0NxUXkxNnh4UEpfcUt2SVF6ZkZOeWpHZ21hV3ZDYmJxN3o1Y3hRam95Q3VQN0syLTNtZTZfMTZuTkg5VDhjbXRrWnFOTlI1Z2Z1NDZVMlhhWVhCaWhaMUlpbVkzeDVIc0l3d0w4WFk?oc=5",
-      "published": "2026-07-31T04:23:26+00:00"
     },
     {
       "headline": "Best 5 Altcoins to Buy Before August 2026 \u2014 These Could Lead the Next Crypto Rally - Bitcoin Foundation",
@@ -219,6 +219,12 @@
       "published": "2026-05-01T07:00:00+00:00"
     },
     {
+      "headline": "XRP News: SEC\u2019s New 85% Rule Could Slow Down XRP ETF Approvals - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekpWNnBxUnFETU5SOEYzMHB6Y0JaMXdwV0xkVkt6XzlaYnJYTk00eDViZXFsTmdBS0hNS2RaMjhtN1J6U2dHZmtKUU9xVHNkdGk3WnRyQmU4VEdwRW1tc09oUHVnN2hSaF9RTnNkUU1NY1VFdDJtVGN5VzQtTkFMUUEzZTkwWXFDbE9PTmFjR3kxbnQ4MTBNRXRkZUMzMXpjRy1vcXhR?oc=5",
+      "published": "2026-04-29T07:00:00+00:00"
+    },
+    {
       "headline": "Investing in the Tokenization Megatrend - Grayscale",
       "source": "Grayscale",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjdoZUg2azB6Q0JjaXVkSW42S0JCWFFRYmlVVEUyU3RGNjladGdWMERIZVJ5NUVzTVU2LVFDdzloYnp3VG9pZ05KTjFtcENtd3cwXzlBcEJFM0lKNE11UENOWUp0bEFHX2lVcGVRU0ZDTjhFd2tQVmNwTE82Mlp6N3dzcWc?oc=5",
@@ -235,12 +241,6 @@
       "source": "Norton Rose Fulbright",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOak1RdXN0S3diRDVEMk9xeGJXNDNHRDRDT25SNm1MUEloVlBrc1JfRFU0Q2Y3bEVxV2lRdWVHNTVtY1dKTl9DUmlwZFUzaU5HVzl5TmFFQlItNVE4WS0ya3dvMjZLNXBxZmEyOUE3QjRGaEdCN0IxOUE3RGJPMXB0cWc5NF91V09fcmpLVjRiLXZaNWdfcmFOaEZjRWZTYVNvUURXbi02aktGbWtUSFptMDVhb1B0eEtlT2xQY1lWaFhBa2pUOFZLUjRjMExSSHNuLW9uUUxhZVNTTkh5VUQ2VXREbkhiNEdKY3BFVEdnb3ItUl9n?oc=5",
       "published": "2026-04-22T21:33:15+00:00"
-    },
-    {
-      "headline": "Stablecoins: from DeFi primitive to global financial infrastructure - Bessemer Venture Partners",
-      "source": "Bessemer Venture Partners",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2c3a0otRWx3bTZ0c2lKSDA0NTQwcDVHdENhVFlaQlkyZVRpUU1PZUtnVWQ1RWNOYzc4czRSMFR0X0c3M1dGb1dLZUYwMUFFdkg4a0dUTmhKUXpzOFhGMWpEdHlMa0xkUEVMZl9GYzZCZlM2V2d4SjU5dFZKV0NldGdsUndhWmM1Nm41cVVpamkxYTJvTkd3?oc=5",
-      "published": "2026-04-22T07:00:00+00:00"
     }
   ]
 }
