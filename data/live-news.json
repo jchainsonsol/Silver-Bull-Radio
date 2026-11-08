@@ -1,24 +1,12 @@
 {
-  "updated": "2026-11-08T01:49:50.648917+00:00",
+  "updated": "2026-11-08T08:05:11.735512+00:00",
   "refresh_minutes": 5,
   "items": [
-    {
-      "headline": "One of the challenges i see with bringing more traditional f - KuCoin",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TV3V0MEFPQjNWS0hpajd0MURvVHg4dVloOUJybENBbW45RlVOT1NNMlRxWDY5N2xTTjNPdDJQRjVhNVZlYXlIRll2N3RQQnhFYlQ5alhSYzV1eUlmdE51dm9IS2pCU3BzLTVJQWtLcHpiQQ?oc=5",
-      "published": "2026-11-07T12:45:03+00:00"
-    },
     {
       "headline": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
       "source": "Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
       "published": "2026-11-04T20:05:00+00:00"
-    },
-    {
-      "headline": "Grok AI Ranks Ethereum, Chainlink and Ondo: Which Gains Most if Tokenized Stocks Take Off? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYjlZeE13X0RldGUzVmxiSjVBVnRqd2VHaF9MQ0RPWlFxUlRuVDFUZjJhUFN6Rm1WZHJ6cHFNVU5xa0wwVWhSMDc0NHQtZExYVGtoSHc1N21yMzJtbGx2aTRVRE5IdTN0Z19hUDFSZHgxTkhEUlJwMW9zYnVWUU1hSnZnYnBhZVMxdU1tNERYVWtVSENCRWxBUU9yR0NTU0RyTHN2X0VmdF9tZGZCU2tUV1hxb001TC1oTC00LWxYVXBHUzNSWFBBZDhwX2xsX21RejhqLVFZNFpBOFVhYktz?oc=5",
-      "published": "2026-11-03T00:11:00+00:00"
     },
     {
       "headline": "50 US Companies Oppose OKX-ICE Tokenized Stock Trading, Including Microsoft and Nvidia - Altcoin Buzz",
@@ -45,6 +33,12 @@
       "published": "2026-10-16T07:00:00+00:00"
     },
     {
+      "headline": "AI Price Prediction: We Asked ChatGPT AI Which Could Double First: Ethereum, Cardano, Sui or Chainlink - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNXQyeS1fQ1Z6YXMxRkl5SWNoV3VFMWxsclNKSExURS1jM19WVGFhZ2RxQkUxUl9lWE9KUW0wd1dDWEVIVXlCQ29sUmhOSEppNlFVWl9aeFV2QzZud3NmdG9JSkFwVTNmV3hPcUNSNm4wdDhMS3FMaHY5OURpODItUHhCekpfT3h3MmxnLVNXT0JVclE3RXNiMzVheFhZbnVSRHFvdlhYUVFrMGo4ekR3VUkwMXhndXhvY1g2d21xcVpKTVFTUmVuSEJaSng5Vjh6eWxRU1VXczdDeXJkbURjZU83Uy1IcGR6cDNoUU53?oc=5",
+      "published": "2026-10-16T07:00:00+00:00"
+    },
+    {
       "headline": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16 - The Block",
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOak1jTDlnVFhLMVM5cVN4QVJvNHFmdEtfMkZ2VTdHT1dSUURZa1ZHRDU1WUFTTjBwZ2dDRHRMR3cwODV5dGtmbEZ3M0xIVkcybXdZWS1lZEF6MlprMDUtMklKcWF1Tk9EZ0lqWUZ6Zm9uSVdWWDd3Zk9BbFZ2b0R0c241NGtubjRpeWxIallhdUlrT2prZ0NNZ3V0X25keXYyTEt5NXYwcHdqeXUxNnB3T2NWWGhxcHcwdjlKZEY5d1ZucDlKcnRvVEpxZw?oc=5",
@@ -54,12 +48,6 @@
       "headline": "Thailand\u2019s SEC approves spot Bitcoin and Ether ETFs for Stock Exchange of Thailand - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGJzalRVVTY0Uy1LMjFmZ29BTC05TTdKX2VWdnhRd09VdHFSUTIzemJwRGVkd2xDMW9Ma0x4Yl95UDFMZjE4Z1djcTlUendOVW9oUEZWcEw1MlZseFR2Mm5PWDlNcHFYVzJtQm9PaGZYeGJIb2V1cjZ5Z0plc2ZHNjlfNncwYW84RUlUSkcwNUdydDgwV2ZxZnZQZ0hQaG5zU0dWQ2dB?oc=5",
-      "published": "2026-10-09T07:00:00+00:00"
-    },
-    {
-      "headline": "Apple, Nvidia, and Tesla Shares Now Trade on Solana: Why Did Securitize Choose Solana Over Ethereum? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaFpidzB3cy1GVUdXLUppS3RVWDc1SDIwLWtvN20wSWc5ODN3OUU0TjR5Vng3VEU0b0RDUF9YdDZlOEdrYlFNa0hCdFg1LXY1NE5UaWp0eVcwMURrZ09RbVF0MkxzUERxVnd1VFNZbFBEUV90UEtwSTM1Y3B1WXNCZzVudFZQWjVsZUMtVVl3RkF3ejJ0WXVKZmFfZE5lLWgzb0V2dkpkYkZCTHhybTJtdVlJbVBRX3hwdjI5b1JVRUVWRjhGTUY3X0pfNnJPdjlBUHRJOVJRRFZsTHREQ2d6RGFkekNXQkVvbFkw?oc=5",
       "published": "2026-10-09T07:00:00+00:00"
     },
     {
@@ -165,15 +153,15 @@
       "published": "2026-07-03T07:00:00+00:00"
     },
     {
-      "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzlqWlZkZGZ3VS1UNDFWdDJsM1Z4SVgzYzFXNG5LVU5BZWtZSzh2VURuUjdOZE53REtqUnBMbEZPY1JXa09ubjNSUF9yTTZJUXRtdWNjdU1pX0thVm5IX254cXVXTjJMWkt4NF9vVEN2bXVBSGxhZTMwNEdaemJaRTZ6RGpocU1DeFdEVURNMS1nanVHelB5VHB3Q1VTQm5HSWFnT19UZTJHTmsxYVplbzdORi05ZlpJOG9zc0ZxTFhnYVRmQ1lScQ?oc=5",
-      "published": "2026-07-02T07:00:00+00:00"
-    },
-    {
       "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOczRMTGZPay12RDM4b01ldnh0b1V0bzlQaEdvUi1mY0FGbEh6azV1TXA5T3d6NTBpcXQ4a2RfUDBzYW10b0tKVG9ZZjYxNkZqRkpmSGVRUU05TVU2N092LUE5QzBiOWltQWYwaWRmdDN2VFhfeG1rUWltclJ2Qmw2ZUd2Slp5ZnFIVnVGYjlkMWhmVkJ1Z1E?oc=5",
+      "published": "2026-07-02T07:00:00+00:00"
+    },
+    {
+      "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzlqWlZkZGZ3VS1UNDFWdDJsM1Z4SVgzYzFXNG5LVU5BZWtZSzh2VURuUjdOZE53REtqUnBMbEZPY1JXa09ubjNSUF9yTTZJUXRtdWNjdU1pX0thVm5IX254cXVXTjJMWkt4NF9vVEN2bXVBSGxhZTMwNEdaemJaRTZ6RGpocU1DeFdEVURNMS1nanVHelB5VHB3Q1VTQm5HSWFnT19UZTJHTmsxYVplbzdORi05ZlpJOG9zc0ZxTFhnYVRmQ1lScQ?oc=5",
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
@@ -241,6 +229,18 @@
       "source": "Norton Rose Fulbright",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOak1RdXN0S3diRDVEMk9xeGJXNDNHRDRDT25SNm1MUEloVlBrc1JfRFU0Q2Y3bEVxV2lRdWVHNTVtY1dKTl9DUmlwZFUzaU5HVzl5TmFFQlItNVE4WS0ya3dvMjZLNXBxZmEyOUE3QjRGaEdCN0IxOUE3RGJPMXB0cWc5NF91V09fcmpLVjRiLXZaNWdfcmFOaEZjRWZTYVNvUURXbi02aktGbWtUSFptMDVhb1B0eEtlT2xQY1lWaFhBa2pUOFZLUjRjMExSSHNuLW9uUUxhZVNTTkh5VUQ2VXREbkhiNEdKY3BFVEdnb3ItUl9n?oc=5",
       "published": "2026-04-22T21:33:15+00:00"
+    },
+    {
+      "headline": "Stablecoins: from DeFi primitive to global financial infrastructure - Bessemer Venture Partners",
+      "source": "Bessemer Venture Partners",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2c3a0otRWx3bTZ0c2lKSDA0NTQwcDVHdENhVFlaQlkyZVRpUU1PZUtnVWQ1RWNOYzc4czRSMFR0X0c3M1dGb1dLZUYwMUFFdkg4a0dUTmhKUXpzOFhGMWpEdHlMa0xkUEVMZl9GYzZCZlM2V2d4SjU5dFZKV0NldGdsUndhWmM1Nm41cVVpamkxYTJvTkd3?oc=5",
+      "published": "2026-04-22T07:00:00+00:00"
+    },
+    {
+      "headline": "XRP ETFs: The Institutional Era Has Begun - Ripple",
+      "source": "Ripple",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56bFhRZWJsRHBDaFlYRlU0LWFudkt6MFItaXFWekFuQ3RRdUI3Rk9ia0xXRFNfTVBMY2tBcUpMSU1RelVuWWIyQ25lYnBmcy1GbnhPSnBoRGF3TEZEUVE5dGdCQmhDS0c2cmkzcE1RQWxYOTB2RWgxdQ?oc=5",
+      "published": "2026-04-17T07:00:00+00:00"
     }
   ]
 }
