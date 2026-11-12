@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T18:07:11.386780+00:00",
+  "updated": "2026-11-12T00:35:35.549988+00:00",
   "refresh_minutes": 5,
   "items": [
     {
@@ -7,12 +7,6 @@
       "source": "Altcoin Buzz",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLWg2UUtVdEFZTzlCVFhDY1hxOU5xZlQwcU1feU1NYS12ZkZ6QWJ3aEhneDFHZkt5S0ZUczNTQzJkTkdkYU9nanE4MlFnTW9KU3lSZU9qSTBWZTl3OTE0SFBmM3RuQWQ2Zkx4cENnS0NSMFVvRGl2ZjJBZGM3V3p6VUFqUkVHR2I1amk3amVxcVFwXzVHYlAtNl8xZWk4WWpUek8w?oc=5",
       "published": "2026-11-10T09:49:15+00:00"
-    },
-    {
-      "headline": "Charles Schwab Adds Solana, Avalanche and Chainlink to Crypto Trading Platform - CryptoRank",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOXzRnazRVSVJ2bEZLNFNIeElLMHlKY3BYZkFhY2FVeko0WDVmSjRjYkhVc3doVnk1Z3Uta1JmWElsS2hEQjgyRHlURGlETVc5MGZDQ2NscDFiMEk1VzVBbVF2YzBWU0JTVGxXVU4wQ1FTeWRoT0lhVU5PZTlBQnFnbjk4TG94UWhWcGxQLUlxcDZTQU1hdHU2V0FuSEd0b0RrZ3h3R3B6Y0xlUGNZX3B6WUtOOTNXUQ?oc=5",
-      "published": "2026-11-09T23:52:08+00:00"
     },
     {
       "headline": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
@@ -49,6 +43,12 @@
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGc5UnctTnRQNVRDWklvSEJHSzQ3R00zUFRsV3pkQnEwV0R6dThudGIwdEY5MWRXV3lPTTJXTmZTZWNhQXZ4UTIzS09IU2gxckRYeFp5TlZpbUxnbld2QklCS3dZNTBIcmV1Vi10Q1ZHUzNQQ1dWNlI4azdmRU9TXzFTYXZKTVFVTzJodGhQTk80RkNyUnBkeXdQQmZLNE80ejdOaEtSc0w?oc=5",
       "published": "2026-11-09T14:45:30+00:00"
+    },
+    {
+      "headline": "Charles Schwab brings Solana, Avalanche and Chainlink to retail investors - Crypto Briefing",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbDlMYURkX2ozOE9mZkhacEhaQzB6Q2p2Zlp1cmk2bmpRN3ZqaEs5MlVlaWNaQnJLN3VfeG0zMzZhMXJGcTRXdnhJd0VQZWszZTdOdV9TWXp6US1maFI5STA4RkszUDNnNGNwMGlSWmg0VUIzazdHWmt5V2ZKcG5oVS1TR25MenlJMjJuakNiX0RXYVNZ?oc=5",
+      "published": "2026-11-09T14:33:26+00:00"
     },
     {
       "headline": "Crypto ETFs Already Go Far Beyond Bitcoin. The SEC Wants to Know If Its Rules Have Kept Up - 24/7 Wall St.",
@@ -97,6 +97,12 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDBLaXhSUWxkek1LM3Z5a25uNWh6cWF5YklsUnl5Sk16VWxKLTN0Q0pUcVJSVUk3cmxFWGljQlRySE11NUtaa0ZreUZjMHZ2NjZHOGxnelBqVFlVTHdFOVZTT1V3UE5HMVdGa2RwZkZFRl9uMzJ4bEZ3UXhabDl0Z3pqUXlETlFRSmtPYVpRRHc3dWpDRzdlbTh2ejBxMjVua3ZFcmcxT3ZEX2Q0UE9j?oc=5",
       "published": "2026-09-30T17:56:29+00:00"
+    },
+    {
+      "headline": "Top 10 RWA Crypto Coins by Market Cap in September 2026 - CoinDCX",
+      "source": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OWWNDaGY5MEo4WjI0d3VDY3ZURFFWcHlUU1JaT1JoeWszMXNobURfQ09BVVhSeHpCYlJybEZEN05Md3ctVEZMZy1iRGpXUGNaZkxvaGZWOEU1TWp1UlFtNVA1Y3loVUVZMjdoSTNnMW1SeGFBSjljeHRrMA?oc=5",
+      "published": "2026-09-17T07:00:00+00:00"
     },
     {
       "headline": "Best RWA Tokenization Platforms in 2026: Who Is Winning the $30B+ Market? - Bitcoin Foundation",
@@ -183,16 +189,16 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
+      "headline": "What Are Real World Assets (RWA) in DeFi and Crypto? - Binance",
+      "source": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNckFiUmxBMnZZOTFTa09YQ3N2Qi1SZmszWG1tX3hISEg2TFBKTkViVXA3b2lEQlFEVzd6ai1ybVBDRWJXWVdxSE9BZEVMdEh2Q2JNcWRkUzY4LUJ2RFlPVGNhQllXcTBVWjM2MVB4cFBEVnZhbUF0S2ZBU2p1NFpUaE1ZSWpxZ2Z0eU9qLW9heEpGaUdyNTUxYQ?oc=5",
+      "published": "2026-06-25T07:00:00+00:00"
+    },
+    {
       "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
       "published": "2026-06-22T07:00:00+00:00"
-    },
-    {
-      "headline": "RWA Tokenization Hits $28.9B Record in May 2026 as Stablecoins Reach $320B ATH - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOUJlX2J6X1FqVFhsRlh6R3Y4Z2htN2tmb2U2LVBPYlJ4YWZ6Y2JYZmhEOEpldHFsN0NndF9Ia0IyWkh5SWZBdnc2SFU4ZkR2NTM5TXYyQk5zdnF1WWRHUEozdGR6ZHVDR2txN2lmaDJnQVNQOS1xNmYxbjk1eUo4Y1E1YXp6YnhU?oc=5",
-      "published": "2026-06-09T07:00:00+00:00"
     },
     {
       "headline": "Why Stablecoins Are the New Global Payment Layer in 2026: The Shift in Global Finance - Bitcoin Foundation",
@@ -235,12 +241,6 @@
       "source": "Bessemer Venture Partners",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2c3a0otRWx3bTZ0c2lKSDA0NTQwcDVHdENhVFlaQlkyZVRpUU1PZUtnVWQ1RWNOYzc4czRSMFR0X0c3M1dGb1dLZUYwMUFFdkg4a0dUTmhKUXpzOFhGMWpEdHlMa0xkUEVMZl9GYzZCZlM2V2d4SjU5dFZKV0NldGdsUndhWmM1Nm41cVVpamkxYTJvTkd3?oc=5",
       "published": "2026-04-22T07:00:00+00:00"
-    },
-    {
-      "headline": "XRP ETFs: The Institutional Era Has Begun - Ripple",
-      "source": "Ripple",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56bFhRZWJsRHBDaFlYRlU0LWFudkt6MFItaXFWekFuQ3RRdUI3Rk9ia0xXRFNfTVBMY2tBcUpMSU1RelVuWWIyQ25lYnBmcy1GbnhPSnBoRGF3TEZEUVE5dGdCQmhDS0c2cmkzcE1RQWxYOTB2RWgxdQ?oc=5",
-      "published": "2026-04-17T07:00:00+00:00"
     }
   ]
 }
