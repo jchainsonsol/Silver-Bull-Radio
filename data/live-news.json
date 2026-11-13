@@ -1,13 +1,7 @@
 {
-  "updated": "2026-11-13T02:40:58.666965+00:00",
+  "updated": "2026-11-13T10:00:03.648943+00:00",
   "refresh_minutes": 5,
   "items": [
-    {
-      "headline": "DTCC Picks Solana for Tokenized Stocks and Treasuries in 2027 - Altcoin Buzz",
-      "source": "Altcoin Buzz",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObHdHOWs5b05aM05yMnBuSHcySDRlX0M5a3gweVl2dTJoaTd6ZlpWTkR1bFFuWWw3cVVsWU1zOEg3a01Ea3JmYWZhUnhFX2lJZnFVN1NFZ2pzZ2dwcGdnT0JNRHpwRG93MEQ1RW5LTW04LWRINW5ISW9YNkU5VENDeFBZOXRJMzB0Tkc5alVTV1Z2dw?oc=5",
-      "published": "2026-11-12T17:32:28+00:00"
-    },
     {
       "headline": "Solana news: Wall Street giant DTCC to expand tokenization to blockchain in 2027 - CoinDesk",
       "source": "CoinDesk",
@@ -21,28 +15,10 @@
       "published": "2026-11-12T15:38:07+00:00"
     },
     {
-      "headline": "Reality, Merkl link rToken dividends to DeFi - The Paypers",
-      "source": "The Paypers",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ290N3lRV0NKZnk3by1aaW80NlRFQUgzSVduR2dvMU42enlfS2NxbElPUlNGUnhqX0IwREpFc2k0R0JNM1hwcFlXX3FjRU9FbEZNRUFqdVFKdGo4X3NOYzNBTzY4TUtYUXRpbFVFeWpzTTJONDFBLVZKZ1VQZDhsTUg2SndLTHhwSkJSOUs0UE1fZWw0M2I3YWNhNkZEblZzOWU1WDlxeTBwbzlBbXJ4eG85VkVrTWsw?oc=5",
-      "published": "2026-11-12T11:02:53+00:00"
-    },
-    {
-      "headline": "Ondo Crosses $4 Billion in Tokenized Assets as Fidelity Verifies Stock Transfers - Altcoin Buzz",
-      "source": "Altcoin Buzz",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd3UwWmt3SUJ4Y2VkNmRqemxWM25nd1NYSjEta1ZQaWVqT1NMUGJzWEJnX0VZaXpReFJzaG9hZmxpN2ZZT3BRMk53cmFReWp2djhVNUhnajIwQTM3aFZhTk14NnB1aE5TNm9iVUkzMEdxNnBWR3lrX0V4UkJOblJJQ1JOdk9PRWs?oc=5",
-      "published": "2026-11-11T19:22:44+00:00"
-    },
-    {
       "headline": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
       "source": "Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
       "published": "2026-11-09T20:05:00+00:00"
-    },
-    {
-      "headline": "Charles Schwab Now Lets Clients Trade Solana, Avalanche and Chainlink. Which Coin Could Gain the Most From Wall Street Access? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZWE2bVR5amVIMXhZTHNxeGhNVmJDZGhjVk8ta09TWmg3YXA2OHQ3RHczOU5lR2xLY1plRXVEYkVvYUNSWkN3NWV4SEZrVTFJTkY2RU1jaEVRcTZVeFlDdm1pTDNhN0EyT0ZoMzl5eDJ1ZVFRSGcybnJJZ1N1YmdHWGM4Nkx6UTg5V0k2VzVYVDlSTnJLaUZFaTFnNWZrcWFpU0VLTW4zTkhtTXV6YlZYLUx3VUc4WjJRNS1zNF9mLUVTNG0xZXVpbS1UUkFyRVdSUWh2QmRRcHFjVTNGMEJfUXpicDZVNzVqeFFBUGZ3c0owTDRxc0M0bXI3VGdRWnJxVmtQTzNkUEpOV090NzFR?oc=5",
-      "published": "2026-11-09T19:43:00+00:00"
     },
     {
       "headline": "Crypto Market Falls as Jobs Report Lands and Major US Brokerage Adds Solana, Avalanche and Chainlink - Altcoin Buzz",
@@ -55,18 +31,6 @@
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGZqUUZBQzVtblVLMXpqTC13Q1dHcjZwV2J6bFJsdElJajFtbjZuZWVkYkFWcUtUdWJwaW1zejFlbkgwaHhJemFZZFVieF93b043c1JPSjJPQmd3emJtSXVfMWJZcm9XT0VmNWdNSlB3RkVrXzUzcEJYaTZpVkpzejF2YmRBTUNsQ3duaXk4bFpKOFpLbjhrdDF3UWpaWVVLZm1IM2hFMWFKUXdQLUozUHltcmgyQQ?oc=5",
       "published": "2026-11-09T18:09:00+00:00"
-    },
-    {
-      "headline": "Schwab adds Solana, Avalanche, Chainlink to cry... - Pluang",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZHpMU1IxS0I4dDdGcFNadWFFTTZyakRCV3NTazgzZkdOUlNmdUZ6SUw5QUM4TjlYVDhxNzN1bjFIRWFJVG54b01UVXZkVTc4QmxqYlpySTN3dVVYTXFsQ0pleGJ5aV9LSndDLXM2NWJnTnVlemdQcXZYb05STjBmWXJPWExmZmFTZUplZEZNaHlVYkpuV0xhVWwxMDd0NkNxd1RWWGxGMA?oc=5",
-      "published": "2026-11-09T14:57:36+00:00"
-    },
-    {
-      "headline": "Charles Schwab adds Solana, Avalanche, and Chai... - Pluang",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGc5UnctTnRQNVRDWklvSEJHSzQ3R00zUFRsV3pkQnEwV0R6dThudGIwdEY5MWRXV3lPTTJXTmZTZWNhQXZ4UTIzS09IU2gxckRYeFp5TlZpbUxnbld2QklCS3dZNTBIcmV1Vi10Q1ZHUzNQQ1dWNlI4azdmRU9TXzFTYXZKTVFVTzJodGhQTk80RkNyUnBkeXdQQmZLNE80ejdOaEtSc0w?oc=5",
-      "published": "2026-11-09T14:45:30+00:00"
     },
     {
       "headline": "Grok AI Ranks Ethereum, Chainlink and Ondo: Which Gains Most if Tokenized Stocks Take Off? - 24/7 Wall St.",
@@ -135,6 +99,12 @@
       "published": "2026-09-30T07:00:00+00:00"
     },
     {
+      "headline": "Top 10 RWA Crypto Coins by Market Cap in September 2026 - CoinDCX",
+      "source": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OWWNDaGY5MEo4WjI0d3VDY3ZURFFWcHlUU1JaT1JoeWszMXNobURfQ09BVVhSeHpCYlJybEZEN05Md3ctVEZMZy1iRGpXUGNaZkxvaGZWOEU1TWp1UlFtNVA1Y3loVUVZMjdoSTNnMW1SeGFBSjljeHRrMA?oc=5",
+      "published": "2026-09-17T07:00:00+00:00"
+    },
+    {
       "headline": "Best RWA Tokenization Platforms in 2026: Who Is Winning the $30B+ Market? - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWXo1ZXg4S2pfTWFvT1VUdmwtb2ttOXZJcURkT05abzhmd1hJMmh4VVZUQjBkbFdIRGlHQ0VWM1B0OUJwRTNWN19IM3lLYkRIR29QX2NLMVc0ZFpOYzZFaXU1ZUFNVDVfaEFpNEttV3JSLWNPU083U0lVYzZ4RHJISDdvNlh6WmlRc0JrMWtTRWsxQQ?oc=5",
@@ -159,21 +129,27 @@
       "published": "2026-08-11T07:00:00+00:00"
     },
     {
+      "headline": "Stablecoins and U.S. Treasury Demand: Impact Explained - Citizens Bank",
+      "source": "Citizens Bank",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnBWN0ozWDZmVEg3TGRhRGxPcktjTE1LY3pYTmE0Qkh1RERsYktLcjFKZDVuNk5Cbml5SkRMdVE1c1p1UzM3dnhCV1MySWo1TmREZUl3R0lFTXNrb2MtS3Jsb2R1YmZBREFRbWtjY3ozLUhVMWJzLVAxUzVONnFaZ0haMUhmX0FiS0szQzRiWjJSdDhiR3c?oc=5",
+      "published": "2026-08-09T02:19:19+00:00"
+    },
+    {
       "headline": "Real-world asset tokenization: what\u2019s hype and what\u2019s not - Elliptic",
       "source": "Elliptic",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX0J5MzR5X3ZnOUpsaVBGRzdJVERJT2F5djJ2TzBxdzFGdXBwY3JOWjJwNnp3NmFMZERFVk82cjB4MWhiLWhsYnF5RGpWSklzVHN3TjV1WERwWDc5OVNwUjhhSlpyTE83R0I0bXZDZXp3NHBRdFhvZXRrX2g1ekNNc1JkeGVrWDZSMkplajVwNEdFcFAzQlZ4eVVVQUxYQQ?oc=5",
       "published": "2026-08-01T07:25:16+00:00"
     },
     {
-      "headline": "How do stablecoins make money? - Elliptic",
-      "source": "Elliptic",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xMGhNNWVaU1A3Z3pJa0NxUXkxNnh4UEpfcUt2SVF6ZkZOeWpHZ21hV3ZDYmJxN3o1Y3hRam95Q3VQN0syLTNtZTZfMTZuTkg5VDhjbXRrWnFOTlI1Z2Z1NDZVMlhhWVhCaWhaMUlpbVkzeDVIc0l3d0w4WFk?oc=5",
-      "published": "2026-07-31T04:23:26+00:00"
-    },
-    {
       "headline": "Galaxy launches onchain yield vaults for institutions - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTVOZmtMYUMxZmRQMkc2QVV1WmJSUU41ODY1XzVDN3ZwZU1YQVFUdWk3MTByX2YzTlBERkZLc09mcURYN2VDTmpfdHBhcllsX3g5YzBSaWwzNEE5YkoydTNmTFVDd1BCemhEX2xpSG9yS2ZaWGlkdEF4S0ZSajU3a0N3bTBzMk9qM2p0TVNidU9seFMxbWJhV0VBVEQ4dGE5dGNWWnJyV3NGaFE?oc=5",
+      "published": "2026-07-16T07:00:00+00:00"
+    },
+    {
+      "headline": "Future Crypto Bull Market Leaders: Top Coins That Could Dominate the Next Cycle - Bitcoin Foundation",
+      "source": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeF81NnR2aXVKWDFjNG1IaUx1MjlnTzdSLS1yaXF0alJPd0s0eXJ5RXZPMG13ODM0WkdjMllOd2FId0pMTXRIOHlWZk9iTFE2SlhfRE52MnpGa09ZWU1nR05LV2JwT2ZNWDBkTU83emFMbklTMXV5Z3N4d215R2NoeGN5YU9CckxKT0htYlZIdDNHLWtXUUo3Q1pmZm1ZeWFoMDZyUTlLQUNyeTdOdEFmQkhreG04dlJxbG9DdDJ5Qjg?oc=5",
       "published": "2026-07-16T07:00:00+00:00"
     },
     {
@@ -189,6 +165,18 @@
       "published": "2026-07-03T07:00:00+00:00"
     },
     {
+      "headline": "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzlqWlZkZGZ3VS1UNDFWdDJsM1Z4SVgzYzFXNG5LVU5BZWtZSzh2VURuUjdOZE53REtqUnBMbEZPY1JXa09ubjNSUF9yTTZJUXRtdWNjdU1pX0thVm5IX254cXVXTjJMWkt4NF9vVEN2bXVBSGxhZTMwNEdaemJaRTZ6RGpocU1DeFdEVURNMS1nanVHelB5VHB3Q1VTQm5HSWFnT19UZTJHTmsxYVplbzdORi05ZlpJOG9zc0ZxTFhnYVRmQ1lScQ?oc=5",
+      "published": "2026-07-02T07:00:00+00:00"
+    },
+    {
+      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMldjZDJTVmJYYlp0Q2VoUzd0NzlKNnhJSGEzUmUxRHZwNld1MHI1cG5LWjg0Mm4xbkFBTzlnVTdLVWQ2Vy1nQUd3TkNjVFlMVHNBWjFxd1VMSU12QzRtRlNwYXhCZEZzRmZlVEhLVjNiaFhucV9OR1Y0ZXZIRzl6dThVRUJfVVBjNTdNbWdJRkhXWW5KSVZ1MkNHRnQwQmJSbm56SEpKTTdEdmNreWVyRlRjYUtxRTA?oc=5",
+      "published": "2026-07-01T07:00:00+00:00"
+    },
+    {
       "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
@@ -199,6 +187,12 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
       "published": "2026-06-16T07:00:00+00:00"
+    },
+    {
+      "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLThvVElYTHhTQWI0THVfWnF1WW9kQkdpZFdweFlEd2ZhaDk0bGNDVTY5V3psM25VcjdWcEl5ZmJqVC0tVmNpaWhfSFdiVGZLVVhBN3BJRUFlVnVsSHRlQ1lOQkx4MFJxVFU3YldOOWh4eDNLd3dOcG9PUk50RTY5cWdDY3lVbUF5UUpFQ19n?oc=5",
+      "published": "2026-05-26T07:00:00+00:00"
     },
     {
       "headline": "Why Stablecoins Are the New Global Payment Layer in 2026: The Shift in Global Finance - Bitcoin Foundation",
@@ -241,6 +235,12 @@
       "source": "Ripple",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56bFhRZWJsRHBDaFlYRlU0LWFudkt6MFItaXFWekFuQ3RRdUI3Rk9ia0xXRFNfTVBMY2tBcUpMSU1RelVuWWIyQ25lYnBmcy1GbnhPSnBoRGF3TEZEUVE5dGdCQmhDS0c2cmkzcE1RQWxYOTB2RWgxdQ?oc=5",
       "published": "2026-04-17T07:00:00+00:00"
+    },
+    {
+      "headline": "Fireblocks Intros Stablecoin Lending for Institutional Clients - PYMNTS.com",
+      "source": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUTI3Qks5TzVRSUN0UmNnU0FLYWo0Q2k5clhWcFZXZFBEQUdudXlENzc1TnVaaEJSS09Lem5iNVNXTWV3RDVmeVc4aG1KNFI2RkxJNkVNMkxZRUFRVURxdWJFVnB6VnFua1ZDSE43TW5CYThUSmZWSzdOYllTSHZyTFZsQ0dpMzAxU00wVzRvUFZWLXZ3TWE4b0oycXlYY3pSQ0xCTg?oc=5",
+      "published": "2026-04-15T07:00:00+00:00"
     }
   ]
 }
