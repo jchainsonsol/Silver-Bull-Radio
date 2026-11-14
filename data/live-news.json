@@ -1,13 +1,7 @@
 {
-  "updated": "2026-11-13T22:51:37.454257+00:00",
+  "updated": "2026-11-14T02:46:23.841540+00:00",
   "refresh_minutes": 5,
   "items": [
-    {
-      "headline": "Anchorage Digital, Lydian team on stablecoins - The Paypers",
-      "source": "The Paypers",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQczA1WmN1NTdicHF0WUVqcGp2RFMwS2lOdGJfLU81cUlkQ1RsNnVna3R4T3owLWdUTllNeVJWTi11ZEdXelBXbWE4VVNTcWQ2VU1lUUZ3T0V2cUJVc1VPY040N0ZHY1l2bjc3dkc1ZmZHM3ViNGN6NW5Tc1AycWJGZGoyZ3ZCY1RRcGRYUlB4YzJwRnBmWEhCV3pBVTAwdlRqWWoxTFdxX2xsZzdjc0IwaEt0YlRYanZ3?oc=5",
-      "published": "2026-11-13T09:24:55+00:00"
-    },
     {
       "headline": "Solana news: Wall Street giant DTCC to expand tokenization to blockchain in 2027 - CoinDesk",
       "source": "CoinDesk",
@@ -21,16 +15,34 @@
       "published": "2026-11-12T15:38:07+00:00"
     },
     {
+      "headline": "Concrete Partners with Fypher and ether.fi to Bring Institutional Vault Infrastructure to fyUSD - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa2hranBITk5XVk1PR0JVRzNtdTRWM0RWaTd1Rk5FcnVzOWJYM0xoZnRTT09SMDdBVF93Q1FTQjI0aFlKd2NYRFpVajRoa09Jc1Fwd3pWS2VHYlVibld5SV9nWHhMdkg5aklrdGRYRFF4WU1YVHZITHFfZXVBVTlKR1R2bGRYdW5mdW9tR09OR3I3M3d3YUNCN0tIOEJCWWthZENjeUI3VXJoZDQ3WG5YbFhIczNxX3RFX2ptVTUtaGdLRzJka0VXcS1sdGRJUzMyNk5ONUF1M1E2ajdwUE1GZjJmaVpHa1lmbFNJ?oc=5",
+      "published": "2026-11-11T14:32:10+00:00"
+    },
+    {
       "headline": "From $1 into gold and stocks. How to invest in real assets via blockchain - LIGA.net",
       "source": "LIGA.net",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLWxOdkY4d0NGQXp2WEV3Tm9KSUl2bXVPMGVfR09qbkR6djZ2M2FsTzJwYXpfOXpDbnR6X0tYQk9Lc25yNmxxNGxRaXcxMW5udTN5UHZ4Ulc1Q1R4UWtkbW91Y2pVRGpLMkM3MWI3YzZVTkt3RzVOaGFyaHVvRHJfQzNoMTk2MTdjQWUwcUZLTFByQTFiSEJUTURRRDFSdHRwUFFSbDBQYXhHNWJhR1RxZVRTS3liMTTSAbwBQVVfeXFMTjhVMDRZMXltSTRLYjc0RXZwYVFxUjRnYnhGRjFIbVNwTi1Jc3l6a3VucWpvV2ZXZF9YU1dTWHUwNVR4MVNtRjNUNWF3Y3BEejFXcWlpeGx3S1d0b21OY0ZzSVpPQjJSR0VOdTd5UTYwYTYtRlJJU1dBTGRZTWRpZExuTFJraDkzUGVzNHczb0Z4cm9EbnZPb1BSZ0EtMU5KYV9zQ01hR3FHOXdJMlNRMWp4alAzRXNUeGZ3TVQ?oc=5",
       "published": "2026-11-11T05:00:00+00:00"
     },
     {
+      "headline": "What Is Asset Tokenization? Meaning, Examples, Pros, & Cons - Britannica",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByZUthN0pZWUQxdDkxbmk3RElkTzBxcmc2T2t1LV9EWTRMMTlsQnRhOVRiQk1vSGw5cjB1bGg4NWprYlcwRWFVQV9fb0FFX3BDc2VTQ2p2MTlYbURzTGRIeUtVZ2xpYlN1cGZjd3lvNA?oc=5",
+      "published": "2026-11-10T08:00:00+00:00"
+    },
+    {
       "headline": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
       "source": "Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
       "published": "2026-11-09T20:05:00+00:00"
+    },
+    {
+      "headline": "Crypto Market Falls as Jobs Report Lands and Major US Brokerage Adds Solana, Avalanche and Chainlink - Altcoin Buzz",
+      "source": "Altcoin Buzz",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ3lRMWhpeFFEdDVFVEJ6aGNxU3F1VjJmLTRmOURTRFNDQ0FldHZCWWVoYk52Q01KY0hacmxnNl9nc3FNSXFaN1RDQlEyUXhabXo4VDlWN2V1M3l2eU9uLTJFaVNXd0NhZVVKWVZsb05TZnNRMllPc0hLVzFONUZ2cUJMU2h4MS1YOFQzQm5DZkNmQ3Juc3laSlM1ODk5SkZkUU1WczBtZm1kWHh3VVA4SUVzd1NxQkFhMHlJelhZLVpYVEFK?oc=5",
+      "published": "2026-11-09T18:29:10+00:00"
     },
     {
       "headline": "5 Next Cryptocurrencies to Explode in 2026 - The Motley Fool",
@@ -123,12 +135,6 @@
       "published": "2026-08-31T07:00:00+00:00"
     },
     {
-      "headline": "Crypto market update August 15: SOL, LINK and SHIB - Altcoin Buzz",
-      "source": "Altcoin Buzz",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aTlfaTRFUXRwUnNhQzZrTUk4RHNySFg0RTdLZ0p6dkV3U3dodUdRZkZTWjZ6eXFnc1BkZm9uSDVkaDhiS3U3QnZNQjgxbmxZMXBLQzdpNFIyWFQtekJGeDV4U1JFa3Ns?oc=5",
-      "published": "2026-08-15T07:00:00+00:00"
-    },
-    {
       "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
@@ -165,12 +171,6 @@
       "published": "2026-07-13T07:00:00+00:00"
     },
     {
-      "headline": "Top Crypto To Buy Now: BlockDAG, Ethereum, Solana, and Chainlink Offer Varying Levels of Utility & Market Dominance - DailyCoin",
-      "source": "DailyCoin",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDZFSzJMMFItWW80RHhoR0xQSktOaUdFS0lzNHh0eWxlZ2VUdTFjcm96UE9KMG5xYU1vOFNGTGhWYW5HcHF2alFZTjJZTFVQSzJSdjdSNE1rMkVYVWFFU3hkczdSUWJiVGVNcUJ6aTFyaXdoNTlEQmxTWnlCS0lLVUxkSlJGWEpMZVhhVUtQcTZpU2pKX0NveUJ6V0hEaU5RLXgzclNZSFpwWWVBNzRvVHJxZjZTb2RSX3RQUnlvejlfSmp5eUZaYXppdW0?oc=5",
-      "published": "2026-07-06T07:00:00+00:00"
-    },
-    {
       "headline": "Trump Opposes Bitcoin Tax, SEC Admits ETF Mistakes \u2014 What Changes for Crypto Investors in July 2026 - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oVDVGem5tTmdIY3psZlUyS1RGODRaNVBybUJUeEh4NWJMNHMyVHpCUmxWVzl4Y3dBLTlaRG1kYWFsSW44SHA1dzVuaGtaNlZRZ0NfYWNqNENCQzhhRFVvU3ZhUmR1amRobDRMdHRUYUh5QUU?oc=5",
@@ -183,16 +183,10 @@
       "published": "2026-07-02T07:00:00+00:00"
     },
     {
-      "headline": "Tokenized RWA market cap rises 40% to top $51 billion as industry races to define equity tokenization model: Bernstein - The Block",
-      "source": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRDBRQldOdVdrUFI5QWdXSTFmSDBWUzRkSVkteFFZNkVGNmE0Njd0ZExYVEhoaXZOVWdULTZCZmVPMzAxNXd5QUhjNkVhZ1JYbjhFSTFaMnkzSFJOZGVaM0lxaVA3YU9pOGh5T0tITnQxdFVXeG4wZFlMd1JNRnlEM3hjRmEzUjRmd1RqRkc4NTVRYTh6LW1UNkkydk1EVWhBYWNsTTZkaUVBb1VfVld6Wno1eHpjUUQ3ckcxOWp2QVI5NGdsMXR4T2V4WGJHdExkZE1EWnFERUM2WW9yRFBFdENvaFlub2FEb0E?oc=5",
-      "published": "2026-06-22T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC Approves T. Rowe Price Multi-Crypto ETF for NYSE Arca \u2014 Institutional Crypto Adoption Enters New Phase - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM0s0ZXA0bmtOT280a25zbFRUcFV4d0Y3MmtuQWlGMWt4R2dhVEhZVGw3cXRfMHZMXzNBWG5oMG4teHpKSk9XYWQxTGdoUms5SmxqVV9VaDE4eUJXTDFfbE43YThEVllrREpCV1hldVRjcUN0Sm11NVZXaklaVG9pNlNjX3BBems5blZ1VktxdEdrQ1k4OVNaOUxJTmRlb2tZb0JKazFNZHBYUS1ad0l0M1BVOGFKS1JTcHg2UDBPMzNOSWtpQmoyejluLUJVSmRGcm9xLUtnaHN1bXZ5WFN6UDVEME8?oc=5",
-      "published": "2026-06-16T07:00:00+00:00"
+      "headline": "Mysterious Solana project World unveiled as fully onchain prediction market - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMldjZDJTVmJYYlp0Q2VoUzd0NzlKNnhJSGEzUmUxRHZwNld1MHI1cG5LWjg0Mm4xbkFBTzlnVTdLVWQ2Vy1nQUd3TkNjVFlMVHNBWjFxd1VMSU12QzRtRlNwYXhCZEZzRmZlVEhLVjNiaFhucV9OR1Y0ZXZIRzl6dThVRUJfVVBjNTdNbWdJRkhXWW5KSVZ1MkNHRnQwQmJSbm56SEpKTTdEdmNreWVyRlRjYUtxRTA?oc=5",
+      "published": "2026-07-01T07:00:00+00:00"
     },
     {
       "headline": "Best Cryptos to Hold for the Next 5 Years - 24/7 Wall St.",
@@ -241,6 +235,12 @@
       "source": "Ripple",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56bFhRZWJsRHBDaFlYRlU0LWFudkt6MFItaXFWekFuQ3RRdUI3Rk9ia0xXRFNfTVBMY2tBcUpMSU1RelVuWWIyQ25lYnBmcy1GbnhPSnBoRGF3TEZEUVE5dGdCQmhDS0c2cmkzcE1RQWxYOTB2RWgxdQ?oc=5",
       "published": "2026-04-17T07:00:00+00:00"
+    },
+    {
+      "headline": "Fireblocks Intros Stablecoin Lending for Institutional Clients - PYMNTS.com",
+      "source": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUTI3Qks5TzVRSUN0UmNnU0FLYWo0Q2k5clhWcFZXZFBEQUdudXlENzc1TnVaaEJSS09Lem5iNVNXTWV3RDVmeVc4aG1KNFI2RkxJNkVNMkxZRUFRVURxdWJFVnB6VnFua1ZDSE43TW5CYThUSmZWSzdOYllTSHZyTFZsQ0dpMzAxU00wVzRvUFZWLXZ3TWE4b0oycXlYY3pSQ0xCTg?oc=5",
+      "published": "2026-04-15T07:00:00+00:00"
     }
   ]
 }
