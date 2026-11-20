@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-19T23:53:06.709987+00:00",
+  "updated": "2026-11-20T05:00:03.585093+00:00",
   "refresh_minutes": 5,
   "items": [
+    {
+      "headline": "SEC caps single-stock leveraged ETFs at 2x, rules out 3x and 5x funds - Crypto Briefing",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MVTFGX3RfMkxSV2g4bVR0dm9PRklpRzhHZUlnUmt1QndhWjczaTYxV2RVZVB5OU9BTTRuWWNxRHZPT0tpQnZ6Nk4zZTI0dWFHUG50S3VTOEZpWDhzd0ZTQmdoaDFoYkRBQ19ZTA?oc=5",
+      "published": "2026-11-19T23:13:59+00:00"
+    },
     {
       "headline": "12 Major Developments in the Cryptocurrency Market: Binance, Solana, and Chainlink Take Center Stage - Kriptofoni",
       "source": "Kriptofoni",
@@ -13,12 +19,6 @@
       "source": "Crypto Briefing",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NT19RbXpmQlFraUhDWnNWT1EyOXkyYWRiX0lMQnBpUEoxaGlZRHoybnlPa0FRVE4zR1I4V2VET1RrMjV0bmM0b25WbWhlQVViZk8wXzhqVVRyTXhSckxnb2F5azhHU19zaHFWOWJfcEVOQkdXaEE?oc=5",
       "published": "2026-11-19T19:29:20+00:00"
-    },
-    {
-      "headline": "XRP and Solana Added to Major U.S. Crypto ETF as SEC Opens Floodgate - CoinMarketCap",
-      "source": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW9Fd29zbl85NkFKamptcm5rOHJyM2M4Rk9Nc1VaU2N6VXQ5c04tV096ckprR00tWlQzU2JvckJNbzdIanFMM1pkTnphMjZqRGpFaTlCVWQ4SEpyLV9YUUw1b1hGd3RwQmlDNGVBYXZ0R3JlUF8wSEkwaVhXR2xpRHJiX1VpdHpXeXpjUm1OWTRFalBkMkFKd2xDQkF4YUVzWFdEXzF2TmRPU1JD?oc=5",
-      "published": "2026-11-19T08:07:05+00:00"
     },
     {
       "headline": "HSK Chain and Base Collaborate to Connect Asia's Premier Onchain Asset with Global Liquidity - ANI News",
@@ -57,6 +57,18 @@
       "published": "2026-11-09T08:00:00+00:00"
     },
     {
+      "headline": "Charles Schwab Adds Solana, Avalanche and Chainlink to Crypto Trading Platform - CryptoRank",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOXzRnazRVSVJ2bEZLNFNIeElLMHlKY3BYZkFhY2FVeko0WDVmSjRjYkhVc3doVnk1Z3Uta1JmWElsS2hEQjgyRHlURGlETVc5MGZDQ2NscDFiMEk1VzVBbVF2YzBWU0JTVGxXVU4wQ1FTeWRoT0lhVU5PZTlBQnFnbjk4TG94UWhWcGxQLUlxcDZTQU1hdHU2V0FuSEd0b0RrZ3h3R3B6Y0xlUGNZX3B6WUtOOTNXUQ?oc=5",
+      "published": "2026-11-09T08:00:00+00:00"
+    },
+    {
+      "headline": "Crypto ETFs Already Go Far Beyond Bitcoin. The SEC Wants to Know If Its Rules Have Kept Up - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNXgyY21ELWR3MXh5QUxSLVQzZ3l1V1hjZ3BlY1dTclBGTUlRbTZaX0xrZ3V2UkZmR21PWEhkZnhoOGxWQlg2WXBQd0Rfc1dIcDdmSW55UnlPc2lVclpFdHBnZTB5UV9FOGxqQUpxZ2xuOHJMR3I2TXRzb3pqM0RROUNNTE9lc0JkTXVJdTBaOVRWWlhlOFItY1k1SzZ6a3dxWmloWUY2Y1F4VEVfWDJWaE1uaWloQUlWNjBtQVoyV3dPREdzb1pQMnhXY2NhTVRQalhN?oc=5",
+      "published": "2026-10-30T07:00:00+00:00"
+    },
+    {
       "headline": "What is RWA tokenization? - Convera",
       "source": "Convera",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZV2NxNVZSd2lyOW1Ha0lFSnZFcHpIaDQ4ZlJiMDhYdWgyd01DdGZKb2R4bmNtZ3BRNy1jM3p3aFc1TEpNYVpQb05oWHk2VFZQQkRTTmhadU9CUWFaWndSejlyM2wzRVAtZXRsY2JmX01Tel9MWkUtRGtmVzE?oc=5",
@@ -67,12 +79,6 @@
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOREhTS0JtbExUbmZQUFNpNE9iTDV5eFhOVjRtZ2xjTEpCTktRYU5wOEp6WDJtT1VRX3pNMk5JV0oxcXRmQjlsc2lROUVhVF84TFNGbXN0eDZMaUdkWEhyOXNtbUliVk12Qmdpenp4RW5qSFJtTUFLTXJvLWx4OWxUTzNJUFNEU0QwSDRJUllGbFlDRXRFeXhhYl9KNjZhVE1sTVhTMkNwSHN0eWkyWFZTODVlU2hTd2U2bTNySHo5cjJ5UQ?oc=5",
       "published": "2026-10-16T07:00:00+00:00"
-    },
-    {
-      "headline": "Novel ETFs: New Milestones for Crypto, Leverage & Sports - ETF Database",
-      "source": "ETF Database",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS1oxb2kxOVlRM1lfczZBeEMzU0JMTjJXSi1rZTEzVlpjVHNJZE83LWV6aGhGcHIxQ0VfREs1c1BlMDZ1OGRzYUE2MWU2Y1pYeUJIazN0Qnp5SE9feWhKbFZBNU1ZMmFRdE15VlFfSnFmV3RjNlpHMTRpWm5zQ2JieUxySzVmcy1VcmtnVnVJM0lFb2RXQmt1S2ZjOVdsbFk?oc=5",
-      "published": "2026-10-15T07:00:00+00:00"
     },
     {
       "headline": "Thailand\u2019s SEC approves spot Bitcoin and Ether ETFs for Stock Exchange of Thailand - CoinDesk",
@@ -87,24 +93,6 @@
       "published": "2026-10-09T07:00:00+00:00"
     },
     {
-      "headline": "Thailand SEC Issues Rules for Bitcoin and Ether ETFs, Effective October 16: 13 outlets compared - NewsCord",
-      "source": "NewsCord",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTnVvNEY0Q19oZEw4Y3UwczE2dmd1RUxaTU10cURZYkg3dXZLcTlGa0xLLTdhc0FfdTdiRGxUczRnWGJ3RGNoUEY4RGhmY0FvWnRPVXZ6eUZZUW5nMWEzVFRIbTlOcVhKS1NBNVNyb01oNkpXT1V2czl0UUVUOGJCT0Q4bmRFcDZ5X1kwZkoySUlNV0VhTktHS3luOGJQUUNTWGI5ZVBLZmNvZm4wcHFCUzJCUFMzUHVOSFpSMXYzRFpuNDFzajhsX0dFQW5yem1fWVdZYUI4ZlpoNXpsZzEw?oc=5",
-      "published": "2026-10-09T07:00:00+00:00"
-    },
-    {
-      "headline": "Thailand to allow Bitcoin and Ethereum ETFs from October 16 - Crypto News",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FZWlRUVBPSm9tSXpLZ2RJWE85ZGt2SXkzaFIxTEpUZGlZNGllNGhZX2Z6Q2l2c0xycWZDTnR3WEZleFRGV2hhaWRDeXE2UEwybGFBOUhGVEhaRE5KQUxQenplUHJieHpJOE1mRQ?oc=5",
-      "published": "2026-10-08T07:00:00+00:00"
-    },
-    {
-      "headline": "Thailand's SEC finalizes Bitcoin, Ether ETF rules with launch set for Oct. 16 - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT204TUc4cTN4ejFpQUxjVkVRZFBPVzl5TXVHT3BPOUp5RFRhOTdfbWZVNGRodl9NWjFDTWN5QnE1NHh5MFVTOVhISnE5emJIM2VpdGhuaHVCaFpqYVhFRFJ1MEN0MXluM0ZJdmxtczA2Z1lmWU1IQlNrYkpLSG5Cc0tUY1BWM2FHUTNYeHZlU2JDVTZtLTN3eDQxR0J3eVg2WkZPZjVoWXpKVzhpNG9vamJIMnB6TEo0RjAwOTQtaDhOZ1NRcUNvUUNObS15SXZtY0dNZjc4QQ?oc=5",
-      "published": "2026-10-08T07:00:00+00:00"
-    },
-    {
       "headline": "RWA Tokenization in 2026: Tokenized Stocks Drive the Next Phase - The Block",
       "source": "The Block",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNGtlLWZJanYxeC1WWFJYZ2tPX3VYM2lMLXhfYjRWaG9UZllnSmRySkRhUG5MR3kxNGFORnNFcFZFUG1jbWh1b2FQYWV3RUtsS0JSUnpkeGZnZkxOcXJ1MEN1VkJtX1U0UERJMzRHRFprQ2hJZmw0UVM5TEx6VnVnbmdfNEYxWWg1dWNxNFVVV1lPV3JmTFQ5S3h6dGExYWg4a3Brd3JfRVJkczFq?oc=5",
@@ -115,12 +103,6 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMjRmTU9zUEFUYzFRT1RocDRuVUlDQklRTGxCeW8tMWxLNV9BclZGSGRoZl9WQW5CUDA0bU91X3c5bWhpMGlZRm9sNW91V0ZYQmVmVXl3TjlKVmwwY0d1enluU3N4TlRiSlBmNjFOQ01Ia0VIUlIzdGJ6MWZoX2dmYmNHNjhBaU5hQ0R4b05HbVN2X21ZbWx1Mw?oc=5",
       "published": "2026-10-03T07:00:00+00:00"
-    },
-    {
-      "headline": "SEC Proposes New Rule for Investment Advisers to Hold Bitcoin for Clients: Which Coins Will See Over $100 Trillion in Managed Funds First? - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbWpJcTdmVXVPU1JCR09kZUVTMDRZRnhfNVd0SVZsbk0yM0xHWlNqMngwQm1LWWdOTFpEMnQxdkxwcDBqYlQ5RGlNLTlkN21WZk03RElKYWd1cG52UTRqYzdscktyNzdMb3Z0WTItcVN3YVRoOVFVOXRIYllhUEpoT2o1d3FCRE9YVlVXMHhNMlFaazRpRW1mNUFVNlhxTjRYalRvMU9mQ2dPcGNkUDBYUXVMU1pWdVFaYlFSXzJyU0hGaFVlX2FjV0lJaElvM2N3VUpLbXB3bVNDNlBFVkpBaUJ6YnV6eGNxSTdHX2Z1aGhTZFNZd2NDellqT2ZrNnJLREl5d0lxYk1QLUhvVlFSUWphVUZyWGlvbHExeXBGSQ?oc=5",
-      "published": "2026-10-01T07:00:00+00:00"
     },
     {
       "headline": "What Is POLYX Crypto? How Polymesh Is Powering the RWA Tokenization Boom - Bitcoin Foundation",
@@ -141,12 +123,6 @@
       "published": "2026-09-24T07:00:00+00:00"
     },
     {
-      "headline": "Top 5 Altcoins for the Next 100x Crypto \u2013 Best Crypto to Buy Now 2026 - Bitcoin Foundation",
-      "source": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zX3E0WVd3SGkwcTVnTW0wOUx2cGZtMHA2ZWxxWG1NT3hpMUpqR3d6ZjdvRm56emotdTQwREkyMnN5dWdFQVk4eTdBUU5mVXdaekl6eHhMbW9GM2ZIQmxYR25wSU1TQ0VHWVNUUE9EVHBpYmc?oc=5",
-      "published": "2026-09-23T07:00:00+00:00"
-    },
-    {
       "headline": "Best RWA Tokenization Platforms in 2026: Who Is Winning the $30B+ Market? - Bitcoin Foundation",
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWXo1ZXg4S2pfTWFvT1VUdmwtb2ttOXZJcURkT05abzhmd1hJMmh4VVZUQjBkbFdIRGlHQ0VWM1B0OUJwRTNWN19IM3lLYkRIR29QX2NLMVc0ZFpOYzZFaXU1ZUFNVDVfaEFpNEttV3JSLWNPU083U0lVYzZ4RHJISDdvNlh6WmlRc0JrMWtTRWsxQQ?oc=5",
@@ -159,16 +135,16 @@
       "published": "2026-08-31T07:00:00+00:00"
     },
     {
-      "headline": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSnpPMWZ0UTItbkg5NUIwV3QyUkxYNUlkTDhsTkVhNFRiZmhsRjlaMlFuWHBfSmdTalNhLXF6TjhsVEhQSm5YbDJpdHdmSXZucU5fY1dxcHhMVjhfdmpiWWFLa1JhNUFHUTUwcWNEcnlvd0xsbk9vekIxUm1yNDFmS0p1dWwzT2pXeDAyZGRxUXFNQzFzR2ZIeU9HYXQ5WmhEbmVCWkEtampkam95VzVDajVfd0NBeVFCZWFKVUVZVkpvZw?oc=5",
-      "published": "2026-08-25T07:00:00+00:00"
-    },
-    {
       "headline": "Bitcoin, ether and solana climb as another $1 billion shorts get wiped out - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPd1A1NVhhTGdNWFh1QWw2WmF0eF92V0lrXzNHY2EzMGhSdmNjdy1uZlJIdXNzeFBQb21ldDRVLWcwMC11MkgzVl9uWGJLei1XNmJSYm5vMGJlY1hVcDd5amU0V2h1LWRLbk55aVNvT1o2N3pjTFVGa3JjUFd5UkhGMUpDZTVCVm5fTFE4NjMtX3liME82THpzMGZkWTI5Vm5qSjdNWXhWT3Z2Yi04OUJGbWZuMmNRMjZGTGIw?oc=5",
       "published": "2026-08-21T07:00:00+00:00"
+    },
+    {
+      "headline": "Coinbase picks Abu Dhabi for its global tokenized asset push - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTdQUU5KdTNGQTc4T0lXc2I3WlpxaGdKWjNZaXh4THFxZ2Rzc2FvNEFZRlk2QlZOcmVzVks1R25oZm9WbmRQdGVuci1ob2FGYjRTVlR6TFRoNEplVG84aXdOcjFXUHpiVXFySTNhZXhtek1mX2xhS2pUb3BCWk5PR1BUazVQbkN0LUstVzJVVHNkNmRkbnU4QXgtY1VLaTJ5VkJCY0xaRVg?oc=5",
+      "published": "2026-08-11T07:00:00+00:00"
     },
     {
       "headline": "Ondo Finance weighs $500M deal as RWA market hits $36B - Crypto News",
@@ -193,12 +169,6 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeF81NnR2aXVKWDFjNG1IaUx1MjlnTzdSLS1yaXF0alJPd0s0eXJ5RXZPMG13ODM0WkdjMllOd2FId0pMTXRIOHlWZk9iTFE2SlhfRE52MnpGa09ZWU1nR05LV2JwT2ZNWDBkTU83emFMbklTMXV5Z3N4d215R2NoeGN5YU9CckxKT0htYlZIdDNHLWtXUUo3Q1pmZm1ZeWFoMDZyUTlLQUNyeTdOdEFmQkhreG04dlJxbG9DdDJ5Qjg?oc=5",
       "published": "2026-07-16T07:00:00+00:00"
-    },
-    {
-      "headline": "How Solana's Tokenized Real-World Assets Reached a Record $3.4 Billion - Phemex",
-      "source": "Phemex",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00bGpBVk9XakZ5ZnpUVGFkMGdUSk9RS0NCeGZYU1p4VmxEVHhmb09URmUyN09BWVFOV0ZaUlV5d3lZaDhTUGdwUXlXaFRvQ2JvLXBlcENLNkJub2dKbjB2OVBUbG5JRUtiZHI4?oc=5",
-      "published": "2026-07-11T07:00:00+00:00"
     },
     {
       "headline": "The 5 types of real world assets being tokenized fastest onchain - TradingView",
@@ -241,6 +211,36 @@
       "source": "Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRDY5UHJra0VRQVlTcDZ6RHI4SmRtNEliUVZ6a3JiYkdpa3ZUSmxwLTRTTjNuTWxjVzJXejlHZGs0VHlZaV9KYkpKb2Vqb3JId2lZUzhONUo4QWZxTG5lTHEyS2dhTFUyZlN1aE8zQkxDU3VndzFRd2JZbjNheXhTUUVVeEJkdktiaXpRR3JDMk1yMndJR3UzREU2bmxWVGpuQjhiOVVn?oc=5",
       "published": "2026-05-25T07:00:00+00:00"
+    },
+    {
+      "headline": "Beyond stablecoins: The emerging architecture of on-chain money - McKinsey & Company",
+      "source": "McKinsey & Company",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSk13UnRVNERuLTdrYThXRkJIUnQ2Vm1VdFV2NU40cFRVSkxacWhBY00tQ1FtcnhTdmFZTUMzdkl3cnhHQnl1cFJval9NZC03cUNVczhtY0dMQjZvRVp4eldSUzh1VW9lbjZxVGZDMHlKZzlYS0VyajRGZnhqLWJkN1ducVdEMUVZZzQxamRqbVhjbExOdUsyNERyZ1NJREY1NmlUajl6ZUgzV3haYmw4VzNINlVyMnZZNG12b05OMjN0RVFiYXBERXJ3?oc=5",
+      "published": "2026-05-21T07:00:00+00:00"
+    },
+    {
+      "headline": "SEC delay on prediction markets ETFs echoes a long-fought bitcoin fund battle - CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblZuZGtUUWVZOXB2a1piTktkN1JzamJla0lKaGZVVzhBcjFpQjNweG92OVRhYS1ZRkVMWVlQRS1FNWJTM05MMDhOd2xEQkhKakM5aG96ZHoxV1k2Q1ZWWUIxeVlOaWhlRDJfRmh5R0lFZ2ZaWnJBY3Yzc25JY3RJU2hqSEdOa0MwWUNCNm1B0gGTAUFVX3lxTE1pb2ZUM1d1MjNoWlByNDNLcDZZSndLTVJ2U0xUbmY1UFVWUC11UW1yTWtKUmRwS1hNaHVYT1Qwa0s0X0tsa2hZVW1FbEx2QjFrZmdTWnh0S1Ytc3dVRlJWdzQxc291c09ISGJXQ1o2Y3JlTzBfMzhXREVNTnVObGxDZzhNQ0JOb0ZSNnFKNVV0M0U0WQ?oc=5",
+      "published": "2026-05-10T07:00:00+00:00"
+    },
+    {
+      "headline": "Asset Tokenization in the US: A Practical Guide | Practical Law The Journal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVm03d25rMGhuNVJ1M3gyM2dxd0dQTm1WUmtQZkNtTFBnQnI5ZC1JUVFtZzhhNm0zcDBvcG1KRnBDVno3V2k0amRwQXQxR1RJRW5oRkR1aFh6bWwzVldjbVpraXEzc3Z3OFFYVzFoNnJWRWlvellVRVUtYU5hR0NBb3NVVFE2TERHamdfMkVWaVRlWDdkbkE0bDljQlBINWhSUk1mU3FqaG5BYjJzMm96cG1sSQ?oc=5",
+      "published": "2026-05-01T07:00:00+00:00"
+    },
+    {
+      "headline": "Investing in the Tokenization Megatrend - Grayscale Research",
+      "source": "Grayscale Research",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjdoZUg2azB6Q0JjaXVkSW42S0JCWFFRYmlVVEUyU3RGNjladGdWMERIZVJ5NUVzTVU2LVFDdzloYnp3VG9pZ05KTjFtcENtd3cwXzlBcEJFM0lKNE11UENOWUp0bEFHX2lVcGVRU0ZDTjhFd2tQVmNwTE82Mlp6N3dzcWc?oc=5",
+      "published": "2026-04-29T07:00:00+00:00"
+    },
+    {
+      "headline": "Stablecoins: from DeFi primitive to global financial infrastructure - Bessemer Venture Partners",
+      "source": "Bessemer Venture Partners",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2c3a0otRWx3bTZ0c2lKSDA0NTQwcDVHdENhVFlaQlkyZVRpUU1PZUtnVWQ1RWNOYzc4czRSMFR0X0c3M1dGb1dLZUYwMUFFdkg4a0dUTmhKUXpzOFhGMWpEdHlMa0xkUEVMZl9GYzZCZlM2V2d4SjU5dFZKV0NldGdsUndhWmM1Nm41cVVpamkxYTJvTkd3?oc=5",
+      "published": "2026-04-22T07:00:00+00:00"
     }
   ]
 }
